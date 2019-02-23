@@ -1,2 +1,3 @@
 # MobileDL
-Detecting and analyzing deep learning usage on smartphone apps
+
+#### the dataset and code for our WWW'19 paper: "A First Look at Deep Learning Apps on Smartphones"
