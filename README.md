@@ -13,6 +13,7 @@ You will need the following installed:
 * bs4
 * readelf
 * apktool
+* aapt (as standalone tool)
 
 ### preparations
 1. Run decompose_apps.py to decompose raw apk files using **apktool**
