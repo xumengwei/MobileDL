@@ -283,26 +283,3 @@ print 'total cnt: ', layer_cnt_total\
 for layer in layer_cnt:
 	print layer[0], 1.0 * len(layer[1]) / layer_cnt_total, np.median(layer[1]), np.mean(layer[1])
 
-data = [t for t in model_perf.values() if t[0] > 0 and t[1] > 0]
-missing = [t for t in model_perf.values() if t[0] > 0 and t[1] == 0]
-print missing
-print data
-print len(data)
-
-# adjust overlapped points
-for i in range(len(data)):
-	if data[i] in data[:i]:
-		xr = random.uniform(0, 1) - 0.5
-		yr = random.uniform(0, 1) - 0.5
-		data[i] = [data[i][0] * (1 + xr), data[i][1] * (1 + yr)]
-x = [d[0] * 1.8 for d in data]
-y = [d[1] for d in data]
-y = [t if t > 10 else 1000 * (1 + random.uniform(0, 1)) for t in y]
-y = [t if t > 10000 else t * 10 * (1 + random.uniform(0, 1)) for t in y]
-
-ratio = np.median([1.0 * y[i] / x[i] for i in range(len(x))])
-_x = [d[0] * 1.8 for d in missing]
-_y = [_t * ratio * (1 + random.uniform(0, 1) * 2) for _t in _x]
-x += _x
-y += _y
-
