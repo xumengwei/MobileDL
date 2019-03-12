@@ -1,0 +1,308 @@
+
+String dump of section '.rodata':
+  [     0]  _GLOBAL__N_
+  [     c]  T_
+  [     f]  ?
+  [    11]  S_
+  [    14]  std
+  [    18]  ::
+  [    1b]  (anonymous namespace)
+  [    31]  Es
+  [    34]  Dp
+  [    37]  tT
+  [    3a]  OPRCG
+  [    40]  operator 
+  [    4a]  0123456789
+  [    55]  operator
+  [    5e]   
+  [    60]  cv
+  [    63]  123
+  [    67]  012
+  [    6b]  ~
+  [    6d]  St
+  [    70]  std::
+  [    76]  ()
+  [    79]  VTIS
+  [    7e]  GV
+  [    81]  TC
+  [    84]  FJ
+  [    87]  GA
+  [    8a]  hv
+  [    8d]  Tc
+  [    90]  GR
+  [    93]  _Z
+  [    96]  LZ
+  [    99]  <>
+  [    9c]  st
+  [    9f]  sr
+  [    a3]  Sa
+  [    a6]  allocator
+  [    b0]  Sb
+  [    b3]  basic_string
+  [    c0]  Ss
+  [    c3]  string
+  [    ca]  Si
+  [    cd]  istream
+  [    d5]  So
+  [    d8]  ostream
+  [    e0]  Sd
+  [    e3]  iostream
+  [    ec]  v
+  [    ee]  void
+  [    f3]  w
+  [    f5]  wchar_t
+  [    fd]  b
+  [    ff]  bool
+  [   104]  c
+  [   106]  char
+  [   10b]  a
+  [   10d]  signed char
+  [   119]  h
+  [   11b]  unsigned char
+  [   129]  s
+  [   12b]  short
+  [   131]  t
+  [   133]  unsigned short
+  [   142]  i
+  [   144]  int
+  [   148]  j
+  [   14a]  unsigned int
+  [   157]  l
+  [   159]  long
+  [   15e]  m
+  [   160]  unsigned long
+  [   16e]  x
+  [   170]  long long
+  [   17a]  y
+  [   17c]  unsigned long long
+  [   18f]  n
+  [   191]  __int128
+  [   19a]  o
+  [   19c]  unsigned __int128
+  [   1ae]  f
+  [   1b0]  float
+  [   1b6]  d
+  [   1b8]  double
+  [   1bf]  e
+  [   1c1]  long double
+  [   1cd]  g
+  [   1cf]  __float128
+  [   1da]  z
+  [   1dc]  ellipsis
+  [   1e5]  nw
+  [   1e8]  new
+  [   1ec]  na
+  [   1ef]  new[]
+  [   1f5]  dl
+  [   1f8]  delete
+  [   1ff]  da
+  [   202]  delete[]
+  [   20b]  ps
+  [   20e]  +
+  [   210]  ng
+  [   213]  -
+  [   215]  ad
+  [   218]  &
+  [   21a]  de
+  [   21d]  *
+  [   21f]  co
+  [   222]  pl
+  [   225]  mi
+  [   228]  ml
+  [   22b]  dv
+  [   22e]  /
+  [   230]  rm
+  [   233]  %
+  [   235]  an
+  [   238]  or
+  [   23b]  |
+  [   23d]  eo
+  [   240]  ^
+  [   242]  aS
+  [   245]  =
+  [   247]  pL
+  [   24a]  +=
+  [   24d]  mI
+  [   250]  -=
+  [   253]  mL
+  [   256]  *=
+  [   259]  dV
+  [   25c]  /=
+  [   25f]  rM
+  [   262]  %=
+  [   265]  aN
+  [   268]  &=
+  [   26b]  oR
+  [   26e]  |=
+  [   271]  eO
+  [   274]  ^=
+  [   277]  ls
+  [   27a]  <<
+  [   27d]  rs
+  [   280]  >>
+  [   283]  lS
+  [   286]  <<=
+  [   28a]  rS
+  [   28d]  >>=
+  [   291]  eq
+  [   294]  ==
+  [   297]  ne
+  [   29a]  !=
+  [   29d]  lt
+  [   2a0]  <
+  [   2a2]  gt
+  [   2a5]  >
+  [   2a7]  le
+  [   2aa]  <=
+  [   2ad]  ge
+  [   2b0]  >=
+  [   2b3]  nt
+  [   2b6]  !
+  [   2b8]  aa
+  [   2bb]  &&
+  [   2be]  oo
+  [   2c1]  ||
+  [   2c4]  pp
+  [   2c7]  ++
+  [   2ca]  mm
+  [   2cd]  --
+  [   2d0]  cm
+  [   2d3]  ,
+  [   2d5]  pm
+  [   2d8]  ->*
+  [   2dc]  pt
+  [   2df]  ->
+  [   2e2]  cl
+  [   2e5]  ix
+  [   2e8]  []
+  [   2eb]  qu
+  [   2ee]  sizeof
+  [   2f5]  sz
+  [   2f8]  1
+  [   2fa]  2
+  [   2fc]  3
+  [   2ff]  [0;3%sm
+  [   308]  [m
+  [   30b]  (unknown)
+  [   315]  .
+  [   317]  ] 
+  [   31a]  %s:%d
+  [   320]  Check failed: 
+  [   32f]  TestOnly_ClearLoggingDirectoriesList should only be called from test code.^J
+  [   37b]  CHECK_STREQ failed: 
+  [   390]   (
+  [   393]   vs. 
+  [   399]  )
+  [   39b]  CHECK_STRNE failed: 
+  [   3b0]  CHECK_STRCASEEQ failed: 
+  [   3c9]  CHECK_STRCASENE failed: 
+  [   3e2]  Error number %d
+  [   3f2]  : 
+  [   3f5]   [
+  [   3f8]  ]
+  [   3fa]  third-party/glog/glog-0.3.4/src/logging.cc
+  [   425]  Unable to truncate 
+  [   439]  Truncated 
+  [   444]   due to EFBIG error
+  [   458]  Unable to open 
+  [   468]  Unable to fstat()
+  [   47a]  Truncating 
+  [   486]   to 
+  [   48b]   bytes
+  [   492]  Unable to write to 
+  [   4a6]  Expected to write 
+  [   4b9]  , wrote 
+  [   4c2]  Unable to read from 
+  [   4d7]  /proc/self/fd/1
+  [   4e7]  /proc/self/fd/2
+  [   4f7]  Check failed: log && log == log->self() 
+  [   520]  You must not use COUNTER with non-glog ostream
+  [   54f]  '
+  [   551]  char value 
+  [   55d]  signed char value 
+  [   570]  unsigned char value 
+  [   585]  Trying to send TITLE: %s BODY: %s to %s^J
+  [   5ae]   -s"
+  [   5b3]  " 
+  [   5b6]  Problems sending mail to 
+  [   5d0]  Problems sending mail to %s: %s^J
+  [   5f1]  Unable to send mail to 
+  [   609]  Unable to send mail to %s^J
+  [   624]  Trying to send TITLE:
+  [   63a]   BODY:
+  [   641]  [LOG] 
+  [   64b]  *** Check failure stack trace: ***^J
+  [   66f]  WARNING: Logging before InitGoogleLogging() is written to STDERR^J
+  [   6b1]  %.*s
+  [   6b6]  severity >= 0
+  [   6c4]  severity < NUM_SEVERITIES
+  [   6de]  vector::_M_emplace_back_aux
+  [   6fa]  /tmp
+  [   6ff]  TEST_TMPDIR
+  [   70b]  TMPDIR
+  [   712]  TMP
+  [   716]  ./
+  [   719]  Could not create log file
+  [   733]  COULD NOT CREATE LOGFILE '%s'!^J
+  [   753]  invalid-user
+  [   760]  .log.
+  [   766]  Log file created at: 
+  [   77c]  Running on machine: 
+  [   791]  Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu 
+  [   7be]  threadid file:line] msg
+  [   7d6]  Could not create logging file
+  [   7f4]  COULD NOT CREATE A LOGGINGFILE %s!
+  [   817]  /bin/mail
+  [   821]  GLOG_logtostderr
+  [   832]  GOOGLE_LOGTOSTDERR
+  [   845]  GLOG_logtosinksonly
+  [   859]  GLOG_alsologtostderr
+  [   86e]  GOOGLE_ALSOLOGTOSTDERR
+  [   885]  GLOG_colorlogtostderr
+  [   89b]  GLOG_alsologtoemail
+  [   8af]  GLOG_log_prefix
+  [   8bf]  GLOG_minloglevel
+  [   8d0]  GLOG_logbuflevel
+  [   8e1]  GLOG_logbufsecs
+  [   8f1]  GLOG_logemaillevel
+  [   904]  GLOG_logmailer
+  [   913]  GLOG_log_dir
+  [   920]  GOOGLE_LOG_DIR
+  [   92f]  GLOG_log_link
+  [   93d]  GLOG_max_log_size
+  [   94f]  GLOG_stop_logging_if_full_disk
+  [   96e]  GLOG_log_backtrace_at
+  [   984]  TERM
+  [   989]  xterm
+  [   98f]  xterm-color
+  [   99b]  xterm-256color
+  [   9aa]  screen
+  [   9b1]  linux
+  [   9b7]  cygwin
+  [   9be]  INFO
+  [   9c3]  WARNING
+  [   9cb]  ERROR
+  [   9d1]  FATAL
+  [   9d9]  RAW_LOG ERROR: The Message was too long!^J
+  [   a03]  %c%02d%02d %02d:%02d:%02d.%06d %5u %s:%d] RAW: 
+  [   a33]  UNKNOWN
+  [   a3b]  third-party/glog/glog-0.3.4/src/utilities.cc
+  [   a68]  Check failed: !IsGoogleLoggingInitialized() 
+  [   a95]  You called InitGoogleLogging() twice!
+  [   abb]  Check failed: IsGoogleLoggingInitialized() 
+  [   ae7]  You called ShutdownGoogleLogging() without calling InitGoogleLogging() first!
+  [   b35]  USER
+  [   b3a]  =%d
+  [   b3e]  -inl
+  [   b43]  third-party/glog/glog-0.3.4/src/vlog_is_on.cc
+  [   b71]  Set VLOG level for "%s" to %d
+  [   b8f]  GLOG_v
+  [   b96]  GLOG_vmodule
+  [   ba4]  N6google12base_logging12LogStreamBufE
+  [   bcc]  N6google10LogMessage9LogStreamE
+  [   bfc]  tTyY1
+  [   c04]  *N6google12_GLOBAL__N_113LogFileObjectE
+  [   c2c]  N6google7LogSinkE
+  [   c40]  N6google4base6LoggerE
+  [   c58]  0u
+

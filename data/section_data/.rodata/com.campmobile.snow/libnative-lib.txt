@@ -1,0 +1,545 @@
+
+String dump of section '.rodata':
+  [     0]  N4kuru22KuruLUTFilterExtensionE
+  [    20]  N4kuru25AndroidLUTFilterExtensionE
+  [    44]  basic_string
+  [    51]  com/linecorp/kuru/KuruEngineWrapper
+  [    75]  getLutAssetPathById
+  [    89]  (I)Ljava/lang/String;
+  [    9f]  KuruAR3DExtension
+  [    b1]  enableSlam
+  [    bc]  (Z)V
+  [    c1]  arTouchTap
+  [    cc]  (FF)V
+  [    d2]  arTouchMove
+  [    de]  enableIrisDetection
+  [    f2]  enableExtraFace
+  [   102]  enableBlendShape
+  [   113]  enableBodyDetection
+  [   127]  enableHandDetection
+  [   13b]  enableHairSegmentation
+  [   152]  enableGyroSensor
+  [   163]  KuruEvent
+  [   16d]  onSimpleEvent
+  [   17b]  (Ljava/lang/String;Ljava/lang/String;)V
+  [   1a3]  KuruHumanAction
+  [   1b3]  changeBodyDetectModel
+  [   1c9]  (I)V
+  [   1ce]  KuruRender
+  [   1d9]  getFrame
+  [   1e2]  (II)J
+  [   1e8]  isAlways
+  [   1f1]  (I)Z
+  [   1f6]  buildBitmapFromGL
+  [   208]  (III)Landroid/graphics/Bitmap;
+  [   227]  KuruStatus
+  [   232]  com/linecorp/kuru/KuruEngineWrapper$EngineStatus
+  [   263]  setNumber
+  [   26d]  (Ljava/lang/String;F)V
+  [   284]  clearValues
+  [   290]  ()V
+  [   294]  setTouchActivated
+  [   2a6]  updateTouchRect
+  [   2b6]  (IFFFF)V
+  [   2bf]  KuruUtil
+  [   2c8]  openWebUrl
+  [   2d3]  (Ljava/lang/String;Z)V
+  [   2ea]  sendClick
+  [   2f4]  (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  [   32e]  KuruVideoBase
+  [   33c]  === start ===
+  [   34a]  === stop ===
+  [   357]  startSegmentation
+  [   369]  stopSegmentation
+  [   37a]  getMaskTextureIdIfUpdated
+  [   394]  ()I
+  [   398]  res/shaders/passthrough.vert
+  [   3b5]  res/shaders/hair_seg_alpha.frag
+  [   3d5]  u_worldViewProjectionMatrix
+  [   3f1]  u_texture
+  [   3fb]  vector
+  [   402]  I
+  [   404]  F
+  [   406]  Z
+  [   408]  Lcom/linecorp/kale/android/filter/oasis/filter/utils/Vector3;
+  [   446]  x
+  [   448]  y
+  [   44a]  z
+  [   44c]  Ljava/lang/String;
+  [   460]  java/util/List
+  [   46f]  get
+  [   473]  (I)Ljava/lang/Object;
+  [   489]  size
+  [   48e]  Ljava/util/List;
+  [   49f]  color
+  [   4a5]  position
+  [   4ae]  enableShadow
+  [   4bb]  direction
+  [   4c5]  gammaFactor
+  [   4d1]  ambientLightRatio
+  [   4e3]  ambientColor
+  [   4f0]  fieldOfView
+  [   4fc]  pointLights
+  [   508]  directionLights
+  [   518]  ambientMultiply
+  [   528]  useSuperSampling
+  [   539]  distortionJson
+  [   548]  faceCount
+  [   552]  faceIdxOffset
+  [   560]  fpsFor3d
+  [   569]  applyShadow
+  [   575]  applySelfShadow
+  [   585]  shadowStrength
+  [   594]  cachePolicy
+  [   5a0]  Lcom/linecorp/kale/android/camera/shooting/sticker/DownloadedSticker$CachePolicy;
+  [   5f2]  kuruValue
+  [   5fc]  allocator<T>::allocate(size_t n) 'n' exceeds maximum supported size
+  [   640]  stickerId
+  [   64a]  J
+  [   64c]  renameImageExtension
+  [   661]  encryptionSuffix
+  [   672]  countScene
+  [   67d]  effectCacheEnabled
+  [   690]  mute
+  [   695]  KuruConfig (%0x, %d, %s, countScene %d)
+  [   6bd]  isHighResolution
+  [   6ce]  previewWidth
+  [   6db]  previewHeight
+  [   6e9]  cropRatio
+  [   6f3]  Landroid/graphics/PointF;
+  [   70d]  matrix
+  [   714]  deviceOrientation
+  [   726]  compensatedCameraRotation
+  [   740]  isFaceFront
+  [   74c]  aspectRatio
+  [   758]  deviceRoll
+  [   763]  gyroQuaternion
+  [   772]  previewRectExceptMenus
+  [   789]  cameraMode
+  [   794]  groupDistortionStrength
+  [   7ac]  renderMode
+  [   7b7]  isHighResCapture
+  [   7c8]  scenePreviewCaptureWidth
+  [   7e1]  scenePreviewCaptureHeight
+  [   7fb]  collageId
+  [   805]  collageSequence
+  [   815]  isBgAbleToDraw
+  [   824]  isFaceAbleToDraw
+  [   835]  enableAlternativeSkinSmooth
+  [   851]  enableFaceRecalculate
+  [   867]  testShadowMap
+  [   875]  drawWireFrame
+  [   883]  debugBlendShape
+  [   893]  debugImageDetail
+  [   8a4]  blendShapeCoefficients
+  [   8bb]  debugBokehBlur
+  [   8ca]  debugBokehRadius
+  [   8db]  debugBokehLuminancePower
+  [   8f4]  debugBokehEdge
+  [   903]  debugBokehMaskThreshold
+  [   91b]  distAnchorType
+  [   92a]  clarityAlpha
+  [   937]  useDoubleBuffer
+  [   947]  kuruModelSelectRenderOnly
+  [   961]  kuruModelSelectNodeIndex
+  [   97a]  debugFace
+  [   984]  debugFaceMesh
+  [   992]  debugFaceType
+  [   9a0]  Lcom/linecorp/kale/android/config/DebugProperty$DebugFaceType;
+  [   9df]  useOldSkinSmooth
+  [   9f0]  whiteningByLut
+  [   9ff]  colorDiffBlemish
+  [   a10]  areaBlemishThreshold
+  [   a25]  inpaintBlemishAlgorithm
+  [   a3d]  nativeHumanActionHandle
+  [   a55]  >>> resetHumanAction
+  [   a6a]  bodyCount (%d <- %d) 
+  [   a80]  === Skip Body Processing ===
+  [   a9d]  === Skip Hand Processing ===
+  [   aba]  buildBlendShapeCoefficients
+  [   ad6]  ()Z
+  [   ada]  sensetimeShape
+  [   ae9]  sensetimeExtraShape
+  [   afd]  sensetimeEyeballContourShape
+  [   b1a]  eyeDist
+  [   b22]  sensetimeId
+  [   b2e]  isValid
+  [   b36]  displayOrder
+  [   b43]  relativeRoll
+  [   b50]  relativePitch
+  [   b5e]  relativeYaw
+  [   b6a]  compensatedPitch
+  [   b7b]  compensatedYaw
+  [   b8a]  legacyRoll
+  [   b95]  sizeRatio
+  [   b9f]  mouthClosed
+  [   bab]  faceAction
+  [   bb6]  ulseePose
+  [   bc0]  ulseePoseEx
+  [   bcc]  ulseeShape
+  [   bd7]  ulseeShape3d
+  [   be4]  ulseeShapePortrait
+  [   bf7]  ulseeVertexShape
+  [   c08]  pitch
+  [   c0e]  yaw
+  [   c12]  roll
+  [   c17]  handle is null
+  [   c26]  input image is null
+  [   c3a]  fds
+  [   c3e]  contentRootDir is null.,
+  [   c57]  id
+  [   c5a]  resourceName
+  [   c67]  customData
+  [   c72]  effect
+  [   c79]  Lcom/linecorp/kale/android/camera/shooting/sticker/StickerItem$Effect;
+  [   cc0]  totalFrame
+  [   ccb]  frameCount
+  [   cd6]  repeatCount
+  [   ce2]  easingStr
+  [   cec]  skinEx
+  [   cf3]  Lcom/linecorp/kale/android/camera/shooting/sticker/StickerItem$SkinEx;
+  [   d3a]  yawRatio
+  [   d43]  scale
+  [   d49]  fillInMouth
+  [   d55]  forceToCloseMouth
+  [   d67]  drawType
+  [   d70]  Lcom/linecorp/kale/android/camera/shooting/sticker/DrawType;
+  [   dad]  faceLocationType
+  [   dbe]  Lcom/linecorp/kale/android/camera/shooting/sticker/FaceLocationType;
+  [   e03]  fps
+  [   e07]  blendType
+  [   e11]  Lcom/linecorp/kale/android/camera/shooting/sticker/StickerItem$BlendType;
+  [   e5b]  rotationMode
+  [   e68]  Lcom/linecorp/kale/android/camera/shooting/sticker/StickerItem$RotationMode;
+  [   eb5]  alpha
+  [   ebb]  translateX
+  [   ec6]  translateY
+  [   ed1]  rotateZ
+  [   ed9]  faceIdx
+  [   ee1]  faceTextureVertices
+  [   ef5]  anchorType
+  [   f00]  Lcom/linecorp/kale/android/camera/shooting/sticker/Sticker$AnchorType;
+  [   f47]  flipHorizontally
+  [   f58]  faceLocationEx
+  [   f67]  Lcom/linecorp/kale/android/camera/shooting/sticker/FaceLocationEx;
+  [   faa]  minScale
+  [   fb3]  faceLocationExCls not null
+  [   fce]  scaleIndices
+  [   fdb]  maxScale
+  [   fe4]  scaleXYZ
+  [   fed]  rotateXYZ
+  [   ff7]  translateXYZ
+  [  1004]  config
+  [  100b]  Lcom/linecorp/kale/android/camera/shooting/sticker/StickerItem$Config;
+  [  1052]  faceOffset
+  [  105d]  startOffset
+  [  1069]  endOffset
+  [  1073]  convert sticker item error
+  [  108e]  locationIndices
+  [  109e]  segmentationNodeCount %d, %0x, %0x
+  [  10c1]  EngineStatus::instance().colorLensNodeCount = %d
+  [  10f2]  EngineStatus::instance().extraFaceNodeCount = %d
+  [  1123]  EngineStatus::instance().blendShapeCount = %d
+  [  1151]  EngineStatus::instance().bodyDetectCount = %d
+  [  117f]  EngineStatus::instance().handDetectCount = %d
+  [  11ad]  EngineStatus::instance().hairSegmentationCount = %d
+  [  11e1]  EngineStatus::instance().useGyroCount = %d
+  [  120c]  EngineStatus::instance().Ar3DNodeCount = %d
+  [  1238]  active engine changed!!
+  [  1250]  appVersion
+  [  125b]  engineStatus
+  [  1268]  Lcom/linecorp/kuru/KuruEngineWrapper$EngineStatus;
+  [  129b]  === setStickerItem %d
+  [  12b1]  _textureType
+  [  12be]  enableEdge
+  [  12c9]  _edgeType
+  [  12d3]  maskAlphaThreshold
+  [  12e6]  _edgeColor
+  [  12f1]  edgeRatio
+  [  12fb]  interSpaceRatio
+  [  130b]  _outerEdgeColor
+  [  131b]  outerEdgeRatio
+  [  132a]  whiteModeOn
+  [  1336]  skinSmoothOn
+  [  1343]  skinSmoothPercent
+  [  1355]  blendPercent
+  [  1362]  exposure
+  [  136b]  renderOnlySharp
+  [  137b]  sharpness
+  [  1385]  sharpenIntensity
+  [  1396]  distortionOn
+  [  13a3]  makeupOn
+  [  13ac]  lutOn
+  [  13b2]  removeBlemishOn
+  [  13c2]  toneUp
+  [  13c9]  brightness
+  [  13d4]  contrast
+  [  13dd]  saturation
+  [  13e8]  temperature
+  [  13f4]  vignette
+  [  13fd]  fade
+  [  1402]  highlights
+  [  140d]  shadows
+  [  1415]  sharpen
+  [  141d]  grain
+  [  1423]  tint
+  [  1428]  eyeSpan
+  [  1430]  eyeCorner
+  [  143a]  eyeSize
+  [  1442]  mouthSize
+  [  144c]  lipsPlump
+  [  1456]  noseNarrow
+  [  1461]  noseAlar
+  [  146a]  noseLength
+  [  1475]  brow
+  [  147a]  eyeLut
+  [  1481]  darkCircle
+  [  148c]  laughLine
+  [  1496]  eyePlim
+  [  149e]  whiteTeeth
+  [  14a9]  cheek
+  [  14af]  lip
+  [  14b3]  faceContour
+  [  14bf]  colorLens
+  [  14c9]  eyeBrow
+  [  14d1]  eyeShadow
+  [  14db]  eyeLiner
+  [  14e4]  eyeLashes
+  [  14ee]  eyeBrowType
+  [  14fa]  Lcom/linecorp/kuru/KuruRenderChainWrapper$EyeBrowType;
+  [  1531]  build content error
+  [  1545]  __cxa_guard_acquire failed to release mutex
+  [  1571]  __cxa_guard_release failed to broadcast condition variable
+  [  15ac]  __cxa_guard_abort failed to broadcast condition variable
+  [  15e5]  /Volumes/Android/buildbot/src/android/ndk-r15-release/external/libcxx/../../external/libcxxabi/src/abort_message.cpp
+  [  165a]  Infinity
+  [  1663]  libunwind: %s %s:%d - %s^J
+  [  167d]  /Volumes/Android/buildbot/src/android/ndk-r15-release/external/libcxx/../../external/libunwind_llvm/src/Unwind-EHABI.cpp
+  [  16f6]  _Unwind_VRS_Result _Unwind_VRS_Set(_Unwind_Context *, _Unwind_VRS_RegClass, uint32_t, _Unwind_VRS_DataRepresentation, void *)
+  [  1774]  unsupported register class
+  [  178f]  _Unwind_VRS_Result _Unwind_VRS_Pop(_Unwind_Context *, _Unwind_VRS_RegClass, uint32_t, _Unwind_VRS_DataRepresentation)
+  [  1805]  _Unwind_Reason_Code unwind_phase2(unw_context_t *, _Unwind_Exception *, bool)
+  [  1853]  during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+  [  18b6]  _Unwind_VRS_Result _Unwind_VRS_Get_Internal(_Unwind_Context *, _Unwind_VRS_RegClass, uint32_t, _Unwind_VRS_DataRepresentation, void *)
+  [  193d]  /Volumes/Android/buildbot/src/android/ndk-r15-release/external/libcxx/../../external/libunwind_llvm/src/UnwindCursor.hpp
+  [  19b6]  /Volumes/Android/buildbot/src/android/ndk-r15-release/external/libcxx/../../external/libunwind_llvm/src/Registers.hpp
+  [  1a2c]  unsupported arm register
+  [  1a45]  Unknown ARM float register
+  [  1a60]  void libunwind::Registers_arm::setFloatRegister(int, unw_fpreg_t)
+  [  1aa2]  bool libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm>::getInfoFromEHABISection(libunwind::UnwindCursor::pint_t, const libunwind::UnwindInfoSections &) [A = libunwind::LocalAddressSpace, R = libunwind::Registers_arm]
+  [  1b99]  index inlined table detected but pr function requires extra words
+  [  1bdc]  N4kuru21KuruAR3DExtensionImplE
+  [  1bfc]  N4kuru19KuruConfigExtensionE
+  [  1c1c]  N4kuru22KuruEventExtensionImplE
+  [  1c3c]  N4kuru28KuruHumanActionExtensionImplE
+  [  1c64]  N4kuru23KuruRenderExtensionImplE
+  [  1c88]  N4kuru23KuruStatusExtensionImplE
+  [  1cac]  N4kuru21KuruUtilExtensionImplE
+  [  1ccc]  N4kuru18KuruVideoExtensionE
+  [  1ce8]  N4kuru26NalbiSegmentationExtensionE
+  [  1d0c]  N4kuru34SenseTimeHairSegmentationExtensionE
+  [  1d38]  NSt6__ndk117bad_function_callE
+  [  1d58]  NSt6__ndk114default_deleteIA_fEE
+  [  1d7c]  NSt6__ndk120__shared_ptr_pointerIPfNS_14default_deleteIA_fEENS_9allocatorIfEEEE
+  [  1dcc]  NSt6__ndk114default_deleteINS_8functionIFvRN7HandyRx4VoidEEEEEE
+  [  1e0c]  NSt6__ndk114default_deleteINS_8functionIFvRiEEEEE
+  [  1e40]  NSt6__ndk114default_deleteIN7HandyRx12SubscriptionINS1_4VoidEEEEE
+  [  1e84]  NSt6__ndk114default_deleteIN7HandyRx12SubscriptionIiEEEE
+  [  1ec0]  NSt6__ndk110__function6__baseIFvRiEEE
+  [  1ee8]  NSt6__ndk110__function6__baseIFvRN7HandyRx4VoidEEEE
+  [  1f1c]  NSt6__ndk120__shared_ptr_pointerIPN7HandyRx12SubscriptionIiEENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+  [  1f88]  NSt6__ndk120__shared_ptr_pointerIPN7HandyRx12SubscriptionINS1_4VoidEEENS_14default_deleteIS4_EENS_9allocatorIS4_EEEE
+  [  2000]  NSt6__ndk120__shared_ptr_pointerIPNS_8functionIFvRiEEENS_14default_deleteIS4_EENS_9allocatorIS4_EEEE
+  [  2068]  NSt6__ndk120__shared_ptr_pointerIPNS_8functionIFvRN7HandyRx4VoidEEEENS_14default_deleteIS6_EENS_9allocatorIS6_EEEE
+  [  20dc]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRN7HandyRx4VoidEE8_
+  [  2130]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE7_
+  [  2174]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE6_
+  [  21b8]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE5_
+  [  21fc]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE4_
+  [  2240]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE3_
+  [  2284]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE2_
+  [  22c8]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE1_
+  [  230c]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE0_
+  [  2350]  *Z55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE_
+  [  2394]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE_NS_9allocatorIS3_EEFvS2_EEE
+  [  2410]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE0_NS_9allocatorIS3_EEFvS2_EEE
+  [  2490]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE1_NS_9allocatorIS3_EEFvS2_EEE
+  [  2510]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE2_NS_9allocatorIS3_EEFvS2_EEE
+  [  2590]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE3_NS_9allocatorIS3_EEFvS2_EEE
+  [  2610]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE4_NS_9allocatorIS3_EEFvS2_EEE
+  [  2690]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE5_NS_9allocatorIS3_EEFvS2_EEE
+  [  2710]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE6_NS_9allocatorIS3_EEFvS2_EEE
+  [  2790]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRiE7_NS_9allocatorIS3_EEFvS2_EEE
+  [  2810]  *NSt6__ndk110__function6__funcIZ55Java_com_linecorp_kuru_KuruEngineWrapper_buildExtensionEUlRN7HandyRx4VoidEE8_NS_9allocatorIS5_EEFvS4_EEE
+  [  28a0]  St12domain_error
+  [  28b1]  St11logic_error
+  [  28d0]  St16invalid_argument
+  [  28f0]  St12length_error
+  [  2910]  St12out_of_range
+  [  2921]  St11range_error
+  [  2940]  St13runtime_error
+  [  2960]  St14overflow_error
+  [  2980]  St15underflow_error
+  [  29a0]  alnum
+  [  29a6]  alpha
+  [  29ac]  blank
+  [  29b2]  cntrl
+  [  29b8]  digit
+  [  29be]  graph
+  [  29c4]  lower
+  [  29ca]  print
+  [  29d0]  punct
+  [  29d6]  space
+  [  29dc]  upper
+  [  29e2]  xdigit
+  [  29f8]   !^P^P"#^P$%&'()*+^P,-.^Q/0^Q^Q1^Q^Q^Q23456789^Q^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P:^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P;^P<=>?@A^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^PB^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^PC^P^PD^PEFG^PH^PI^P^P^P^PJKLM^P^PN^POP^P^P^P^PQ^P^P^P^P^P^P^P^P^P^P^P^P^PR^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^PS^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^PTUVW^P^PXY^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^PZ^P[\]^_`ab^P^P^P^P^P^P^P^P
+  [  2c38]  x
+  [  2c61]  <
+  [  2c77]   @°
+  [  2c87]  @
+  [  2cc0]  @I
+  [  2cd6]  <
+  [  2ce8]  `ÿ¿
+  [  2d0e]   ÿ^¿
+  [  2d14]  N
+  [  2d32]   ^^
+  [  2d35]  0
+  [  2d42]   
+  [  2d52]   
+  [  2d62]   
+  [  2d72]   
+  [  2d82]   
+  [  2d92]   
+  [  2da2]   
+  [  2db2]   
+  [  2db7]  ?^B
+  [  2e16]  >
+  [  2e34]  `ÿÿÿ^_
+  [  2e76]  `
+  [  2e86]  8
+  [  2e8f]  p
+  [  2e9f]  0
+  [  2ea4]  /
+  [  2ed1]  1
+  [  2efe]  ?
+  [  2f25]  @
+  [  2f46]  !^P
+  [  2f88]  `€øÿÿÿüÿÿÿÿÿ^¿^_üñ^¿ÿ^¿
+  [  2fa9]  {^CĞÁ¯B
+  [  2fff]  ?
+  [  30c3]  ?
+  [  3178]  p
+  [  31a9]  D^H
+  [  31e2]  ?
+  [  3207]  C
+  [  3226]  8
+  [  32a8]  0ÿÿÿ^C^¿
+  [  32d5]  ?
+  [  32e8]  0‡ÿÿÿÿÿÿ
+  [  3308]  ?
+  [  33d2]  ?üÿ?
+  [  3487]  ?
+  [  34a4]  ?
+  [  34b1]  ?
+  [  350b]   
+  [  350f]   
+  [  35f0]  ?^O
+  [  3621]  ?
+  [  364c]   
+  [  3669]   
+  [  366d]   
+  [  3671]   
+  [  3675]   
+  [  3679]   
+  [  367d]   
+  [  3681]   
+  [  3685]   
+  [  3689]   
+  [  368d]   
+  [  3690]  ( 
+  [  3694]  ) 
+  [  3698]  _ 
+  [  369d]  0
+  [  36a4]  A
+  [  36a6]   ^ZÀ
+  [  36aa]   ^_
+  [  36af]  /2^A^A^E9^A^A^OJ^A^A-y^A^A^Ep^C^A^C‘^C ^Q£^C ^I
+  [  36ce]  P^P^P^D  `^D^A!Š^D^A5Á^D^A^MĞ^D^A?^T^E^A^S1^E0& ^A^A^E³^A^A^CÍ^A^A^OŞ^A^A^Qø^A^A'"^B^A^QØ^C^A^W
+  [  370f]  _^H^_ø^H^X^_ø^F(^_ø^H8^_ø^HH^_ø^Fh^_ø^Hˆ^_ø^H˜^_ø^H¨^_ø^H¸^_ø^Bº^_¶^BÈ^_ª^DØ^_ø^BÚ^_œ^Bè^_ø^Bê^_^Bø^_€^Bú^_‚^BF^B^A^I^P^E^A^C`!^P^P
+  [  3765]  ,0/g,^A^E€,^Acë,^A^C@¦^A-€¦^A^W"§^A^M2§^A=y§^A^C~§^A^I§^A^C §^A^I!ÿ ^Z
+  [  379c]  I
+  [  379e]  1^AS
+  [  37a4]  0^Ai
+  [  37a8]  x^Aÿ
+  [  37ae]  S^B‚^Aƒ^A„^A…^A†^AT^B‡^Aˆ^A‰^AV^BŠ^AW^B‹^AŒ^A^Aİ^A^AY^B^A[^B‘^A’^A“^A`^B”^Ac^B–^Ai^B—^Ah^B˜^A™^Aœ^Ao^B^Ar^BŸ^Au^B¦^A€^B§^A¨^A©^Aƒ^B¬^A­^A®^Aˆ^B¯^A°^A±^AŠ^B²^A‹^B·^A’^B¸^A¹^A¼^A½^AÄ^AÆ^AÄ^AÅ^AÅ^AÆ^AÇ^AÉ^AÇ^AÈ^AÈ^AÉ^AÊ^AÌ^AÊ^AË^AË^AÌ^Añ^Aó^Añ^Aò^Aò^Aó^Aô^Aõ^Aö^A•^A÷^A¿^A ^B^A†^C¬^Cˆ^C­^C‰^C®^CŠ^C¯^CŒ^CÌ^C^CÍ^C^CÎ^C™^CE^C™^C¾^_£^CÂ^C÷^Cø^Cú^Cû^C`^^›^^ß
+  [  38a4]  Y^_Q^_[^_S^_]^_U^__^_W^_¼^_³^_Ì^_Ã^_ì^_å^_ü^_ó^_:^Be,;^B<^B=^Bš^A>^Bf,A^BB^BC^B€^AD^B‰^BE^BŒ^Bô^C¸^Cù^Cò^Cı^C{^Cş^C|^Cÿ^C}^CÀ^DÏ^D&!É^C*!k
+  [  3904]  +!å
+  [  3908]  2!N!ƒ!„!`,a,b,k^Bc,}^]d,}^Bm,Q^Bn,q^Bo,P^Bp,R^Br,s,u,v,~,?^B^¿,@^Bò,ó,}§y^]‹§Œ§§e^Bª§f^BÇ^P'-Í^P--v^Cw^Cœ^Cµ
+  [  3a8f]  ?
+  [  3a96]  $@
+  [  3a9e]  Y@
+  [  3aa5]  @@
+  [  3aaf]  @
+  [  3ab5]  jø@
+  [  3abe]  .A
+  [  3ac6]  cA
+  [  3acf]  A
+  [  3ad4]  eÍÍA
+  [  3adb]   _ ^BB
+  [  3ae4]  vH7B
+  [  3aee]  mB
+  [  3af2]  @åœ0¢B
+  [  3aff]  B
+  [  3b02]  4&õk^LC
+  [  3b0b]  7yÃAC
+  [  3b14]  W4vC
+  [  3b1a]  NgmÁ«C
+  [  3b21]  =‘`äXáC@Œµx^]¯^UDPïâÖä^ZKD’ÕM^FÏğ€D
+  [  3b43]  7yÃAC^Wn^Eµµ¸“Fõù?é^CO8M2^]0ùHw‚Z<¿s^¿İO^Uu¼‰Ø²Ò<3§¨Õ#öI9=§ôDı^O¥2—ŒÏ^Hº[%Co¬d(^FÈ^J
+  [  3d87]   !^Q"#$^Q%&'()*+,^Q-./^P^P0^P^P^P^P^P^P^P123^P45^P^P^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q6^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q7^Q^Q^Q^Q8^Q9:;<=>^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q?^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^Q@A^QBCDEFGHI^P^P^PJKLMN^P^P^POP^P^P^P^PQ^P^P^P^P^P^P^P^P^P^Q^Q^QRS^P^P^P^P^P^P^P^P^P^P^P^Q^Q^Q^QT^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^Q^QU^P^P^P^PV^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^PW^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^PXYZ[^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P\^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P^P
+  [  3fce]   ^Dÿÿ^¿ÿÿÿ^¿ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÃÿ^C
+  [  3ff5]  P
+  [  4000]   
+  [  4007]  <@×ÿÿûÿÿÿÿÿÿÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ^Cüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  [  4096]  0^Dÿÿÿüÿ^_
+  [  40d1]  Y€°Ïÿ^C
+  [  40de]  mÃ^Y^B^Àÿ?
+  [  410a]  =Ö^XÇÿÃÇ^]
+  [  4122]  `^CÏÿ
+  [  4132]  `@Ïÿ^F
+  [  4141]  ]€
+  [  414f]  /^¿€_ÿ
+  [  4160]  ? ÿ^C
+  [  4169]  %ğş®ìÿ;_ ÿó
+  [  41a9]  @ÿ3ÿÿÿÿ¿ ÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿ=^¿=ÿÿÿÿÿ=ÿÿÿÿ=^¿=ÿ^¿ÿÿÿÿÿÿÿ=ÿÿÿÿÿÿÿÿ‡
+  [  4276]  ?
+  [  4285]  ?^_
+  [  42de]  ?
+  [  42e7]  ?
+  [  42f6]  o
+  [  431a]  ??ÿÿÿÿ??ÿªÿÿÿ?ÿÿÿÿÿÿß_Ü^_Ï^Oÿ^_Ü^_
+  [  435a]  />P½ÿóàC
+  [  43b5]  x^L
+  [  43bd]   ÿÿÿÿÿÿÿ€
+  [  43fe]  >^_şÿÿÿÿÿÿÿÿÿ^¿àşÿÿÿÿÿÿÿÿÿÿ÷àÿÿÿÿ?şÿÿÿÿÿÿÿÿÿÿ^¿
+  [  444e]  ?
+  [  4497]  ?ÿ^_ÿÿÿ^O
+  [  44c9]  y^O
+  [  4521]  ?ÿ^Cÿÿ^¿^Dÿÿÿÿÿÿÿ^¿^E
+  [  4533]  8ÿÿ<
+  [  4538]  ~~~
+  [  4585]  ?ÿÿÿÿÿÿÿÿÿÿÿÿÿ^C
+  [  459f]  _Ûÿÿÿÿÿÿÿÿÿÿÿÿÿ^C
+  [  45bf]  ?
+  [  4621]  ?ÿ?
+  [  468b]  ?ÿÿÿÿ^Oÿ>
+  [  46ab]  ?ÿ^C
+  [  46b8]  ?ıÿÿÿÿ¿‘ÿÿ?
+  [  46da]  ?
+  [  46f8]  oğïşÿÿ^O
+  [  471e]  ?
+  [  4722]  ?
+  [  4760]  ?
+  [  47ae]  ?
+  [  488c]  dŞÿëïÿÿÿÿÿÿÿ¿çßßÿÿÿ{_üıÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?ÿÿÿıÿÿ÷ÿÿÿ÷ÿÿßÿÿÿßÿÿ^¿ÿÿÿ^¿ÿÿÿıÿÿÿıÿÿ÷Ïÿÿÿÿÿÿïÿÿÿ–ş÷^J„ê–÷÷^ÿûÿ^Oîûÿ^O
+

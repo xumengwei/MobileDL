@@ -1,0 +1,414 @@
+
+String dump of section '.rodata':
+  [     0]  STMobileAuthentificationNative
+  [    1f]  checkActiveCode too long
+  [    38]  nativeHumanActionHandle
+  [    50]  J
+  [    52]  STMobileHumanAction
+  [    66]  model path is null
+  [    79]  create handle for human action failed
+  [    9f]  model_path is null
+  [    b2]  assetManager is null
+  [    c7]  change model_path to c_str failed
+  [    e9]  native assetManager is null
+  [   105]  asset %s
+  [   10e]  open asset file failed
+  [   125]  Model file is too samll
+  [   13d]  create handle failed, %d
+  [   156]  handle is null
+  [   165]  add sub model result: %d
+  [   17e]  model_file_name is null, create handle with null model
+  [   1b5]  change model_file_name to c_str failed
+  [   1dc]  Model file is too short
+  [   1f4]  add sub model failed, %d
+  [   20d]  input image is null
+  [   221]  set Param for %d, %f
+  [   236]  humanActions is null
+  [   24b]  STMobileSLAM
+  [   258]  st_mobile_slam_create failed %d
+  [   278]  com/sensetime/slam/STMobileSLAMDetectJNI
+  [   2a1]  nativeHandle
+  [   2ae]  SLAMDetect handle is null %d
+  [   2cb]  nativeSlamResultPtr
+  [   2df]  New slam_output_res
+  [   2f3]  com/sensetime/stmobile/model/STRect
+  [   317]  left
+  [   31c]  I
+  [   31e]  top
+  [   322]  right
+  [   328]  bottom
+  [   32f]  com/sensetime/stmobile/model/STMobile106
+  [   358]  rect
+  [   35d]  Lcom/sensetime/stmobile/model/STRect;
+  [   383]  score
+  [   389]  F
+  [   38b]  points_array
+  [   398]  [Lcom/sensetime/stmobile/model/STPoint;
+  [   3c0]  visibility_array
+  [   3d1]  [F
+  [   3d4]  yaw
+  [   3d8]  pitch
+  [   3de]  roll
+  [   3e3]  eye_dist
+  [   3ec]  ID
+  [   3ef]  com/sensetime/stmobile/model/STPoint
+  [   414]  x
+  [   416]  y
+  [   418]  com/sensetime/stmobile/model/STImage
+  [   43d]  imageData
+  [   447]  [B
+  [   44a]  pixelFormat
+  [   456]  width
+  [   45c]  height
+  [   463]  stride
+  [   46a]  timeStamp
+  [   474]  Lcom/sensetime/stmobile/model/STImage$STTime;
+  [   4a2]  com/sensetime/stmobile/model/STImage$STTime
+  [   4ce]  second
+  [   4d5]  microSeconds
+  [   4e2]  com/sensetime/stmobile/model/STMobileHandInfo
+  [   510]  handId
+  [   517]  handRect
+  [   520]  keyPoints
+  [   52a]  keyPointsCount
+  [   539]  handAction
+  [   544]  handActionScore
+  [   554]  com/sensetime/stmobile/model/STMobileBodyInfo
+  [   582]  id
+  [   585]  keyPointsScore
+  [   594]  contourPoints
+  [   5a2]  contourPointsScore
+  [   5b5]  contourPointsCount
+  [   5c8]  bodyAction
+  [   5d3]  bodyActionScore
+  [   5e3]  com/sensetime/stmobile/model/STMobileFaceInfo
+  [   611]  face106
+  [   619]  Lcom/sensetime/stmobile/model/STMobile106;
+  [   644]  extraFacePoints
+  [   654]  extraFacePointsCount
+  [   669]  eyeballCenter
+  [   677]  eyeballCenterPointsCount
+  [   690]  eyeballContour
+  [   69f]  eyeballContourPointsCount
+  [   6b9]  leftEyeballScore
+  [   6ca]  rightEyeballScore
+  [   6dc]  faceAction
+  [   6e7]  com/sensetime/stmobile/model/STHumanAction
+  [   712]  faces
+  [   718]  [Lcom/sensetime/stmobile/model/STMobileFaceInfo;
+  [   749]  faceCount
+  [   753]  hands
+  [   759]  [Lcom/sensetime/stmobile/model/STMobileHandInfo;
+  [   78a]  handCount
+  [   794]  bodys
+  [   79a]  [Lcom/sensetime/stmobile/model/STMobileBodyInfo;
+  [   7cb]  bodyCount
+  [   7d5]  image
+  [   7db]  Lcom/sensetime/stmobile/model/STImage;
+  [   802]  backGroundScore
+  [   812]  hair
+  [   817]  hairScore
+  [   821]  com/sensetime/slam/SLAMData$SLAMResult
+  [   848]  utils
+  [   84e]  SLAMData$SLAMResult class not found!
+  [   873]  numFeatures
+  [   87f]  trackConfidence
+  [   88f]  state
+  [   895]  corners
+  [   89d]  [Lcom/sensetime/slam/SLAMData$Corner;
+  [   8c3]  com/sensetime/slam/SLAMData$Corner
+  [   8e6]  cameraPara
+  [   8f1]  Lcom/sensetime/slam/SLAMData$CameraPara;
+  [   91a]  com/sensetime/slam/SLAMData$CameraPara
+  [   941]  quaternion
+  [   94c]  center
+  [   953]  rotation
+  [   95c]  [[F
+  [   960]  translation
+  [   96c]  depth
+  [   972]  linearAccelerationX
+  [   986]  D
+  [   988]  linearAccelerationY
+  [   99c]  linearAccelerationZ
+  [   9b0]  gyroscopeX
+  [   9bb]  gyroscopeY
+  [   9c6]  gyroscopeZ
+  [   9d1]  timestamp
+  [   9db]  rotationVectorX
+  [   9eb]  rotationVectorY
+  [   9fb]  rotationVectorZ
+  [   a0b]  rotationVectorW
+  [   a1b]  gravityX
+  [   a24]  gravityY
+  [   a2d]  gravityZ
+  [   a36]  /usr/local/google/buildbot/src/android/ndk-release-r16/external/libcxx/../../external/libcxxabi/src/abort_message.cpp
+  [   aac]  terminating
+  [   ab8]  uncaught
+  [   ac1]   const
+  [   ac8]   volatile
+  [   ad2]   restrict
+  [   adc]  vtable for 
+  [   ae8]  typeinfo for 
+  [   af6]  typeinfo name for 
+  [   b09]  covariant return thunk to 
+  [   b24]  construction vtable for 
+  [   b3d]  virtual thunk to 
+  [   b4f]  non-virtual thunk to 
+  [   b65]  <<=
+  [   b69]  ->*
+  [   b6d]  >>=
+  [   b71]  throw
+  [   b77]  false
+  [   b7d]  short
+  [   b83]  ull
+  [   b87]  std::
+  [   b8d]  std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+  [   bd4]  std::basic_istream<char, std::char_traits<char> >
+  [   c06]  int
+  [   c0a]  float
+  [   c10]  double
+  [   c17]  ...
+  [   c1b]  C.UTF-8
+  [   c24]  UTF-8
+  [   c2a]  libunwind: %s %s:%d - %s^J
+  [   c44]  /usr/local/google/buildbot/src/android/ndk-release-r16/external/libcxx/../../external/libunwind_llvm/src/Unwind-EHABI.cpp
+  [   cbe]  unsupported register class
+  [   cd9]  during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+  [   d3c]  /usr/local/google/buildbot/src/android/ndk-release-r16/external/libcxx/../../external/libunwind_llvm/src/UnwindCursor.hpp
+  [   db6]  /usr/local/google/buildbot/src/android/ndk-release-r16/external/libcxx/../../external/libunwind_llvm/src/Registers.hpp
+  [   e2d]  unsupported arm register
+  [   e46]  Unknown ARM float register
+  [   e61]  index inlined table detected but pr function requires extra words
+  [   eb0]  St9exception
+  [   ec0]  St13bad_exception
+  [   ee0]  St16bad_array_length
+  [   ef5]  St9bad_alloc
+  [   f10]  St20bad_array_new_length
+  [   f30]  basic_string
+  [   f48]  wchar_t
+  [   f50]  signed char
+  [   f60]  unsigned char
+  [   f70]  unsigned short
+  [   f80]  unsigned __int128
+  [   f98]  operator&&
+  [   fa8]  operator&
+  [   fb8]  operator&=
+  [   fc8]  operator=
+  [   fd8]  operator()
+  [   fe8]  operator,
+  [   ff8]  operator~
+  [  1008]  operator delete[]
+  [  1020]  operator*
+  [  1030]  operator delete
+  [  1040]  operator/
+  [  1050]  operator/=
+  [  1060]  operator^
+  [  1070]  operator^=
+  [  1080]  operator==
+  [  1090]  operator>=
+  [  10a0]  operator>
+  [  10b0]  operator[]
+  [  10c0]  operator<=
+  [  10d0]  operator<<
+  [  10e0]  operator<<=
+  [  10f0]  operator<
+  [  1100]  operator-
+  [  1110]  operator-=
+  [  1120]  operator*=
+  [  1130]  operator--
+  [  1140]  operator new[]
+  [  1150]  operator!=
+  [  1160]  operator!
+  [  1170]  operator new
+  [  1180]  operator||
+  [  1190]  operator|
+  [  11a0]  operator|=
+  [  11b0]  operator->*
+  [  11c0]  operator+
+  [  11d0]  operator+=
+  [  11e0]  operator++
+  [  11f0]  operator->
+  [  1200]  operator?
+  [  1210]  operator%
+  [  1220]  operator%=
+  [  1230]  operator>>
+  [  1240]  operator>>=
+  [  1250]  (anonymous namespace)
+  [  1268]  sizeof...(
+  [  1278]  std::string
+  [  1288]  std::istream
+  [  1298]  basic_istream
+  [  12a8]  std::ostream
+  [  12b8]  basic_ostream
+  [  12c8]  std::iostream
+  [  12d8]  basic_iostream
+  [  12e8]  'lambda'(
+  [  12f8]  std::allocator
+  [  1308]  std::basic_string
+  [  1320]  unsigned int
+  [  1330]  unsigned long
+  [  1340]  long long
+  [  1350]  unsigned long long
+  [  1368]  long double
+  [  1378]  __float128
+  [  1388]  decimal64
+  [  1398]  decimal128
+  [  13a8]  decimal32
+  [  13b8]  decimal16
+  [  13c8]  decltype(auto)
+  [  13d8]  std::nullptr_t
+  [  13f0]  N10__cxxabiv116__shim_type_infoE
+  [  1420]  N10__cxxabiv117__class_type_infoE
+  [  1450]  N10__cxxabiv117__pbase_type_infoE
+  [  1480]  N10__cxxabiv119__pointer_type_infoE
+  [  14b0]  N10__cxxabiv120__function_type_infoE
+  [  14e0]  N10__cxxabiv129__pointer_to_member_type_infoE
+  [  1520]  N10__cxxabiv123__fundamental_type_infoE
+  [  1548]  v
+  [  154a]  Pv
+  [  154d]  PKv
+  [  1551]  Dn
+  [  1554]  PDn
+  [  1558]  PKDn
+  [  155d]  b
+  [  155f]  Pb
+  [  1562]  PKb
+  [  1566]  w
+  [  1568]  Pw
+  [  156b]  PKw
+  [  156f]  c
+  [  1571]  Pc
+  [  1574]  PKc
+  [  1578]  h
+  [  157a]  Ph
+  [  157d]  PKh
+  [  1581]  a
+  [  1583]  Pa
+  [  1586]  PKa
+  [  158a]  s
+  [  158c]  Ps
+  [  158f]  PKs
+  [  1593]  t
+  [  1595]  Pt
+  [  1598]  PKt
+  [  159c]  i
+  [  159e]  Pi
+  [  15a1]  PKi
+  [  15a5]  j
+  [  15a7]  Pj
+  [  15aa]  PKj
+  [  15ae]  l
+  [  15b0]  Pl
+  [  15b3]  PKl
+  [  15b7]  m
+  [  15b9]  Pm
+  [  15bc]  PKm
+  [  15c0]  x
+  [  15c2]  Px
+  [  15c5]  PKx
+  [  15c9]  y
+  [  15cb]  Py
+  [  15ce]  PKy
+  [  15d2]  n
+  [  15d4]  Pn
+  [  15d7]  PKn
+  [  15db]  o
+  [  15dd]  Po
+  [  15e0]  PKo
+  [  15e4]  Dh
+  [  15e7]  PDh
+  [  15eb]  PKDh
+  [  15f0]  f
+  [  15f2]  Pf
+  [  15f5]  PKf
+  [  15f9]  d
+  [  15fb]  Pd
+  [  15fe]  PKd
+  [  1602]  e
+  [  1604]  Pe
+  [  1607]  PKe
+  [  160b]  g
+  [  160d]  Pg
+  [  1610]  PKg
+  [  1614]  Ds
+  [  1617]  PDs
+  [  161b]  PKDs
+  [  1620]  Di
+  [  1623]  PDi
+  [  1627]  PKDi
+  [  1630]  N10__cxxabiv117__array_type_infoE
+  [  1660]  N10__cxxabiv116__enum_type_infoE
+  [  1690]  N10__cxxabiv120__si_class_type_infoE
+  [  16c0]  N10__cxxabiv121__vmi_class_type_infoE
+  [  16e6]  St9type_info
+  [  16f3]  St8bad_cast
+  [  16ff]  St10bad_typeid
+  [  171c]  B.æ?
+  [  1724]  B.æ¿v<y5ï9ê=v<y5ï9ê½
+  [  173f]  ?
+  [  174e]  0C
+  [  1756]  0ÃO»a^Eg¬Ý?^X-DTû!é?›öÒ^Ksï?^X-DTû!ù?âe/"^¿+z<^G\^T3&¦<½Ëðzˆ^Gp<^G\^T3&¦‘<YóøÂ^_n¥^Aƒù¢
+  [  17a4]  DNn
+  [  17a9]  )^U
+  [  17ad]  W'
+  [  17b1]  4õ
+  [  17b4]  bÛÀ
+  [  17b8]  <™•
+  [  17bc]  AC
+  [  17c0]  cQþ
+  [  17c9]  aÅ
+  [  17cc]  :n$
+  [  17d1]  MB
+  [  17d4]  I^Fà
+  [  17da]  .
+  [  17e4]  )±^\
+  [  17e9]  >§
+  [  17ed]  5‚
+  [  17f0]  D».
+  [  17f9]  &p
+  [  17fc]  A~_
+  [  1802]  9
+  [  1804]  Sƒ9
+  [  180a]  9
+  [  180d]  _„
+  [  1810]  (ù½
+  [  1816]  ;
+  [  1821]  /ï
+  [  1825]  Z‹
+  [  1828]  m^_m
+  [  182d]  ~6
+  [  1832]  '
+  [  1834]  FO·
+  [  1839]  f?
+  [  183c]  -ê_
+  [  1841]  'u
+  [  1848]  ={ñ
+  [  184d]  9^G
+  [  1851]  RŠ
+  [  1855]  kê
+  [  185a]  _
+  [  185d]  ]
+  [  1860]  0^CV
+  [  1864]  {üF
+  [  186a]  k
+  [  186c]   ¼Ï
+  [  1870]  6ôš
+  [  1878]  ^a‘
+  [  1882]  e
+  [  1886]  _
+  [  1889]  @h
+  [  1890]  'sM
+  [  1896]  1
+  [  1899]  V^U
+  [  189e]  s
+  [  18a0]  {â`
+  [  18a4]  kŒÀ
+  [  18ab]  @û!ù?
+  [  18b4]  -Dt>
+  [  18bd]  Fø<
+  [  18c3]  `QÌx;
+  [  18cf]  9
+  [  18d3]  @ %z8
+  [  18dc]  "‚ã6
+  [  18e6]  i5
+

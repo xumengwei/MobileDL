@@ -1,0 +1,47 @@
+
+String dump of section '.rodata':
+  [     0]  ro.build.version.sdk
+  [    15]  LibDeviceNative
+  [    25]  v%s  sdk:%d
+  [    31]  1.0.0
+  [    37]  -log output log^J                                 -pkg package full name^J                                 -pid guard proc pid[need set -svr]^J                                 -url Uninstall launch browser url^J                                 -svr guard service class full name
+  [   14a]  Stop Guard
+  [   155]  /lib/libAcbAppFrameworkGuard.so
+  [   175]  main: guard failed!
+  [   189]  guard--_fd return %d
+  [   19e]  guard uninstall %s
+  [   1b1]  guard--IN_DELETE_SELF return %d,%s
+  [   1d4]  guard process %s to %s
+  [   1eb]  guard--IN_CLOSE_NOWRITE return %d,%s
+  [   210]  <<<<<<<<<<< ================= PKG ================ >>>>>>>>>>
+  [   24e]  <<< ---------- pid -------- >>>
+  [   26e]  %s/%s
+  [   274]  -stop
+  [   27a]  -log
+  [   27f]  -pid
+  [   284]  /proc/
+  [   28b]  -pkg
+  [   290]  /data/data/
+  [   29c]  -url
+  [   2a1]  -svr
+  [   2a6]  get_args-->[PID = %s   Service = %s]   [PKG = %s   URL = %s]
+  [   2e3]  start_service %s
+  [   2f4]  am
+  [   2f7]  startservice
+  [   304]  --user
+  [   30b]  0
+  [   30d]  -n
+  [   310]  start_browser  %s
+  [   322]  start
+  [   328]  -a
+  [   32b]  android.intent.action.VIEW
+  [   346]  -d
+  [   349]  popen buff:%s  previousProcessName=%s
+  [   36f]  r
+  [   371]  popen failed buff:%s
+  [   386]  %*s %d %d %*s %*s %*s %*s %*s %s
+  [   3a7]  sscanf: pid=%d, ppid=%d, proc=%s n=%d
+  [   3cd]  continue
+  [   3d6]  kill: pid=%d
+  [   3e3]  /data/data/
+

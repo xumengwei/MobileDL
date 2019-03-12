@@ -1,0 +1,577 @@
+
+String dump of section '.rodata':
+  [     0]  cv::Mat::Mat(int, int, int, void*, size_t)
+  [    30]  total() == 0 || data != NULL
+  [    50]  /Volumes/MacintoshHD/ws/project/deeplearning/caffe-android-lib/android_lib/opencv/sdk/native/jni/include/opencv2/core/mat.inl.hpp
+  [    d4]  [F
+  [    d8]  /Volumes/MacintoshHD/ws/project/deeplearning/caffe-android-lib/caffe/android/caffe_jni.cpp
+  [   134]  prepare segment image data
+  [   150]  complete predict, channel:
+  [   16c]   ele size:
+  [   178]  prepare output mask
+  [   18c]  GetEnv failed!
+  [   19c]  caffe_jni
+  [   1a8]  call to empty boost::function
+  [   1c8]  /Volumes/MacintoshHD/ws/project/deeplearning/caffe-android-lib/caffe/android/caffe_mobile.cpp
+  [   228]  Check failed: caffe_mobile_ 
+  [   248]  vector::_M_range_check: __n (which is %zu) >= this->size() (which is %zu)
+  [   294]  Check failed: reinterpret_cast<float *>(input_channels->at(0).data) == net_->input_blobs()[0]->cpu_data() 
+  [   300]  Input channels are not wrapping the input layer of the network.
+  [   340]  mean_values.size() == num_channels_
+  [   364]  Number of mean values doesn't match channels of input layer.
+  [   3a4]  scale > 0
+  [   3b0]  (
+  [   3b4]   
+  [   3b8]  )
+  [   3bc]  axis_index >= -num_axes()
+  [   3d8]  /Volumes/MacintoshHD/ws/project/deeplearning/caffe-android-lib/caffe/include/caffe/blob.hpp
+  [   434]  axis 
+  [   43c]   out of range for 
+  [   450]  -D Blob with shape 
+  [   464]  axis_index < num_axes()
+  [   47c]  num_axes() <= 4
+  [   48c]  Cannot use legacy accessors on Blobs with > 4 axes.
+  [   4c0]  model_path.size() > 0
+  [   4d8]  Need a model definition to score.
+  [   4fc]  weights_path.size() > 0
+  [   514]  Need model weights to score.
+  [   534]  Loading time: 
+  [   544]   ms.
+  [   54c]  net_->num_inputs() == 1
+  [   564]  Network should have exactly one input.
+  [   58c]  net_->num_outputs() == 1
+  [   5a8]  Network should have exactly one output.
+  [   5d0]  Check failed: num_channels_ == 3 || num_channels_ == 1 
+  [   608]  Input layer should have 1 or 3 channels.
+  [   634]  Check failed: !img.empty() 
+  [   650]  img should not be empty
+  [   668]  Forwarding time: 
+  [   67c]  ,
+  [   680]  Check failed: net_->has_blob(blob_names[i]) 
+  [   6b0]  Unknown feature blob name 
+  [   6cc]  /Volumes/MacintoshHD/ws/project/deeplearning/caffe-android-lib/caffe/include/caffe/util/io.hpp
+  [   72c]  Check failed: ReadProtoFromBinaryFile(filename, proto) 
+  [   764]  mean_blob.channels() == num_channels_
+  [   78c]  Number of channels of mean file doesn't match input layer.
+  [   7c8]  usage: main <model> <weights> <mean_file> <img>
+  [   7f8]  Display window
+  [   808]  data
+  [   810]  /Volumes/MacintoshHD/ws/project/deeplearning/caffe-android-lib/caffe/android/hair_segment.cpp
+  [   870]  Check failed: reinterpret_cast<float*>(input_channels->at(0).data) == net_->blob_by_name("data")->cpu_data() 
+  [   8e0]  index < 4
+  [   8ec]  index >= -4
+  [   8f8]  width:
+  [   900]   height:
+  [   90c]   channles:
+  [   918]  Predct begin
+  [   928]  net channels:
+  [   938]   width:
+  [   940]  net Reshape begin
+  [   954]  net Reshape done
+  [   968]  preprocess begin
+  [   97c]  preprocess done
+  [   98c]   net total layers:
+  [   9a0]  Processing time = 
+  [   9b4]   ms
+  [   9b8]  prob
+  [   9c0]  output_blob(n,c,h,w) = 
+  [   9d8]  , 
+  [   9dc]  load mode 1
+  [   9e8]  The library is compiled without OpenGL support
+  [   a18]  /Volumes/MacintoshHD/ws/project/deeplearning/caffe-android-lib/opencv/modules/highgui/src/window.cpp
+  [   a80]  The library is compiled without QT support
+  [   aac]  The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Carbon support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script
+  [   b78]  cvNamedWindow
+  [   b88]  cvDestroyWindow
+  [   b98]  cvDestroyAllWindows
+  [   bac]  cvShowImage
+  [   bb8]  size.width>0 && size.height>0
+  [   bd8]  cvResizeWindow
+  [   be8]  cvMoveWindow
+  [   bf8]  cvCreateTrackbar
+  [   c0c]  cvCreateTrackbar2
+  [   c20]  cvSetMouseCallback
+  [   c34]  cvGetTrackbarPos
+  [   c48]  cvSetTrackbarPos
+  [   c5c]  cvSetTrackbarMax
+  [   c70]  cvSetTrackbarMin
+  [   c84]  cvGetWindowHandle
+  [   c98]  cvGetWindowName
+  [   ca8]  cvWaitKey
+  [   cb4]  cvInitSystem
+  [   cc4]  cvStartWindowThread
+  [   cd8]  cvAddText
+  [   ce4]  cvDisplayStatusBar
+  [   cf8]  cvStartLoop
+  [   d04]  cvStopLoop
+  [   d10]  cvSaveWindowParameters
+  [   d28]  cvCreateButton
+  [   d38]  w
+  [   d3c]  a
+  [   d40]  a+b
+  [   d44]  r
+  [   d48]  r+
+  [   d4c]  w+
+  [   d50]  a+
+  [   d54]  wb
+  [   d58]  ab
+  [   d5c]  rb
+  [   d60]  r+b
+  [   d64]  w+b
+  [   d68]  C
+  [   d6c]  POSIX
+  [   d74]  space
+  [   d7c]  print
+  [   d84]  cntrl
+  [   d8c]  upper
+  [   d94]  lower
+  [   d9c]  alpha
+  [   da4]  digit
+  [   dac]  punct
+  [   db4]  xdigit
+  [   dbc]  alnum
+  [   dc4]  graph
+  [   dcc]  basic_ios::clear
+  [   de0]  %s: __pos (which is %zu) > this->size() (which is %zu)
+  [   e18]  basic_string::erase
+  [   e2c]  %.*Lf
+  [   e34]  %m/%d/%y
+  [   e40]  %H:%M
+  [   e48]  %H:%M:%S
+  [   e54]  __gnu_cxx::__concurrence_lock_error
+  [   e78]  __gnu_cxx::__concurrence_unlock_error
+  [   ea0]  locale::_S_normalize_category category not found
+  [   ed4]  locale::_Impl::_M_replace_facet
+  [   ef4]  -+xX0123456789abcdef0123456789ABCDEF
+  [   f1c]  -+xX0123456789abcdefABCDEF
+  [   f38]  -0123456789
+  [   f44]  GMT
+  [   f48]  HST
+  [   f4c]  AKST
+  [   f54]  PST
+  [   f58]  MST
+  [   f5c]  CST
+  [   f60]  EST
+  [   f64]  AST
+  [   f68]  NST
+  [   f6c]  CET
+  [   f70]  IST
+  [   f74]  EET
+  [   f78]  JST
+  [   f7c]  true
+  [   f84]  false
+  [   f8c]  AM
+  [   f90]  PM
+  [   f94]  Sunday
+  [   f9c]  Monday
+  [   fa4]  Tuesday
+  [   fac]  Wednesday
+  [   fb8]  Thursday
+  [   fc4]  Friday
+  [   fcc]  Saturday
+  [   fd8]  Sun
+  [   fdc]  Mon
+  [   fe0]  Tue
+  [   fe4]  Wed
+  [   fe8]  Thu
+  [   fec]  Fri
+  [   ff0]  Sat
+  [   ff4]  January
+  [   ffc]  February
+  [  1008]  March
+  [  1010]  April
+  [  1018]  May
+  [  101c]  June
+  [  1024]  July
+  [  102c]  August
+  [  1034]  September
+  [  1040]  October
+  [  1048]  November
+  [  1054]  December
+  [  1060]  Jan
+  [  1064]  Feb
+  [  1068]  Mar
+  [  106c]  Apr
+  [  1070]  Jun
+  [  1074]  Jul
+  [  1078]  Aug
+  [  107c]  Sep
+  [  1080]  Oct
+  [  1084]  Nov
+  [  1088]  Dec
+  [  108c]  basic_filebuf::underflow codecvt::max_length() is not valid
+  [  10c8]  basic_filebuf::underflow incomplete character in file
+  [  1100]  basic_filebuf::underflow invalid byte sequence in file
+  [  1138]  basic_filebuf::underflow error reading the file
+  [  1168]  basic_filebuf::xsgetn error reading the file
+  [  1198]  basic_filebuf::_M_convert_to_external conversion error
+  [  11d0]  not enough space for format expansion (Please submit full bug report at http://gcc.gnu.org/bugs.html):^J    
+  [  123c]  basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+  [  1280]  basic_string::copy
+  [  1294]  basic_string::compare
+  [  12ac]  basic_string::_S_create
+  [  12c4]  basic_string::_M_replace_aux
+  [  12e4]  basic_string::insert
+  [  12fc]  basic_string::replace
+  [  1314]  basic_string::assign
+  [  132c]  basic_string::append
+  [  1344]  basic_string::resize
+  [  135c]  basic_string::_S_construct null not valid
+  [  1388]  basic_string::basic_string
+  [  13a4]  basic_string::substr
+  [  13bc]  generic
+  [  13c4]  system
+  [  13cc]  %Lf
+  [  13d0]  locale::facet::_S_create_c_locale name not valid
+  [  1404]  LC_CTYPE
+  [  1410]  LC_NUMERIC
+  [  141c]  LC_TIME
+  [  1424]  LC_COLLATE
+  [  1430]  LC_MONETARY
+  [  143c]  LC_MESSAGES
+  [  1448]  N5boost9exceptionE
+  [  1460]  N5boost16exception_detail10clone_baseE
+  [  1488]  N5boost17bad_function_callE
+  [  14a8]  N5boost6detail15sp_counted_baseE
+  [  14d0]  N5caffe3NetIfEE
+  [  14e0]  N5boost6detail17sp_counted_impl_pIN5caffe3NetIfEEEE
+  [  1518]  N5boost9algorithm6detail13token_finderFINS1_10is_any_ofFIcEEEE
+  [  1558]  N5boost16exception_detail19error_info_injectorINS_17bad_function_callEEE
+  [  15a8]  N5boost16exception_detail10clone_implINS0_19error_info_injectorINS_17bad_function_callEEEEE
+  [  1608]  cv::Mat::Mat(int, int, int, void*, size_t)
+  [  1638]  cv::Mat::Mat(cv::Size, int, void*, size_t)
+  [  1668]  cv::Mat::Mat(int, int, int, void*, size_t)
+  [  1698]  void cv::imshow(const cv::String&, cv::InputArray)
+  [  16d0]  void cv::displayStatusBar(const cv::String&, const cv::String&, int)
+  [  1718]  void cv::displayOverlay(const cv::String&, const cv::String&, int)
+  [  1760]  cv::QtFont cv::fontQt(const cv::String&, int, cv::Scalar, int, int, int)
+  [  17b0]  void cv::setWindowTitle(const cv::String&, const cv::String&)
+  [  17f0]  void cv::imshow(const cv::String&, const cv::ogl::Texture2D&)
+  [  1830]  void cv::stopLoop()
+  [  1848]  void cv::addText(const cv::Mat&, const cv::String&, cv::Point, const cv::QtFont&)
+  [  18a0]  int cv::createButton(const cv::String&, cv::ButtonCallback, void*, int, bool)
+  [  18f0]  void cv::saveWindowParameters(const cv::String&)
+  [  1928]  void cvUpdateWindow(const char*)
+  [  1950]  void cvSetOpenGlContext(const char*)
+  [  1978]  void cvSetOpenGlDrawCallback(const char*, CvOpenGlDrawCallback, void*)
+  [  19c0]  void cv::loadWindowParameters(const cv::String&)
+  [  19f8]  int cv::startLoop(int (*)(int, char**), int, char**)
+  [  1a30]  St10ctype_base
+  [  1a40]  St5ctypeIcE
+  [  1a4c]  St5ctypeIwE
+  [  1a58]  St9basic_iosIwSt11char_traitsIwEE
+  [  1a7c]  St9basic_iosIcSt11char_traitsIcEE
+  [  1aa0]  St8ios_base
+  [  1aac]  St13basic_istreamIwSt11char_traitsIwEE
+  [  1ad4]  Si
+  [  1ad8]  St9time_base
+  [  1ae8]  St10money_base
+  [  1af8]  St13messages_base
+  [  1b0c]  St12codecvt_base
+  [  1b20]  St7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1b5c]  St9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1b98]  St16__numpunct_cacheIcE
+  [  1bb0]  St11__timepunctIcE
+  [  1bc4]  St9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1c00]  St18__moneypunct_cacheIcLb1EE
+  [  1c20]  St7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1c5c]  St8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1c98]  St8messagesIcE
+  [  1ca8]  St8numpunctIcE
+  [  1cb8]  St10moneypunctIcLb0EE
+  [  1cd0]  St8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1d0c]  St7collateIcE
+  [  1d1c]  St10moneypunctIcLb1EE
+  [  1d34]  St18__moneypunct_cacheIcLb0EE
+  [  1d54]  St17__timepunct_cacheIcE
+  [  1d70]  St23__codecvt_abstract_baseIcc9mbstate_tE
+  [  1d9c]  N9__gnu_cxx24__concurrence_lock_errorE
+  [  1dc4]  N9__gnu_cxx26__concurrence_unlock_errorE
+  [  1df0]  NSt6locale5facetE
+  [  1e04]  C
+  [  1e0c]  G
+  [  1e10]  M
+  [  1e14]  T
+  [  1e1c]  H
+  [  1e20]  S
+  [  1e24]  T
+  [  1e2c]  A
+  [  1e30]  K
+  [  1e34]  S
+  [  1e38]  T
+  [  1e40]  P
+  [  1e44]  S
+  [  1e48]  T
+  [  1e50]  M
+  [  1e54]  S
+  [  1e58]  T
+  [  1e60]  C
+  [  1e64]  S
+  [  1e68]  T
+  [  1e70]  E
+  [  1e74]  S
+  [  1e78]  T
+  [  1e80]  A
+  [  1e84]  S
+  [  1e88]  T
+  [  1e90]  N
+  [  1e94]  S
+  [  1e98]  T
+  [  1ea0]  C
+  [  1ea4]  E
+  [  1ea8]  T
+  [  1eb0]  I
+  [  1eb4]  S
+  [  1eb8]  T
+  [  1ec0]  E
+  [  1ec4]  E
+  [  1ec8]  T
+  [  1ed0]  J
+  [  1ed4]  S
+  [  1ed8]  T
+  [  1ee4]  t
+  [  1ee8]  r
+  [  1eec]  u
+  [  1ef0]  e
+  [  1ef8]  f
+  [  1efc]  a
+  [  1f00]  l
+  [  1f04]  s
+  [  1f08]  e
+  [  1f10]  %
+  [  1f14]  m
+  [  1f18]  /
+  [  1f1c]  %
+  [  1f20]  d
+  [  1f24]  /
+  [  1f28]  %
+  [  1f2c]  y
+  [  1f34]  %
+  [  1f38]  H
+  [  1f3c]  :
+  [  1f40]  %
+  [  1f44]  M
+  [  1f48]  :
+  [  1f4c]  %
+  [  1f50]  S
+  [  1f58]  A
+  [  1f5c]  M
+  [  1f64]  P
+  [  1f68]  M
+  [  1f70]  S
+  [  1f74]  u
+  [  1f78]  n
+  [  1f7c]  d
+  [  1f80]  a
+  [  1f84]  y
+  [  1f8c]  M
+  [  1f90]  o
+  [  1f94]  n
+  [  1f98]  d
+  [  1f9c]  a
+  [  1fa0]  y
+  [  1fa8]  T
+  [  1fac]  u
+  [  1fb0]  e
+  [  1fb4]  s
+  [  1fb8]  d
+  [  1fbc]  a
+  [  1fc0]  y
+  [  1fc8]  W
+  [  1fcc]  e
+  [  1fd0]  d
+  [  1fd4]  n
+  [  1fd8]  e
+  [  1fdc]  s
+  [  1fe0]  d
+  [  1fe4]  a
+  [  1fe8]  y
+  [  1ff0]  T
+  [  1ff4]  h
+  [  1ff8]  u
+  [  1ffc]  r
+  [  2000]  s
+  [  2004]  d
+  [  2008]  a
+  [  200c]  y
+  [  2014]  F
+  [  2018]  r
+  [  201c]  i
+  [  2020]  d
+  [  2024]  a
+  [  2028]  y
+  [  2030]  S
+  [  2034]  a
+  [  2038]  t
+  [  203c]  u
+  [  2040]  r
+  [  2044]  d
+  [  2048]  a
+  [  204c]  y
+  [  2054]  S
+  [  2058]  u
+  [  205c]  n
+  [  2064]  M
+  [  2068]  o
+  [  206c]  n
+  [  2074]  T
+  [  2078]  u
+  [  207c]  e
+  [  2084]  W
+  [  2088]  e
+  [  208c]  d
+  [  2094]  T
+  [  2098]  h
+  [  209c]  u
+  [  20a4]  F
+  [  20a8]  r
+  [  20ac]  i
+  [  20b4]  S
+  [  20b8]  a
+  [  20bc]  t
+  [  20c4]  J
+  [  20c8]  a
+  [  20cc]  n
+  [  20d0]  u
+  [  20d4]  a
+  [  20d8]  r
+  [  20dc]  y
+  [  20e4]  F
+  [  20e8]  e
+  [  20ec]  b
+  [  20f0]  r
+  [  20f4]  u
+  [  20f8]  a
+  [  20fc]  r
+  [  2100]  y
+  [  2108]  M
+  [  210c]  a
+  [  2110]  r
+  [  2114]  c
+  [  2118]  h
+  [  2120]  A
+  [  2124]  p
+  [  2128]  r
+  [  212c]  i
+  [  2130]  l
+  [  2138]  M
+  [  213c]  a
+  [  2140]  y
+  [  2148]  J
+  [  214c]  u
+  [  2150]  n
+  [  2154]  e
+  [  215c]  J
+  [  2160]  u
+  [  2164]  l
+  [  2168]  y
+  [  2170]  A
+  [  2174]  u
+  [  2178]  g
+  [  217c]  u
+  [  2180]  s
+  [  2184]  t
+  [  218c]  S
+  [  2190]  e
+  [  2194]  p
+  [  2198]  t
+  [  219c]  e
+  [  21a0]  m
+  [  21a4]  b
+  [  21a8]  e
+  [  21ac]  r
+  [  21b4]  O
+  [  21b8]  c
+  [  21bc]  t
+  [  21c0]  o
+  [  21c4]  b
+  [  21c8]  e
+  [  21cc]  r
+  [  21d4]  N
+  [  21d8]  o
+  [  21dc]  v
+  [  21e0]  e
+  [  21e4]  m
+  [  21e8]  b
+  [  21ec]  e
+  [  21f0]  r
+  [  21f8]  D
+  [  21fc]  e
+  [  2200]  c
+  [  2204]  e
+  [  2208]  m
+  [  220c]  b
+  [  2210]  e
+  [  2214]  r
+  [  221c]  J
+  [  2220]  a
+  [  2224]  n
+  [  222c]  F
+  [  2230]  e
+  [  2234]  b
+  [  223c]  M
+  [  2240]  a
+  [  2244]  r
+  [  224c]  A
+  [  2250]  p
+  [  2254]  r
+  [  225c]  J
+  [  2260]  u
+  [  2264]  n
+  [  226c]  J
+  [  2270]  u
+  [  2274]  l
+  [  227c]  A
+  [  2280]  u
+  [  2284]  g
+  [  228c]  S
+  [  2290]  e
+  [  2294]  p
+  [  229c]  O
+  [  22a0]  c
+  [  22a4]  t
+  [  22ac]  N
+  [  22b0]  o
+  [  22b4]  v
+  [  22bc]  D
+  [  22c0]  e
+  [  22c4]  c
+  [  22cc]  N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
+  [  2304]  N9__gnu_cxx18stdio_sync_filebufIcSt11char_traitsIcEEE
+  [  233c]  So
+  [  2340]  St13basic_ostreamIwSt11char_traitsIwEE
+  [  2368]  St19basic_ostringstreamIcSt11char_traitsIcESaIcEE
+  [  239c]  St15basic_stringbufIcSt11char_traitsIcESaIcEE
+  [  23cc]  St13runtime_error
+  [  23e0]  St12out_of_range
+  [  23f4]  St11logic_error
+  [  2404]  St12length_error
+  [  2418]  St15basic_streambufIwSt11char_traitsIwEE
+  [  2444]  St15basic_streambufIcSt11char_traitsIcEE
+  [  2470]  St10moneypunctIwLb0EE
+  [  2488]  St10moneypunctIwLb1EE
+  [  24a0]  St18__moneypunct_cacheIwLb0EE
+  [  24c0]  St9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  24fc]  St7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  2538]  St7collateIwE
+  [  2548]  St17__timepunct_cacheIwE
+  [  2564]  St7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  25a0]  St18__moneypunct_cacheIwLb1EE
+  [  25c0]  St23__codecvt_abstract_baseIwc9mbstate_tE
+  [  25ec]  St8messagesIwE
+  [  25fc]  St16__numpunct_cacheIwE
+  [  2614]  St21__ctype_abstract_baseIwE
+  [  2634]  St11__timepunctIwE
+  [  2648]  St8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  2684]  St9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  26c0]  St8numpunctIwE
+  [  26d0]  St8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  270c]  St14basic_ifstreamIcSt11char_traitsIcEE
+  [  2734]  St13basic_filebufIcSt11char_traitsIcEE
+  [  275c]  *N12_GLOBAL__N_121system_error_categoryE
+  [  2788]  St14error_category
+  [  279c]  *N12_GLOBAL__N_122generic_error_categoryE
+  [  27c8]  St7codecvtIwc9mbstate_tE
+  [  27e4]  St7codecvtIcc9mbstate_tE
+  [  2800]  NSt8ios_base7failureE
+

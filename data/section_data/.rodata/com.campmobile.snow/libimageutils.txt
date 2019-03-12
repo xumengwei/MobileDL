@@ -1,0 +1,335 @@
+
+String dump of section '.rodata':
+  [     0]  imageutils
+  [     b]  AndroidBitmap_getInfo() failed ! error=%d
+  [    35]  Bitmap format is not RGBA_8888 !
+  [    56]  AndroidBitmap_lockPixels() failed ! error=%d
+  [    83]  yuvToNv21 -> nv21 only
+  [    9a]  Fail to ConvertToI420 : %d
+  [    b5]  Fail to I420ToNV21 : %d
+  [    cd]  yuvToNv21 -> scale down
+  [    e5]  cannot allocate __cxa_eh_globals
+  [   106]  __libcxxabi_tls_set failure in __cxa_get_globals()
+  [   139]  execute once failure in __cxa_get_globals_fast()
+  [   16a]  cannot create thread specific key for __cxa_get_globals()
+  [   1a4]  cannot zero out thread value for __cxa_get_globals()
+  [   1d9]  unexpected_handler unexpectedly returned
+  [   202]  terminate_handler unexpectedly returned
+  [   22a]  terminate_handler unexpectedly threw an exception
+  [   25c]  std::bad_alloc
+  [   26b]  bad_array_new_length
+  [   280]  bad_array_length
+  [   291]  std::exception
+  [   2a0]  std::bad_exception
+  [   2b3]  std::bad_cast
+  [   2c1]  std::bad_typeid
+  [   2d1]  /Volumes/Android/buildbot/src/android/ndk-r14-release/external/libcxx/../../external/libcxxabi/src/abort_message.cpp
+  [   346]  void abort_message(const char *, ...)
+  [   36c]  terminating with %s exception of type %s: %s
+  [   399]  terminating with %s exception of type %s
+  [   3c2]  terminating with %s foreign exception
+  [   3e8]  terminating
+  [   3f4]  uncaught
+  [   3fd]  unexpected
+  [   408]  _Z
+  [   40b]  ___Z
+  [   410]  , 
+  [   413]   const
+  [   41a]   volatile
+  [   424]   restrict
+  [   42e]   &
+  [   431]   &&
+  [   435]  vtable for 
+  [   441]  VTT for 
+  [   44a]  typeinfo for 
+  [   458]  typeinfo name for 
+  [   46b]  covariant return thunk to 
+  [   486]  construction vtable for 
+  [   49f]  -in-
+  [   4a4]  virtual thunk to 
+  [   4b6]  non-virtual thunk to 
+  [   4cc]  guard variable for 
+  [   4e0]  reference temporary for 
+  [   4f9]  std
+  [   4fd]  ::
+  [   500]  decltype(
+  [   50a]  )
+  [   50c]  &&
+  [   50f]  &
+  [   511]  &=
+  [   514]  =
+  [   516]  ,
+  [   518]  ~
+  [   51a]  delete[] 
+  [   524]  *
+  [   526]  delete 
+  [   52e]  /
+  [   530]  /=
+  [   533]  ^
+  [   535]  ^=
+  [   538]  ==
+  [   53b]  >=
+  [   53e]  >
+  [   540]  (
+  [   542]  )[
+  [   545]  ]
+  [   547]  <=
+  [   54a]  <<
+  [   54d]  <<=
+  [   551]  <
+  [   553]  -
+  [   555]  -=
+  [   558]  *=
+  [   55b]  --
+  [   55e]  )--
+  [   562]  !=
+  [   565]  !
+  [   567]  ||
+  [   56a]  |
+  [   56c]  |=
+  [   56f]  ->*
+  [   573]  +
+  [   575]  +=
+  [   578]  ++
+  [   57b]  )++
+  [   57f]  ) ? (
+  [   585]  ) : (
+  [   58b]  %
+  [   58d]  %=
+  [   590]  >>
+  [   593]  >>=
+  [   597]  throw
+  [   59d]  false
+  [   5a3]  char
+  [   5a8]  short
+  [   5af]  u
+  [   5b1]  l
+  [   5b3]  ul
+  [   5b6]  ll
+  [   5b9]  ull
+  [   5bd]  __int128
+  [   5c6]  %af
+  [   5ca]  %a
+  [   5cd]  %LaL
+  [   5d2]  fp
+  [   5d5]  ) 
+  [   5d8]   (
+  [   5db]  alignof (
+  [   5e5]  const_cast<
+  [   5f1]  >(
+  [   5f4]  )(
+  [   5f7]  dynamic_cast<
+  [   605]  operator 
+  [   60f]  operator"" 
+  [   61b]  _GLOBAL__N
+  [   626]  std::
+  [   62c]  .*
+  [   62f]  .
+  [   631]  [] 
+  [   635]   
+  [   637]  noexcept (
+  [   642]  ->
+  [   645]  reinterpret_cast<
+  [   657]  static_cast<
+  [   664]  sizeof (
+  [   66d]  typeid(
+  [   675]  throw 
+  [   67c]  std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+  [   6c3]  basic_string
+  [   6d0]  std::basic_istream<char, std::char_traits<char> >
+  [   702]  basic_istream
+  [   710]  std::basic_ostream<char, std::char_traits<char> >
+  [   742]  basic_ostream
+  [   750]  std::basic_iostream<char, std::char_traits<char> >
+  [   783]  basic_iostream
+  [   792]  'unnamed
+  [   79b]  'lambda'(
+  [   7a5]  ::string literal
+  [   7b6]   >
+  [   7b9]  _block_invoke
+  [   7c7]  invocation function for block in 
+  [   7e9]   complex
+  [   7f2]   imaginary
+  [   7fd]   [
+  [   800]  objc_object<
+  [   80d]  id
+  [   810]  objcproto
+  [   81a]  int
+  [   81e]  float
+  [   824]  double
+  [   82b]  ...
+  [   82f]   []
+  [   833]  ::*
+  [   837]   vector[
+  [   840]  pixel vector[
+  [   84e]  Pure virtual function called!
+  [   86c]  Deleted virtual function called!
+  [   88d]  -+   0X0x
+  [   897]  (null)
+  [   89e]  -0X+0X 0X-0x+0x 0x
+  [   8b1]  inf
+  [   8b5]  INF
+  [   8b9]  nan
+  [   8bd]  NAN
+  [   8d0]  St9bad_alloc
+  [   8e0]  St20bad_array_new_length
+  [   900]  St16bad_array_length
+  [   920]  St9exception
+  [   930]  St13bad_exception
+  [   950]  N10__cxxabiv116__shim_type_infoE
+  [   980]  N10__cxxabiv117__class_type_infoE
+  [   9b0]  N10__cxxabiv117__pbase_type_infoE
+  [   9e0]  N10__cxxabiv119__pointer_type_infoE
+  [   a10]  N10__cxxabiv120__function_type_infoE
+  [   a40]  N10__cxxabiv129__pointer_to_member_type_infoE
+  [   a80]  N10__cxxabiv123__fundamental_type_infoE
+  [   aa8]  v
+  [   aaa]  Pv
+  [   aad]  PKv
+  [   ab1]  Dn
+  [   ab4]  PDn
+  [   ab8]  PKDn
+  [   abd]  b
+  [   abf]  Pb
+  [   ac2]  PKb
+  [   ac6]  w
+  [   ac8]  Pw
+  [   acb]  PKw
+  [   acf]  c
+  [   ad1]  Pc
+  [   ad4]  PKc
+  [   ad8]  h
+  [   ada]  Ph
+  [   add]  PKh
+  [   ae1]  a
+  [   ae3]  Pa
+  [   ae6]  PKa
+  [   aea]  s
+  [   aec]  Ps
+  [   aef]  PKs
+  [   af3]  t
+  [   af5]  Pt
+  [   af8]  PKt
+  [   afc]  i
+  [   afe]  Pi
+  [   b01]  PKi
+  [   b05]  j
+  [   b07]  Pj
+  [   b0a]  PKj
+  [   b0e]  l
+  [   b10]  Pl
+  [   b13]  PKl
+  [   b17]  m
+  [   b19]  Pm
+  [   b1c]  PKm
+  [   b20]  x
+  [   b22]  Px
+  [   b25]  PKx
+  [   b29]  y
+  [   b2b]  Py
+  [   b2e]  PKy
+  [   b32]  n
+  [   b34]  Pn
+  [   b37]  PKn
+  [   b3b]  o
+  [   b3d]  Po
+  [   b40]  PKo
+  [   b44]  Dh
+  [   b47]  PDh
+  [   b4b]  PKDh
+  [   b50]  f
+  [   b52]  Pf
+  [   b55]  PKf
+  [   b59]  d
+  [   b5b]  Pd
+  [   b5e]  PKd
+  [   b62]  e
+  [   b64]  Pe
+  [   b67]  PKe
+  [   b6b]  g
+  [   b6d]  Pg
+  [   b70]  PKg
+  [   b74]  Ds
+  [   b77]  PDs
+  [   b7b]  PKDs
+  [   b80]  Di
+  [   b83]  PDi
+  [   b87]  PKDi
+  [   b90]  N10__cxxabiv117__array_type_infoE
+  [   bc0]  N10__cxxabiv130__qualified_function_type_infoE
+  [   bf0]  N10__cxxabiv116__enum_type_infoE
+  [   c20]  N10__cxxabiv120__si_class_type_infoE
+  [   c50]  N10__cxxabiv121__vmi_class_type_infoE
+  [   c80]  St9type_info
+  [   c8d]  St8bad_cast
+  [   c99]  St10bad_typeid
+  [   ca8]  wchar_t
+  [   cb0]  signed char
+  [   cc0]  unsigned char
+  [   cd0]  unsigned short
+  [   ce0]  unsigned __int128
+  [   cf8]  operator&&
+  [   d08]  operator&
+  [   d18]  operator&=
+  [   d28]  operator=
+  [   d38]  operator()
+  [   d48]  operator,
+  [   d58]  operator~
+  [   d68]  operator delete[]
+  [   d80]  operator*
+  [   d90]  operator delete
+  [   da0]  operator/
+  [   db0]  operator/=
+  [   dc0]  operator^
+  [   dd0]  operator^=
+  [   de0]  operator==
+  [   df0]  operator>=
+  [   e00]  operator>
+  [   e10]  operator[]
+  [   e20]  operator<=
+  [   e30]  operator<<
+  [   e40]  operator<<=
+  [   e50]  operator<
+  [   e60]  operator-
+  [   e70]  operator-=
+  [   e80]  operator*=
+  [   e90]  operator--
+  [   ea0]  operator new[]
+  [   eb0]  operator!=
+  [   ec0]  operator!
+  [   ed0]  operator new
+  [   ee0]  operator||
+  [   ef0]  operator|
+  [   f00]  operator|=
+  [   f10]  operator->*
+  [   f20]  operator+
+  [   f30]  operator+=
+  [   f40]  operator++
+  [   f50]  operator->
+  [   f60]  operator?
+  [   f70]  operator%
+  [   f80]  operator%=
+  [   f90]  operator>>
+  [   fa0]  operator>>=
+  [   fb0]  (anonymous namespace)
+  [   fc8]  sizeof...(
+  [   fd8]  std::string
+  [   fe8]  std::istream
+  [   ff8]  std::ostream
+  [  1008]  std::iostream
+  [  1018]  std::allocator
+  [  1028]  std::basic_string
+  [  1040]  unsigned int
+  [  1050]  unsigned long
+  [  1060]  long long
+  [  1070]  unsigned long long
+  [  1088]  long double
+  [  1098]  __float128
+  [  10a8]  decimal64
+  [  10b8]  decimal128
+  [  10c8]  decimal32
+  [  10d8]  decimal16
+  [  10e8]  decltype(auto)
+  [  10f8]  std::nullptr_t
+  [  12d7]  0123456789ABCDEF
+

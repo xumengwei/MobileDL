@@ -1,0 +1,420 @@
+
+String dump of section '.rodata':
+  [     0]  mgf-c
+  [     6]  nativeInit retcode: %d
+  [    1d]  cannot allocate __cxa_eh_globals
+  [    3e]  pthread_setspecific failure in __cxa_get_globals()
+  [    71]  pthread_once failure in __cxa_get_globals_fast()
+  [    a2]  cannot create pthread key for __cxa_get_globals()
+  [    d4]  cannot zero out thread value for __cxa_get_globals()
+  [   109]  unexpected_handler unexpectedly returned
+  [   132]  terminate_handler unexpectedly returned
+  [   15a]  terminate_handler unexpectedly threw an exception
+  [   18c]  std::bad_alloc
+  [   19b]  bad_array_new_length
+  [   1b0]  bad_array_length
+  [   1c1]  std::exception
+  [   1d0]  std::bad_exception
+  [   1e3]  std::bad_cast
+  [   1f1]  std::bad_typeid
+  [   201]  /usr/local/google/buildbot/src/android/ndk-r13-release/external/libcxx/../../external/libcxxabi/src/abort_message.cpp
+  [   277]  void abort_message(const char *, ...)
+  [   29d]  terminating with %s exception of type %s: %s
+  [   2ca]  terminating with %s exception of type %s
+  [   2f3]  terminating with %s foreign exception
+  [   319]  terminating
+  [   325]  uncaught
+  [   32e]  unexpected
+  [   339]  , 
+  [   33c]   const
+  [   343]   volatile
+  [   34d]   restrict
+  [   357]   &
+  [   35a]   &&
+  [   35e]  vtable for 
+  [   36a]  VTT for 
+  [   373]  typeinfo for 
+  [   381]  typeinfo name for 
+  [   394]  covariant return thunk to 
+  [   3af]  construction vtable for 
+  [   3c8]  -in-
+  [   3cd]  virtual thunk to 
+  [   3df]  non-virtual thunk to 
+  [   3f5]  guard variable for 
+  [   409]  reference temporary for 
+  [   422]  std
+  [   426]  ::
+  [   429]  decltype(
+  [   433]  )
+  [   435]  &&
+  [   438]  &
+  [   43a]  &=
+  [   43d]  =
+  [   43f]  ,
+  [   441]  ~
+  [   443]  delete[] 
+  [   44d]  *
+  [   44f]  delete 
+  [   457]  /
+  [   459]  /=
+  [   45c]  ^
+  [   45e]  ^=
+  [   461]  ==
+  [   464]  >=
+  [   467]  >
+  [   469]  (
+  [   46b]  )[
+  [   46e]  ]
+  [   470]  <=
+  [   473]  <<
+  [   476]  <<=
+  [   47a]  <
+  [   47c]  -
+  [   47e]  -=
+  [   481]  *=
+  [   484]  --
+  [   487]  )--
+  [   48b]  !=
+  [   48e]  !
+  [   490]  ||
+  [   493]  |
+  [   495]  |=
+  [   498]  ->*
+  [   49c]  +
+  [   49e]  +=
+  [   4a1]  ++
+  [   4a4]  )++
+  [   4a8]  ) ? (
+  [   4ae]  ) : (
+  [   4b4]  %
+  [   4b6]  %=
+  [   4b9]  >>
+  [   4bc]  >>=
+  [   4c0]  throw
+  [   4c6]  false
+  [   4cc]  char
+  [   4d1]  short
+  [   4d8]  u
+  [   4da]  l
+  [   4dc]  ul
+  [   4df]  ll
+  [   4e2]  ull
+  [   4e6]  __int128
+  [   4ef]  %af
+  [   4f3]  %a
+  [   4f6]  %LaL
+  [   4fb]  fp
+  [   4fe]  ) 
+  [   501]   (
+  [   504]  alignof (
+  [   50e]  const_cast<
+  [   51a]  >(
+  [   51d]  )(
+  [   520]  dynamic_cast<
+  [   52e]  operator 
+  [   538]  operator"" 
+  [   544]  _GLOBAL__N
+  [   54f]  std::
+  [   555]  .*
+  [   558]  .
+  [   55a]  [] 
+  [   55e]   
+  [   560]  noexcept (
+  [   56b]  ->
+  [   56e]  reinterpret_cast<
+  [   580]  static_cast<
+  [   58d]  sizeof (
+  [   596]  typeid(
+  [   59e]  throw 
+  [   5a5]  std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+  [   5ec]  basic_string
+  [   5f9]  std::basic_istream<char, std::char_traits<char> >
+  [   62b]  basic_istream
+  [   639]  std::basic_ostream<char, std::char_traits<char> >
+  [   66b]  basic_ostream
+  [   679]  std::basic_iostream<char, std::char_traits<char> >
+  [   6ac]  basic_iostream
+  [   6bb]  'unnamed
+  [   6c4]  'lambda'(
+  [   6ce]  ::string literal
+  [   6df]   >
+  [   6e2]  _block_invoke
+  [   6f0]  invocation function for block in 
+  [   712]   complex
+  [   71b]   imaginary
+  [   726]   [
+  [   729]  objc_object<
+  [   736]  id
+  [   739]  objcproto
+  [   743]  int
+  [   747]  float
+  [   74d]  double
+  [   754]  ...
+  [   758]   []
+  [   75c]  ::*
+  [   760]   vector[
+  [   769]  pixel vector[
+  [   777]  Pure virtual function called!
+  [   795]  Deleted virtual function called!
+  [   7b6]  libunwind: %s %s:%d - %s^J
+  [   7d0]  void _Unwind_Resume(_Unwind_Exception *)
+  [   7f9]  /usr/local/google/buildbot/src/android/ndk-r13-release/external/libcxx/../../external/libunwind_llvm/src/Unwind-EHABI.cpp
+  [   873]  _Unwind_Resume() can't return
+  [   891]  _Unwind_VRS_Result _Unwind_VRS_Set(_Unwind_Context *, _Unwind_VRS_RegClass, uint32_t, _Unwind_VRS_DataRepresentation, void *)
+  [   90f]  unsupported register class
+  [   92a]  _Unwind_VRS_Result _Unwind_VRS_Pop(_Unwind_Context *, _Unwind_VRS_RegClass, uint32_t, _Unwind_VRS_DataRepresentation)
+  [   9a0]  _Unwind_Reason_Code unwind_phase2(unw_context_t *, _Unwind_Exception *, bool)
+  [   9ee]  during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+  [   a51]  _Unwind_VRS_Result _Unwind_VRS_Get_Internal(_Unwind_Context *, _Unwind_VRS_RegClass, uint32_t, _Unwind_VRS_DataRepresentation, void *)
+  [   ad8]  /usr/local/google/buildbot/src/android/ndk-r13-release/external/libcxx/../../external/libunwind_llvm/src/UnwindCursor.hpp
+  [   b52]  uint32_t libunwind::Registers_arm::getRegister(int)
+  [   b86]  /usr/local/google/buildbot/src/android/ndk-r13-release/external/libcxx/../../external/libunwind_llvm/src/Registers.hpp
+  [   bfd]  unsupported arm register
+  [   c16]  void libunwind::Registers_arm::setRegister(int, uint32_t)
+  [   c50]  unw_fpreg_t libunwind::Registers_arm::getFloatRegister(int)
+  [   c8c]  Unknown ARM float register
+  [   ca7]  void libunwind::Registers_arm::setFloatRegister(int, unw_fpreg_t)
+  [   ce9]  %s
+  [   cec]  bool libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm>::getInfoFromEHABISection(pint_t, const libunwind::UnwindInfoSections &) [A = libunwind::LocalAddressSpace, R = libunwind::Registers_arm]
+  [   dca]  unknown personality routine
+  [   de6]  index inlined table detected but pr function requires extra words
+  [   e28]  pc
+  [   e2b]  lr
+  [   e2e]  sp
+  [   e31]  r0
+  [   e34]  r1
+  [   e37]  r2
+  [   e3a]  r3
+  [   e3d]  r4
+  [   e40]  r5
+  [   e43]  r6
+  [   e46]  r7
+  [   e49]  r8
+  [   e4c]  r9
+  [   e4f]  r10
+  [   e53]  r11
+  [   e57]  r12
+  [   e5b]  s0
+  [   e5e]  s1
+  [   e61]  s2
+  [   e64]  s3
+  [   e67]  s4
+  [   e6a]  s5
+  [   e6d]  s6
+  [   e70]  s7
+  [   e73]  s8
+  [   e76]  s9
+  [   e79]  s10
+  [   e7d]  s11
+  [   e81]  s12
+  [   e85]  s13
+  [   e89]  s14
+  [   e8d]  s15
+  [   e91]  s16
+  [   e95]  s17
+  [   e99]  s18
+  [   e9d]  s19
+  [   ea1]  s20
+  [   ea5]  s21
+  [   ea9]  s22
+  [   ead]  s23
+  [   eb1]  s24
+  [   eb5]  s25
+  [   eb9]  s26
+  [   ebd]  s27
+  [   ec1]  s28
+  [   ec5]  s29
+  [   ec9]  s30
+  [   ecd]  s31
+  [   ed1]  d0
+  [   ed4]  d1
+  [   ed7]  d2
+  [   eda]  d3
+  [   edd]  d4
+  [   ee0]  d5
+  [   ee3]  d6
+  [   ee6]  d7
+  [   ee9]  d8
+  [   eec]  d9
+  [   eef]  d10
+  [   ef3]  d11
+  [   ef7]  d12
+  [   efb]  d13
+  [   eff]  d14
+  [   f03]  d15
+  [   f07]  d16
+  [   f0b]  d17
+  [   f0f]  d18
+  [   f13]  d19
+  [   f17]  d20
+  [   f1b]  d21
+  [   f1f]  d22
+  [   f23]  d23
+  [   f27]  d24
+  [   f2b]  d25
+  [   f2f]  d26
+  [   f33]  d27
+  [   f37]  d28
+  [   f3b]  d29
+  [   f3f]  d30
+  [   f43]  d31
+  [   f47]  unknown register
+  [   f58]  -+   0X0x
+  [   f62]  (null)
+  [   f69]  -0X+0X 0X-0x+0x 0x
+  [   f7c]  inf
+  [   f80]  INF
+  [   f84]  nan
+  [   f88]  NAN
+  [   f90]  St9bad_alloc
+  [   fa0]  St20bad_array_new_length
+  [   fc0]  St16bad_array_length
+  [   fe0]  St9exception
+  [   ff0]  St13bad_exception
+  [  1010]  N10__cxxabiv116__shim_type_infoE
+  [  1040]  N10__cxxabiv117__class_type_infoE
+  [  1070]  N10__cxxabiv117__pbase_type_infoE
+  [  10a0]  N10__cxxabiv119__pointer_type_infoE
+  [  10d0]  N10__cxxabiv120__function_type_infoE
+  [  1100]  N10__cxxabiv129__pointer_to_member_type_infoE
+  [  1130]  N10__cxxabiv123__fundamental_type_infoE
+  [  1158]  v
+  [  115a]  Pv
+  [  115d]  PKv
+  [  1161]  Dn
+  [  1164]  PDn
+  [  1168]  PKDn
+  [  116d]  b
+  [  116f]  Pb
+  [  1172]  PKb
+  [  1176]  w
+  [  1178]  Pw
+  [  117b]  PKw
+  [  117f]  c
+  [  1181]  Pc
+  [  1184]  PKc
+  [  1188]  h
+  [  118a]  Ph
+  [  118d]  PKh
+  [  1191]  a
+  [  1193]  Pa
+  [  1196]  PKa
+  [  119a]  s
+  [  119c]  Ps
+  [  119f]  PKs
+  [  11a3]  t
+  [  11a5]  Pt
+  [  11a8]  PKt
+  [  11ac]  i
+  [  11ae]  Pi
+  [  11b1]  PKi
+  [  11b5]  j
+  [  11b7]  Pj
+  [  11ba]  PKj
+  [  11be]  l
+  [  11c0]  Pl
+  [  11c3]  PKl
+  [  11c7]  m
+  [  11c9]  Pm
+  [  11cc]  PKm
+  [  11d0]  x
+  [  11d2]  Px
+  [  11d5]  PKx
+  [  11d9]  y
+  [  11db]  Py
+  [  11de]  PKy
+  [  11e2]  Dh
+  [  11e5]  PDh
+  [  11e9]  PKDh
+  [  11ee]  f
+  [  11f0]  Pf
+  [  11f3]  PKf
+  [  11f7]  d
+  [  11f9]  Pd
+  [  11fc]  PKd
+  [  1200]  e
+  [  1202]  Pe
+  [  1205]  PKe
+  [  1209]  Ds
+  [  120c]  PDs
+  [  1210]  PKDs
+  [  1215]  Di
+  [  1218]  PDi
+  [  121c]  PKDi
+  [  1230]  N10__cxxabiv117__array_type_infoE
+  [  1260]  N10__cxxabiv116__enum_type_infoE
+  [  1290]  N10__cxxabiv120__si_class_type_infoE
+  [  12c0]  N10__cxxabiv121__vmi_class_type_infoE
+  [  12f0]  St9type_info
+  [  12fd]  St8bad_cast
+  [  1309]  St10bad_typeid
+  [  1318]  wchar_t
+  [  1320]  signed char
+  [  1330]  unsigned char
+  [  1340]  unsigned short
+  [  1350]  unsigned __int128
+  [  1368]  operator&&
+  [  1378]  operator&
+  [  1388]  operator&=
+  [  1398]  operator=
+  [  13a8]  operator()
+  [  13b8]  operator,
+  [  13c8]  operator~
+  [  13d8]  operator delete[]
+  [  13f0]  operator*
+  [  1400]  operator delete
+  [  1410]  operator/
+  [  1420]  operator/=
+  [  1430]  operator^
+  [  1440]  operator^=
+  [  1450]  operator==
+  [  1460]  operator>=
+  [  1470]  operator>
+  [  1480]  operator[]
+  [  1490]  operator<=
+  [  14a0]  operator<<
+  [  14b0]  operator<<=
+  [  14c0]  operator<
+  [  14d0]  operator-
+  [  14e0]  operator-=
+  [  14f0]  operator*=
+  [  1500]  operator--
+  [  1510]  operator new[]
+  [  1520]  operator!=
+  [  1530]  operator!
+  [  1540]  operator new
+  [  1550]  operator||
+  [  1560]  operator|
+  [  1570]  operator|=
+  [  1580]  operator->*
+  [  1590]  operator+
+  [  15a0]  operator+=
+  [  15b0]  operator++
+  [  15c0]  operator->
+  [  15d0]  operator?
+  [  15e0]  operator%
+  [  15f0]  operator%=
+  [  1600]  operator>>
+  [  1610]  operator>>=
+  [  1620]  (anonymous namespace)
+  [  1638]  sizeof...(
+  [  1648]  std::string
+  [  1658]  std::istream
+  [  1668]  std::ostream
+  [  1678]  std::iostream
+  [  1688]  std::allocator
+  [  1698]  std::basic_string
+  [  16b0]  unsigned int
+  [  16c0]  unsigned long
+  [  16d0]  long long
+  [  16e0]  unsigned long long
+  [  16f8]  long double
+  [  1708]  __float128
+  [  1718]  decimal64
+  [  1728]  decimal128
+  [  1738]  decimal32
+  [  1748]  decimal16
+  [  1758]  decltype(auto)
+  [  1768]  std::nullptr_t
+  [  1947]  0123456789ABCDEF
+

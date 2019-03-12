@@ -1,0 +1,248 @@
+
+String dump of section '.rodata':
+  [     0]  N10__cxxabiv115__forced_unwindE
+  [    20]  N10__cxxabiv119__foreign_exceptionE
+  [    44]  std::exception
+  [    54]  std::bad_exception
+  [    68]  __gnu_cxx::__concurrence_lock_error
+  [    8c]  __gnu_cxx::__concurrence_unlock_error
+  [    b4]  pure virtual method called^J
+  [    d0]  deleted virtual method called^J
+  [    f0]  std::bad_alloc
+  [   100]  terminate called recursively^J
+  [   120]  terminate called after throwing an instance of '
+  [   154]  '^J
+  [   158]  terminate called without an active exception^J
+  [   188]    what():  
+  [   194]  _GLOBAL_
+  [   1a0]  (anonymous namespace)
+  [   1b8]  string literal
+  [   1c8]  std
+  [   1cc]  auto
+  [   1d4]  li
+  [   1d8]  st
+  [   1dc]  cl
+  [   1e0]  dt
+  [   1e4]  pt
+  [   1e8]  qu
+  [   1ec]  [abi:
+  [   1f4]  ::
+  [   1f8]  {default arg#
+  [   208]  %ld
+  [   20c]  }::
+  [   210]  JArray
+  [   218]  []
+  [   21c]  vtable for 
+  [   228]  VTT for 
+  [   234]  construction vtable for 
+  [   250]  -in-
+  [   258]  typeinfo for 
+  [   268]  typeinfo name for 
+  [   27c]  typeinfo fn for 
+  [   290]  non-virtual thunk to 
+  [   2a8]  virtual thunk to 
+  [   2bc]  covariant return thunk to 
+  [   2d8]  java Class for 
+  [   2e8]  guard variable for 
+  [   2fc]  TLS init function for 
+  [   314]  TLS wrapper function for 
+  [   330]  reference temporary #
+  [   348]   for 
+  [   350]  hidden alias for 
+  [   364]  transaction clone for 
+  [   37c]  non-transaction clone for 
+  [   398]  _Sat 
+  [   3a0]  _Accum
+  [   3a8]  _Fract
+  [   3b0]  , 
+  [   3b4]  operator
+  [   3c0]  operator 
+  [   3cc]  ad
+  [   3d0]  gs
+  [   3d4]  ix
+  [   3d8]   : 
+  [   3dc]  new 
+  [   3e4]  ul
+  [   3e8]  ll
+  [   3ec]  ull
+  [   3f0]  false
+  [   3f8]  true
+  [   400]  java resource 
+  [   410]  decltype (
+  [   41c]  ...
+  [   420]  this
+  [   428]  {parm#
+  [   430]  global constructors keyed to 
+  [   450]  global destructors keyed to 
+  [   470]  {lambda(
+  [   47c]  )#
+  [   480]  {unnamed type#
+  [   490]   [clone 
+  [   49c]  >(
+  [   4a0]   restrict
+  [   4ac]   volatile
+  [   4b8]   const
+  [   4c0]  &&
+  [   4c4]  complex 
+  [   4d0]  imaginary 
+  [   4dc]  ::*
+  [   4e0]   __vector(
+  [   4ec]   (
+  [   4f0]  std::allocator
+  [   500]  allocator
+  [   50c]  std::basic_string
+  [   520]  basic_string
+  [   530]  std::string
+  [   53c]  std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+  [   584]  std::istream
+  [   594]  std::basic_istream<char, std::char_traits<char> >
+  [   5c8]  basic_istream
+  [   5d8]  std::ostream
+  [   5e8]  std::basic_ostream<char, std::char_traits<char> >
+  [   61c]  basic_ostream
+  [   62c]  std::iostream
+  [   63c]  std::basic_iostream<char, std::char_traits<char> >
+  [   670]  basic_iostream
+  [   680]  aN
+  [   684]  &=
+  [   688]  aS
+  [   68c]  =
+  [   690]  aa
+  [   694]  &
+  [   698]  an
+  [   69c]  at
+  [   6a0]  alignof 
+  [   6ac]  az
+  [   6b0]  cc
+  [   6b4]  const_cast
+  [   6c0]  ()
+  [   6c4]  cm
+  [   6c8]  ,
+  [   6cc]  co
+  [   6d0]  ~
+  [   6d4]  dV
+  [   6d8]  /=
+  [   6dc]  da
+  [   6e0]  delete[] 
+  [   6ec]  dc
+  [   6f0]  dynamic_cast
+  [   700]  de
+  [   704]  *
+  [   708]  dl
+  [   70c]  delete 
+  [   714]  ds
+  [   718]  .*
+  [   71c]  .
+  [   720]  dv
+  [   724]  /
+  [   728]  eO
+  [   72c]  ^=
+  [   730]  eo
+  [   734]  ^
+  [   738]  eq
+  [   73c]  ==
+  [   740]  ge
+  [   744]  >=
+  [   748]  gt
+  [   74c]  >
+  [   750]  lS
+  [   754]  <<=
+  [   758]  le
+  [   75c]  <=
+  [   760]  operator"" 
+  [   76c]  ls
+  [   770]  <<
+  [   774]  lt
+  [   778]  <
+  [   77c]  mI
+  [   780]  -=
+  [   784]  mL
+  [   788]  *=
+  [   78c]  mi
+  [   790]  -
+  [   794]  ml
+  [   798]  mm
+  [   79c]  --
+  [   7a0]  na
+  [   7a4]  new[]
+  [   7ac]  ne
+  [   7b0]  !=
+  [   7b4]  ng
+  [   7b8]  nt
+  [   7bc]  !
+  [   7c0]  nw
+  [   7c4]  new
+  [   7c8]  oR
+  [   7cc]  |=
+  [   7d0]  oo
+  [   7d4]  ||
+  [   7d8]  or
+  [   7dc]  |
+  [   7e0]  pL
+  [   7e4]  +=
+  [   7e8]  pl
+  [   7ec]  +
+  [   7f0]  pm
+  [   7f4]  ->*
+  [   7f8]  pp
+  [   7fc]  ++
+  [   800]  ps
+  [   804]  ->
+  [   808]  ?
+  [   80c]  rM
+  [   810]  %=
+  [   814]  rS
+  [   818]  >>=
+  [   81c]  rc
+  [   820]  reinterpret_cast
+  [   834]  rm
+  [   838]  %
+  [   83c]  rs
+  [   840]  >>
+  [   844]  sc
+  [   848]  static_cast
+  [   854]  sizeof 
+  [   85c]  sz
+  [   860]  tr
+  [   864]  throw
+  [   86c]  tw
+  [   870]  throw 
+  [   878]  signed char
+  [   884]  bool
+  [   88c]  boolean
+  [   894]  char
+  [   89c]  byte
+  [   8a4]  double
+  [   8ac]  long double
+  [   8b8]  float
+  [   8c0]  __float128
+  [   8cc]  unsigned char
+  [   8dc]  int
+  [   8e0]  unsigned int
+  [   8f0]  unsigned
+  [   8fc]  long
+  [   904]  unsigned long
+  [   914]  __int128
+  [   920]  unsigned __int128
+  [   934]  short
+  [   93c]  unsigned short
+  [   94c]  void
+  [   954]  wchar_t
+  [   95c]  long long
+  [   968]  unsigned long long
+  [   97c]  decimal32
+  [   988]  decimal64
+  [   994]  decimal128
+  [   9a0]  half
+  [   9a8]  char16_t
+  [   9b4]  char32_t
+  [   9c0]  decltype(nullptr)
+  [   9d4]  St9exception
+  [   9e4]  St13bad_exception
+  [   9f8]  N9__gnu_cxx24__concurrence_lock_errorE
+  [   a20]  N9__gnu_cxx26__concurrence_unlock_errorE
+  [   a50]  St9bad_alloc
+  [   a60]  N10__cxxabiv120__si_class_type_infoE
+  [   a88]  N10__cxxabiv117__class_type_infoE
+  [   aac]  St9type_info
+

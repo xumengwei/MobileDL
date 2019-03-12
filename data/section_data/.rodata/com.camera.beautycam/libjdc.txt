@@ -1,0 +1,30 @@
+
+String dump of section '.rodata':
+  [     0]  com/ihs/device/clean/junk/util/SUtils
+  [    26]  ([B[B[B)[B
+  [    31]  jstoragePath == NULL
+  [    46]  ajDecryptData == NULL || adDecryptData == NULL
+  [    75]  com/ihs/device/clean/junk/cache/app/nonsys/junk/HSAppJunkCache
+  [    b4]  <init>
+  [    bb]  (Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;)V
+  [   108]  java/util/ArrayList
+  [   11d]  (Ljava/lang/Object;)Z
+  [   133]  com/ihs/device/clean/junk/cache/app/nonsys/junk/task/ajs
+  [   16c]  postOnProgressUpdated
+  [   182]  ([Ljava/lang/Object;)V
+  [   199]  (ILcom/ihs/device/clean/junk/cache/app/nonsys/junk/HSAppJunkCache;)V
+  [   1de]  jdecryptData == NULL
+  [   1f3]  com/ihs/device/clean/junk/cache/nonapp/pathrule/HSPathFileCache
+  [   233]  (JLjava/lang/String;Ljava/lang/String;)V
+  [   25c]  (ILcom/ihs/device/clean/junk/cache/nonapp/pathrule/HSPathFileCache;)V
+  [   2a3]  7z Decoder 17.00 beta (arm) : Igor Pavlov : Public domain : 2017-04-29^J^J
+  [   2ec]  can not open input file
+  [   304]  can not open output file
+  [   31d]  can not write output file
+  [   337]  can not close output file
+  [   352]  Everything is Ok^J
+  [   364]  decoder doesn't support this archive
+  [   389]  can not allocate memory
+  [   3a1]  CRC error
+  [   3ab]  7z¼¯'^\^Y^N^I^G^E^E^D
+

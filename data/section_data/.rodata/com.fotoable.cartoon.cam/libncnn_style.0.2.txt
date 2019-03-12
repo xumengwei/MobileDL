@@ -1,0 +1,925 @@
+
+String dump of section '.rodata':
+  [     8]  total() == 0 || data != NULL
+  [    28]  ../../../../src/main/cpp/opencv2/core/mat.inl.hpp
+  [    5c]  Step must be a multiple of esz1
+  [    7c]  [empty_any]
+  [    88]  style-process-jni
+  [    9c]  sqz set ncnn load param %d %d
+  [    bc]  sqz set ncnn load model %d %d
+  [    df]  BŸÈB)\˜B
+  [    f7]  C
+  [    fb]  C
+  [    ff]  Cinput image is null
+  [   114]  vector::_M_default_append
+  [   138]  N7cvflann7anyimpl16small_any_policyIjEE
+  [   160]  N7cvflann7anyimpl21typed_base_any_policyIjEE
+  [   190]  N7cvflann7anyimpl16small_any_policyIbEE
+  [   1b8]  N7cvflann7anyimpl21typed_base_any_policyIbEE
+  [   1e8]  N7cvflann7anyimpl16small_any_policyIfEE
+  [   210]  N7cvflann7anyimpl21typed_base_any_policyIfEE
+  [   240]  N7cvflann7anyimpl16small_any_policyIiEE
+  [   268]  N7cvflann7anyimpl21typed_base_any_policyIiEE
+  [   298]  N7cvflann7anyimpl16small_any_policyIPKcEE
+  [   2c4]  N7cvflann7anyimpl21typed_base_any_policyIPKcEE
+  [   2f4]  N7cvflann7anyimpl9empty_anyE
+  [   314]  N7cvflann7anyimpl14big_any_policyINS0_9empty_anyEEE
+  [   348]  N7cvflann7anyimpl21typed_base_any_policyINS0_9empty_anyEEE
+  [   384]  N7cvflann7anyimpl14big_any_policyIN2cv6StringEEE
+  [   3b8]  N7cvflann7anyimpl21typed_base_any_policyIN2cv6StringEEE
+  [   3f0]  N7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEEE
+  [   42c]  N7cvflann7anyimpl21typed_base_any_policyINS_17flann_algorithm_tEEE
+  [   470]  N7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEEE
+  [   4b0]  N7cvflann7anyimpl21typed_base_any_policyINS_20flann_centers_init_tEEE
+  [   4f8]  N7cvflann7anyimpl15base_any_policyE
+  [   61c]   
+  [   620]   
+  [   624]  !
+  [   628]  !
+  [   62c]  "
+  [   630]  "
+  [   634]  #
+  [   63d]   
+  [   640]  N7cvflann20flann_centers_init_tE
+  [   664]  N7cvflann17flann_algorithm_tE
+  [   684]  N2cv6StringE
+  [   694]  cv::Mat::Mat(int, int, int, void*, size_t)
+  [   6c0]  vector::_M_default_append
+  [   6dc]  can not register build-in layer type %s^J
+  [   708]  overwrite existing custom layer type %s^J
+  [   734]  layer load_model %d failed^J
+  [   750]  rb
+  [   754]  fopen %s failed^J
+  [   768]  memory not 32-bit aligned at %p^J
+  [   78c]  layer load_model failed^J
+  [   7a8]  find_blob_index_by_name %s failed^J
+  [   7cc]  find_layer_index_by_name %s failed^J
+  [   7f0]  vector::_M_fill_insert
+  [   808]  can not register build-in layer index %d^J
+  [   834]  overwrite existing custom layer index %d^J
+  [   860]  %d %d
+  [   868]  %256s %256s %d %d
+  [   87c]  layer %s not exists or registered^J
+  [   8a0]  %256s
+  [   8a8]  layer load_param failed^J
+  [   8c4]  layer %d not exists or registered^J
+  [   8e8]  AbsVal
+  [   8f0]  ArgMax
+  [   8f8]  BatchNorm
+  [   904]  Bias
+  [   90c]  BNLL
+  [   914]  Concat
+  [   91c]  Convolution
+  [   928]  Crop
+  [   930]  Deconvolution
+  [   940]  Dropout
+  [   948]  Eltwise
+  [   950]  ELU
+  [   954]  Embed
+  [   95c]  Exp
+  [   960]  Flatten
+  [   968]  InnerProduct
+  [   978]  Input
+  [   980]  Log
+  [   984]  LRN
+  [   988]  MemoryData
+  [   994]  MVN
+  [   998]  Pooling
+  [   9a0]  Power
+  [   9a8]  PReLU
+  [   9b0]  Proposal
+  [   9bc]  Reduction
+  [   9c8]  ReLU
+  [   9d0]  Reshape
+  [   9d8]  ROIPooling
+  [   9e4]  Scale
+  [   9ec]  Sigmoid
+  [   9f4]  Slice
+  [   9fc]  Softmax
+  [   a04]  Split
+  [   a0c]  SPP
+  [   a10]  TanH
+  [   a18]  Threshold
+  [   a24]  Tile
+  [   a2c]  RNN
+  [   a30]  LSTM
+  [   a38]  BinaryOp
+  [   a44]  UnaryOp
+  [   a4c]  Interp
+  [   a54]  PriorBox
+  [   a60]  Permute
+  [   a68]  DetectionOutput
+  [   a78]  ConvolutionDepthWise
+  [   a90]  Padding
+  [   a98]  Squeeze
+  [   aa0]  ExpandDims
+  [   aac]   %d
+  [   ab0]  Concat load_param failed %d^J
+  [   ad0]  Crop load_param failed %d^J
+  [   aec]  %f
+  [   af0]  ELU load_param failed %d^J
+  [   b0c]  %f %f %f
+  [   b18]  Exp load_param failed %d^J
+  [   b34]  %d %d %d
+  [   b40]  Input load_param failed %d^J
+  [   b5c]  Log load_param failed %d^J
+  [   b78]  %d %d %f
+  [   b84]  MVN load_param failed %d^J
+  [   ba0]  Power load_param failed %d^J
+  [   bbc]  %d %d %d %d %f %d
+  [   bd0]  Proposal load_param failed %d^J
+  [   bf0]  %d %d %d %d
+  [   bfc]  Reshape load_param failed %d^J
+  [   c1c]  Threshold load_param failed %d^J
+  [   c3c]  Tile load_param failed %d^J
+  [   c58]  %d
+  [   c5c]  BinaryOp load_param failed %d^J
+  [   c7c]  UnaryOp load_param failed %d^J
+  [   c9c]   %d %f %f %d %d
+  [   cac]  Interp load_param failed %d^J
+  [   ccc]  unsupported resize type %d %d %d^J
+  [   cf0]  %d %d %d %d %d %d %f %f %f %f %f  %d %d
+  [   d18]  %d %d %d %d %d %d %f %f %f %f %f  %d %d^J
+  [   d44]  PriorBox load_param failed %d^J
+  [   d64]  Permute load_param bin ^J
+  [   d80]  %d %f %d %d %f
+  [   d90]  DetectionOutput load_param failed %d^J
+  [   db8]  Could not find confidence predictions for label %d^J
+  [   dec]  Could not find location predictions for label %d^J
+  [   e20]  Could not find location predictions for %d^J
+  [   e4c]  Couldn't find any detections^J
+  [   e6c]  Could not find confidence predictions for %d^J
+  [   e9c]  %d %d %d %d %d %f
+  [   eb0]  Padding load_param failed %d^J
+  [   ed0]  Squeeze load_param failed %d^J
+  [   ef0]  ExpandDims load_param failed %d^J
+  [   f14]  Unknown LocLossType.^J
+  [   f2c]  bboxes and scores have different size.^J
+  [   f54]  BatchNorm load_param failed %d^J
+  [   f74]  BatchNorm read slope_data failed %d^J
+  [   f9c]  BatchNorm read mean_data failed %d^J
+  [   fc0]  BatchNorm read var_data failed %d^J
+  [   fe4]  BatchNorm read bias_data failed %d^J
+  [  1008]  Bias load_param failed %d^J
+  [  1024]  Bias read bias_data failed %d^J
+  [  1044]  %d %d %d %d %d %d %d
+  [  105c]  Convolution load_param failed %d^J
+  [  1080]  Convolution read flag_struct failed %d^J
+  [  10a8]  Convolution read float16_weights failed %d^J
+  [  10d4]  Convolution read quantization_value failed %d^J
+  [  1104]  Convolution read index_array failed %d^J
+  [  112c]  Convolution read weight_data failed %d^J
+  [  1154]  Convolution read bias_data failed %d^J
+  [  117c]  Deconvolution load_param failed %d^J
+  [  11a0]  Deconvolution read flag_struct failed %d^J
+  [  11cc]  Deconvolution read float16_weights failed %d^J
+  [  11fc]  Deconvolution read quantization_value failed %d^J
+  [  1230]  Deconvolution read index_array failed %d^J
+  [  125c]  Deconvolution read weight_data failed %d^J
+  [  1288]  Deconvolution read bias_data failed %d^J
+  [  12b0]  Eltwise load_param failed %d^J
+  [  12d0]  InnerProduct load_param failed %d^J
+  [  12f4]  InnerProduct read flag_struct failed %d^J
+  [  1320]  InnerProduct read float16_weights failed %d^J
+  [  1350]  InnerProduct read quantization_value failed %d^J
+  [  1380]  InnerProduct read index_array failed %d^J
+  [  13ac]  InnerProduct read weight_data failed %d^J
+  [  13d8]  InnerProduct read bias_data failed %d^J
+  [  1400]  %d %d %f %f
+  [  140c]  LRN load_param failed %d^J
+  [  1428]  %d %d %d %d %d
+  [  1438]  Pooling load_param failed %d^J
+  [  1458]  PReLU load_param failed %d^J
+  [  1474]  PReLU read slope_data failed %d^J
+  [  1498]  ReLU load_param failed %d^J
+  [  14b4]  Scale load_param failed %d^J
+  [  14d0]  Scale read scale_data failed %d^J
+  [  14f4]  Scale read bias_data failed %d^J
+  [  1514]  Slice load_param failed %d^J
+  [  1530]  ConvolutionDepthWise load_param failed %d^J
+  [  155c]  C
+  [  1560]  POSIX
+  [  1568]  %s: __pos (which is %zu) > this->size() (which is %zu)
+  [  15a0]  basic_string::erase
+  [  15b4]  %.*Lf
+  [  15bc]  %m/%d/%y
+  [  15c8]  %H:%M
+  [  15d0]  %H:%M:%S
+  [  15dc]  __gnu_cxx::__concurrence_lock_error
+  [  1600]  __gnu_cxx::__concurrence_unlock_error
+  [  1628]  locale::_S_normalize_category category not found
+  [  165c]  locale::_Impl::_M_replace_facet
+  [  167c]  -+xX0123456789abcdef0123456789ABCDEF
+  [  16a4]  -+xX0123456789abcdefABCDEF
+  [  16c0]  -0123456789
+  [  16cc]  GMT
+  [  16d0]  HST
+  [  16d4]  AKST
+  [  16dc]  PST
+  [  16e0]  MST
+  [  16e4]  CST
+  [  16e8]  EST
+  [  16ec]  AST
+  [  16f0]  NST
+  [  16f4]  CET
+  [  16f8]  IST
+  [  16fc]  EET
+  [  1700]  JST
+  [  1704]  *
+  [  1708]  true
+  [  1710]  false
+  [  1718]  AM
+  [  171c]  PM
+  [  1720]  Sunday
+  [  1728]  Monday
+  [  1730]  Tuesday
+  [  1738]  Wednesday
+  [  1744]  Thursday
+  [  1750]  Friday
+  [  1758]  Saturday
+  [  1764]  Sun
+  [  1768]  Mon
+  [  176c]  Tue
+  [  1770]  Wed
+  [  1774]  Thu
+  [  1778]  Fri
+  [  177c]  Sat
+  [  1780]  January
+  [  1788]  February
+  [  1794]  March
+  [  179c]  April
+  [  17a4]  May
+  [  17a8]  June
+  [  17b0]  July
+  [  17b8]  August
+  [  17c0]  September
+  [  17cc]  October
+  [  17d4]  November
+  [  17e0]  December
+  [  17ec]  Jan
+  [  17f0]  Feb
+  [  17f4]  Mar
+  [  17f8]  Apr
+  [  17fc]  Jun
+  [  1800]  Jul
+  [  1804]  Aug
+  [  1808]  Sep
+  [  180c]  Oct
+  [  1810]  Nov
+  [  1814]  Dec
+  [  1818]  std::future_error
+  [  182c]  bad_function_call
+  [  1840]  future
+  [  1848]  Broken promise
+  [  1858]  Future already retrieved
+  [  1874]  Promise already satisfied
+  [  1890]  No associated state
+  [  18a4]  Unknown error
+  [  18b4]  regex_error
+  [  18c0]  not enough space for format expansion (Please submit full bug report at http://gcc.gnu.org/bugs.html):^J    
+  [  192c]  basic_string::_S_create
+  [  1944]  basic_string::append
+  [  195c]  basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+  [  19a0]  basic_string::copy
+  [  19b4]  basic_string::compare
+  [  19cc]  basic_string::_M_replace_aux
+  [  19ec]  basic_string::assign
+  [  1a04]  basic_string::insert
+  [  1a1c]  basic_string::resize
+  [  1a34]  basic_string::replace
+  [  1a4c]  basic_string::_S_construct null not valid
+  [  1a78]  basic_string::basic_string
+  [  1a94]  basic_string::substr
+  [  1aac]  generic
+  [  1ab4]  system
+  [  1abc]  %Lf
+  [  1ac0]  locale::facet::_S_create_c_locale name not valid
+  [  1af4]  LC_CTYPE
+  [  1b00]  LC_NUMERIC
+  [  1b0c]  LC_TIME
+  [  1b14]  LC_COLLATE
+  [  1b20]  LC_MONETARY
+  [  1b2c]  LC_MESSAGES
+  [  1b38]  space
+  [  1b40]  print
+  [  1b48]  cntrl
+  [  1b50]  upper
+  [  1b58]  lower
+  [  1b60]  alpha
+  [  1b68]  digit
+  [  1b70]  punct
+  [  1b78]  xdigit
+  [  1b80]  alnum
+  [  1b88]  graph
+  [  1b90]  basic_ios::clear
+  [  1ba4]  ios_base::_M_grow_words is not valid
+  [  1bcc]  ios_base::_M_grow_words allocation failed
+  [  1bf8]  basic_filebuf::underflow codecvt::max_length() is not valid
+  [  1c34]  basic_filebuf::underflow incomplete character in file
+  [  1c6c]  basic_filebuf::underflow invalid byte sequence in file
+  [  1ca4]  basic_filebuf::underflow error reading the file
+  [  1cd4]  basic_filebuf::xsgetn error reading the file
+  [  1d04]  basic_filebuf::_M_convert_to_external conversion error
+  [  1d3c]  w
+  [  1d40]  a
+  [  1d44]  a+b
+  [  1d48]  r
+  [  1d4c]  r+
+  [  1d50]  w+
+  [  1d54]  a+
+  [  1d58]  wb
+  [  1d5c]  ab
+  [  1d60]  r+b
+  [  1d64]  w+b
+  [  1d68]  N4ncnn5LayerE
+  [  1d78]  N4ncnn10AbsVal_armE
+  [  1d90]  N4ncnn13BatchNorm_armE
+  [  1da8]  N4ncnn8Bias_armE
+  [  1dc0]  N4ncnn4BNLLE
+  [  1dd0]  N4ncnn6ConcatE
+  [  1de0]  N4ncnn15Convolution_armE
+  [  1e00]  N4ncnn4CropE
+  [  1e10]  N4ncnn17Deconvolution_armE
+  [  1e30]  N4ncnn7DropoutE
+  [  1e40]  N4ncnn11Eltwise_armE
+  [  1e58]  N4ncnn3ELUE
+  [  1e68]  N4ncnn3ExpE
+  [  1e78]  N4ncnn7FlattenE
+  [  1e88]  N4ncnn16InnerProduct_armE
+  [  1ea8]  N4ncnn5InputE
+  [  1eb8]  N4ncnn3LogE
+  [  1ec8]  N4ncnn7LRN_armE
+  [  1ed8]  giP9ŒC∑:^Hâ^H<¡©*=™™*>
+  [  1eef]  ?N4ncnn3MVNE
+  [  1f00]  N4ncnn11Pooling_armE
+  [  1f18]  N4ncnn5PowerE
+  [  1f28]  N4ncnn9PReLU_armE
+  [  1f43]  ?
+  [  1f47]  ?
+  [  1f4b]  @
+  [  1f50]  N4ncnn8ProposalE
+  [  1f68]  N4ncnn8ReLU_armE
+  [  1f80]  N4ncnn7ReshapeE
+  [  1f90]  N4ncnn9Scale_armE
+  [  1fa8]  N4ncnn11Sigmoid_armE
+  [  1fc0]  giP9ŒC∑:^Hâ^H<¡©*=™™*>
+  [  1fd7]  ?N4ncnn9Slice_armE
+  [  1ff0]  giP9ŒC∑:^Hâ^H<¡©*=™™*>
+  [  2007]  ?N4ncnn11Softmax_armE
+  [  2020]  N4ncnn5SplitE
+  [  2030]  N4ncnn4TanHE
+  [  2040]  N4ncnn9ThresholdE
+  [  2058]  N4ncnn4TileE
+  [  2068]  N4ncnn8BinaryOpE
+  [  2080]  N4ncnn7UnaryOpE
+  [  2090]  N4ncnn6InterpE
+  [  20a0]  N4ncnn8PriorBoxE
+  [  20b8]  N4ncnn7PermuteE
+  [  20d0]  N4ncnn15DetectionOutputE
+  [  20f0]  N4ncnn24ConvolutionDepthWise_armE
+  [  2118]  N4ncnn7PaddingE
+  [  2128]  N4ncnn7SqueezeE
+  [  2138]  N4ncnn10ExpandDimsE
+  [  2158]  N4ncnn6AbsValE
+  [  2168]  N4ncnn9BatchNormE
+  [  2180]  N4ncnn4BiasE
+  [  2190]  N4ncnn11ConvolutionE
+  [  21a8]  N4ncnn13DeconvolutionE
+  [  21c0]  N4ncnn7EltwiseE
+  [  21d0]  N4ncnn12InnerProductE
+  [  21e8]  N4ncnn3LRNE
+  [  21f8]  N4ncnn7PoolingE
+  [  2208]  N4ncnn5PReLUE
+  [  2218]  N4ncnn4ReLUE
+  [  2228]  N4ncnn5ScaleE
+  [  2238]  N4ncnn7SigmoidE
+  [  2248]  N4ncnn5SliceE
+  [  2258]  N4ncnn7SoftmaxE
+  [  2268]  N4ncnn20ConvolutionDepthWiseE
+  [  2288]  St13basic_istreamIwSt11char_traitsIwEE
+  [  22b0]  Si
+  [  22b4]  St9time_base
+  [  22c4]  St10ctype_base
+  [  22d4]  St10money_base
+  [  22e4]  St13messages_base
+  [  22f8]  St12codecvt_base
+  [  2310]  St7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  234c]  St15numpunct_bynameIcE
+  [  2364]  St9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  23a0]  St17moneypunct_bynameIcLb1EE
+  [  23c0]  St16__numpunct_cacheIcE
+  [  23d8]  St21__ctype_abstract_baseIcE
+  [  23f8]  St14codecvt_bynameIcc9mbstate_tE
+  [  241c]  St11__timepunctIcE
+  [  2430]  St14collate_bynameIcE
+  [  2448]  St9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  2484]  St18__moneypunct_cacheIcLb1EE
+  [  24a4]  St7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  24e0]  St17moneypunct_bynameIcLb0EE
+  [  2500]  St15time_get_bynameIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  2544]  St8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  2580]  St8messagesIcE
+  [  2590]  St15time_put_bynameIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  25d4]  St8numpunctIcE
+  [  25e4]  St10moneypunctIcLb0EE
+  [  25fc]  St8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  2638]  St7collateIcE
+  [  2648]  St10moneypunctIcLb1EE
+  [  2660]  St18__moneypunct_cacheIcLb0EE
+  [  2680]  St15messages_bynameIcE
+  [  2698]  St17__timepunct_cacheIcE
+  [  26b4]  St23__codecvt_abstract_baseIcc9mbstate_tE
+  [  26e0]  N9__gnu_cxx24__concurrence_lock_errorE
+  [  2708]  N9__gnu_cxx26__concurrence_unlock_errorE
+  [  273c]   
+  [  2740]  ?
+  [  2750]  NSt6locale5facetE
+  [  2764]  C
+  [  2770]  G
+  [  2774]  M
+  [  2778]  T
+  [  2780]  H
+  [  2784]  S
+  [  2788]  T
+  [  2790]  A
+  [  2794]  K
+  [  2798]  S
+  [  279c]  T
+  [  27a4]  P
+  [  27a8]  S
+  [  27ac]  T
+  [  27b4]  M
+  [  27b8]  S
+  [  27bc]  T
+  [  27c4]  C
+  [  27c8]  S
+  [  27cc]  T
+  [  27d4]  E
+  [  27d8]  S
+  [  27dc]  T
+  [  27e4]  A
+  [  27e8]  S
+  [  27ec]  T
+  [  27f4]  N
+  [  27f8]  S
+  [  27fc]  T
+  [  2804]  C
+  [  2808]  E
+  [  280c]  T
+  [  2814]  I
+  [  2818]  S
+  [  281c]  T
+  [  2824]  E
+  [  2828]  E
+  [  282c]  T
+  [  2834]  J
+  [  2838]  S
+  [  283c]  T
+  [  2848]  t
+  [  284c]  r
+  [  2850]  u
+  [  2854]  e
+  [  285c]  f
+  [  2860]  a
+  [  2864]  l
+  [  2868]  s
+  [  286c]  e
+  [  2874]  %
+  [  2878]  m
+  [  287c]  /
+  [  2880]  %
+  [  2884]  d
+  [  2888]  /
+  [  288c]  %
+  [  2890]  y
+  [  2898]  %
+  [  289c]  H
+  [  28a0]  :
+  [  28a4]  %
+  [  28a8]  M
+  [  28ac]  :
+  [  28b0]  %
+  [  28b4]  S
+  [  28bc]  A
+  [  28c0]  M
+  [  28c8]  P
+  [  28cc]  M
+  [  28d4]  S
+  [  28d8]  u
+  [  28dc]  n
+  [  28e0]  d
+  [  28e4]  a
+  [  28e8]  y
+  [  28f0]  M
+  [  28f4]  o
+  [  28f8]  n
+  [  28fc]  d
+  [  2900]  a
+  [  2904]  y
+  [  290c]  T
+  [  2910]  u
+  [  2914]  e
+  [  2918]  s
+  [  291c]  d
+  [  2920]  a
+  [  2924]  y
+  [  292c]  W
+  [  2930]  e
+  [  2934]  d
+  [  2938]  n
+  [  293c]  e
+  [  2940]  s
+  [  2944]  d
+  [  2948]  a
+  [  294c]  y
+  [  2954]  T
+  [  2958]  h
+  [  295c]  u
+  [  2960]  r
+  [  2964]  s
+  [  2968]  d
+  [  296c]  a
+  [  2970]  y
+  [  2978]  F
+  [  297c]  r
+  [  2980]  i
+  [  2984]  d
+  [  2988]  a
+  [  298c]  y
+  [  2994]  S
+  [  2998]  a
+  [  299c]  t
+  [  29a0]  u
+  [  29a4]  r
+  [  29a8]  d
+  [  29ac]  a
+  [  29b0]  y
+  [  29b8]  S
+  [  29bc]  u
+  [  29c0]  n
+  [  29c8]  M
+  [  29cc]  o
+  [  29d0]  n
+  [  29d8]  T
+  [  29dc]  u
+  [  29e0]  e
+  [  29e8]  W
+  [  29ec]  e
+  [  29f0]  d
+  [  29f8]  T
+  [  29fc]  h
+  [  2a00]  u
+  [  2a08]  F
+  [  2a0c]  r
+  [  2a10]  i
+  [  2a18]  S
+  [  2a1c]  a
+  [  2a20]  t
+  [  2a28]  J
+  [  2a2c]  a
+  [  2a30]  n
+  [  2a34]  u
+  [  2a38]  a
+  [  2a3c]  r
+  [  2a40]  y
+  [  2a48]  F
+  [  2a4c]  e
+  [  2a50]  b
+  [  2a54]  r
+  [  2a58]  u
+  [  2a5c]  a
+  [  2a60]  r
+  [  2a64]  y
+  [  2a6c]  M
+  [  2a70]  a
+  [  2a74]  r
+  [  2a78]  c
+  [  2a7c]  h
+  [  2a84]  A
+  [  2a88]  p
+  [  2a8c]  r
+  [  2a90]  i
+  [  2a94]  l
+  [  2a9c]  M
+  [  2aa0]  a
+  [  2aa4]  y
+  [  2aac]  J
+  [  2ab0]  u
+  [  2ab4]  n
+  [  2ab8]  e
+  [  2ac0]  J
+  [  2ac4]  u
+  [  2ac8]  l
+  [  2acc]  y
+  [  2ad4]  A
+  [  2ad8]  u
+  [  2adc]  g
+  [  2ae0]  u
+  [  2ae4]  s
+  [  2ae8]  t
+  [  2af0]  S
+  [  2af4]  e
+  [  2af8]  p
+  [  2afc]  t
+  [  2b00]  e
+  [  2b04]  m
+  [  2b08]  b
+  [  2b0c]  e
+  [  2b10]  r
+  [  2b18]  O
+  [  2b1c]  c
+  [  2b20]  t
+  [  2b24]  o
+  [  2b28]  b
+  [  2b2c]  e
+  [  2b30]  r
+  [  2b38]  N
+  [  2b3c]  o
+  [  2b40]  v
+  [  2b44]  e
+  [  2b48]  m
+  [  2b4c]  b
+  [  2b50]  e
+  [  2b54]  r
+  [  2b5c]  D
+  [  2b60]  e
+  [  2b64]  c
+  [  2b68]  e
+  [  2b6c]  m
+  [  2b70]  b
+  [  2b74]  e
+  [  2b78]  r
+  [  2b80]  J
+  [  2b84]  a
+  [  2b88]  n
+  [  2b90]  F
+  [  2b94]  e
+  [  2b98]  b
+  [  2ba0]  M
+  [  2ba4]  a
+  [  2ba8]  r
+  [  2bb0]  A
+  [  2bb4]  p
+  [  2bb8]  r
+  [  2bc0]  J
+  [  2bc4]  u
+  [  2bc8]  n
+  [  2bd0]  J
+  [  2bd4]  u
+  [  2bd8]  l
+  [  2be0]  A
+  [  2be4]  u
+  [  2be8]  g
+  [  2bf0]  S
+  [  2bf4]  e
+  [  2bf8]  p
+  [  2c00]  O
+  [  2c04]  c
+  [  2c08]  t
+  [  2c10]  N
+  [  2c14]  o
+  [  2c18]  v
+  [  2c20]  D
+  [  2c24]  e
+  [  2c28]  c
+  [  2c30]  N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
+  [  2c68]  N9__gnu_cxx18stdio_sync_filebufIcSt11char_traitsIcEEE
+  [  2ca0]  So
+  [  2ca4]  St13basic_ostreamIwSt11char_traitsIwEE
+  [  2ccc]  St15basic_streambufIwSt11char_traitsIwEE
+  [  2cf8]  St15basic_streambufIcSt11char_traitsIcEE
+  [  2d28]  St10moneypunctIwLb0EE
+  [  2d40]  St10moneypunctIwLb1EE
+  [  2d58]  St14codecvt_bynameIwc9mbstate_tE
+  [  2d7c]  St18__moneypunct_cacheIwLb0EE
+  [  2d9c]  St9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  2dd8]  St15numpunct_bynameIwE
+  [  2df0]  St7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  2e2c]  St17moneypunct_bynameIwLb1EE
+  [  2e4c]  St14collate_bynameIwE
+  [  2e64]  St7collateIwE
+  [  2e74]  St17__timepunct_cacheIwE
+  [  2e90]  St7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  2ecc]  St17moneypunct_bynameIwLb0EE
+  [  2eec]  St18__moneypunct_cacheIwLb1EE
+  [  2f0c]  St23__codecvt_abstract_baseIwc9mbstate_tE
+  [  2f38]  St8messagesIwE
+  [  2f48]  St16__numpunct_cacheIwE
+  [  2f60]  St15messages_bynameIwE
+  [  2f78]  St21__ctype_abstract_baseIwE
+  [  2f98]  St11__timepunctIwE
+  [  2fac]  St15time_get_bynameIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  2ff0]  St8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  302c]  St9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  3068]  St15time_put_bynameIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  30ac]  St8numpunctIwE
+  [  30bc]  St8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  30f8]  St17bad_function_call
+  [  3110]  *N12_GLOBAL__N_121future_error_categoryE
+  [  313c]  NSt13__future_base12_Result_baseE
+  [  3160]  St12future_error
+  [  3174]  St11regex_error
+  [  318b]  ?ˇˇˇˇ*N12_GLOBAL__N_121system_error_categoryE
+  [  31bc]  St14error_category
+  [  31d0]  *N12_GLOBAL__N_122generic_error_categoryE
+  [  31fc]  St12system_error
+  [  3220]  St7codecvtIwc9mbstate_tE
+  [  323c]  St7codecvtIcc9mbstate_tE
+  [  325c]  St5ctypeIcE
+  [  3268]  D^B
+  [  326c]  St5ctypeIwE
+  [  3278]  St12ctype_bynameIwE
+  [  3291]   
+  [  329c]  St12ctype_bynameIcE
+  [  32cc]  "
+  [  32d0]  7
+  [  32d4]  Y
+  [  32e0]  y^A
+  [  32e4]  b^B
+  [  32ec]  =^F
+  [  32f4]  U^P
+  [  32f8]  m^Z
+  [  32fd]  *
+  [  3300]  /E
+  [  3305]  o
+  [  3308]   µ
+  [  330d]  %^A
+  [  3310]  1⁄^A
+  [  3314]  Bˇ^B
+  [  3318]  sŸ^D
+  [  3320]  (≤^L
+  [  3329]  =!
+  [  332e]  5
+  [  3332]  W
+  [  333c]  yûp^A)pT^B¢^N≈^CÀ~^Y^Fmçﬁ^I8^L¯^O•ô÷^Y›Œ)Ç?•C_Âsm·$^Y±^A
+  [  3384]  "
+  [  3388]  7
+  [  338c]  Y
+  [  3398]  y^A
+  [  339c]  b^B
+  [  33a4]  =^F
+  [  33ac]  U^P
+  [  33b0]  m^Z
+  [  33b5]  *
+  [  33b8]  /E
+  [  33bd]  o
+  [  33c0]   µ
+  [  33c5]  %^A
+  [  33c8]  1⁄^A
+  [  33cc]  Bˇ^B
+  [  33d0]  sŸ^D
+  [  33d8]  (≤^L
+  [  33e1]  =!
+  [  33e6]  5
+  [  33ea]  W
+  [  33f4]  yûp^A)pT^B¢^N≈^CÀ~^Y^Fmçﬁ^I8^L¯^O•ô÷^Y›Œ)Ç?•C_Âsm·$^Y±N9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE
+  [  3454]  N9__gnu_cxx13stdio_filebufIcSt11char_traitsIcEEE
+  [  3488]  St9basic_iosIwSt11char_traitsIwEE
+  [  34ac]  St9basic_iosIcSt11char_traitsIcEE
+  [  34e8]  J
+  [  34f1]  @
+  [  34fc]  @
+  [  3500]   
+  [  3508]  St8ios_base
+  [  3529]   
+  [  352c]   
+  [  3558]  NSt8ios_base7failureE
+  [  3570]  St13runtime_error
+  [  3584]  St16invalid_argument
+  [  359c]  St12out_of_range
+  [  35b0]  St11logic_error
+  [  35c0]  St11range_error
+  [  35d0]  St14overflow_error
+  [  35e4]  St12domain_error
+  [  35f8]  St12length_error
+  [  360c]  St15underflow_error
+  [  3620]  St13basic_fstreamIwSt11char_traitsIwEE
+  [  3648]  St13basic_filebufIwSt11char_traitsIwEE
+  [  3670]  St14basic_ofstreamIwSt11char_traitsIwEE
+  [  3698]  St14basic_ifstreamIcSt11char_traitsIcEE
+  [  36c0]  St13basic_fstreamIcSt11char_traitsIcEE
+  [  36e8]  St13basic_filebufIcSt11char_traitsIcEE
+  [  3710]  St14basic_ofstreamIcSt11char_traitsIcEE
+  [  3738]  St14basic_ifstreamIwSt11char_traitsIwEE
+  [  3760]  Sd
+  [  3764]  St14basic_iostreamIwSt11char_traitsIwEE
+  [  378c]  X
+  [  378e]  true
+  [  3793]  false
+  [  3799]  Invalid value for environment variable %s
+  [  37c3]  TRUE
+  [  37c8]  FALSE
+  [  37ce]  }
+  [  37d0]  },
+  [  37d3]  ACTIVE
+  [  37da]  PASSIVE
+  [  37e2]  OMP_SCHEDULE
+  [  37ef]  static
+  [  37f6]  dynamic
+  [  37fe]  guided
+  [  3805]  auto
+  [  380a]  Unknown value for environment variable OMP_SCHEDULE
+  [  383e]  Invalid value for chunk size in environment variable OMP_SCHEDULE
+  [  3880]  OMP_DYNAMIC
+  [  388c]  OMP_NESTED
+  [  3897]  OMP_CANCELLATION
+  [  38a8]  OMP_DEFAULT_DEVICE
+  [  38bb]  OMP_MAX_ACTIVE_LEVELS
+  [  38d1]  OMP_THREAD_LIMIT
+  [  38e2]  OMP_NUM_THREADS
+  [  38f2]  Out of memory while trying to parse environment variable %s
+  [  392e]  OMP_PROC_BIND
+  [  393c]  OMP_PLACES
+  [  3947]  threads
+  [  394f]  cores
+  [  3955]  sockets
+  [  395d]  Trying to remove a non-existing place from list of places
+  [  3997]  All places have been removed
+  [  39b4]  GOMP_CPU_AFFINITY
+  [  39c6]  Invalid value for enviroment variable GOMP_CPU_AFFINITY
+  [  39fe]  OMP_WAIT_POLICY
+  [  3a0e]  active
+  [  3a15]  passive
+  [  3a1d]  Invalid value for environment variable OMP_WAIT_POLICY
+  [  3a54]  GOMP_SPINCOUNT
+  [  3a63]  infinite
+  [  3a6c]  infinity
+  [  3a75]  OMP_STACKSIZE
+  [  3a83]  GOMP_STACKSIZE
+  [  3a92]  Stack size less than minimum of %luk
+  [  3ab7]  Stack size larger than system limit
+  [  3adb]  Stack size change failed: %s
+  [  3af8]  OMP_DISPLAY_ENV
+  [  3b08]  verbose
+  [  3b10]  Invalid value for environment variable OMP_DISPLAY_ENV
+  [  3b48]  OPENMP DISPLAY ENVIRONMENT BEGIN^J
+  [  3b6a]    _OPENMP = '201307'^J
+  [  3b80]    OMP_DYNAMIC = '%s'^J
+  [  3b96]    OMP_NESTED = '%s'^J
+  [  3bab]    OMP_NUM_THREADS = '%lu
+  [  3bc4]  ,%lu
+  [  3bc9]  '^J
+  [  3bcc]    OMP_SCHEDULE = '
+  [  3bdf]  RUNTIME
+  [  3be7]  STATIC
+  [  3bee]  DYNAMIC
+  [  3bf6]  GUIDED
+  [  3bfd]  AUTO
+  [  3c02]    OMP_PROC_BIND = '
+  [  3c16]  MASTER
+  [  3c1d]  CLOSE
+  [  3c23]  SPREAD
+  [  3c2a]  ,MASTER
+  [  3c32]  ,CLOSE
+  [  3c39]  ,SPREAD
+  [  3c41]    OMP_PLACES = '
+  [  3c52]    OMP_STACKSIZE = '%lu'^J
+  [  3c6b]    OMP_WAIT_POLICY = '%s'^J
+  [  3c85]    OMP_THREAD_LIMIT = '%u'^J
+  [  3ca0]    OMP_MAX_ACTIVE_LEVELS = '%lu'^J
+  [  3cc1]    OMP_CANCELLATION = '%s'^J
+  [  3cdc]    OMP_DEFAULT_DEVICE = '%d'^J
+  [  3cf9]    GOMP_CPU_AFFINITY = ''^J
+  [  3d13]    GOMP_STACKSIZE = '%lu'^J
+  [  3d2d]    GOMP_SPINCOUNT = '%llu'^J
+  [  3d48]  OPENMP DISPLAY ENVIRONMENT END^J
+  [  3d69]  libgomp: 
+  [  3d73]  Thread creation failed: %s
+  [  3d8e]  could not create thread pool destructor.
+  [  3db7]  Could not find %s: %s^J
+  [  3dce]  Could not read %s: %s^J
+  [  3de5]  Affinity not supported on this configuration
+  [  3e12]  Out of memory allocating %lu bytes
+  [  3e35]  /sys/devices/system/cpu/present
+  [  3e7c]  %Ií$õôôô^B
+  [  3e8c]  <±^S;G^W]t^C
+  [  3e9e]  B^H^Rñ{^Z^D
+  [  3ea8]  =
+  [  3ec0]  0›$^F^F
+  [  3ecc]  ~^ø^Y^E•`2^G^G
+  [  3edc]  fCÇ^A»OÜ^B^H
+  [  3eec]  mê¿
+  [  3ef2]  A^A^I
+  [  3efc]  oE!^AûÊa^A^J
+  [  3f0e]  0
+  [  3f12]  P
+  [  3f1c]  A
+  [  3f20]  A^B^X
+  [  3f29]  ?
+  [  3f3e]  &
+  [  3f42]  *
+  [  3f50]  "^A^Q
+  [  3f6d]  @^A
+  [  3f7d]   
+  [  3f81]  `
+  [  3f8d]  0
+  [  3f91]  P
+  [  3f9d]  H
+  [  3fa1]  X
+  [  3faa]  ?
+  [  3fc1]  "
+  [  3fec]  A^A
+  [  4000]  !^E
+  [  4020]  )
+  [  402b]  ?ç
+

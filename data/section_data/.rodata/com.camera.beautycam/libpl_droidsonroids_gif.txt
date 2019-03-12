@@ -1,0 +1,56 @@
+
+String dump of section '.rodata':
+  [     0]  Could not get bitmap info
+  [    1a]  Lock pixels error, bad parameter
+  [    3b]  Lock pixels error, JNI exception
+  [    5c]  Lock pixels error
+  [    6e]  Unlock pixels error, bad parameter
+  [    91]  Unlock pixels error, JNI exception
+  [    b4]  Unlock pixels error
+  [    c8]  NETSCAPE2.0
+  [    d4]  ANIMEXTS1.0
+  [    e0]  java/lang/OutOfMemoryError
+  [    fb]  java/lang/NullPointerException
+  [   11a]  java/lang/RuntimeException
+  [   135]  Input source is null
+  [   14a]  pl/droidsonroids/gif/GifIOException
+  [   16e]  <init>
+  [   175]  (ILjava/lang/String;)V
+  [   18c]  GetStringUTFChars failed
+  [   1a5]  rb
+  [   1a8]  Failed to allocate native memory
+  [   1c9]  NewGlobalRef failed
+  [   1dd]  mark
+  [   1e2]  (I)V
+  [   1e7]  read
+  [   1ec]  ([BII)I
+  [   1f4]  reset
+  [   1fa]  ()V
+  [   1fe]  close
+  [   204]  descriptor
+  [   20f]  I
+  [   211]  GIFVER
+  [   218]  CLOCK_MONOTONIC_RAW is not present
+  [   23b]  GifIOThread
+  [   247]  Could not create state array
+  [   264]  Render mutex initialization failed 
+  [   288]  Eventfd creation failed 
+  [   2a1]  Slurp thread creation failed 
+  [   2bf]  Render mutex destroy failed 
+  [   2dc]  Could not poll on eventfd 
+  [   2f7]  Could not read from eventfd 
+  [   314]  Could not write to eventfd 
+  [   330]  Slurp thread join failed 
+  [   34a]  Eventfd close failed 
+  [   360]  Slurp condition variable initialization failed 
+  [   390]  Render condition variable initialization failed 
+  [   3c1]  Slurp mutex initialization failed 
+  [   3e4]  Buffers geometry setting failed 
+  [   405]  Animation end poll failed 
+  [   420]  Display loop poll failed 
+  [   43a]  Slurp thread join failed
+  [   453]  Slurp mutex destroy failed 
+  [   46f]  Slurp cond destroy failed 
+  [   48a]  Render cond  destroy failed 
+  [   4bc]  ?
+

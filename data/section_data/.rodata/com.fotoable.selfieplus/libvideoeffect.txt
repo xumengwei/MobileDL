@@ -1,0 +1,865 @@
+
+String dump of section '.rodata':
+  [     0]  -neon
+  [     6]  UNSUPPORTED
+  [    12]  INCOMPLETE ATTACHMENT
+  [    28]  0x%x
+  [    2d]  ERROR: glCheckFramebufferStatus() returned '%s'
+  [    5d]  FrameBuffer is not complete!
+  [    7a]  vertex
+  [    81]  fragment
+  [    8a]  Compile failure in %s shader:^J%s^J
+  [    ac]  Linker failure: %s^J
+  [    c0]  Error compile shader:  %s
+  [    da]  Error link program: %s
+  [    f1]  position
+  [    fa]  texcoord
+  [   103]  texture
+  [   10b]  attribute vec4 position;^Jattribute vec2 texcoord;^Jvarying lowp vec2 coord;^Jvoid main()^J{^J    coord = texcoord;^J    gl_Position = position;^J}^J
+  [   199]  varying lowp vec2 coord;^Juniform sampler2D texture;^Jvoid main()^J{^J    gl_FragColor = texture2D(texture, coord.st);^J}^J
+  [   210]  attribute vec4 a_position;^Jattribute vec2 inputTextureCoordinate;^Jvarying mediump vec2 v_texCoord1;^Jvarying mediump vec2 v_texCoord2;^Jvoid main()^J{^J    gl_Position =  a_position;^J    v_texCoord1 = vec2(inputTextureCoordinate.x, inputTextureCoordinate.y);^J    v_texCoord2 = vec2(inputTextureCoordinate.x, inputTextureCoordinate.y - 0.5);^J}
+  [   364]  #extension GL_OES_EGL_image_external : require ^Jprecision lowp float;^Juniform samplerExternalOES inputImageTexture;^Jvarying vec2 v_texCoord1;^Jvarying vec2 v_texCoord2;^Jvoid main()^J{^Jlowp vec4 c1 = texture2D(inputImageTexture, v_texCoord1);^Jlowp vec4 c2 = texture2D(inputImageTexture, v_texCoord2);^Jgl_FragColor =  vec4(c1.rgb, c2.r);^J}
+  [   4b5]  precision lowp float;^Juniform sampler2D inputImageTexture;^Jvarying vec2 v_texCoord1;^Jvarying vec2 v_texCoord2;^Jvoid main()^J{^Jlowp vec4 c1 = texture2D(inputImageTexture, v_texCoord1);^Jlowp vec4 c2 = texture2D(inputImageTexture, v_texCoord2);^Jgl_FragColor =  vec4(c1.rgb, c2.r);^J}
+  [   5cc]  inputImageTexture
+  [   5de]  a_position
+  [   5e9]  inputTextureCoordinate
+  [   600]  resolution
+  [   60b]  progress
+  [   614]  from
+  [   619]  to
+  [   61c]  inputImageTextureLUT
+  [   631]  adjustLUT
+  [   63b]  filterLevel
+  [   647]  attribute vec4 position;^Jattribute vec2 inputTextureCoordinate;^Jvarying lowp vec2 textureCoordinate;^Jvoid main()^J{^J    gl_Position = position;^J    textureCoordinate = inputTextureCoordinate.xy;^J}^J
+  [   70c]  varying highp vec2 textureCoordinate;^J ^Juniform sampler2D inputImageTexture;^Juniform sampler2D inputImageTextureLUT;^Juniform sampler2D inputImageTextureSkinToneLUT;^Juniform lowp int adjustLUT;^Juniform lowp float yContrastCoord;^Juniform lowp float filterLevel;^J ^J lowp vec4 lookupColor(highp vec4 textureColor,sampler2D lookupTexture){ ^J highp float blueColor = textureColor.b * 63.0; ^J  ^J highp vec2 quad1; ^J quad1.y = floor(floor(blueColor) / 8.0); ^J quad1.x = floor(blueColor) - (quad1.y * 8.0); ^J  ^J highp vec2 quad2; ^J  quad2.y = floor(ceil(blueColor) / 8.0); ^J quad2.x = ceil(blueColor) - (quad2.y * 8.0); ^J  ^J  highp vec2 texPos1; ^J texPos1.x = (quad1.x * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * textureColor.r); ^J texPos1.y = (quad1.y * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * textureColor.g); ^J  ^J highp vec2 texPos2; ^J  texPos2.x = (quad2.x * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * textureColor.r); ^J texPos2.y = (quad2.y * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * textureColor.g); ^J  ^J lowp vec4 newColor1 = texture2D(lookupTexture, texPos1); ^J lowp vec4 newColor2 = texture2D(lookupTexture, texPos2); ^J  ^J lowp vec4 newColor = mix(newColor1, newColor2, fract(blueColor)); ^J  ^J  return newColor; ^J  } ^Jvoid main()^J{^J     lowp vec4 textureColor = texture2D(inputImageTexture, textureCoordinate);^J     lowp vec4 originalColor = vec4(textureColor.rgb, 1.0);^J^J     lowp vec4 rgbColor = vec4(textureColor.rgb, 1.0);^J^J ^J     if (adjustLUT != 0) {^J         lowp float newr = texture2D(inputImageTextureSkinToneLUT, vec2(rgbColor.r, yContrastCoord)).r;^J         lowp float newg = texture2D(inputImageTextureSkinToneLUT, vec2(rgbColor.g, yContrastCoord)).g;^J         lowp float newb = texture2D(inputImageTextureSkinToneLUT, vec2(rgbColor.b, yContrastCoord)).b;^J         rgbColor = vec4(newr, newg, newb, 1.0);^J     }^J ^J     rgbColor = lookupColor(rgbColor, inputImageTextureLUT);^J ^J     gl_FragColor = mix(originalColor, rgbColor, filterLevel);^J     //gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);^J}
+  [   ee9]  /proc/cpuinfo
+  [   ef7]  CPU architecture
+  [   f08]  Processor
+  [   f12]  (v6l)
+  [   f18]  CPU implementer
+  [   f28]  CPU variant
+  [   f34]  CPU part
+  [   f3d]  CPU revision
+  [   f4a]  Hardware
+  [   f53]  Goldfish
+  [   f5c]  /sys/devices/system/cpu/present
+  [   f7c]  /sys/devices/system/cpu/possible
+  [   f9d]  libc.so
+  [   fa5]  getauxval
+  [   faf]  Features
+  [   fb8]  vfp
+  [   fbc]  vfpv3
+  [   fc2]  vfpv3d16
+  [   fcb]  vfpv4
+  [   fd1]  neon
+  [   fd6]  idiva
+  [   fdc]  idivt
+  [   fe2]  idiv
+  [   fe7]  iwmmxt
+  [   ff0]  15FrameBuffer_ZML
+  [  1023]  ?
+  [  102b]  ?
+  [  1033]  ?
+  [  1037]  ?
+  [  103b]  ?
+  [  103f]  ?
+  [  1047]  ?
+  [  104f]  ?
+  [  105f]  ?
+  [  1063]  ?
+  [  106b]  ?
+  [  106f]  ?
+  [  1073]  ?
+  [  1077]  ?
+  [  107b]  ?
+  [  1087]  ?
+  [  10a8]  11Texture_ZML
+  [  10d0]  15PhotoEffectMove
+  [  10f0]  15PhotoEffectBase
+  [  111b]  ?
+  [  1123]  ?
+  [  1127]  ?
+  [  112f]  ?
+  [  1148]  /proc/self/auxv
+  [  1158]  N10__cxxabiv117__class_type_infoE
+  [  117c]  N10__cxxabiv120__si_class_type_infoE
+  [  11a4]  St9type_info
+  [  11b4]  St13basic_istreamIwSt11char_traitsIwEE
+  [  11dc]  Si
+  [  11e0]  St9time_base
+  [  11f0]  St10ctype_base
+  [  1200]  St10money_base
+  [  1210]  St13messages_base
+  [  1224]  St12codecvt_base
+  [  123c]  St7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1278]  St15numpunct_bynameIcE
+  [  1290]  St9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  12cc]  St17moneypunct_bynameIcLb1EE
+  [  12ec]  St16__numpunct_cacheIcE
+  [  1304]  St21__ctype_abstract_baseIcE
+  [  1324]  St14codecvt_bynameIcc9mbstate_tE
+  [  1348]  St11__timepunctIcE
+  [  135c]  St14collate_bynameIcE
+  [  1374]  St9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  13b0]  St18__moneypunct_cacheIcLb1EE
+  [  13d0]  St7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  140c]  St17moneypunct_bynameIcLb0EE
+  [  142c]  St15time_get_bynameIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1470]  St8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  14ac]  St8messagesIcE
+  [  14bc]  St15time_put_bynameIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1500]  St8numpunctIcE
+  [  1510]  St10moneypunctIcLb0EE
+  [  1528]  St8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  1564]  St7collateIcE
+  [  1574]  St10moneypunctIcLb1EE
+  [  158c]  St18__moneypunct_cacheIcLb0EE
+  [  15ac]  St15messages_bynameIcE
+  [  15c4]  St17__timepunct_cacheIcE
+  [  15e0]  C
+  [  15e4]  POSIX
+  [  15ec]  %s: __pos (which is %zu) > this->size() (which is %zu)
+  [  1624]  basic_string::erase
+  [  1638]  %.*Lf
+  [  1640]  %m/%d/%y
+  [  164c]  %H:%M
+  [  1654]  %H:%M:%S
+  [  1660]  __gnu_cxx::__concurrence_lock_error
+  [  1684]  __gnu_cxx::__concurrence_unlock_error
+  [  16ac]  locale::_S_normalize_category category not found
+  [  16e0]  locale::_Impl::_M_replace_facet
+  [  1700]  -+xX0123456789abcdef0123456789ABCDEF
+  [  1728]  -+xX0123456789abcdefABCDEF
+  [  1744]  -0123456789
+  [  1750]  GMT
+  [  1754]  HST
+  [  1758]  AKST
+  [  1760]  PST
+  [  1764]  MST
+  [  1768]  CST
+  [  176c]  EST
+  [  1770]  AST
+  [  1774]  NST
+  [  1778]  CET
+  [  177c]  IST
+  [  1780]  EET
+  [  1784]  JST
+  [  1788]  *
+  [  178c]  true
+  [  1794]  false
+  [  179c]  AM
+  [  17a0]  PM
+  [  17a4]  Sunday
+  [  17ac]  Monday
+  [  17b4]  Tuesday
+  [  17bc]  Wednesday
+  [  17c8]  Thursday
+  [  17d4]  Friday
+  [  17dc]  Saturday
+  [  17e8]  Sun
+  [  17ec]  Mon
+  [  17f0]  Tue
+  [  17f4]  Wed
+  [  17f8]  Thu
+  [  17fc]  Fri
+  [  1800]  Sat
+  [  1804]  January
+  [  180c]  February
+  [  1818]  March
+  [  1820]  April
+  [  1828]  May
+  [  182c]  June
+  [  1834]  July
+  [  183c]  August
+  [  1844]  September
+  [  1850]  October
+  [  1858]  November
+  [  1864]  December
+  [  1870]  Jan
+  [  1874]  Feb
+  [  1878]  Mar
+  [  187c]  Apr
+  [  1880]  Jun
+  [  1884]  Jul
+  [  1888]  Aug
+  [  188c]  Sep
+  [  1890]  Oct
+  [  1894]  Nov
+  [  1898]  Dec
+  [  189c]  std::future_error
+  [  18b0]  bad_function_call
+  [  18c4]  future
+  [  18cc]  Broken promise
+  [  18dc]  Future already retrieved
+  [  18f8]  Promise already satisfied
+  [  1914]  No associated state
+  [  1928]  Unknown error
+  [  1938]  regex_error
+  [  1944]  not enough space for format expansion (Please submit full bug report at http://gcc.gnu.org/bugs.html):^J    
+  [  19b0]  basic_string::_S_create
+  [  19c8]  basic_string::append
+  [  19e0]  basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+  [  1a24]  basic_string::copy
+  [  1a38]  basic_string::compare
+  [  1a50]  basic_string::_M_replace_aux
+  [  1a70]  basic_string::assign
+  [  1a88]  basic_string::insert
+  [  1aa0]  basic_string::resize
+  [  1ab8]  basic_string::replace
+  [  1ad0]  basic_string::_S_construct null not valid
+  [  1afc]  basic_string::basic_string
+  [  1b18]  basic_string::substr
+  [  1b30]  generic
+  [  1b38]  system
+  [  1b40]  std::bad_alloc
+  [  1b50]  std::bad_cast
+  [  1b60]  std::bad_typeid
+  [  1b70]  std::exception
+  [  1b80]  std::bad_exception
+  [  1b94]  pure virtual method called^J
+  [  1bb0]  deleted virtual method called^J
+  [  1bd0]  terminate called recursively^J
+  [  1bf0]  terminate called after throwing an instance of '
+  [  1c24]  '^J
+  [  1c28]  terminate called without an active exception^J
+  [  1c58]    what():  
+  [  1c64]  %Lf
+  [  1c68]  locale::facet::_S_create_c_locale name not valid
+  [  1c9c]  LC_CTYPE
+  [  1ca8]  LC_NUMERIC
+  [  1cb4]  LC_TIME
+  [  1cbc]  LC_COLLATE
+  [  1cc8]  LC_MONETARY
+  [  1cd4]  LC_MESSAGES
+  [  1ce0]  space
+  [  1ce8]  print
+  [  1cf0]  cntrl
+  [  1cf8]  upper
+  [  1d00]  lower
+  [  1d08]  alpha
+  [  1d10]  digit
+  [  1d18]  punct
+  [  1d20]  xdigit
+  [  1d28]  alnum
+  [  1d30]  graph
+  [  1d38]  basic_ios::clear
+  [  1d4c]  ios_base::_M_grow_words is not valid
+  [  1d74]  ios_base::_M_grow_words allocation failed
+  [  1da0]  basic_filebuf::underflow codecvt::max_length() is not valid
+  [  1ddc]  basic_filebuf::underflow incomplete character in file
+  [  1e14]  basic_filebuf::underflow invalid byte sequence in file
+  [  1e4c]  basic_filebuf::underflow error reading the file
+  [  1e7c]  basic_filebuf::xsgetn error reading the file
+  [  1eac]  basic_filebuf::_M_convert_to_external conversion error
+  [  1ee4]  std::bad_array_length
+  [  1efc]  std::bad_array_new_length
+  [  1f18]  _GLOBAL_
+  [  1f24]  (anonymous namespace)
+  [  1f3c]  st
+  [  1f40]  cl
+  [  1f44]  dt
+  [  1f48]  pt
+  [  1f4c]  qu
+  [  1f50]  auto
+  [  1f58]  li
+  [  1f5c]  string literal
+  [  1f6c]  std
+  [  1f70]  {default arg#
+  [  1f80]  %ld
+  [  1f84]  }::
+  [  1f88]  JArray
+  [  1f90]  []
+  [  1f94]  vtable for 
+  [  1fa0]  VTT for 
+  [  1fac]  construction vtable for 
+  [  1fc8]  typeinfo for 
+  [  1fd8]  typeinfo name for 
+  [  1fec]  typeinfo fn for 
+  [  2000]  non-virtual thunk to 
+  [  2018]  virtual thunk to 
+  [  202c]  covariant return thunk to 
+  [  2048]  java Class for 
+  [  2058]  guard variable for 
+  [  206c]  TLS init function for 
+  [  2084]  TLS wrapper function for 
+  [  20a0]  reference temporary #
+  [  20b8]   for 
+  [  20c0]  hidden alias for 
+  [  20d4]  transaction clone for 
+  [  20ec]  non-transaction clone for 
+  [  2108]  operator
+  [  2114]  operator 
+  [  2120]  ad
+  [  2124]  gs
+  [  2128]  ix
+  [  212c]   : 
+  [  2130]  new 
+  [  2138]  ul
+  [  213c]  ll
+  [  2140]  ull
+  [  2144]  java resource 
+  [  2154]  decltype (
+  [  2160]  ...
+  [  2164]  global constructors keyed to 
+  [  2184]  global destructors keyed to 
+  [  21a4]  {lambda(
+  [  21b0]  {unnamed type#
+  [  21c0]   [clone 
+  [  21cc]  >(
+  [  21d0]   restrict
+  [  21dc]   volatile
+  [  21e8]  complex 
+  [  21f4]  imaginary 
+  [  2200]   __vector(
+  [  220c]  std::allocator
+  [  221c]  allocator
+  [  2228]  std::basic_string
+  [  223c]  basic_string
+  [  224c]  std::string
+  [  2258]  std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+  [  22a0]  std::istream
+  [  22b0]  std::basic_istream<char, std::char_traits<char> >
+  [  22e4]  basic_istream
+  [  22f4]  std::ostream
+  [  2304]  std::basic_ostream<char, std::char_traits<char> >
+  [  2338]  basic_ostream
+  [  2348]  std::iostream
+  [  2358]  std::basic_iostream<char, std::char_traits<char> >
+  [  238c]  basic_iostream
+  [  239c]  aN
+  [  23a0]  &=
+  [  23a4]  aS
+  [  23a8]  =
+  [  23ac]  aa
+  [  23b0]  &&
+  [  23b4]  &
+  [  23b8]  an
+  [  23bc]  at
+  [  23c0]  alignof 
+  [  23cc]  az
+  [  23d0]  cc
+  [  23d4]  const_cast
+  [  23e0]  ()
+  [  23e4]  cm
+  [  23e8]  ,
+  [  23ec]  co
+  [  23f0]  ~
+  [  23f4]  dV
+  [  23f8]  /=
+  [  23fc]  da
+  [  2400]  delete[] 
+  [  240c]  dc
+  [  2410]  dynamic_cast
+  [  2420]  de
+  [  2424]  dl
+  [  2428]  delete 
+  [  2430]  ds
+  [  2434]  .*
+  [  2438]  .
+  [  243c]  dv
+  [  2440]  /
+  [  2444]  eO
+  [  2448]  ^=
+  [  244c]  eo
+  [  2450]  ^
+  [  2454]  eq
+  [  2458]  ==
+  [  245c]  ge
+  [  2460]  >=
+  [  2464]  ::
+  [  2468]  gt
+  [  246c]  >
+  [  2470]  lS
+  [  2474]  <<=
+  [  2478]  le
+  [  247c]  <=
+  [  2480]  operator"" 
+  [  248c]  ls
+  [  2490]  <<
+  [  2494]  lt
+  [  2498]  <
+  [  249c]  mI
+  [  24a0]  -=
+  [  24a4]  mL
+  [  24a8]  *=
+  [  24ac]  mi
+  [  24b0]  -
+  [  24b4]  ml
+  [  24b8]  mm
+  [  24bc]  --
+  [  24c0]  na
+  [  24c4]  new[]
+  [  24cc]  ne
+  [  24d0]  !=
+  [  24d4]  ng
+  [  24d8]  nt
+  [  24dc]  !
+  [  24e0]  nw
+  [  24e4]  new
+  [  24e8]  oR
+  [  24ec]  |=
+  [  24f0]  oo
+  [  24f4]  ||
+  [  24f8]  or
+  [  24fc]  |
+  [  2500]  pL
+  [  2504]  +=
+  [  2508]  pl
+  [  250c]  +
+  [  2510]  pm
+  [  2514]  ->*
+  [  2518]  pp
+  [  251c]  ++
+  [  2520]  ps
+  [  2524]  ->
+  [  2528]  ?
+  [  252c]  rM
+  [  2530]  %=
+  [  2534]  rS
+  [  2538]  >>=
+  [  253c]  rc
+  [  2540]  reinterpret_cast
+  [  2554]  rm
+  [  2558]  %
+  [  255c]  rs
+  [  2560]  >>
+  [  2564]  sc
+  [  2568]  static_cast
+  [  2574]  sizeof 
+  [  257c]  sz
+  [  2580]  tr
+  [  2584]  throw
+  [  258c]  tw
+  [  2590]  throw 
+  [  2598]  signed char
+  [  25a4]  bool
+  [  25ac]  boolean
+  [  25b4]  char
+  [  25bc]  byte
+  [  25c4]  double
+  [  25cc]  long double
+  [  25d8]  float
+  [  25e0]  __float128
+  [  25ec]  unsigned char
+  [  25fc]  int
+  [  2600]  unsigned int
+  [  2610]  unsigned
+  [  261c]  long
+  [  2624]  unsigned long
+  [  2634]  __int128
+  [  2640]  unsigned __int128
+  [  2654]  short
+  [  265c]  unsigned short
+  [  266c]  void
+  [  2674]  wchar_t
+  [  267c]  long long
+  [  2688]  unsigned long long
+  [  269c]  decimal32
+  [  26a8]  decimal64
+  [  26b4]  decimal128
+  [  26c0]  half
+  [  26c8]  char16_t
+  [  26d4]  char32_t
+  [  26e0]  decltype(nullptr)
+  [  26f4]  w
+  [  26f8]  a
+  [  26fc]  a+b
+  [  2700]  r
+  [  2704]  r+
+  [  2708]  w+
+  [  270c]  a+
+  [  2710]  wb
+  [  2714]  ab
+  [  2718]  rb
+  [  271c]  r+b
+  [  2720]  w+b
+  [  2724]  St23__codecvt_abstract_baseIcc9mbstate_tE
+  [  2750]  N9__gnu_cxx24__concurrence_lock_errorE
+  [  2778]  N9__gnu_cxx26__concurrence_unlock_errorE
+  [  27ac]   
+  [  27b0]  ?
+  [  27c0]  NSt6locale5facetE
+  [  27d4]  C
+  [  27e0]  G
+  [  27e4]  M
+  [  27e8]  T
+  [  27f0]  H
+  [  27f4]  S
+  [  27f8]  T
+  [  2800]  A
+  [  2804]  K
+  [  2808]  S
+  [  280c]  T
+  [  2814]  P
+  [  2818]  S
+  [  281c]  T
+  [  2824]  M
+  [  2828]  S
+  [  282c]  T
+  [  2834]  C
+  [  2838]  S
+  [  283c]  T
+  [  2844]  E
+  [  2848]  S
+  [  284c]  T
+  [  2854]  A
+  [  2858]  S
+  [  285c]  T
+  [  2864]  N
+  [  2868]  S
+  [  286c]  T
+  [  2874]  C
+  [  2878]  E
+  [  287c]  T
+  [  2884]  I
+  [  2888]  S
+  [  288c]  T
+  [  2894]  E
+  [  2898]  E
+  [  289c]  T
+  [  28a4]  J
+  [  28a8]  S
+  [  28ac]  T
+  [  28b8]  t
+  [  28bc]  r
+  [  28c0]  u
+  [  28c4]  e
+  [  28cc]  f
+  [  28d0]  a
+  [  28d4]  l
+  [  28d8]  s
+  [  28dc]  e
+  [  28e4]  %
+  [  28e8]  m
+  [  28ec]  /
+  [  28f0]  %
+  [  28f4]  d
+  [  28f8]  /
+  [  28fc]  %
+  [  2900]  y
+  [  2908]  %
+  [  290c]  H
+  [  2910]  :
+  [  2914]  %
+  [  2918]  M
+  [  291c]  :
+  [  2920]  %
+  [  2924]  S
+  [  292c]  A
+  [  2930]  M
+  [  2938]  P
+  [  293c]  M
+  [  2944]  S
+  [  2948]  u
+  [  294c]  n
+  [  2950]  d
+  [  2954]  a
+  [  2958]  y
+  [  2960]  M
+  [  2964]  o
+  [  2968]  n
+  [  296c]  d
+  [  2970]  a
+  [  2974]  y
+  [  297c]  T
+  [  2980]  u
+  [  2984]  e
+  [  2988]  s
+  [  298c]  d
+  [  2990]  a
+  [  2994]  y
+  [  299c]  W
+  [  29a0]  e
+  [  29a4]  d
+  [  29a8]  n
+  [  29ac]  e
+  [  29b0]  s
+  [  29b4]  d
+  [  29b8]  a
+  [  29bc]  y
+  [  29c4]  T
+  [  29c8]  h
+  [  29cc]  u
+  [  29d0]  r
+  [  29d4]  s
+  [  29d8]  d
+  [  29dc]  a
+  [  29e0]  y
+  [  29e8]  F
+  [  29ec]  r
+  [  29f0]  i
+  [  29f4]  d
+  [  29f8]  a
+  [  29fc]  y
+  [  2a04]  S
+  [  2a08]  a
+  [  2a0c]  t
+  [  2a10]  u
+  [  2a14]  r
+  [  2a18]  d
+  [  2a1c]  a
+  [  2a20]  y
+  [  2a28]  S
+  [  2a2c]  u
+  [  2a30]  n
+  [  2a38]  M
+  [  2a3c]  o
+  [  2a40]  n
+  [  2a48]  T
+  [  2a4c]  u
+  [  2a50]  e
+  [  2a58]  W
+  [  2a5c]  e
+  [  2a60]  d
+  [  2a68]  T
+  [  2a6c]  h
+  [  2a70]  u
+  [  2a78]  F
+  [  2a7c]  r
+  [  2a80]  i
+  [  2a88]  S
+  [  2a8c]  a
+  [  2a90]  t
+  [  2a98]  J
+  [  2a9c]  a
+  [  2aa0]  n
+  [  2aa4]  u
+  [  2aa8]  a
+  [  2aac]  r
+  [  2ab0]  y
+  [  2ab8]  F
+  [  2abc]  e
+  [  2ac0]  b
+  [  2ac4]  r
+  [  2ac8]  u
+  [  2acc]  a
+  [  2ad0]  r
+  [  2ad4]  y
+  [  2adc]  M
+  [  2ae0]  a
+  [  2ae4]  r
+  [  2ae8]  c
+  [  2aec]  h
+  [  2af4]  A
+  [  2af8]  p
+  [  2afc]  r
+  [  2b00]  i
+  [  2b04]  l
+  [  2b0c]  M
+  [  2b10]  a
+  [  2b14]  y
+  [  2b1c]  J
+  [  2b20]  u
+  [  2b24]  n
+  [  2b28]  e
+  [  2b30]  J
+  [  2b34]  u
+  [  2b38]  l
+  [  2b3c]  y
+  [  2b44]  A
+  [  2b48]  u
+  [  2b4c]  g
+  [  2b50]  u
+  [  2b54]  s
+  [  2b58]  t
+  [  2b60]  S
+  [  2b64]  e
+  [  2b68]  p
+  [  2b6c]  t
+  [  2b70]  e
+  [  2b74]  m
+  [  2b78]  b
+  [  2b7c]  e
+  [  2b80]  r
+  [  2b88]  O
+  [  2b8c]  c
+  [  2b90]  t
+  [  2b94]  o
+  [  2b98]  b
+  [  2b9c]  e
+  [  2ba0]  r
+  [  2ba8]  N
+  [  2bac]  o
+  [  2bb0]  v
+  [  2bb4]  e
+  [  2bb8]  m
+  [  2bbc]  b
+  [  2bc0]  e
+  [  2bc4]  r
+  [  2bcc]  D
+  [  2bd0]  e
+  [  2bd4]  c
+  [  2bd8]  e
+  [  2bdc]  m
+  [  2be0]  b
+  [  2be4]  e
+  [  2be8]  r
+  [  2bf0]  J
+  [  2bf4]  a
+  [  2bf8]  n
+  [  2c00]  F
+  [  2c04]  e
+  [  2c08]  b
+  [  2c10]  M
+  [  2c14]  a
+  [  2c18]  r
+  [  2c20]  A
+  [  2c24]  p
+  [  2c28]  r
+  [  2c30]  J
+  [  2c34]  u
+  [  2c38]  n
+  [  2c40]  J
+  [  2c44]  u
+  [  2c48]  l
+  [  2c50]  A
+  [  2c54]  u
+  [  2c58]  g
+  [  2c60]  S
+  [  2c64]  e
+  [  2c68]  p
+  [  2c70]  O
+  [  2c74]  c
+  [  2c78]  t
+  [  2c80]  N
+  [  2c84]  o
+  [  2c88]  v
+  [  2c90]  D
+  [  2c94]  e
+  [  2c98]  c
+  [  2ca0]  N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
+  [  2cd8]  N9__gnu_cxx18stdio_sync_filebufIcSt11char_traitsIcEEE
+  [  2d10]  So
+  [  2d14]  St13basic_ostreamIwSt11char_traitsIwEE
+  [  2d3c]  St15basic_streambufIwSt11char_traitsIwEE
+  [  2d68]  St15basic_streambufIcSt11char_traitsIcEE
+  [  2d98]  St10moneypunctIwLb0EE
+  [  2db0]  St10moneypunctIwLb1EE
+  [  2dc8]  St14codecvt_bynameIwc9mbstate_tE
+  [  2dec]  St18__moneypunct_cacheIwLb0EE
+  [  2e0c]  St9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  2e48]  St15numpunct_bynameIwE
+  [  2e60]  St7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  2e9c]  St17moneypunct_bynameIwLb1EE
+  [  2ebc]  St14collate_bynameIwE
+  [  2ed4]  St7collateIwE
+  [  2ee4]  St17__timepunct_cacheIwE
+  [  2f00]  St7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  2f3c]  St17moneypunct_bynameIwLb0EE
+  [  2f5c]  St18__moneypunct_cacheIwLb1EE
+  [  2f7c]  St23__codecvt_abstract_baseIwc9mbstate_tE
+  [  2fa8]  St8messagesIwE
+  [  2fb8]  St16__numpunct_cacheIwE
+  [  2fd0]  St15messages_bynameIwE
+  [  2fe8]  St21__ctype_abstract_baseIwE
+  [  3008]  St11__timepunctIwE
+  [  301c]  St15time_get_bynameIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  3060]  St8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  309c]  St9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  30d8]  St15time_put_bynameIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  311c]  St8numpunctIwE
+  [  312c]  St8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  3168]  St17bad_function_call
+  [  3180]  *N12_GLOBAL__N_121future_error_categoryE
+  [  31ac]  NSt13__future_base12_Result_baseE
+  [  31d0]  St12future_error
+  [  31e4]  St11regex_error
+  [  31fb]  ?ÿÿÿÿ*N12_GLOBAL__N_121system_error_categoryE
+  [  322c]  St14error_category
+  [  3240]  *N12_GLOBAL__N_122generic_error_categoryE
+  [  326c]  St12system_error
+  [  328c]  St9bad_alloc
+  [  329c]  St8bad_cast
+  [  32a8]  St10bad_typeid
+  [  32b8]  N10__cxxabiv115__forced_unwindE
+  [  32d8]  N10__cxxabiv119__foreign_exceptionE
+  [  32fc]  St9exception
+  [  330c]  St13bad_exception
+  [  3320]  N9__gnu_cxx20recursive_init_errorE
+  [  3348]  N10__cxxabiv121__vmi_class_type_infoE
+  [  3370]  St7codecvtIwc9mbstate_tE
+  [  338c]  St7codecvtIcc9mbstate_tE
+  [  33ac]  St5ctypeIcE
+  [  33b8]  D^B
+  [  33bc]  St5ctypeIwE
+  [  33c8]  St12ctype_bynameIwE
+  [  33e1]   
+  [  33ec]  St12ctype_bynameIcE
+  [  341c]  "
+  [  3420]  7
+  [  3424]  Y
+  [  3430]  y^A
+  [  3434]  b^B
+  [  343c]  =^F
+  [  3444]  U^P
+  [  3448]  m^Z
+  [  344d]  *
+  [  3450]  /E
+  [  3455]  o
+  [  3458]   µ
+  [  345d]  %^A
+  [  3460]  1Ú^A
+  [  3464]  Bÿ^B
+  [  3468]  sÙ^D
+  [  3470]  (²^L
+  [  3479]  =!
+  [  347e]  5
+  [  3482]  W
+  [  348c]  yp^A)pT^B¢^NÅ^CË~^Y^FmŞ^I8^Lø^O¥™Ö^YİÎ)‚?¥C_åsmá$^Y±^A
+  [  34d4]  "
+  [  34d8]  7
+  [  34dc]  Y
+  [  34e8]  y^A
+  [  34ec]  b^B
+  [  34f4]  =^F
+  [  34fc]  U^P
+  [  3500]  m^Z
+  [  3505]  *
+  [  3508]  /E
+  [  350d]  o
+  [  3510]   µ
+  [  3515]  %^A
+  [  3518]  1Ú^A
+  [  351c]  Bÿ^B
+  [  3520]  sÙ^D
+  [  3528]  (²^L
+  [  3531]  =!
+  [  3536]  5
+  [  353a]  W
+  [  3544]  yp^A)pT^B¢^NÅ^CË~^Y^FmŞ^I8^Lø^O¥™Ö^YİÎ)‚?¥C_åsmá$^Y±N9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE
+  [  35a4]  N9__gnu_cxx13stdio_filebufIcSt11char_traitsIcEEE
+  [  35d8]  St9basic_iosIwSt11char_traitsIwEE
+  [  35fc]  St9basic_iosIcSt11char_traitsIcEE
+  [  3638]  J
+  [  3641]  @
+  [  364c]  @
+  [  3650]   
+  [  3658]  St8ios_base
+  [  3679]   
+  [  367c]   
+  [  36a8]  NSt8ios_base7failureE
+  [  36c0]  St13runtime_error
+  [  36d4]  St16invalid_argument
+  [  36ec]  St12out_of_range
+  [  3700]  St11logic_error
+  [  3710]  St11range_error
+  [  3720]  St14overflow_error
+  [  3734]  St12domain_error
+  [  3748]  St12length_error
+  [  375c]  St15underflow_error
+  [  3770]  St13basic_fstreamIwSt11char_traitsIwEE
+  [  3798]  St13basic_filebufIwSt11char_traitsIwEE
+  [  37c0]  St14basic_ofstreamIwSt11char_traitsIwEE
+  [  37e8]  St14basic_ifstreamIcSt11char_traitsIcEE
+  [  3810]  St13basic_fstreamIcSt11char_traitsIcEE
+  [  3838]  St13basic_filebufIcSt11char_traitsIcEE
+  [  3860]  St14basic_ofstreamIcSt11char_traitsIcEE
+  [  3888]  St14basic_ifstreamIwSt11char_traitsIwEE
+  [  38b0]  St16bad_array_length
+  [  38c8]  St20bad_array_new_length
+  [  38e4]  `ŠşÿXŠşÿXŠşÿXŠşÿXŠşÿ`Šşÿ`Šşÿ`Šşÿ`Šşÿ*Šşÿ*ŠşÿXŠşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ`Šşÿ.Šşÿ.Šşÿ.Šşÿ.Šşÿ.Šşÿ.Šşÿ.Šşÿ.ŠşÿXŠşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ*Šşÿ`Šşÿ*Šşÿ.Šşÿ\ŠşÿXŠşÿ`ŠşÿXŠşÿ.Šşÿ.Šşÿ\Šşÿ`Šşÿ`Šşÿ*Šşÿ*Šşÿ*ŠşÿXŠşÿXŠşÿXŠşÿXŠşÿXŠşÿ*ŠşÿXŠşÿXŠşÿ*ŠşÿXŠşÿ`Šşÿ`Šşÿ*Šşÿ*Šşÿ*Šşÿ`Šşÿ`Šşÿ`Šşÿ*Šşÿ*Šşÿ*ŠşÿXŠşÿXŠşÿ6ŒşÿJŒşÿJŒşÿJŒşÿXŒşÿ6Œşÿ6Œşÿ0Œşÿ0ŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿ6ŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿ<Œşÿ<ŒşÿJŒşÿJŒşÿ6ŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿ6Œşÿ0ŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿ6Œşÿ6ŒşÿJŒşÿ8Œşÿ8Œşÿ8Œşÿ8Œşÿ6ŒşÿJŒşÿJŒşÿJŒşÿJŒşÿJŒşÿHŒşÿ6Œşÿ6Œşÿ6Œşÿ6ŒşÿLŒşÿHŒşÿBŒşÿBŒşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6ŒşÿHŒşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6ŒşÿHŒşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6ŒşÿHŒşÿBŒşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6Œşÿ6ŒşÿHŒşÿ6Œşÿ6Œşÿ6Œşÿ6ŒşÿHŒşÿ6ŒşÿHŒşÿ6Œşÿ6ŒşÿHŒşÿHŒşÿ^L£şÿ^L£şÿ^L£şÿ^L£şÿ^L£şÿ^L£şÿ^L£şÿ^L£şÿ^L£şÿ^L£şÿn¢şÿn¢şÿn¢şÿn¢şÿn¢şÿn¢şÿn¢şÿ^X£şÿn¢şÿ`£şÿ¤£şÿn¢şÿ|£şÿˆ£şÿn¢şÿn¢şÿn¢şÿn¢şÿn¢şÿÎşÿ^L£şÿö£şÿ^R¤şÿn¢şÿ.¤şÿJ¤şÿ–¤şÿØşÿn¢şÿn¢şÿn¢şÿn¢şÿ^L£şÿn¢şÿn¢şÿn¢şÿn¢şÿn¢şÿn¢şÿü¤şÿü¤şÿü¤şÿü¤şÿü¤şÿü¤şÿü¤şÿü¤şÿü¤şÿü¤şÿn¢şÿü¤şÿü¤şÿü¤şÿü¤şÿn¢şÿn¢şÿn¢şÿü¤şÿü¤şÿØşÿü¤şÿü¤şÿü¤şÿü¤şÿü¤şÿ<¥şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿ~ şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿB¡şÿ,¥şÿB¡şÿB¡şÿ
+  [  3e2c]  B¡şÿR¤şÿ^X¤şÿB¡şÿB¡şÿB¡şÿB¡şÿü¥şÿB¡şÿä¥şÿB¡şÿB¡şÿ¼¥şÿ~ şÿB¡şÿ°¥şÿˆ²şÿ„²şÿ€²şÿî°şÿ|²şÿJ²şÿ”²şÿÒşÿÎşÿÊşÿÆşÿ¦¸şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿb¸şÿ^Z·şÿ¼¸şÿ^Z·şÿN¸şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿ^Z·şÿÄşÿ^^¸şÿR¶şÿR¶şÿğ¸şÿR¶şÿÜşÿÈşÿ´¸şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿ ¸şÿˆ¸şÿR¶şÿp¸şÿ\¸şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿL¹şÿR¶şÿR¶şÿR¶şÿR¶şÿ(¹şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿR¶şÿ^D¹şÿ(æşÿÆåşÿÆåşÿìäşÿ@äşÿ–ëşÿ(ëşÿÆëşÿŠãşÿÄêşÿ¸ãşÿ@êşÿÀßşÿ¬ßşÿ˜ßşÿ„ßşÿpßşÿ8âşÿ"âşÿ^Lâşÿøáşÿáşÿ(áşÿ^TáşÿàşÿRãşÿRãşÿRãşÿ<ãşÿ<ãşÿ<ãşÿ<ãşÿ<ãşÿ<ãşÿ<ãşÿÀâşÿÀâşÿ<ãşÿ<ãşÿNâşÿHãşÿ^Lßşÿ^ZŞşÿàİşÿ|èşÿàİşÿ^Hèşÿ^Hèşÿdéşÿ6çşÿ¢çşÿÀîşÿĞæşÿÆæşÿœæşÿ^LîşÿæíşÿÆéşÿºéşÿºéşÿÈÙşÿÈÙşÿ€íşÿ^ßşÿ<ßşÿ˜ìşÿ6ìşÿ^Zíşÿ&àşÿvİşÿÀîşÿúÜşÿĞëşÿ’Üşÿ
+  [  415c]  NÛşÿŞÚşÿ^Jÿşÿ
+  [  41d8]  \^Kÿÿ¨^Jÿÿ^B^Kÿÿ\^Kÿÿæ^Kÿÿ^^^Lÿÿ€^Lÿÿª^LÿÿÒ^LÿÿÚ^Lÿÿâ^LÿÿD^Mÿÿ^Z^Nÿÿ^Z^Nÿÿ^Z^Nÿÿ^Z^Nÿÿ¸^Mÿÿ^Z^Nÿÿ8^JÿÿSd
+  [  4228]  St14basic_iostreamIwSt11char_traitsIwEE
+

@@ -1,0 +1,263 @@
+
+String dump of section '.rodata':
+  [     0]  ColorSDK
+  [     9]  no bitmap data was stored. returning null...
+  [    36]  BitmapOperation
+  [    46]  AndroidBitmap_getInfo() failed ! error=%d
+  [    70]  Bitmap format is not RGBA_8888!
+  [    90]  AndroidBitmap_lockPixels() failed ! error=%d
+  [    bd]  android/graphics/Bitmap
+  [    d5]  createBitmap
+  [    e2]  (IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+  [   120]  ARGB_8888
+  [   12a]  android/graphics/Bitmap$Config
+  [   149]  valueOf
+  [   151]  (Ljava/lang/String;)Landroid/graphics/Bitmap$Config;
+  [   186]  MagicBeauty
+  [   192]  ~MagicBeauty
+  [   19f]  initMagicBeauty
+  [   1af]  smoothlevel=%f---whitenlevel=%f
+  [   1cf]  not init correctly
+  [   1e2]  initSkinMatrix
+  [   1f1]  initIntegral
+  [   1fe]  initIntegral~end
+  [   210]  std::bad_alloc
+  [   220]  __gnu_cxx::__concurrence_lock_error
+  [   244]  __gnu_cxx::__concurrence_unlock_error
+  [   26c]  std::exception
+  [   27c]  std::bad_exception
+  [   290]  pure virtual method called^J
+  [   2ac]  deleted virtual method called^J
+  [   2cc]  terminate called recursively^J
+  [   2ec]  terminate called after throwing an instance of '
+  [   320]  '^J
+  [   324]  terminate called without an active exception^J
+  [   354]    what():  
+  [   360]  _GLOBAL_
+  [   36c]  (anonymous namespace)
+  [   384]  st
+  [   388]  cl
+  [   38c]  dt
+  [   390]  pt
+  [   394]  qu
+  [   398]  auto
+  [   3a0]  li
+  [   3a4]  string literal
+  [   3b4]  std
+  [   3b8]  {default arg#
+  [   3c8]  %ld
+  [   3cc]  }::
+  [   3d0]  JArray
+  [   3d8]  []
+  [   3dc]  vtable for 
+  [   3e8]  VTT for 
+  [   3f4]  construction vtable for 
+  [   410]  typeinfo for 
+  [   420]  typeinfo name for 
+  [   434]  typeinfo fn for 
+  [   448]  non-virtual thunk to 
+  [   460]  virtual thunk to 
+  [   474]  covariant return thunk to 
+  [   490]  java Class for 
+  [   4a0]  guard variable for 
+  [   4b4]  TLS init function for 
+  [   4cc]  TLS wrapper function for 
+  [   4e8]  reference temporary #
+  [   500]   for 
+  [   508]  hidden alias for 
+  [   51c]  transaction clone for 
+  [   534]  non-transaction clone for 
+  [   550]  operator
+  [   55c]  operator 
+  [   568]  ad
+  [   56c]  gs
+  [   570]  ix
+  [   574]   : 
+  [   578]  new 
+  [   580]  ul
+  [   584]  ll
+  [   588]  ull
+  [   58c]  false
+  [   594]  true
+  [   59c]  java resource 
+  [   5ac]  decltype (
+  [   5b8]  ...
+  [   5bc]  global constructors keyed to 
+  [   5dc]  global destructors keyed to 
+  [   5fc]  {lambda(
+  [   608]  {unnamed type#
+  [   618]   [clone 
+  [   624]  >(
+  [   628]   restrict
+  [   634]   volatile
+  [   640]  complex 
+  [   64c]  imaginary 
+  [   658]   __vector(
+  [   664]  std::allocator
+  [   674]  allocator
+  [   680]  std::basic_string
+  [   694]  basic_string
+  [   6a4]  std::string
+  [   6b0]  std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+  [   6f8]  std::istream
+  [   708]  std::basic_istream<char, std::char_traits<char> >
+  [   73c]  basic_istream
+  [   74c]  std::ostream
+  [   75c]  std::basic_ostream<char, std::char_traits<char> >
+  [   790]  basic_ostream
+  [   7a0]  std::iostream
+  [   7b0]  std::basic_iostream<char, std::char_traits<char> >
+  [   7e4]  basic_iostream
+  [   7f4]  aN
+  [   7f8]  &=
+  [   7fc]  aS
+  [   800]  =
+  [   804]  aa
+  [   808]  &&
+  [   80c]  &
+  [   810]  an
+  [   814]  at
+  [   818]  alignof 
+  [   824]  az
+  [   828]  cc
+  [   82c]  const_cast
+  [   838]  ()
+  [   83c]  cm
+  [   840]  ,
+  [   844]  co
+  [   848]  ~
+  [   84c]  dV
+  [   850]  /=
+  [   854]  da
+  [   858]  delete[] 
+  [   864]  dc
+  [   868]  dynamic_cast
+  [   878]  de
+  [   87c]  *
+  [   880]  dl
+  [   884]  delete 
+  [   88c]  ds
+  [   890]  .*
+  [   894]  .
+  [   898]  dv
+  [   89c]  /
+  [   8a0]  eO
+  [   8a4]  ^=
+  [   8a8]  eo
+  [   8ac]  ^
+  [   8b0]  eq
+  [   8b4]  ==
+  [   8b8]  ge
+  [   8bc]  >=
+  [   8c0]  ::
+  [   8c4]  gt
+  [   8c8]  >
+  [   8cc]  lS
+  [   8d0]  <<=
+  [   8d4]  le
+  [   8d8]  <=
+  [   8dc]  operator"" 
+  [   8e8]  ls
+  [   8ec]  <<
+  [   8f0]  lt
+  [   8f4]  <
+  [   8f8]  mI
+  [   8fc]  -=
+  [   900]  mL
+  [   904]  *=
+  [   908]  mi
+  [   90c]  -
+  [   910]  ml
+  [   914]  mm
+  [   918]  --
+  [   91c]  na
+  [   920]  new[]
+  [   928]  ne
+  [   92c]  !=
+  [   930]  ng
+  [   934]  nt
+  [   938]  !
+  [   93c]  nw
+  [   940]  new
+  [   944]  oR
+  [   948]  |=
+  [   94c]  oo
+  [   950]  ||
+  [   954]  or
+  [   958]  |
+  [   95c]  pL
+  [   960]  +=
+  [   964]  pl
+  [   968]  +
+  [   96c]  pm
+  [   970]  ->*
+  [   974]  pp
+  [   978]  ++
+  [   97c]  ps
+  [   980]  ->
+  [   984]  ?
+  [   988]  rM
+  [   98c]  %=
+  [   990]  rS
+  [   994]  >>=
+  [   998]  rc
+  [   99c]  reinterpret_cast
+  [   9b0]  rm
+  [   9b4]  %
+  [   9b8]  rs
+  [   9bc]  >>
+  [   9c0]  sc
+  [   9c4]  static_cast
+  [   9d0]  sizeof 
+  [   9d8]  sz
+  [   9dc]  tr
+  [   9e0]  throw
+  [   9e8]  tw
+  [   9ec]  throw 
+  [   9f4]  signed char
+  [   a00]  bool
+  [   a08]  boolean
+  [   a10]  char
+  [   a18]  byte
+  [   a20]  double
+  [   a28]  long double
+  [   a34]  float
+  [   a3c]  __float128
+  [   a48]  unsigned char
+  [   a58]  int
+  [   a5c]  unsigned int
+  [   a6c]  unsigned
+  [   a78]  long
+  [   a80]  unsigned long
+  [   a90]  __int128
+  [   a9c]  unsigned __int128
+  [   ab0]  short
+  [   ab8]  unsigned short
+  [   ac8]  void
+  [   ad0]  wchar_t
+  [   ad8]  long long
+  [   ae4]  unsigned long long
+  [   af8]  decimal32
+  [   b04]  decimal64
+  [   b10]  decimal128
+  [   b1c]  half
+  [   b24]  char16_t
+  [   b30]  char32_t
+  [   b3c]  decltype(nullptr)
+  [   b50]  St9bad_alloc
+  [   b60]  N9__gnu_cxx24__concurrence_lock_errorE
+  [   b88]  N9__gnu_cxx26__concurrence_unlock_errorE
+  [   bb4]  N10__cxxabiv115__forced_unwindE
+  [   bd4]  N10__cxxabiv119__foreign_exceptionE
+  [   bf8]  St9exception
+  [   c08]  St13bad_exception
+  [   c20]  N10__cxxabiv120__si_class_type_infoE
+  [   c48]  St9type_info
+  [   c58]  N10__cxxabiv117__class_type_infoE
+  [   c7c]  (1ÿÿ 1ÿÿ 1ÿÿ 1ÿÿ 1ÿÿ(1ÿÿ(1ÿÿ(1ÿÿ(1ÿÿò0ÿÿò0ÿÿ 1ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿ(1ÿÿö0ÿÿö0ÿÿö0ÿÿö0ÿÿö0ÿÿö0ÿÿö0ÿÿö0ÿÿ 1ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿò0ÿÿ(1ÿÿò0ÿÿö0ÿÿ$1ÿÿ 1ÿÿ(1ÿÿ 1ÿÿö0ÿÿö0ÿÿ$1ÿÿ(1ÿÿ(1ÿÿò0ÿÿò0ÿÿò0ÿÿ 1ÿÿ 1ÿÿ 1ÿÿ 1ÿÿ 1ÿÿò0ÿÿ 1ÿÿ 1ÿÿò0ÿÿ 1ÿÿ(1ÿÿ(1ÿÿò0ÿÿò0ÿÿò0ÿÿ(1ÿÿ(1ÿÿ(1ÿÿò0ÿÿò0ÿÿò0ÿÿ 1ÿÿ 1ÿÿş2ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ 3ÿÿş2ÿÿş2ÿÿø2ÿÿø2ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿş2ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^D3ÿÿ^D3ÿÿ^R3ÿÿ^R3ÿÿş2ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿş2ÿÿø2ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿş2ÿÿş2ÿÿ^R3ÿÿ
+  [   ebd]  3ÿÿ
+  [   ec1]  3ÿÿ
+  [   ec5]  3ÿÿ
+  [   ec9]  3ÿÿş2ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^R3ÿÿ^P3ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿ^T3ÿÿ^P3ÿÿ^J3ÿÿ^J3ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿ^P3ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿ^P3ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿ^P3ÿÿ^J3ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿ^P3ÿÿş2ÿÿş2ÿÿş2ÿÿş2ÿÿ^P3ÿÿş2ÿÿ^P3ÿÿş2ÿÿş2ÿÿ^P3ÿÿ^P3ÿÿÔIÿÿÔIÿÿÔIÿÿÔIÿÿÔIÿÿÔIÿÿÔIÿÿÔIÿÿÔIÿÿÔIÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6IÿÿàIÿÿ6Iÿÿ(JÿÿlJÿÿ6IÿÿDJÿÿPJÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6Iÿÿ–JÿÿÔIÿÿ¾JÿÿÚJÿÿ6IÿÿöJÿÿ^RKÿÿ^Kÿÿ Kÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6IÿÿÔIÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6Iÿÿ6IÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿ6IÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿ6Iÿÿ6Iÿÿ6IÿÿÄKÿÿÄKÿÿ IÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿÄKÿÿ^DLÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿFGÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿôKÿÿ^JHÿÿ^JHÿÿÈKÿÿKÿÿTKÿÿ^JHÿÿ^ZKÿÿàJÿÿ^JHÿÿ^JHÿÿ^JHÿÿ^JHÿÿÄLÿÿ^JHÿÿ¬Lÿÿ^JHÿÿ^JHÿÿ„LÿÿFGÿÿ^JHÿÿxLÿÿPYÿÿLYÿÿHYÿÿ¶WÿÿDYÿÿ^RYÿÿ\YÿÿšYÿÿ–Yÿÿ’YÿÿYÿÿn_ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿ*_ÿÿâ]ÿÿ„_ÿÿâ]ÿÿ^V_ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿâ]ÿÿŒ^ÿÿæ^ÿÿ^Z]ÿÿ^Z]ÿÿ¸_ÿÿ^Z]ÿÿ¤_ÿÿ_ÿÿ|_ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿh_ÿÿP_ÿÿ^Z]ÿÿ8_ÿÿ$_ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^T`ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿğ_ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿ^Z]ÿÿÌ_ÿÿğŒÿÿŒÿÿŒÿÿ´‹ÿÿ^H‹ÿÿ^’ÿÿğ‘ÿÿ’ÿÿRŠÿÿŒ‘ÿÿ€Šÿÿ^H‘ÿÿˆ†ÿÿt†ÿÿ`†ÿÿL†ÿÿ8†ÿÿ
+  [  141c]  Xˆÿÿğ‡ÿÿÜÿÿV‡ÿÿ^ZŠÿÿ^ZŠÿÿ^ZŠÿÿ^DŠÿÿ^DŠÿÿ^DŠÿÿ^DŠÿÿ^DŠÿÿ^DŠÿÿ^DŠÿÿˆ‰ÿÿˆ‰ÿÿ^DŠÿÿ^DŠÿÿ^V‰ÿÿ^PŠÿÿÔÿÿâ„ÿÿ¨„ÿÿDÿÿ¨„ÿÿĞÿÿĞÿÿ,ÿÿşÿÿjÿÿˆ•ÿÿ˜ÿÿÿÿdÿÿÔÿÿ®”ÿÿÿÿ‚ÿÿ‚ÿÿ€ÿÿ€ÿÿH”ÿÿ&†ÿÿ^D†ÿÿ`“ÿÿş’ÿÿâ“ÿÿî†ÿÿ>„ÿÿˆ•ÿÿÂÿÿ˜’ÿÿZƒÿÿÈÿÿ^V‚ÿÿ¦ÿÿÒÿÿÈÿÿ¼¥ÿÿ°¥ÿÿÜÿÿ^±ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿp±ÿÿÊÿÿ$²ÿÿp±ÿÿÊÿÿ$²ÿÿ®²ÿÿæ²ÿÿH³ÿÿr³ÿÿš³ÿÿ¢³ÿÿª³ÿÿ^L´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿâ´ÿÿ€´ÿÿâ´ÿ
+

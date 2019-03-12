@@ -1,0 +1,3200 @@
+
+String dump of section '.rodata':
+  [     0]  basic_string
+  [     d]  allocator<T>::allocate(size_t n) 'n' exceeds maximum supported size
+  [    51]  vector
+  [    58]  RWTBase_vsh
+  [    64]  RWTBase_fsh
+  [    70]  white_fsh
+  [    7a]  enlarge_eye_fsh
+  [    8a]  shrink_face_fsh
+  [    9a]  apply_effects_shader_fsh
+  [    b3]  new_filter_fsh
+  [    c2]  new_filter_highpass_fast_fsh
+  [    df]  new_filter_blend_fast_fsh
+  [    f9]  filter_shader_fsh
+  [   10b]  RWTBase_stick_fsh
+  [   11d]  budySeg_shader_fsh
+  [   130]  RWTBase_skin_fsh
+  [   141]  load shader failed!
+  [   155]  aPosition
+  [   15f]  TexCoordIn
+  [   16a]  Texture
+  [   172]  Texture2
+  [   17b]  Texture3
+  [   184]  eyeCenter1
+  [   18f]  eyeCenter2
+  [   19a]  eyeRadius
+  [   1a4]  scalar
+  [   1ab]  scale
+  [   1b1]  center
+  [   1b8]  target
+  [   1bf]  radius
+  [   1c6]  center1
+  [   1ce]  target1
+  [   1d6]  scale1
+  [   1dd]  intensity
+  [   1e7]  blend
+  [   1ed]  quadNum
+  [   1f5]  tableSize
+  [   1ff]  brightness
+  [   20a]  scalarMax
+  [   214]  scalarMin
+  [   21e]  singleStepOffset
+  [   22f]  blurRadius
+  [   23a]  highpassWeight
+  [   249]  MegviiBeauty 1.2.2
+  [   25c]  MGB_CreateHandle: waring!!!Framebuffer status: %d ^J
+  [   290]  stream error
+  [   2a1]  '
+  [   2a3]  '['
+  [   2a7]  '{'
+  [   2ab]  ']'
+  [   2af]  '}'
+  [   2b3]  ':'
+  [   2b7]  ','
+  [   2c5]  \
+  [   2c7]  /
+  [   2c9]  "
+  [   2cb]  missing low surrogate
+  [   2e1]  missing high surrogate
+  [   2f8]  missing or wrong low surrogate
+  [   317]  code points above 0x10FFFF are invalid
+  [   33e]  cannot use operator[] with 
+  [   35a]  object
+  [   361]  array
+  [   367]  string
+  [   36e]  number
+  [   375]  cannot use push_back() with 
+  [   392]  ; expected 
+  [   39e]  cannot compare iterators of different containers
+  [   3cf]  cannot use key() for non-object iterators
+  [   3f9]  cannot get value
+  [   40a]  type must be string, but is 
+  [   427]  rb
+  [   42a]  1.6.16
+  [   431]  unzGetCurrentFileInfo failed... error:%d^J
+  [   45b]  wb
+  [   45e]  _temp
+  [   465]  /config.json
+  [   472]  initSectionName
+  [   482]  sections
+  [   48b]  statemachine
+  [   498]  parts
+  [   49e]  _
+  [   4a0]  .png
+  [   4a5]  name
+  [   4aa]  partslist
+  [   4b4]  oldSection
+  [   4bf]  triggerType
+  [   4cb]  newSection
+  [   4d6]  sectionDuration
+  [   4e6]  type must be number, but is 
+  [   503]  frameCount
+  [   50e]  stickerCount
+  [   51b]  width
+  [   521]  height
+  [   528]  position
+  [   531]  rotate
+  [   538]  zPosition
+  [   542]  loopType
+  [   54b]  loopCount
+  [   555]  x
+  [   557]  y
+  [   559]  triggerStart
+  [   566]  triggerStop
+  [   572]  speed
+  [   578]  index
+  [   57e]  type
+  [   583]  indexA
+  [   58a]  indexB
+  [   591]  min
+  [   595]  r
+  [   597]  /dev/urandom
+  [   5a4]  r+b
+  [   5a8]  .z%02u
+  [   5af]  Buf stream %p - 
+  [   5c0]  -
+  [   5c2]  couldn't create directory %s (%d)^J
+  [   5e5]  file : %s is %lld bytes^J
+  [   5fe]  error in reading %s^J
+  [   613]  file %s crc %lx^J
+  [   624]  1.2.8
+  [   62a]  01234567
+  [   633]  android/content/Context
+  [   64b]  getSharedPreferences
+  [   660]  (Ljava/lang/String;I)Landroid/content/SharedPreferences;
+  [   699]  megviisdk
+  [   6a3]  android/content/SharedPreferences
+  [   6c5]  getString
+  [   6cf]  (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  [   708]  parse error - unexpected 
+  [   722]  <uninitialized>
+  [   732]  true literal
+  [   73f]  false literal
+  [   74d]  null literal
+  [   75a]  string literal
+  [   769]  number literal
+  [   778]  <parse error>
+  [   786]  end of input
+  [   793]  unknown token
+  [   7a1]  null
+  [   7a6]  boolean
+  [   7ae]  discarded
+  [   7b8]  ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+  [   7f7]  edit
+  [   7fc]  ()Landroid/content/SharedPreferences$Editor;
+  [   829]  android/content/SharedPreferences$Editor
+  [   852]  putString
+  [   85c]  (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+  [   8ad]  commit
+  [   8b4]  ()Z
+  [   8b8]  {}
+  [   8bb]  {
+  [   8bd]  ,^J
+  [   8c0]  ,
+  [   8c2]  ":
+  [   8c5]   
+  [   8c7]  }
+  [   8c9]  []
+  [   8cc]  [
+  [   8ce]  ]
+  [   8d0]  true
+  [   8d5]  false
+  [   8db]  -0.0
+  [   8e0]  0.0
+  [   8e4]  <discarded>
+  [   8f0]  clock_gettime(CLOCK_REALTIME) failed
+  [   915]  clock_gettime(CLOCK_MONOTONIC) failed
+  [   93b]  iostream
+  [   944]  ios_base::clear
+  [   954]  %p
+  [   957]  l
+  [   959]  ll
+  [   95c]  L
+  [   95e]  %Lf
+  [   962]  money_get error
+  [   972]  %.0Lf
+  [   978]  C
+  [   97a]  *
+  [   97c]  locale constructed with null
+  [   999]  collate_byname<char>::collate_byname failed to construct for 
+  [   9d7]  collate_byname<wchar_t>::collate_byname(size_t refs) failed to construct for 
+  [   a25]  ctype_byname<char>::ctype_byname failed to construct for 
+  [   a5f]  ctype_byname<wchar_t>::ctype_byname failed to construct for 
+  [   a9c]  codecvt_byname<wchar_t, char, mbstate_t>::codecvt_byname failed to construct for 
+  [   aee]  numpunct_byname<char>::numpunct_byname failed to construct for 
+  [   b2e]  numpunct_byname<wchar_t>::numpunct_byname failed to construct for 
+  [   b71]  time_get_byname failed to construct for 
+  [   b9a]  locale not supported
+  [   baf]  %A
+  [   bb2]  %a
+  [   bb5]  %B
+  [   bb8]  %b
+  [   bbb]  time_put_byname failed to construct for 
+  [   be4]  moneypunct_byname failed to construct for 
+  [   c0f]  ()
+  [   c12]  Sunday
+  [   c19]  Monday
+  [   c20]  Tuesday
+  [   c28]  Wednesday
+  [   c32]  Thursday
+  [   c3b]  Friday
+  [   c42]  Saturday
+  [   c4b]  Sun
+  [   c4f]  Mon
+  [   c53]  Tue
+  [   c57]  Wed
+  [   c5b]  Thu
+  [   c5f]  Fri
+  [   c63]  Sat
+  [   c67]  January
+  [   c6f]  February
+  [   c78]  March
+  [   c7e]  April
+  [   c84]  May
+  [   c88]  June
+  [   c8d]  July
+  [   c92]  August
+  [   c99]  September
+  [   ca3]  October
+  [   cab]  November
+  [   cb4]  December
+  [   cbd]  Jan
+  [   cc1]  Feb
+  [   cc5]  Mar
+  [   cc9]  Apr
+  [   ccd]  Jun
+  [   cd1]  Jul
+  [   cd5]  Aug
+  [   cd9]  Sep
+  [   cdd]  Oct
+  [   ce1]  Nov
+  [   ce5]  Dec
+  [   ce9]  AM
+  [   cec]  PM
+  [   cef]  bad_weak_ptr
+  [   cfc]  mutex lock failed
+  [   d0e]  recursive_mutex constructor failed
+  [   d31]  recursive_mutex lock failed
+  [   d4d]  recursive_timed_mutex lock limit reached
+  [   d76]  unique_lock::unlock: not locked
+  [   d96]  random_device failed to open 
+  [   db4]  random_device got EOF
+  [   dca]  random_device got an unexpected error
+  [   df0]  stoul
+  [   df6]  stoll
+  [   dfc]  stoull
+  [   e03]  stold
+  [   e09]  %d
+  [   e0c]  %u
+  [   e0f]  %ld
+  [   e13]  %lu
+  [   e17]  %lld
+  [   e1c]  %llu
+  [   e21]  %f
+  [   e24]  : no conversion
+  [   e34]  : out of range
+  [   e43]  string_view::substr
+  [   e57]  generic
+  [   e5f]  system
+  [   e66]  : 
+  [   e69]  Unknown error %d
+  [   e7a]  cannot allocate __cxa_eh_globals
+  [   e9b]  std::__libcpp_tls_set failure in __cxa_get_globals()
+  [   ed0]  execute once failure in __cxa_get_globals_fast()
+  [   f01]  cannot create thread specific key for __cxa_get_globals()
+  [   f3b]  cannot zero out thread value for __cxa_get_globals()
+  [   f70]  __cxa_guard_acquire failed to acquire mutex
+  [   f9c]  __cxa_guard_acquire condition variable wait failed
+  [   fcf]  __cxa_guard_acquire failed to release mutex
+  [   ffb]  __cxa_guard_release failed to acquire mutex
+  [  1027]  __cxa_guard_release failed to release mutex
+  [  1053]  __cxa_guard_release failed to broadcast condition variable
+  [  108e]  __cxa_guard_abort failed to acquire mutex
+  [  10b8]  __cxa_guard_abort failed to release mutex
+  [  10e2]  __cxa_guard_abort failed to broadcast condition variable
+  [  111b]  unexpected_handler unexpectedly returned
+  [  1144]  terminate_handler unexpectedly returned
+  [  116c]  terminate_handler unexpectedly threw an exception
+  [  119e]  Pure virtual function called!
+  [  11bc]  Deleted virtual function called!
+  [  11dd]  std::exception
+  [  11ec]  std::bad_exception
+  [  11ff]  std::bad_alloc
+  [  120e]  bad_array_new_length
+  [  1223]  bad_array_length
+  [  1234]  std::bad_cast
+  [  1242]  std::bad_typeid
+  [  1252]  /Volumes/Android/buildbot/src/android/ndk-release-r17/external/libcxx/../../external/libcxxabi/src/abort_message.cpp
+  [  12c7]  abort_message
+  [  12d5]  terminating with %s exception of type %s: %s
+  [  1302]  terminating with %s exception of type %s
+  [  132b]  terminating with %s foreign exception
+  [  1351]  terminating
+  [  135d]  uncaught
+  [  1366]  unexpected
+  [  1371]  , 
+  [  1374]   const
+  [  137b]   volatile
+  [  1385]   restrict
+  [  138f]   &
+  [  1392]   &&
+  [  1396]  vtable for 
+  [  13a2]  VTT for 
+  [  13ab]  typeinfo for 
+  [  13b9]  typeinfo name for 
+  [  13cc]  covariant return thunk to 
+  [  13e7]  construction vtable for 
+  [  1400]  -in-
+  [  1405]  thread-local wrapper routine for 
+  [  1427]  thread-local initialization routine for 
+  [  1450]  virtual thunk to 
+  [  1462]  non-virtual thunk to 
+  [  1478]  guard variable for 
+  [  148c]  reference temporary for 
+  [  14a5]  std
+  [  14a9]  ::
+  [  14ac]  decltype(
+  [  14b6]  )
+  [  14b8]  &&
+  [  14bb]  &
+  [  14bd]  ~
+  [  14bf]  delete[] 
+  [  14c9]  delete 
+  [  14d1]  >
+  [  14d3]  (
+  [  14d5]  )[
+  [  14d8]  <<=
+  [  14dc]  <
+  [  14de]  )--
+  [  14e2]  ->*
+  [  14e6]  )++
+  [  14ea]  ) ? (
+  [  14f0]  ) : (
+  [  14f6]  >>=
+  [  14fa]  throw
+  [  1500]  short
+  [  1506]  ull
+  [  150a]  %af
+  [  150e]  %LaL
+  [  1513]  fp
+  [  1516]  ) 
+  [  1519]   (
+  [  151c]  alignof (
+  [  1526]  const_cast<
+  [  1532]  >(
+  [  1535]  )(
+  [  1538]  dynamic_cast<
+  [  1546]  operator 
+  [  1550]  operator"" 
+  [  155c]  _GLOBAL__N
+  [  1567]  std::
+  [  156d]  .*
+  [  1570]  .
+  [  1572]  [] 
+  [  1576]  noexcept (
+  [  1581]  ->
+  [  1584]  reinterpret_cast<
+  [  1596]  static_cast<
+  [  15a3]  sizeof (
+  [  15ac]  typeid(
+  [  15b4]  throw 
+  [  15bb]  std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+  [  1602]  std::basic_istream<char, std::char_traits<char> >
+  [  1634]  std::basic_ostream<char, std::char_traits<char> >
+  [  1666]  std::basic_iostream<char, std::char_traits<char> >
+  [  1699]  ::string literal
+  [  16aa]   >
+  [  16ad]  _block_invoke
+  [  16bb]  invocation function for block in 
+  [  16dd]   complex
+  [  16e6]   imaginary
+  [  16f1]   [
+  [  16f4]  objc_object<
+  [  1701]  id
+  [  1704]  objcproto
+  [  170e]  int
+  [  1712]  float
+  [  1718]  double
+  [  171f]  ...
+  [  1723]   []
+  [  1727]  ::*
+  [  172b]   vector[
+  [  1734]  pixel vector[
+  [  1742]  C.UTF-8
+  [  174a]  en_US.UTF-8
+  [  1756]  POSIX
+  [  175c]  UTF-8
+  [  1762]  libunwind: %s %s:%d - %s^J
+  [  177c]  _Unwind_Resume
+  [  178b]  /Volumes/Android/buildbot/src/android/ndk-release-r17/external/libcxx/../../external/libunwind_llvm/src/Unwind-EHABI.cpp
+  [  1804]  _Unwind_Resume() can't return
+  [  1822]  _Unwind_VRS_Set
+  [  1832]  unsupported register class
+  [  184d]  _Unwind_VRS_Pop
+  [  185d]  unwind_phase2
+  [  186b]  during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+  [  18ce]  _Unwind_VRS_Get_Internal
+  [  18e7]  /Volumes/Android/buildbot/src/android/ndk-release-r17/external/libcxx/../../external/libunwind_llvm/src/UnwindCursor.hpp
+  [  1960]  getRegister
+  [  196c]  /Volumes/Android/buildbot/src/android/ndk-release-r17/external/libcxx/../../external/libunwind_llvm/src/Registers.hpp
+  [  19e2]  unsupported arm register
+  [  19fb]  setRegister
+  [  1a07]  getFloatRegister
+  [  1a18]  Unknown ARM float register
+  [  1a33]  setFloatRegister
+  [  1a44]  %s
+  [  1a47]  getInfoFromEHABISection
+  [  1a5f]  unknown personality routine
+  [  1a7b]  index inlined table detected but pr function requires extra words
+  [  1abd]  pc
+  [  1ac0]  lr
+  [  1ac3]  sp
+  [  1ac6]  r0
+  [  1ac9]  r1
+  [  1acc]  r2
+  [  1acf]  r3
+  [  1ad2]  r4
+  [  1ad5]  r5
+  [  1ad8]  r6
+  [  1adb]  r7
+  [  1ade]  r8
+  [  1ae1]  r9
+  [  1ae4]  r10
+  [  1ae8]  r11
+  [  1aec]  r12
+  [  1af0]  s0
+  [  1af3]  s1
+  [  1af6]  s2
+  [  1af9]  s3
+  [  1afc]  s4
+  [  1aff]  s5
+  [  1b02]  s6
+  [  1b05]  s7
+  [  1b08]  s8
+  [  1b0b]  s9
+  [  1b0e]  s10
+  [  1b12]  s11
+  [  1b16]  s12
+  [  1b1a]  s13
+  [  1b1e]  s14
+  [  1b22]  s15
+  [  1b26]  s16
+  [  1b2a]  s17
+  [  1b2e]  s18
+  [  1b32]  s19
+  [  1b36]  s20
+  [  1b3a]  s21
+  [  1b3e]  s22
+  [  1b42]  s23
+  [  1b46]  s24
+  [  1b4a]  s25
+  [  1b4e]  s26
+  [  1b52]  s27
+  [  1b56]  s28
+  [  1b5a]  s29
+  [  1b5e]  s30
+  [  1b62]  s31
+  [  1b66]  d0
+  [  1b69]  d1
+  [  1b6c]  d2
+  [  1b6f]  d3
+  [  1b72]  d4
+  [  1b75]  d5
+  [  1b78]  d6
+  [  1b7b]  d7
+  [  1b7e]  d8
+  [  1b81]  d9
+  [  1b84]  d10
+  [  1b88]  d11
+  [  1b8c]  d12
+  [  1b90]  d13
+  [  1b94]  d14
+  [  1b98]  d15
+  [  1b9c]  d16
+  [  1ba0]  d17
+  [  1ba4]  d18
+  [  1ba8]  d19
+  [  1bac]  d20
+  [  1bb0]  d21
+  [  1bb4]  d22
+  [  1bb8]  d23
+  [  1bbc]  d24
+  [  1bc0]  d25
+  [  1bc4]  d26
+  [  1bc8]  d27
+  [  1bcc]  d28
+  [  1bd0]  d29
+  [  1bd4]  d30
+  [  1bd8]  d31
+  [  1bdc]  unknown register
+  [  1bf0]  St12length_error
+  [  1c01]  St11logic_error
+  [  1c11]  St9exception
+  [  1c20]  rKÂC^ZÖ+Df»­C¶Ç+D^T§ÖCÈ.DÈ'ÂC&`(DŞ\ÀC¨^\0DæCU^V)DßµC¤ .D,áÍCàU*D^\^PÌC*³/D¬‚^PD^^0,D€;^FDzÙ.DÇè^ZD2F,Dÿ†^PD^¼(Dİf^QD`~0D‡¢^JD¼š*DÂ^KD9ü/DYa^VD¡‡)DÉ×^VDn^N/D^XÀ›CÅ.!DGûÚCÎ#DvµºCôÖ^[D"§¹C–ó D2b©C+-^\D[ªC* Dè,ÌC^Y^^^^DlÕÉCp©"D^]3^DDN¼#Dw$Dˆ™!D‹³^TDŸı^[Dã2^UDñ !D¯¾^KDC<^^DÁí^LD±Ö"Dó ^]Dzm^\DK^X^]DJÓ Dd^TñCŒ!KD6»ğCp^MRD(™âC&^L/D?C
+  [  1d4b]  D™)/D=ÙÛC¼?CDYT^CDô^¿CDL9ÕC–^AKDqj^FD†UKD –áC›VODæ^V
+  [  1d7b]  Dñ†OD0^^ËCı^NZDîC^KD^N|ZDt×ğC^V^W[DR¹ğC3^D8zèCL^BZDî?ùC^M^WZDa2ÚCô ZDXÉ^CD¼nZD§pŞC
+  [  1dc6]  \D% ^ADpæ\D’¿ğCê^J_Dî¯ğCıœeD¾ÜİCpL]D‚á^AD~–]DŠÅÔC”ˆ_D­làC^FÃcD*—
+  [  1e03]  Dv^GdDVz^FD€å_DÑxŒCBO+DmF,D­@,DhağChÕyD„CÓv6D¢kC^B\ADv7•CT+LD†˜œC«–VDÊ§CD^^`D^\¸µC¾ hDò¬ÅC6YpD5<ØC^A^NwDƒ^+DUf7DDš)D^NJBDŠô&D^J^MMD®"#DŒqWD^V{^]D6ì`D\4^VDŞIiDhê^MD*ÓpD¶k^DDöawD
+  [  1eb3]  ?
+  [  1ebf]  ?
+  [  1ec3]  ?
+  [  1ec7]  ?
+  [  1ed3]  ?
+  [  1edf]  ?
+  [  1ee3]  ?
+  [  1ee7]  ?>
+  [  1eec]  A
+  [  1ef0]  B
+  [  1ef4]  C
+  [  1ef8]  D
+  [  1efc]  E
+  [  1f00]  F
+  [  1f04]  G
+  [  1f08]  H
+  [  1f0c]  ?
+  [  1f10]  I
+  [  1f14]  J
+  [  1f18]  K
+  [  1f1c]  L
+  [  1f20]  M
+  [  1f24]  N
+  [  1f28]  O
+  [  1f2c]  P
+  [  1f40]  St12domain_error
+  [  1f60]  St16invalid_argument
+  [  1f80]  St12out_of_range
+  [  1f9a]    
+  [  1f9e]   
+  [  20a0]  NSt6__ndk117bad_function_callE
+  [  20c0]  parse error - unexpected 
+  [  20e8]  <uninitialized>
+  [  20f8]  true literal
+  [  2108]  false literal
+  [  2118]  null literal
+  [  2128]  string literal
+  [  2138]  number literal
+  [  2148]  <parse error>
+  [  2158]  end of input
+  [  2168]  unknown token
+  [  2178]  boolean
+  [  2180]  discarded
+  [  2190]  com.megvii.
+  [  21a0]  /dev/urandom
+  [  21b0]  kÊ+îI²*©:«_mƒëakÀ^B¤?Å^N«àD¡•~6˜¡#
+  [  21d8]  unspecified iostream_category error
+  [  2200]  %a %b %d %H:%M:%S %Y
+  [  2218]  %I:%M:%S %p
+  [  2228]  unspecified generic_category error
+  [  2250]  unspecified system_category error
+  [  2278]  basic_string
+  [  2288]  wchar_t
+  [  2290]  signed char
+  [  22a0]  unsigned char
+  [  22b0]  unsigned short
+  [  22c0]  unsigned __int128
+  [  22d8]  operator&&
+  [  22e8]  operator&
+  [  22f8]  operator&=
+  [  2308]  operator=
+  [  2318]  operator()
+  [  2328]  operator,
+  [  2338]  operator~
+  [  2348]  operator delete[]
+  [  2360]  operator*
+  [  2370]  operator delete
+  [  2380]  operator/
+  [  2390]  operator/=
+  [  23a0]  operator^
+  [  23b0]  operator^=
+  [  23c0]  operator==
+  [  23d0]  operator>=
+  [  23e0]  operator>
+  [  23f0]  operator[]
+  [  2400]  operator<=
+  [  2410]  operator<<
+  [  2420]  operator<<=
+  [  2430]  operator<
+  [  2440]  operator-
+  [  2450]  operator-=
+  [  2460]  operator*=
+  [  2470]  operator--
+  [  2480]  operator new[]
+  [  2490]  operator!=
+  [  24a0]  operator!
+  [  24b0]  operator new
+  [  24c0]  operator||
+  [  24d0]  operator|
+  [  24e0]  operator|=
+  [  24f0]  operator->*
+  [  2500]  operator+
+  [  2510]  operator+=
+  [  2520]  operator++
+  [  2530]  operator->
+  [  2540]  operator?
+  [  2550]  operator%
+  [  2560]  operator%=
+  [  2570]  operator>>
+  [  2580]  operator>>=
+  [  2590]  (anonymous namespace)
+  [  25a8]  sizeof...(
+  [  25b8]  std::string
+  [  25c8]  std::istream
+  [  25d8]  basic_istream
+  [  25e8]  std::ostream
+  [  25f8]  basic_ostream
+  [  2608]  std::iostream
+  [  2618]  basic_iostream
+  [  2628]  'lambda'(
+  [  2638]  std::allocator
+  [  2648]  std::basic_string
+  [  2660]  unsigned int
+  [  2670]  unsigned long
+  [  2680]  long long
+  [  2690]  unsigned long long
+  [  26a8]  long double
+  [  26b8]  __float128
+  [  26c8]  decimal64
+  [  26d8]  decimal128
+  [  26e8]  decimal32
+  [  26f8]  decimal16
+  [  2708]  decltype(auto)
+  [  2718]  std::nullptr_t
+  [  2749]  uT=ô¦B¾*o×÷^^^F¿¯w^G¿/^W^A¿ş·²¾å^J/¾^FGÉ=l²Æ>j¼<?bg²?£é^D@;^A;@s†@$œ¼@NîÚ@^I8¼@ ^Z‡@Úá9@£é^D@K°°?qZ8?ª`Ä>1±¹=‘í<¾ÖV¬¾ÌÍ¨©^E¿¢Ñ^E¿æèá¾fk]¾eü{=<kY@^¿Ş~@Ç“@aO«@Ãõ¾@î=¿@ÄB«@{k“@Ïf^¿@.^\X@Ñ?É@u°Î@ˆ.å@í^Mş@zÇĞ@Z^MÜ@y’ä@^F^MÜ@—9Ñ@^RNu@:Ì@»~˜@­i¤@^I§˜@^I3@Ü¤@^W¼˜@ı¤@Ìu@N(@uÍ@˜/@±P”@«^D¨@ÃØ@-^I¸@4h¨@N”@zü€@CÊ@R¸@^M«@Ğ'@øk@¥I@j‡´@Î´@ Â@=›Â@ğPÂ@£;Â@¶¾Ç@}^E×@t{ê@Ô`è@×Lê@^G¶Ö@}ĞÇ@gíÒ@‡3İ@ıjç@[™İ@Ş^BÓ@úĞÌ@^SaÙ@%Ìé@ÎØ@^DÿÌ@‚Ú@ñôæ@^]UÚ@^M«@¥I@
+  [  28ff]  ?
+  [  290b]  ?
+  [  290f]  ?
+  [  2913]  ?
+  [  2918]  St8bad_cast
+  [  2a90]  !
+  [  2a9c]  "
+  [  2aa0]   
+  [  2aa4]  #
+  [  2aa8]  #
+  [  2ab4]  #
+  [  2ac0]  #
+  [  2ac8]  "
+  [  2acc]  #
+  [  2ad0]   
+  [  2ad4]  !
+  [  2ad8]  #
+  [  2adc]  !
+  [  2ae4]  #
+  [  2af0]  %
+  [  2afc]  %
+  [  2b04]  !
+  [  2b08]  %
+  [  2b0c]  !
+  [  2b10]   
+  [  2b14]  %
+  [  2b18]   
+  [  2b1c]  $
+  [  2b20]  %
+  [  2b24]  $
+  [  2b2c]  %
+  [  2b38]  (
+  [  2b44]  )
+  [  2b48]  &
+  [  2b4c]  (
+  [  2b50]  )
+  [  2b54]  (
+  [  2b5c]  )
+  [  2b68]  )
+  [  2b74]  *
+  [  2b80]  *
+  [  2b88]  (
+  [  2b8c]  *
+  [  2b90]  (
+  [  2b94]  &
+  [  2b98]  *
+  [  2ba4]  +
+  [  2bb0]  +
+  [  2bbc]  +
+  [  2bc0]  &
+  [  2bc4]  )
+  [  2bc8]  +
+  [  2bcc]  )
+  [  2bd4]  ,
+  [  2be0]  ,
+  [  2be8]  *
+  [  2bec]  -
+  [  2bf0]  +
+  [  2bf8]  -
+  [  2c04]  .
+  [  2c08]  &
+  [  2c0c]  '
+  [  2c10]  .
+  [  2c14]  ,
+  [  2c18]  *
+  [  2c1c]  .
+  [  2c20]  *
+  [  2c24]  &
+  [  2c28]  /
+  [  2c2c]  '
+  [  2c30]  &
+  [  2c34]  /
+  [  2c38]  &
+  [  2c3c]  +
+  [  2c40]  /
+  [  2c44]  +
+  [  2c48]  -
+  [  2c4c]  4
+  [  2c50]  .
+  [  2c54]  '
+  [  2c58]  4
+  [  2c5c]  '
+  [  2c60]  2
+  [  2c64]  4
+  [  2c68]  2
+  [  2c6c]  3
+  [  2c70]  5
+  [  2c74]  '
+  [  2c78]  /
+  [  2c7c]  5
+  [  2c80]  3
+  [  2c84]  2
+  [  2c88]  5
+  [  2c8c]  2
+  [  2c90]  '
+  [  2c94]  6
+  [  2c98]  ,
+  [  2c9c]  .
+  [  2ca0]  6
+  [  2ca4]  .
+  [  2ca8]  4
+  [  2cac]  6
+  [  2cb0]  0
+  [  2cb4]  ,
+  [  2cb8]  7
+  [  2cbc]  /
+  [  2cc0]  -
+  [  2cc4]  7
+  [  2cc8]  -
+  [  2ccc]  1
+  [  2cd0]  7
+  [  2cd4]  5
+  [  2cd8]  /
+  [  2cdc]  8
+  [  2ce0]  4
+  [  2ce4]  3
+  [  2ce8]  8
+  [  2cec]  6
+  [  2cf0]  4
+  [  2cf4]  9
+  [  2cf8]  3
+  [  2cfc]  5
+  [  2d00]  9
+  [  2d04]  5
+  [  2d08]  7
+  [  2d0c]  :
+  [  2d10]  <
+  [  2d14]  3
+  [  2d18]  0
+  [  2d1c]  6
+  [  2d20]  8
+  [  2d24]  <
+  [  2d28]  8
+  [  2d2c]  3
+  [  2d30]  =
+  [  2d34]  :
+  [  2d38]  3
+  [  2d3c]  =
+  [  2d40]  3
+  [  2d44]  9
+  [  2d48]  <
+  [  2d4c]  0
+  [  2d50]  >
+  [  2d54]  0
+  [  2d58]  8
+  [  2d5c]  <
+  [  2d60]  ?
+  [  2d64]  :
+  [  2d68]  ;
+  [  2d6c]  ?
+  [  2d70]  >
+  [  2d74]  <
+  [  2d78]  ?
+  [  2d7c]  <
+  [  2d80]  :
+  [  2d84]  @
+  [  2d88]  ;
+  [  2d8c]  :
+  [  2d90]  @
+  [  2d94]  :
+  [  2d98]  =
+  [  2d9c]  A
+  [  2da0]  =
+  [  2da4]  1
+  [  2da8]  A
+  [  2dac]  @
+  [  2db0]  =
+  [  2db4]  1
+  [  2db8]  =
+  [  2dbc]  9
+  [  2dc0]  1
+  [  2dc4]  9
+  [  2dc8]  7
+  [  2dcc]  B
+  [  2dd8]  C
+  [  2de4]  D
+  [  2de8]  ?
+  [  2dec]  ;
+  [  2df0]  D
+  [  2df4]  ;
+  [  2df8]  @
+  [  2dfc]  E
+  [  2e00]  B
+  [  2e08]  F
+  [  2e14]  F
+  [  2e1c]  ,
+  [  2e20]  F
+  [  2e24]  E
+  [  2e2c]  G
+  [  2e30]  F
+  [  2e34]  ,
+  [  2e38]  H
+  [  2e3c]  ,
+  [  2e40]  0
+  [  2e44]  H
+  [  2e48]  G
+  [  2e4c]  ,
+  [  2e50]  I
+  [  2e54]  H
+  [  2e58]  0
+  [  2e5c]  J
+  [  2e60]  I
+  [  2e64]  0
+  [  2e68]  K
+  [  2e6c]  J
+  [  2e70]  0
+  [  2e74]  K
+  [  2e78]  0
+  [  2e7c]  >
+  [  2e80]  L
+  [  2e84]  >
+  [  2e88]  ?
+  [  2e8c]  L
+  [  2e90]  ?
+  [  2e94]  D
+  [  2e98]  L
+  [  2e9c]  K
+  [  2ea0]  >
+  [  2ea4]  M
+  [  2eac]  C
+  [  2eb0]  N
+  [  2ebc]  N
+  [  2ec4]  M
+  [  2ec8]  N
+  [  2ecc]  -
+  [  2ed4]  O
+  [  2ed8]  -
+  [  2edc]  N
+  [  2ee0]  P
+  [  2ee4]  1
+  [  2ee8]  -
+  [  2eec]  P
+  [  2ef0]  -
+  [  2ef4]  O
+  [  2ef8]  Q
+  [  2efc]  1
+  [  2f00]  P
+  [  2f04]  R
+  [  2f08]  1
+  [  2f0c]  Q
+  [  2f10]  S
+  [  2f14]  A
+  [  2f18]  1
+  [  2f1c]  S
+  [  2f20]  1
+  [  2f24]  R
+  [  2f28]  T
+  [  2f2c]  @
+  [  2f30]  A
+  [  2f34]  T
+  [  2f38]  A
+  [  2f3c]  S
+  [  2f40]  T
+  [  2f44]  D
+  [  2f48]  @
+  [  2f4c]  U
+  [  2f58]  U
+  [  2f60]  B
+  [  2f64]  V
+  [  2f70]  V
+  [  2f7c]  V
+  [  2f88]  V
+  [  2f90]  U
+  [  2f94]  W
+  [  2f98]   
+  [  2f9c]  "
+  [  2fa0]  W
+  [  2fa4]  "
+  [  2fac]  W
+  [  2fb8]  W
+  [  2fc0]  V
+  [  2fc4]  W
+  [  2fc8]  $
+  [  2fcc]   
+  [  2fd0]  X
+  [  2fd4]  C
+  [  2fdc]  X
+  [  2fe4]  $
+  [  2fe8]  X
+  [  2fec]  $
+  [  2ff0]  W
+  [  2ff4]  Y
+  [  2ff8]  N
+  [  2ffc]  M
+  [  3000]  Y
+  [  3004]  M
+  [  3008]  C
+  [  300c]  Y
+  [  3010]  C
+  [  3014]  X
+  [  3018]  Z
+  [  301c]  P
+  [  3020]  O
+  [  3024]  Z
+  [  3028]  O
+  [  302c]  N
+  [  3030]  Z
+  [  3034]  N
+  [  3038]  Y
+  [  303c]  Z
+  [  3040]  Q
+  [  3044]  P
+  [  3048]  [
+  [  304c]  R
+  [  3050]  Q
+  [  3054]  [
+  [  3058]  Q
+  [  305c]  Z
+  [  3060]  \
+  [  3064]  D
+  [  3068]  T
+  [  306c]  \
+  [  3070]  T
+  [  3074]  S
+  [  3078]  \
+  [  307c]  S
+  [  3080]  R
+  [  3084]  \
+  [  3088]  R
+  [  308c]  [
+  [  3090]  ]
+  [  3094]  J
+  [  3098]  K
+  [  309c]  ]
+  [  30a0]  K
+  [  30a4]  L
+  [  30a8]  ]
+  [  30ac]  L
+  [  30b0]  D
+  [  30b4]  ]
+  [  30b8]  D
+  [  30bc]  \
+  [  30c0]  ^
+  [  30c4]  I
+  [  30c8]  J
+  [  30cc]  ^
+  [  30d0]  J
+  [  30d4]  ]
+  [  30d8]  _
+  [  30dc]  F
+  [  30e0]  G
+  [  30e4]  _
+  [  30e8]  G
+  [  30ec]  H
+  [  30f0]  _
+  [  30f4]  H
+  [  30f8]  I
+  [  30fc]  _
+  [  3100]  I
+  [  3104]  ^
+  [  3108]  `
+  [  310c]  B
+  [  3110]  E
+  [  3114]  `
+  [  3118]  E
+  [  311c]  F
+  [  3120]  `
+  [  3124]  F
+  [  3128]  _
+  [  312c]  `
+  [  3130]  U
+  [  3134]  B
+  [  3150]   
+  [  3154]  @
+  [  3160]  6
+  [  3165]  cc¥ø||„îww™ö{{ÿòò^MÖkk½Şoo±‘ÅÅT`00P^B^A^A^CÎgg©V++}çşş^Yµ××bM««æìvvšÊÊE^_‚‚‰ÉÉ@ú}}‡ïúú^U²YYëGGÉûğğ^KA­­ì³ÔÔg_¢¢ıE¯¯ê#œœ¿S¤¤÷ärr–›ÀÀ[u··Âáıı^\=““®L&&jl66Z~??Aõ÷÷^BƒÌÌOh44\Q¥¥ôÑåå4ùññ^Hâqq“«ØØsb11S*^U^U?^H^D^D^L•ÇÇRF##eÃÃ^0^X^X(7––¡^J^E^E^O/ššµ^N^G^G^I$^R^R6^[€€›ßââ=Íëë&N''i^¿²²ÍêuuŸ^R^I^I^[^]ƒƒX,,t4^Z^Z.6^[^[-Ünn²´ZZî[  û¤RRöv;;M·ÖÖa}³³ÎR)){İãã>^//q^S„„—¦SSõ¹ÑÑh
+  [  32b3]  ,@  `ãüü^_y±±È[[íÔjj¾ËËFg¾¾Ùr99K”JJŞLLÔXXè…ÏÏJ»ĞĞkÅïï*Oªªåíûû^V†CCÅMM×f33U^Q……”ŠEEÏéùù^P^D^B^B^Fş^¿^¿ PPğx<<D%ŸŸºK¨¨ã¢QQó]££ş€@@À^EŠ?’’­!¼p88Hñõõ^Dc¼¼ßw¶¶Á¯ÚÚuB!!c ^P^P0åÿÿ^Zıóó^N¿ÒÒmÍÍL^X^L^L^T&^S^S5Ãìì/¾__á5——¢ˆDDÌ.^W^W9“ÄÄWU§§òü~~‚z==GÈdd¬º]]ç2^Y^Y+æss•À`` ^Y˜OOÑÜÜ^¿D""fT**~;«^KˆˆƒŒFFÊÇîî)k¸¸Ó(^T^T<§ŞŞy¼^^â^V^K^K^]­ÛÛvÛàà;d22Vt::N^T^J^J^^’IIÛ^L^F^F^JH$$l¸\\äŸÂÂ]½ÓÓnC¬¬ïÄbb¦9‘‘¨1••¤Óää7òyy‹Õçç2‹ÈÈCn77YÚmm·^AŒ±ÕÕdœNNÒI©©àØll´¬VVúóôô^GÏêê%Êee¯ôzzG®®é^P^H^H^XoººÕğxxˆJ%%o\..r8^\^\$W¦¦ñs´´ÇÆÆQËèè#¡İİ|èttœ>^_^_!–KKİa½½Ü^M‹‹†^OŠŠ…àpp|>>BqµµÄÌffªHHØ^F^C^C^E÷öö^A^\^N^N^RÂaa£j55_®WWùi¹¹Ğ^W††‘™ÁÁX:^]^]''¹Ùáá8ëøø^S+˜˜³"^Q^Q3Òii»©ÙÙp^G‰3””§-››¶<^^^^"^U‡‡’Ééé ‡ÎÎIªUUÿP((x¥ßßz^CŒŒY¡¡ø^I‰‰€^Z^M^M^We¿¿Ú×ææ1„BBÆĞhh¸‚AAÃ)™™°Z--w^^^O^O^Q{°°ËTTüm»»Ö,^V^V:¥Æcc„ø||™îwwö{{^Mÿòò½Ökk±ŞooT‘ÅÅP`00^C^B^A^A©Îgg}V++^Yçşşbµ××æM««šìvvEÊÊ^_‚‚@‰ÉÉú}}^Uïúúë²YYÉGG^KûğğìA­­g³ÔÔı_¢¢êE¯¯¿#œœ÷S¤¤–ärr[›ÀÀÂu··^\áıı®=““jL&&Zl66A~??^Bõ÷÷OƒÌÌ\h44ôQ¥¥4Ñåå^Hùññ“âqqs«ØØSb11?*^U^U^L^H^D^DR•ÇÇeF##^ÃÃ(0^X^X¡7––^O^J^E^Eµ/šš^I^N^G^G6$^R^R›^[€€=ßââ&ÍëëiN''Í^¿²²Ÿêuu^[^R^I^I^]ƒƒtX,,.4^Z^Z-6^[^[²Ünnî´ZZû[  ö¤RRMv;;a·ÖÖÎ}³³{R))>İããq^//—^S„„õ¦SSh¹ÑÑ
+  [  36b0]  ,Áíí`@  ^_ãüüÈy±±í¶[[¾ÔjjFËËÙg¾¾Kr99ŞJJÔLLè°XXJ…ÏÏk»ĞĞ*ÅïïåOªª^VíûûÅCC×MMUf33”^Q……ÏEE^Péùù^F^D^B^Bş^¿^¿ğ PPDx<<º%ŸŸãK¨¨ó¢QQş]££À€@@Š^E­?’’¼!Hp88^Dñõõßc¼¼Áw¶¶u¯ÚÚcB!!0 ^P^P^Zåÿÿ^Nıóóm¿ÒÒLÍÍ^T^X^L^L5&^S^S/Ãììá¾__¢5——ÌDD9.^W^WW“ÄÄòU§§‚ü~~Gz==¬Èddçº]]+2^Y^Y•æss À``˜^YÑOO^¿£ÜÜfD""~T**«;ƒ^KˆˆÊFF)ÇîîÓk¸¸<(^T^Ty§ŞŞâ¼^^^]^V^K^Kv­ÛÛ;ÛààVd22Nt::^^^T^J^JÛII^J^L^F^FlH$$ä¸\\]ŸÂÂn½ÓÓïC¬¬¦Äbb¨9‘‘¤1••7Óää‹òyy2ÕççC‹ÈÈYn77·ÚmmŒ^Ad±ÕÕÒNNàI©©´Øllú¬VV^Góôô%Ïêê¯ÊeeôzzéG®®^X^P^H^HÕoººˆğxxoJ%%r\..$8^\^\ñW¦¦Çs´´Q—ÆÆ#Ëèè|¡İİètt!>^_^_İKKÜa½½†^M‹‹…^OŠŠàppB|>>ÄqµµªÌffØHH^E^F^C^C^A÷öö^R^\^N^N£Âaa_j55ù®WWĞi¹¹‘^W††X™ÁÁ':^]^]¹'8Ùáá^Sëøø³+˜˜3"^Q^Q»Òiip©ÙÙ^G§3””¶-››"<^^^^’^U‡‡ ÉééI‡ÎÎÿªUUxP((z¥ßß^CŒŒøY¡¡€^I‰‰^W^Z^M^MÚe¿¿1×ææÆBB¸ĞhhÃAA°)™™wZ--^Q^^^O^OË{°°ü¨TTÖm»»:,^V^Vc¥Æc|„ø|w™îw{ö{ò^Mÿòk½Öko±ŞoÅT‘Å0P`0^A^C^B^Ag©Îg+}V+ş^Yçş×bµ×æM«všìvÊEÊ^_‚É@‰É}‡ú}ú^UïúYë²YGÉGğ^Kûğ­ìA­Ôg³Ôı_¢¯êE¯œ¿#œ¤÷S¤r–ärÀ[›À·Âu·ı^\áı“®=“&jL&6Zl6?A~?÷^Bõ÷ÌOƒÌ4\h4¥ôQ¥å4Ñåñ^Hùñq“âqØs«Ø1Sb1^U?*^U^D^L^H^DÇR•Ç#eF#Ã^Ã^X(0^X–¡7–^E^O^J^Ešµ/š^G^I^N^G^R6$^R€›^[€â=ßâë&Íë'iN'²Í^¿²uŸêu^I^[^R^Iƒ^]ƒ,tX,^Z.4^Z^[-6^[n²ÜnZî´Z û[ Rö¤R;Mv;Öa·ÖÎ}³){R)ã>İã/q^/„—^S„Sõ¦SÑh¹Ñ
+  [  3ab1]  ,Áí `@ ü^_ãü±Èy±[í¶[j¾ÔjËFËÙg¾9Kr9JŞJLÔLXè°XÏJ…ÏĞk»Ğï*ÅïªåOªû^VíûCÅCM×M3Uf3…”^Q…EÏEù^Péù^B^F^D^B^¿ş^¿Pğ P<Dx<Ÿº%Ÿ¨ãK¨Qó¢Q£ş]£@À€@Š^E’­?’¼!8Hp8õ^Dñõ¼ßc¼¶Áw¶Úu¯Ú!cB!^P0 ^Pÿ^Zåÿó^NıóÒm¿ÒÍLÍ^L^T^X^L^S5&^Sì/Ãì_á¾_—¢5—DÌD^W9.^WÄW“ÄòU§~‚ü~=Gz=d¬Èd]çº]^Y+2^Ys•æs` À`˜^YOÑOÜ^¿£Ü"fD"*~T*«;ˆƒ^KˆFÊFî)Çî¸Ók¸^T<(^TŞy§Ş^â¼^^K^]^V^KÛv­Ûà;Ûà2Vd2:Nt:^J^^^T^JIÛI^F^J^L^F$lH$\ä¸\Â]ŸÂÓn½ÓïC¬b¦Äb‘¨9‘•¤1•ä7Óäy‹òyç2ÕçÈC‹È7Yn7m·ÚmŒ^AÕd±ÕNÒN©àI©l´ØlVú¬Vô^Góôê%Ïêe¯Êezôz®éG®^H^X^P^HºÕoºxˆğx%oJ%.r\.^\$8^\¦ñW¦´Çs´ÆQ—Æè#Ëèİ|¡İtœèt^_!>^_KİK½Üa½‹†^M‹Š…^OŠpàp>B|>µÄqµfªÌfHØH^C^E^F^Cö^A÷ö^N^R^\^Na£Âa5_j5Wù®W¹Ği¹†‘^W†ÁX™Á^]':^]¹'á8Ùáø^Sëø˜³+˜^Q3"^Qi»ÒiÙp©Ù‰^G”§3”›¶-›^^"<^^‡’^U‡é ÉéÎI‡ÎUÿªU(xP(ßz¥ß^CŒ¡øY¡‰€^I‰^M^W^Z^M¿Úe¿æ1×æBÆBh¸ĞhAÃA™°)™-wZ-^O^Q^^^O°Ë{°Tü¨T»Öm»^V:,^Vcc¥Æ||„øww™î{{öòò^Mÿkk½Öoo±ŞÅÅT‘00P`^A^A^C^Bgg©Î++}Vşş^Yç××bµ««æMvvšìÊÊE‚‚^_ÉÉ@‰}}‡úúú^UïYYë²GGÉğğ^Kû­­ìAÔÔg³¢¢ı_¯¯êEœœ¿#¤¤÷Srr–äÀÀ[›··Âuıı^\á®=&&jL66Zl??A~÷÷^BõÌÌOƒ44\h¥¥ôQåå4Ñññ^Hùqq“âØØs«11Sb^U^U?*^D^D^L^HÇÇR•##eFÃÃ^^X^X(0––¡7^E^E^O^Jššµ/^G^G^I^N^R^R6$€€›^[ââ=ßëë&Í''iN²²Í^¿uuŸê^I^I^[^Rƒƒ^],,tX^Z^Z.4^[^[-6nn²ÜZZî û[RRö¤;;MvÖÖa·³³Î})){Rãã>İ//q^„„—^SSSõ¦ÑÑh¹
+  [  3eb2]  ,Á  `@üü^_ãÈy[[í¶jj¾ÔËËF¾¾Ùg99KrJJŞLLÔXXè°ÏÏJ…ĞĞk»ïï*ÅªåOûû^VíCCÅMM×33Uf……”^QEEÏùù^Pé^B^B^F^D^¿^¿şPPğ <<DxŸŸº%¨¨ãKQQóş]@@À€Š^E’’­?¼!88Hpõõ^Dñ¼¼ßc¶¶ÁwÚÚu¯!!cB^P^P0 ÿÿ^Zåóó^NıÒÒm¿ÍÍL^L^L^T^X^S^S5&ìì/Ã__á—¢5DDÌ^W^W9.ÄÄW“§§òU~~‚ü==Gzdd¬È]]çº^Y^Y+2ss•æ`` À˜^YOOÑÜÜ^¿£""fD**~T«;ˆˆƒ^KFFÊîî)Ç¸Ók^T^T<(ŞŞy§^^â¼^K^K^]^VÛÛv­àà;Û22Vd::Nt^J^J^^^TIIÛ^F^F^J^L$$lH\\ä¸ÂÂ]ŸÓÓn½¬¬ïCbb¦Ä‘¨9••¤1ää7Óyy‹òçç2ÕÈÈC‹77Ynmm·ÚŒ^AÕÕd±NNÒ©©àIll´ØVVú¬ôô^Góêê%Ïee¯Êzzô®®éG^H^H^X^PººÕoxxˆğ%%oJ..r\^\^\$8¦¦ñW´´ÇsÆÆQ—èè#Ëİİ|¡ttœè^_^_!>KKİ½½Üa‹‹†^MŠŠ…^Oppà>>B|µµÄqffªÌHHØ^C^C^E^Föö^A÷^N^N^R^\aa£Â55_jWWù®¹¹Ği††‘^WÁÁX™^]^]':¹'áá8Ùøø^Së³+^Q^Q3"ii»ÒÙÙp©‰^G””§3››¶-^^^^"<‡‡’^Uéé ÉÎÎI‡UUÿª((xPßßz¥ŒŒ^C¡¡øY‰‰€^I^M^M^W^Z¿¿Úeææ1×BBÆhh¸ĞAAÃ™™°)--wZ^O^O^Q^^°°Ë{TTü¨»»Öm^V^V:,c
+  [  4168]  |
+  [  416c]  w
+  [  4170]  {
+  [  4178]  k
+  [  417c]  o
+  [  4184]  0
+  [  418c]  g
+  [  4190]  +
+  [  41a0]  v
+  [  41b0]  }
+  [  41b8]  Y
+  [  41bc]  G
+  [  41dc]  r
+  [  41f0]  &
+  [  41f4]  6
+  [  41f8]  ?
+  [  4204]  4
+  [  4214]  q
+  [  421c]  1
+  [  422c]  #
+  [  4258]  '
+  [  4260]  u
+  [  426c]  ,
+  [  4278]  n
+  [  427c]  Z
+  [  4284]  R
+  [  4288]  ;
+  [  4294]  )
+  [  429c]  /
+  [  42a4]  S
+  [  42b4]   
+  [  42c0]  [
+  [  42c4]  j
+  [  42d0]  9
+  [  42d4]  J
+  [  42d8]  L
+  [  42dc]  X
+  [  42f4]  C
+  [  42f8]  M
+  [  42fc]  3
+  [  4304]  E
+  [  4314]  P
+  [  4318]  <
+  [  4324]  Q
+  [  432c]  @
+  [  433c]  8
+  [  4350]  !
+  [  4374]  _
+  [  437c]  D
+  [  438c]  ~
+  [  4390]  =
+  [  4394]  d
+  [  4398]  ]
+  [  43a0]  s
+  [  43a4]  `
+  [  43ac]  O
+  [  43b4]  "
+  [  43b8]  *
+  [  43c4]  F
+  [  43d8]  ^
+  [  43e8]  2
+  [  43ec]  :
+  [  43f4]  I
+  [  43fc]  $
+  [  4400]  \
+  [  4410]  b
+  [  4420]  y
+  [  442c]  7
+  [  4430]  m
+  [  443c]  N
+  [  4444]  l
+  [  4448]  V
+  [  4454]  e
+  [  4458]  z
+  [  4468]  x
+  [  446c]  %
+  [  4470]  .
+  [  448c]  t
+  [  4494]  K
+  [  44a4]  p
+  [  44a8]  >
+  [  44b0]  f
+  [  44b4]  H
+  [  44c4]  a
+  [  44c8]  5
+  [  44cc]  W
+  [  44f4]  i
+  [  4518]  U
+  [  451c]  (
+  [  453c]  B
+  [  4540]  h
+  [  4544]  A
+  [  454c]  -
+  [  4558]  T
+  [  4565]  c
+  [  4569]  |
+  [  456d]  w
+  [  4571]  {
+  [  4579]  k
+  [  457d]  o
+  [  4585]  0
+  [  458d]  g
+  [  4591]  +
+  [  45a1]  v
+  [  45b1]  }
+  [  45b9]  Y
+  [  45bd]  G
+  [  45dd]  r
+  [  45f1]  &
+  [  45f5]  6
+  [  45f9]  ?
+  [  4605]  4
+  [  4615]  q
+  [  461d]  1
+  [  462d]  #
+  [  4659]  '
+  [  4661]  u
+  [  466d]  ,
+  [  4679]  n
+  [  467d]  Z
+  [  4685]  R
+  [  4689]  ;
+  [  4695]  )
+  [  469d]  /
+  [  46a5]  S
+  [  46b5]   
+  [  46c1]  [
+  [  46c5]  j
+  [  46d1]  9
+  [  46d5]  J
+  [  46d9]  L
+  [  46dd]  X
+  [  46f5]  C
+  [  46f9]  M
+  [  46fd]  3
+  [  4705]  E
+  [  4715]  P
+  [  4719]  <
+  [  4725]  Q
+  [  472d]  @
+  [  473d]  8
+  [  4751]  !
+  [  4775]  _
+  [  477d]  D
+  [  478d]  ~
+  [  4791]  =
+  [  4795]  d
+  [  4799]  ]
+  [  47a1]  s
+  [  47a5]  `
+  [  47ad]  O
+  [  47b5]  "
+  [  47b9]  *
+  [  47c5]  F
+  [  47d9]  ^
+  [  47e9]  2
+  [  47ed]  :
+  [  47f5]  I
+  [  47fd]  $
+  [  4801]  \
+  [  4811]  b
+  [  4821]  y
+  [  482d]  7
+  [  4831]  m
+  [  483d]  N
+  [  4845]  l
+  [  4849]  V
+  [  4855]  e
+  [  4859]  z
+  [  4869]  x
+  [  486d]  %
+  [  4871]  .
+  [  488d]  t
+  [  4895]  K
+  [  48a5]  p
+  [  48a9]  >
+  [  48b1]  f
+  [  48b5]  H
+  [  48c5]  a
+  [  48c9]  5
+  [  48cd]  W
+  [  48f5]  i
+  [  4919]  U
+  [  491d]  (
+  [  493d]  B
+  [  4941]  h
+  [  4945]  A
+  [  494d]  -
+  [  4959]  T
+  [  4966]  c
+  [  496a]  |
+  [  496e]  w
+  [  4972]  {
+  [  497a]  k
+  [  497e]  o
+  [  4986]  0
+  [  498e]  g
+  [  4992]  +
+  [  49a2]  v
+  [  49b2]  }
+  [  49ba]  Y
+  [  49be]  G
+  [  49de]  r
+  [  49f2]  &
+  [  49f6]  6
+  [  49fa]  ?
+  [  4a06]  4
+  [  4a16]  q
+  [  4a1e]  1
+  [  4a2e]  #
+  [  4a5a]  '
+  [  4a62]  u
+  [  4a6e]  ,
+  [  4a7a]  n
+  [  4a7e]  Z
+  [  4a86]  R
+  [  4a8a]  ;
+  [  4a96]  )
+  [  4a9e]  /
+  [  4aa6]  S
+  [  4ab6]   
+  [  4ac2]  [
+  [  4ac6]  j
+  [  4ad2]  9
+  [  4ad6]  J
+  [  4ada]  L
+  [  4ade]  X
+  [  4af6]  C
+  [  4afa]  M
+  [  4afe]  3
+  [  4b06]  E
+  [  4b16]  P
+  [  4b1a]  <
+  [  4b26]  Q
+  [  4b2e]  @
+  [  4b3e]  8
+  [  4b52]  !
+  [  4b76]  _
+  [  4b7e]  D
+  [  4b8e]  ~
+  [  4b92]  =
+  [  4b96]  d
+  [  4b9a]  ]
+  [  4ba2]  s
+  [  4ba6]  `
+  [  4bae]  O
+  [  4bb6]  "
+  [  4bba]  *
+  [  4bc6]  F
+  [  4bda]  ^
+  [  4bea]  2
+  [  4bee]  :
+  [  4bf6]  I
+  [  4bfe]  $
+  [  4c02]  \
+  [  4c12]  b
+  [  4c22]  y
+  [  4c2e]  7
+  [  4c32]  m
+  [  4c3e]  N
+  [  4c46]  l
+  [  4c4a]  V
+  [  4c56]  e
+  [  4c5a]  z
+  [  4c6a]  x
+  [  4c6e]  %
+  [  4c72]  .
+  [  4c8e]  t
+  [  4c96]  K
+  [  4ca6]  p
+  [  4caa]  >
+  [  4cb2]  f
+  [  4cb6]  H
+  [  4cc6]  a
+  [  4cca]  5
+  [  4cce]  W
+  [  4cf6]  i
+  [  4d1a]  U
+  [  4d1e]  (
+  [  4d3e]  B
+  [  4d42]  h
+  [  4d46]  A
+  [  4d4e]  -
+  [  4d5a]  T
+  [  4d67]  c
+  [  4d6b]  |
+  [  4d6f]  w
+  [  4d73]  {
+  [  4d7b]  k
+  [  4d7f]  o
+  [  4d87]  0
+  [  4d8f]  g
+  [  4d93]  +
+  [  4da3]  v
+  [  4db3]  }
+  [  4dbb]  Y
+  [  4dbf]  G
+  [  4ddf]  r
+  [  4df3]  &
+  [  4df7]  6
+  [  4dfb]  ?
+  [  4e07]  4
+  [  4e17]  q
+  [  4e1f]  1
+  [  4e2f]  #
+  [  4e5b]  '
+  [  4e63]  u
+  [  4e6f]  ,
+  [  4e7b]  n
+  [  4e7f]  Z
+  [  4e87]  R
+  [  4e8b]  ;
+  [  4e97]  )
+  [  4e9f]  /
+  [  4ea7]  S
+  [  4eb7]   
+  [  4ec3]  [
+  [  4ec7]  j
+  [  4ed3]  9
+  [  4ed7]  J
+  [  4edb]  L
+  [  4edf]  X
+  [  4ef7]  C
+  [  4efb]  M
+  [  4eff]  3
+  [  4f07]  E
+  [  4f17]  P
+  [  4f1b]  <
+  [  4f27]  Q
+  [  4f2f]  @
+  [  4f3f]  8
+  [  4f53]  !
+  [  4f77]  _
+  [  4f7f]  D
+  [  4f8f]  ~
+  [  4f93]  =
+  [  4f97]  d
+  [  4f9b]  ]
+  [  4fa3]  s
+  [  4fa7]  `
+  [  4faf]  O
+  [  4fb7]  "
+  [  4fbb]  *
+  [  4fc7]  F
+  [  4fdb]  ^
+  [  4feb]  2
+  [  4fef]  :
+  [  4ff7]  I
+  [  4fff]  $
+  [  5003]  \
+  [  5013]  b
+  [  5023]  y
+  [  502f]  7
+  [  5033]  m
+  [  503f]  N
+  [  5047]  l
+  [  504b]  V
+  [  5057]  e
+  [  505b]  z
+  [  506b]  x
+  [  506f]  %
+  [  5073]  .
+  [  508f]  t
+  [  5097]  K
+  [  50a7]  p
+  [  50ab]  >
+  [  50b3]  f
+  [  50b7]  H
+  [  50c7]  a
+  [  50cb]  5
+  [  50cf]  W
+  [  50f7]  i
+  [  511b]  U
+  [  511f]  (
+  [  513f]  B
+  [  5143]  h
+  [  5147]  A
+  [  514f]  -
+  [  515b]  T
+  [  5164]  Qô§P~AeS^Z^W¤Ã:'^–;«kË^_Eñ¬úX«Kã^C“ 0úU­vmöˆÌv‘õ^BL%Oå×üÅ*Ë×&5D€µb£ŞZI%º^[gEê^N˜]şÀáÃ/u^BLğ^RF—£kÓùÆ^C_ç^U’œ•¿mzë•RYÚÔƒ-Xt!ÓIài)ÉÈDuÂjôyx™X>k'¹qİáO¶ğˆ­^WÉ ¬f}Î:´cßJ^Xå^Z1‚—Q3`bS^¿E±dwà»k®„ş ^\ù^H+”pHhXEı^Y”Şl‡R{ø·«sÓ#rK^Bâã^_WfU«*²ë(^G/µÂ^C†Å{šÓ7^H¥0(‡ò#¿¥²^B^Cjºí^V‚\ŠÏ^\+§y´’ó^GòğNiâ¡eÚôÍ^F^E¾ÕÑ4b^_ÄşŠ4.S¢óU ^EŠá2¤öëu^Kƒì9@`ïª^qŸ^F½n^PQ>!Šù–İ^F=İ>^E®Mæ½F‘TµqÄ]^E^D^FÔo`P^Uÿ^Y˜û$Öé@CÌgÙw°èB½^G‰‹ˆç^Y[8yÈîÛ|^JG|B^Oéø„^^É
+  [  52f8]  2+íH^^^Qp¬lZrNı^Nÿû^O…8V=®Õ^^6-9'^J^OÙdh\¦!›[TÑ$6.:^L^Jg±“Wç^O´î–Ò^[›‘€ÀÅOaÜ ¢ZwKi^\^R^Z^Vâ^JÀ *å<"àC^R^[^W^]^N^I^M^Kò‹Ç-¶¨¹^T^^©ÈWñ^Y…¯u^GLî™İ£^¿`ı÷^A&Ÿ\rõ¼Df;Å[û~4‹C)vË#ÆÜíüh¸äñc×1ÜÊBc…^P^S—"@„Æ^Q …J$}Ò=ø®ù2^QÇ)¡m^]/KÜ0ó^M†RìwÁãĞ+³^Vl©p¹™^Q”HúGéd"¨üŒÄğ?^ZV},Ø"3ï‡INÇÙ8ÑÁŒÊş˜Ô^K6¦õÏzŞ(Ú&?­¿¤,:äPx’^Mj_ÌT~Fbö^SÂØè.9÷^‚ÃõŸ]€¾iĞ|oÕ-©Ï%^R³È™;^P^X}§èœcnÛ;»{Í&x^InY^Xôì^AƒOš¨æ•neªÿæ~!¼Ï^Hï^Uèæºç›ÙJo6ÎêŸ^IÔ)°|Ö1¤²¯*?#1Æ”05¢fÀtN¼7ü‚ÊàĞ3§Ø^Uñ^D˜JAìÚ÷^¿ÍP^N^W‘ö/vMÖCï°MÌMTä–^DßÑãLjˆ^[Á,^_¸FeQ^¿^ê^D^AŒ5]ú‡tsû^KA.³g^]Z’ÛÒRé^PV3mÖG^Sš×aŒ7¡^LzYø^Të^S<‰Î'î·aÉ5á^\åízG±<œÒßYUòs?^X^TÎysÇ7¿S÷Íê_ıª[ß=o^TxDÛÊó¹hÄ>8$4,Â@_^V^]Ãr¼â%^L(<I‹ÿ^M•A9¨^Aq^H^L³ŞØäœdVÁ{ËaÕ2¶pHl\tĞWBPQô§S~AeÃ^Z^W¤–:'^Ë;«kñ^_E«¬úX“Kã^CU 0úö­vm‘ˆÌv%õ^BLüOå××Å*Ë&5Dµb£IŞZg%º^[˜Eê^Ná]şÀ^BÃ/u^RLğ£F—ÆkÓùç^C_•^U’œë¿mzÚRY-ÔƒÓXt!)IàiDÉÈjuÂxôyk™X>İ'¹q¶¾áO^Wğˆ­fÉ ¬´}Î:^XcßJ‚å^Z1`—Q3EbS^¿à±dw„»k®^\ş ”ù^H+XpHh^YEı‡”Şl·R{ø#«sÓârK^BWã^_*fU«^G²ë(^C/µÂ†Å{¥Ó7^Hò0(‡²#¿¥º^B^Cj\í^V‚+ŠÏ^\’§y´ğó^Gò¡NiâÍeÚôÕ^F^E¾^_Ñ4bŠÄş4.S ¢óU2^EŠáu¤öë9^Kƒìª@`ï^F^qŸQ½n^Pù>!Š=–İ^F®İ>^EFMæ‘T^EqÄ]o^D^FÔÿ`P^U$^Y˜û—ÖéÌ@CwgÙ½°èBˆ^G‰‹8ç^Y[ÛyÈîG¡|^Jé|B^OÉø„^^
+  [  56f8]  H2+í¬^^^QpNlZrûı^NÿV^O…8^^=®Õ'6-9d^J^OÙ!h\¦Ñ[T:$6.±^L^Jg^O“WçÒî^[›‘O€ÀÅaÜ iZwK^V^\^R^Z^JâåÀ *C<"à^]^R^[^W^K^N^I^M­ò‹Ç-¶¨È^T^^©…Wñ^YL¯u^G»î™İı£^¿`Ÿ÷^A&¼\rõÅDf;4[û~v‹C)ÜË#Æh¶íüc¸äñÊ×1Ü^PBc…@^S—" „Æ^Q}…J$øÒ=^Q®ù2mÇ)¡K^]/óÜ0ì^M†RĞwÁãl+³^V™©p¹ú^Q”H"GédÄüŒ^Z ğ?ØV},ï"3ÇINÁÙ8ÑşŒÊ6˜Ô^KÏõ(¥zŞ&Ú¤?­¿ä,:^MPx’›j_ÌbT~FÂö^SèØ^.9÷õ‚Ã¾Ÿ]€|iĞ©oÕ-³Ï%^R;È™§^P^X}nèœc{Û;»^IÍ&xônY^X^Aì¨ƒOšeæ•n~ªÿæ^H!¼Ïæï^UèÙç›ÎJo6ÔêŸ^IÖ)°|¯1¤²1*?#0Æ”À5¢f7tN¼¦ü‚ÊàĞ^U3§ØJñ^D˜÷AìÚ^N^¿ÍP/^W‘övMÖMCï°TÌMßä–^DãÑ^[Ljˆ¸Á,^_^¿FeQ^D^ê]^AŒ5sú‡t.û^KAZ³g^]R’ÛÒ3é^PV^SmÖGŒš×az7¡^LYø^T‰ë^S<îÎ'5·aÉíá^\å<zG±YœÒß?Uòsy^X^TÎsÇ7êS÷Í[_ıª^Tß=o†xDÛÊó>¹hÄ,8$4_Â@r^V^]Ã^L¼â%‹(<IAÿ^M•q9¨^AŞ^H^L³œØädVÁa{ËpÕ2¶tHl\BĞW§PQôeS~A¤Ã^Z^W^–:'kË;«Eñ^_X«¬ú^C“KãúU 0mö­vv‘ˆÌL%õ^B×üOåË×Å*D€&5£µbZIŞ^[g%º^N˜EêÀá]şu^BÃ/ğ^RL—£FùÆkÓ_ç^Cœ•^U’zë¿mYÚRƒ-Ô!ÓXti)IàÈDÉjuÂyxô>k™Xqİ'¹O¶¾á­^Wğˆ¬fÉ :´}ÎJ^Xcß1‚å^Z3`—Q^¿EbSwà±d®„»k ^\ş+”ù^HhXpHı^YEl‡”Şø·R{Ó#«s^BârKWã^_«*fU(^G²ëÂ^C/µ{š†Å^H¥Ó7‡ò0(¥²#¿jº^B^C‚\í^V^\+ŠÏ’§yòğó^Gâ¡NiôÍeÚÕ^F^Eb^_Ñ4şŠÄS4.U ¢óá2^EŠëu¤öì9^Kƒïª@`Ÿ^F^q^PQ½nŠù>!^F=–İ^E®İ>½FMæ‘T]^EqÄÔo^D^F^Uÿ`Pû$^Y˜é—ÖCÌ@wgÙB½°è^G‰[8ç^YîÛyÈ^JG¡|^Oé|B^^Éø„
+  [  5af9]  H2+p¬^^^QrNlZÿûı^N8V^O…Õ^^=®9'6-Ùd^J^O¦!h\TÑ[.:$6g±^L^Jç^O“W–Òî^[›ÅO€À ¢aÜKiZw^Z^V^\^Rº^Jâ“*åÀ àC<"^W^]^R^[^M^K^N^IÇò-¶©È^T^^^Y…Wñ^GL¯uİî™`ı£^¿&Ÿ÷^Aõ¼\r;ÅDf~4[û)v‹CÆÜË#üh¶íñc¸äÜÊ×1…^PBc"@^S—^Q „Æ$}…J=øÒ2^Q®ù¡mÇ)/K^]0óÜRì^M†ãĞwÁ^Vl+³¹™©pHú^Q”d"GéŒÄü?^Z ğ,ØV}ï"3NÇIÑÁÙ8¢şŒÊ^K6˜ÔÏõŞ(¥z&Ú¿¤?­ä,:’^MPxÌj_FbT~^SÂö¸èØ÷^.9¯õ‚Ã¾Ÿ]“|iĞ-©oÕ^R³Ï%™;È}§^P^Xcnè{Û;x^IÍ&^XônY·^Aì¨ƒOneæ•æ~ªÿÏ^H!¼èæï^U›Ùç6ÎJo^IÔêŸ|Ö)°²¯1¤#1*?”0ÆfÀ5¢¼7tNÊü‚ĞàØ^U3§˜Jñ^DÚ÷AìP^N^¿Íö/^W‘ÖvM°MCïMTÌ^DßäãÑ^[Lj^_¸Á,Q^¿Feê^D^5]^AŒtsú‡A.û^K^]Z³gÒR’ÛV3é^PG^SmÖaŒš×^Lz7¡^TYø<‰ë^S'îÎÉ5·aåíá^\±<zGßYœÒs?UòÎy^X^T7¿sÇÍêS÷ª[_ıo^Tß=ÛxDóÊÄ>¹h4,8$@_ÂÃr^V^]%^L¼âI‹(<•Aÿ^M^Aq9¨³Ş^H^LäœØÁdV„a{ËpÕ2\tHlWBĞô§PQAeS~^W¤Ã^Z'^–:«kË;Eñ^_úX«¬ã^C“K0úU vmö­Ìv‘ˆ^BL%õå×üO*Ë×Å5D€&b£µ±ZIŞ^[g%ê^N˜EşÀá]/u^BÃLğ^RF—£ÓùÆk_ç^C’œ•^Umzë¿RYÚ¾ƒ-Ôt!ÓXài)IÉÈDÂjuyxôX>k™¹qİ'áO¶¾ˆ­^Wğ ¬fÉÎ:´}ßJ^Xc^Z1‚åQ3`—S^¿Ebdwà±k®„» ^\ş^H+”ùHhXpEı^YŞl‡”{ø·RsÓ#«K^Bâr^_WãU«*fë(^G²µÂ^C/Å{š†7^H¥Ó(‡ò0¿¥²#^Cjº^B^V‚\íÏ^\+Šy´’§^Gòğóiâ¡NÚôÍe^E¾Õ^F4b^_ÑşŠÄ.S4óU ¢Šá2^Eöëu¤ƒì9^K`ïª@qŸ^F^n^PQ½!Šù>İ^F=–>^E®İæ½FMTµ‘Ä]^Eq^FÔo^DP^Uÿ`˜û$^Y½é—Ö@CÌÙwgèB½°‰‹ˆ^G^Y[8çÈîÛy|^JG¡B^Oé|„^^Éø
+  [  5ef8]  +íH2^Qp¬^^ZrNl^Nÿûı…8V^O®Õ^^=-9'6^OÙd^J\¦!h[TÑ6.:$^Jg±^LWç^O“î–Ò›‘^[ÀÅO€Ü ¢awKiZ^R^Z^V^\“º^Jâ *åÀ"àC<^[^W^]^R^I^M^K^N‹Çò-^^©È^Tñ^Y…Wu^GL¯™İî^¿`ı£^A&Ÿ÷rõ¼\f;ÅDû~4[C)v‹#ÆÜËíüh¶äñc¸1ÜÊ×c…^PB—"@^SÆ^Q „J$}…»=øÒù2^Q®)¡mÇ/K^]²0óÜRì^MÁãĞw³^Vl+p¹™©”Hú^Qéd"GüŒÄğ?^Z },ØV3ï"INÇ8ÑÁÙÊşŒÔ^K6˜õÏzŞ(¥·&Ú¿¤?:ä,x’^MP_Ìj~FbT^SÂöØè9÷^.Ãõ‚]€¾ŸĞ|iÕ-©o%^R³Ï™;È^X}§^Pœcnè;»{Û&x^IÍY^Xônš·^AìOš¨ƒ•neæÿæ~ª¼Ï^H!^Uèæïç›Ùo6ÎJŸ^IÔê°|Ö)¤²¯1?#1*¥”0ÆfÀ5N¼7t‚ÊüĞà§Ø^U3^D˜JñìÚ÷AÍP^N^¿‘ö/^WMÖvï°MCªMTÌ^DßäÑãjˆ^[L,^_¸ÁeQ^¿F^ê^DŒ5]^A‡tsú^KA.ûg^]Z³ÛÒR’^PV3éÖG^Sm×aŒš¡^Lz7ø^TY^S<‰ë©'îÎaÉ5·^\åíáG±<zÒßYœòs?U^TÎy^XÇ7¿s÷ÍêSıª[_=o^TßDÛx¯óÊhÄ>¹$4,8£@_Â^]Ãr^Vâ%^L¼<I‹(^M•Aÿ¨^Aq9^L³Ş^H´äœØVÁdËa{2¶pÕl\tH¸WBĞR
+  [  616c]  j
+  [  6174]  0
+  [  6178]  6
+  [  6180]  8
+  [  6188]  @
+  [  61a4]  |
+  [  61ac]  9
+  [  61b8]  /
+  [  61c4]  4
+  [  61cc]  C
+  [  61d0]  D
+  [  61e4]  T
+  [  61e8]  {
+  [  61f0]  2
+  [  61fc]  #
+  [  6200]  =
+  [  6208]  L
+  [  6214]  B
+  [  6220]  N
+  [  6228]  .
+  [  6230]  f
+  [  6234]  (
+  [  623c]  $
+  [  6244]  v
+  [  6248]  [
+  [  6250]  I
+  [  6254]  m
+  [  6260]  %
+  [  6264]  r
+  [  6270]  d
+  [  6278]  h
+  [  628c]  \
+  [  6294]  ]
+  [  6298]  e
+  [  62a4]  l
+  [  62a8]  p
+  [  62ac]  H
+  [  62b0]  P
+  [  62c4]  ^
+  [  62cc]  F
+  [  62d0]  W
+  [  630c]  X
+  [  631c]  E
+  [  6328]  ,
+  [  6338]  ?
+  [  6360]  k
+  [  6364]  :
+  [  6370]  A
+  [  6374]  O
+  [  6378]  g
+  [  63a0]  s
+  [  63ac]  t
+  [  63b0]  "
+  [  63bc]  5
+  [  63cc]  7
+  [  63d8]  u
+  [  63e0]  n
+  [  63e4]  G
+  [  63f0]  q
+  [  63f8]  )
+  [  6404]  o
+  [  640c]  b
+  [  6428]  V
+  [  642c]  >
+  [  6430]  K
+  [  643c]  y
+  [  6440]   
+  [  6454]  x
+  [  645c]  Z
+  [  6470]  3
+  [  6480]  1
+  [  6490]  Y
+  [  6494]  '
+  [  64a0]  _
+  [  64a4]  `
+  [  64a8]  Q
+  [  64bc]  J
+  [  64c4]  -
+  [  64cc]  z
+  [  64ec]  ;
+  [  64f0]  M
+  [  64f8]  *
+  [  6510]  <
+  [  6518]  S
+  [  6520]  a
+  [  6528]  +
+  [  6530]  ~
+  [  6538]  w
+  [  6540]  &
+  [  6548]  i
+  [  6550]  c
+  [  6554]  U
+  [  6558]  !
+  [  6560]  }
+  [  6565]  R
+  [  656d]  j
+  [  6575]  0
+  [  6579]  6
+  [  6581]  8
+  [  6589]  @
+  [  65a5]  |
+  [  65ad]  9
+  [  65b9]  /
+  [  65c5]  4
+  [  65cd]  C
+  [  65d1]  D
+  [  65e5]  T
+  [  65e9]  {
+  [  65f1]  2
+  [  65fd]  #
+  [  6601]  =
+  [  6609]  L
+  [  6615]  B
+  [  6621]  N
+  [  6629]  .
+  [  6631]  f
+  [  6635]  (
+  [  663d]  $
+  [  6645]  v
+  [  6649]  [
+  [  6651]  I
+  [  6655]  m
+  [  6661]  %
+  [  6665]  r
+  [  6671]  d
+  [  6679]  h
+  [  668d]  \
+  [  6695]  ]
+  [  6699]  e
+  [  66a5]  l
+  [  66a9]  p
+  [  66ad]  H
+  [  66b1]  P
+  [  66c5]  ^
+  [  66cd]  F
+  [  66d1]  W
+  [  670d]  X
+  [  671d]  E
+  [  6729]  ,
+  [  6739]  ?
+  [  6761]  k
+  [  6765]  :
+  [  6771]  A
+  [  6775]  O
+  [  6779]  g
+  [  67a1]  s
+  [  67ad]  t
+  [  67b1]  "
+  [  67bd]  5
+  [  67cd]  7
+  [  67d9]  u
+  [  67e1]  n
+  [  67e5]  G
+  [  67f1]  q
+  [  67f9]  )
+  [  6805]  o
+  [  680d]  b
+  [  6829]  V
+  [  682d]  >
+  [  6831]  K
+  [  683d]  y
+  [  6841]   
+  [  6855]  x
+  [  685d]  Z
+  [  6871]  3
+  [  6881]  1
+  [  6891]  Y
+  [  6895]  '
+  [  68a1]  _
+  [  68a5]  `
+  [  68a9]  Q
+  [  68bd]  J
+  [  68c5]  -
+  [  68cd]  z
+  [  68ed]  ;
+  [  68f1]  M
+  [  68f9]  *
+  [  6911]  <
+  [  6919]  S
+  [  6921]  a
+  [  6929]  +
+  [  6931]  ~
+  [  6939]  w
+  [  6941]  &
+  [  6949]  i
+  [  6951]  c
+  [  6955]  U
+  [  6959]  !
+  [  6961]  }
+  [  6966]  R
+  [  696e]  j
+  [  6976]  0
+  [  697a]  6
+  [  6982]  8
+  [  698a]  @
+  [  69a6]  |
+  [  69ae]  9
+  [  69ba]  /
+  [  69c6]  4
+  [  69ce]  C
+  [  69d2]  D
+  [  69e6]  T
+  [  69ea]  {
+  [  69f2]  2
+  [  69fe]  #
+  [  6a02]  =
+  [  6a0a]  L
+  [  6a16]  B
+  [  6a22]  N
+  [  6a2a]  .
+  [  6a32]  f
+  [  6a36]  (
+  [  6a3e]  $
+  [  6a46]  v
+  [  6a4a]  [
+  [  6a52]  I
+  [  6a56]  m
+  [  6a62]  %
+  [  6a66]  r
+  [  6a72]  d
+  [  6a7a]  h
+  [  6a8e]  \
+  [  6a96]  ]
+  [  6a9a]  e
+  [  6aa6]  l
+  [  6aaa]  p
+  [  6aae]  H
+  [  6ab2]  P
+  [  6ac6]  ^
+  [  6ace]  F
+  [  6ad2]  W
+  [  6b0e]  X
+  [  6b1e]  E
+  [  6b2a]  ,
+  [  6b3a]  ?
+  [  6b62]  k
+  [  6b66]  :
+  [  6b72]  A
+  [  6b76]  O
+  [  6b7a]  g
+  [  6ba2]  s
+  [  6bae]  t
+  [  6bb2]  "
+  [  6bbe]  5
+  [  6bce]  7
+  [  6bda]  u
+  [  6be2]  n
+  [  6be6]  G
+  [  6bf2]  q
+  [  6bfa]  )
+  [  6c06]  o
+  [  6c0e]  b
+  [  6c2a]  V
+  [  6c2e]  >
+  [  6c32]  K
+  [  6c3e]  y
+  [  6c42]   
+  [  6c56]  x
+  [  6c5e]  Z
+  [  6c72]  3
+  [  6c82]  1
+  [  6c92]  Y
+  [  6c96]  '
+  [  6ca2]  _
+  [  6ca6]  `
+  [  6caa]  Q
+  [  6cbe]  J
+  [  6cc6]  -
+  [  6cce]  z
+  [  6cee]  ;
+  [  6cf2]  M
+  [  6cfa]  *
+  [  6d12]  <
+  [  6d1a]  S
+  [  6d22]  a
+  [  6d2a]  +
+  [  6d32]  ~
+  [  6d3a]  w
+  [  6d42]  &
+  [  6d4a]  i
+  [  6d52]  c
+  [  6d56]  U
+  [  6d5a]  !
+  [  6d62]  }
+  [  6d67]  R
+  [  6d6f]  j
+  [  6d77]  0
+  [  6d7b]  6
+  [  6d83]  8
+  [  6d8b]  @
+  [  6da7]  |
+  [  6daf]  9
+  [  6dbb]  /
+  [  6dc7]  4
+  [  6dcf]  C
+  [  6dd3]  D
+  [  6de7]  T
+  [  6deb]  {
+  [  6df3]  2
+  [  6dff]  #
+  [  6e03]  =
+  [  6e0b]  L
+  [  6e17]  B
+  [  6e23]  N
+  [  6e2b]  .
+  [  6e33]  f
+  [  6e37]  (
+  [  6e3f]  $
+  [  6e47]  v
+  [  6e4b]  [
+  [  6e53]  I
+  [  6e57]  m
+  [  6e63]  %
+  [  6e67]  r
+  [  6e73]  d
+  [  6e7b]  h
+  [  6e8f]  \
+  [  6e97]  ]
+  [  6e9b]  e
+  [  6ea7]  l
+  [  6eab]  p
+  [  6eaf]  H
+  [  6eb3]  P
+  [  6ec7]  ^
+  [  6ecf]  F
+  [  6ed3]  W
+  [  6f0f]  X
+  [  6f1f]  E
+  [  6f2b]  ,
+  [  6f3b]  ?
+  [  6f63]  k
+  [  6f67]  :
+  [  6f73]  A
+  [  6f77]  O
+  [  6f7b]  g
+  [  6fa3]  s
+  [  6faf]  t
+  [  6fb3]  "
+  [  6fbf]  5
+  [  6fcf]  7
+  [  6fdb]  u
+  [  6fe3]  n
+  [  6fe7]  G
+  [  6ff3]  q
+  [  6ffb]  )
+  [  7007]  o
+  [  700f]  b
+  [  702b]  V
+  [  702f]  >
+  [  7033]  K
+  [  703f]  y
+  [  7043]   
+  [  7057]  x
+  [  705f]  Z
+  [  7073]  3
+  [  7083]  1
+  [  7093]  Y
+  [  7097]  '
+  [  70a3]  _
+  [  70a7]  `
+  [  70ab]  Q
+  [  70bf]  J
+  [  70c7]  -
+  [  70cf]  z
+  [  70ef]  ;
+  [  70f3]  M
+  [  70fb]  *
+  [  7113]  <
+  [  711b]  S
+  [  7123]  a
+  [  712b]  +
+  [  7133]  ~
+  [  713b]  w
+  [  7143]  &
+  [  714b]  i
+  [  7153]  c
+  [  7157]  U
+  [  715b]  !
+  [  7163]  }
+  [  7174]  8$4,6-9'$6.:*?#1pHhX~AeSlZrNbS^¿EHl\tFeQ^¿T~FbZwKiàĞî™İü‚Êò‹ÇØäœÖé—ÄşŠÊóØèÑãŒÊş‚Ãõ¨üŒÄõÏî–Òç›ÙÛ;»{Õ2¶pÇ)¡mÉ ¬fã^_Wí^V‚\ÿ^M•Añ^D˜J«sÓ#¥zŞ(·aÉ5¹hÄ>“Wç^O^ê^DEı^YLğ^R;«kË5¢fÀ'¹qİ)°|Ö^C_ç^M†Rì^_Eñ^Q”HúKã^C“Eê^N˜Wñ^Y…Yø^TsÇ7¿}Î:´oÕ-©aÜ ¢­vmö£^¿`ı±dwà¿mzë•RYÚ[TÑ@CÌINÇİ>^E®Ó7^H¥Á,^_¸Ï%^R³å^Z1‚ë^S<‰ù^H+”÷^A&ŸMæ½FCï°MQô§P_ıª[uÂj{ËaiĞ|gÙw=®Õ^^3§Ø^U!¼Ï^H/µÂ^C^EŠá2^Kƒì9^Y˜û$^W‘ö/vMÖxDÛj_ÌdVÁNiâ¡@`ïªR{ø·\rõ¼^F^E¾Õ^H^L³Ş^Z^W¤Ã^T^^©È>!Šù0(‡ò"3ï,:ä–İ^F=˜Ô^K6ŠÏ^\+„Æ^Q ®ù2^Q ğ?^Z²ë(^G¼â%^Læ•neèœcnú‡tsôyxŞZIĞWBÂ@_ÌMTAìÚ÷Oå×ü]şÀáS÷ÍêyÈîÛwÁãĞeÚôÍkÓùÆ1¤²¯?­¿¤-¶¨¹#¿¥²^I€†ƒ^G‰‹ˆ^U’œ•^[›‘¡|^JG¯u^GL½n^PQ³g^]Z™X>k—Q3`…J$}‹C)vÑ4b^_ß=o^TÍ&x^IÃ/u^Bé^PV3ç^Y[8õ^BL%û^KA.š×aŒ”Şl‡†Å{šˆÌv‘¢óU ¬úX«¾áO¶°èB½êŸ^IÔä–^Dßö^SÂø„^^ÉÒ=øÜ0óÎ'îÀ *åzG±<tN¼7fU«*h\¦!Bc…^PLjˆ^[^qŸ^FPx’^M^J^OÙd^D^FÔo^V^]Ãr^X^TÎy2+íH<"àC.9÷^ 0úUì^Aâ^Jğˆ­^Wş ^\Ôƒ-Ú&È™;Æ”0œÒßY’ÛÒR€ÀÅOÉÈD¤öëuªÿæ~¸äñc¶íüh^L^Jg±^B^Cjº^P^X}§^^^Qp¬4.S:'^–(<I‹&5D€|B^OérK^Bâ`P^UÿnY^XôDf;ÅJo6ÎXt!ÓV},Ø7¡^Lz9¨^Aq+³^Vl%º^[g^O…8V^AŒ5]^S—"@^]/KGéd"Iài)[û~4Uòs?^¿ÍP^NqÄ]^EcßJ^XmÖG^S×1ÜÊÙ8ÑÁË#ÆÜÅ*Ë×ï^Uèæá^\åíó^Gòğı^Nÿû§y´’©p¹™»k®„µb£Ÿ]€¾‘TµƒOš¨F—£
+  [  7574]  ,8$4'6-9:$6.1*?#XpHhS~AeNlZrEbS^¿tHl\^¿FeQbT~FiZwK°àĞî™İü‚Êò‹ÇØä—ÖéŠÄşÊóèØãÑşŒÊõ‚ÃÄüŒÏõÒî–Ùç›{Û;»pÕ2¶mÇ)¡fÉ ¬Wã^_\í^V‚Aÿ^M•Jñ^D˜#«sÓ(¥zŞ5·aÉ>¹hÄ^O“Wç^D^ê^YEı^RLğË;«kÀ5¢fİ'¹qÖ)°|ç^C_ì^M†Rñ^_Eú^Q”H“Kã^C˜Eê^N…Wñ^YYø^T¿sÇ7´}Î:©oÕ-¢aÜ ö­vmı£^¿`à±dwë¿mzÚRYÑ[TÌ@CÇIN®İ>^E¥Ó7^H¸Á,^_³Ï%^R‚å^Z1‰ë^S<”ù^H+Ÿ÷^A&FMæ½MCï°PQô§[_ıªjuÂa{Ë|iĞwgÙ^^=®Õ^U3§Ø^H!¼Ï^C/µÂ2^EŠá9^Kƒì$^Y˜û/^W‘övMÖxDÛj_ÌdVÁ¡Niâª@`ï·R{ø¼\rõÕ^F^E¾Ş^H^L³Ã^Z^W¤È^T^^©ù>!Šò0(‡ï"3ä,:=–İ^F6˜Ô^K+ŠÏ^\ „Æ^Q^Q®ù2^Z ğ?^G²ë(^L¼â%eæ•nnèœcsú‡txôyIŞZBĞW_Â@TÌM÷AìÚüOå×á]şÀêS÷ÍÛyÈîĞwÁãÍeÚôÆkÓù¯1¤²¤?­¿¹-¶¨²#¿¥ƒ^I€†ˆ^G‰‹•^U’œ^[›‘G¡|^JL¯u^GQ½n^PZ³g^]k™X>`—Q3}…J$v‹C)^_Ñ4b^Tß=o^IÍ&x^BÃ/u3é^PV8ç^Y[%õ^BL.û^KAŒš×a‡”Şlš†Å{‘ˆÌv ¢óU«¬úX¶¾áO½°èBÔêŸ^Ißä–^DÂö^SÉø„^^øÒ=óÜ0îÎ'åÀ *<zG±7tN¼*fU«!h\¦^PBc…^[Ljˆ^F^qŸ^MPx’d^J^OÙo^D^FÔr^V^]Ãy^X^TÎH2+íC<"à^.9÷U 0ú^Aì^Jâ^Wğˆ­^\ş -Ôƒ&Ú;È™0Æ”YœÒßR’ÛÒO€ÀÅDÉÈu¤öë~ªÿæc¸äñh¶íü±^L^Jgº^B^Cj§^P^X}¬^^^Qp4.S–:'^‹(<I€&5Dé|B^OârK^Bÿ`P^UônY^XÅDf;ÎJo6ÓXt!ØV},z7¡^Lq9¨^Al+³^Vg%º^[V^O…8]^AŒ5@^S—"K^]/"Géd)Iài4[û~?Uòs^N^¿ÍP^EqÄ]^XcßJ^SmÖGÊ×1ÜÁÙ8ÑÜË#Æ×Å*Ëæï^Uèíá^\åğó^Gòûı^Nÿ’§y´™©p¹„»k®µb£¾Ÿ]€µ‘T¨ƒOš£F—
+  [  7974]  4,8$9'6-.:$6#1*?hXpHeS~ArNlZ^¿EbS\tHlQ^¿FeFbT~KiZwĞàİî™Êü‚Çò‹äœØé—ÖşŠÄóÊ¸èØãÑşŒÊõ‚ÃÄüÏõ–Òî›Ùç»{Û;¶pÕ2¡mÇ)¬fÉ Wã^_‚\í^V•Aÿ^M˜Jñ^DÓ#«sŞ(¥zÉ5·aÄ>¹hç^O“Wê^D^ı^YEğ^RLkË;«fÀ5¢qİ'¹|Ö)°_ç^CRì^M†Eñ^_Hú^Q”^C“Kã^N˜Eê^Y…Wñ^TYø7¿sÇ:´}Î-©oÕ ¢aÜmö­v`ı£^¿wà±dzë¿mYÚRTÑ[CÌ@NÇI^E®İ>^H¥Ó7^_¸Á,^R³Ï%1‚å^Z<‰ë^S+”ù^H&Ÿ÷^A½FMæ°MCï§PQôª[_ı‰juÂa{Ë|iĞwgÙÕ^^=®Ø^U3§Ï^H!¼Â^C/µá2^EŠì9^Kƒû$^Y˜ö/^W‘ÖvMÛxDÌj_ÁdVâ¡Niïª@`ø·R{õ¼\r¾Õ^F^E³Ş^H^L¤Ã^Z^W©È^T^^Šù>!‡ò0(ï"3ä,:^F=–İ^K6˜Ô^\+ŠÏ^Q „Æ2^Q®ù?^Z ğ(^G²ë%^L¼âneæ•cnèœtsú‡yxôZIŞWBĞ@_ÂMTÌÚ÷Aì×üOåÀá]şÍêS÷îÛyÈãĞwÁôÍeÚùÆkÓ¯1¤¿¤?­¨¹-¶¥²#¿†ƒ^I€‹ˆ^G‰œ•^U’‘^[›^JG¡|^GL¯u^PQ½n^]Z³g>k™X3`—Q$}…J)v‹Cb^_Ñ4o^Tß=x^IÍ&u^BÃ/V3é^P[8ç^YL%õ^BA.û^KaŒš×l‡”Ş{š†Åv‘ˆÌU ¢óX«¬úO¶¾áB½°è^IÔêŸ^Dßä–^SÂö^^Éø„=øÒ0óÜ'îÎ*åÀ ±<zG¼7tN«*fU¦!h\…^PBcˆ^[LjŸ^F^q’^MPxÙd^J^OÔo^D^FÃr^V^]Îy^X^TíH2+àC<"÷^.9úU 0·^Aì^Jâ^Wğˆ ^\şƒ-Ô&Ú™;È”0ÆßYœÒÒR’ÛÅO€ÀÈDÉëu¤öæ~ªÿñc¸äüh¶íg±^L^Jjº^B^C}§^P^Xp¬^^^QS4.^–:'I‹(<D€&5^Oé|B^BârK^Uÿ`P^XônY;ÅDf6ÎJo!ÓXt,ØV}^Lz7¡^Aq9¨^Vl+³^[g%º8V^O…5]^AŒ"@^S—/K^]d"Géi)Ià~4[ûs?UòP^N^¿Í]^EqÄJ^XcßG^SmÖÜÊ×1ÑÁÙ8ÆÜË#Ë×Å*èæï^Uåíá^\òğó^Gÿûı^N´’§y¹™©p®„»k£µb€¾Ÿ]µ‘Tš¨ƒO—£F
+  [  7d74]  $4,8-9'66.:$?#1*HhXpAeS~ZrNlS^¿Ebl\tHeQ^¿F~FbTwKiZĞà™İî‚Êü‹Çò´äœØé—ÖşŠÄóÊØèÑãÊşŒÃõ‚üŒÄõÏî–Òç›Ù;»{Û2¶pÕ)¡mÇ ¬fÉ^_Wã^V‚\í^M•Aÿ^D˜JñsÓ#«zŞ(¥aÉ5·hÄ>¹Wç^O“^ê^DEı^YLğ^R«kË;¢fÀ5¹qİ'°|Ö)_ç^C†Rì^MEñ^_”Hú^Qã^C“Kê^N˜Eñ^Y…Wø^TYÇ7¿sÎ:´}Õ-©oÜ ¢avmö­^¿`ı£dwà±mzë¿RYÚ[TÑ@CÌINÇ>^E®İ7^H¥Ó,^_¸Á%^R³Ï^Z1‚å^S<‰ë^H+”ù^A&Ÿ÷æ½FMï°MCô§PQıª[_ÂjuËa{Ğ|iÙwg®Õ^^=§Ø^U3¼Ï^H!µÂ^C/Šá2^Eƒì9^K˜û$^Y‘ö/^WMÖvDÛx_ÌjVÁdiâ¡N`ïª@{ø·Rrõ¼\^E¾Õ^F^L³Ş^H^W¤Ã^Z^^©È^T!Šù>(‡ò03ï":ä,İ^F=–Ô^K6˜Ï^\+ŠÆ^Q „ù2^Q®ğ?^Z ë(^G²â%^L¼•neæœcnè‡tsúyxô±ZIŞWBĞ@_ÂMTÌìÚ÷Aå×üOşÀá]÷ÍêSÈîÛyÁãĞwÚôÍeÓùÆk¤²¯1­¿¤?¶¨¹-¿¥²#€†ƒ^I‰‹ˆ^G’œ•^U›‘^[|^JG¡u^GL¯n^PQ½g^]Z³X>k™Q3`—J$}…C)v‹4b^_Ñ=o^Tß&x^IÍ/u^BÃ^PV3é^Y[8ç^BL%õ^KA.û×aŒšŞl‡”Å{š†Ìv‘ˆóU ¢úX«¬áO¶¾èB½°Ÿ^IÔê–^Dßä^SÂö„^^Éø»=øÒ0óÜ'îÎ*åÀG±<zN¼7tU«*f\¦!hc…^PBjˆ^[LqŸ^F^x’^MP^OÙd^J^FÔo^D^]Ãr^V^TÎy^X+íH2"àC<9÷^.0úU š·^Aì^Jâ^Wğ ^\ş¾ƒ-Ô&Ú™;È”0ÆÒßYœÛÒR’ÀÅO€ÉÈDöëu¤ÿæ~ªäñc¸íüh¶^Jg±^L^Cjº^B^X}§^P^Qp¬^^.S4'^–:<I‹(5D€&B^Oé|K^BârP^Uÿ`Y^Xônf;ÅDo6ÎJt!ÓX},ØV¡^Lz7¨^Aq9³^Vl+º^[g%…8V^OŒ5]^A—"@^S/K^]éd"Gài)Iû~4[òs?UÍP^N^¿Ä]^EqßJ^XcÖG^Sm1ÜÊ×8ÑÁÙ#ÆÜË*Ë×Å^Uèæï^\åíá^Gòğó^Nÿûıy´’§p¹™©k®„»b£µ]€¾ŸTµ‘Oš¨ƒF—£
+  [  8170]  Error allocating memory
+  [  8188]   unzip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
+  [  81dd]  PNG^M^J^Z^JJan
+  [  81e8]  Feb
+  [  81ec]  Mar
+  [  81f0]  Apr
+  [  81f4]  May
+  [  81f8]  Jun
+  [  81fc]  Jul
+  [  8200]  Aug
+  [  8204]  Sep
+  [  8208]  Oct
+  [  820c]  Nov
+  [  8210]  Dec
+  [  8238]  U
+  [  825f]  -
+  [  8268]  0u
+  [  826c]  `ê
+  [  8271]  :
+  [  8274]  p^W
+  [  8278]  &z
+  [  8285]  S
+  [  8290]  ]^W^A
+  [  8295]  .
+  [  8299]  F
+  [  829c]  3^\
+  [  82a0]  Ms^A
+  [  82a6]  ?^J¹r‡;è^K
+  [  82b1]  =ø)®Uò¯äúBx^M9ƒÊ^A
+  [  82c7]  I!»~Bì^K
+  [  82d0]  7Ö[É;Š]éó^M‰^C2Á^A
+  [  82e5]  D!ı®Øo0<î
+  [  82f0]  x3fükˆâ7ƒérı¸ñ(‚^A
+  [  8305]  5œ ^Rxï» î
+  [  8311]  *V4^FÍL™!W,m]ŒÖĞ^A
+  [  8324]  b×T Î)Q]Ğ^K
+  [  8348]  R¥.^XH^L
+  [  8368]  mRòH^L
+  [  8388]  qdZRMHD@=;86421/.-+*)(''&%$$#""!!  ^_^_^^^^^^^]^]^\^\^\^[^[^[^[^Z^Z^Z^Y^Y^Y^Y^X^X^X^X^W^W^W^W^W^V^V^V^V^V^V^U^U^U^U^U^U^T^T^T^T^T^T^T^T^S^S^S^S^S^S^S^S^R^R^R^R^R^R^R^R^R^R^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^Q^P^P^P^P^P^P^P^P^P^P^P^P^P^P^O^O^O^O^O^O^O^O^O^O^O^O^O^O^O^O^N^N^N^N^N^N^N^N^N^N^N^N^N^N^N^N^N^N^N^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^M^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^L^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^K^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^J^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^I^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G€
+  [  8588]  7^M$^R+^V¤^Y½^\Š^_^\"‚$Á&ß(á*Ê,Ÿ.`0^P2±3B5È6B8±9^U;q<Ä=^N?R@AÂBñC^ZE=FZGrH†I•JŸK¥L§M¥NŸO–P‰QyReSOT5U^YVùV×W³X‹YbZ6[^G\×\¤]o^8_ÿ_Ä`‡aHb^HcÆc‚d<eõe¬fag^UhÇhxi(jÖjƒk/lÙl‚m)nĞnuo^Yp¼p]qşqr<sÙsut^Qu«uDvİvtw^Jx x4yÈy[zíz~{^N||-}º}G~Ô~_^¿ê^¿t€ı€†^N‚•‚^\ƒ¡ƒ'„«„/…²…5†¶†8‡¸‡9ˆ¸ˆ7‰µ‰3Š°Š-‹©‹$ŒŸŒ^Z”^M†şvídÛQ‘Æ;’¯’$“—“^J”}”ï”a•ÒC–´–$—“—^C˜r˜à˜N™¼™)š–š^B›n›ÚEœ°œ^[…ïYÂ+Ÿ“ŸûŸc Ë2¡™¡ÿ¡e¢Ë1£–£û£_¤Ã'¥‹¥î¥Q¦´¦^W§y§Û<¨¨ş¨_©À© ª€ªß?««ü«[¬¹¬^W­u­Ó0®®ê®F¯¢¯ş¯Z°¶°^Q±l±Ç!²|²Ö0³‰³ã³<´•´î´Fµµ÷µN¶¦¶ş¶U·¬·^C¸Y¸°¸^F¹\¹²¹^Gº]º²º^G»\»°»^E¼Y¼­¼^A½T½¨½û½N¾¡¾ô¾F¿˜¿ë¿=ÀÀàÀ2ÁƒÁÔÁ%ÂvÂÆÂ^WÃgÃÃ^GÄWÄÄöÄEÅÅãÅ2ÆÆÏÆ^]ÇkÇÇ^GÈUÈÈïÈ=ÉÉ×É#ÊpÊÊ^IËUËËíË8ÌÌĞÌ^[ÍfÍÍüÍGÎÎÜÎ&ÏpÏÏ^DĞNĞĞáĞ*ÑtÑÑ^FÒOÒÒàÒ(ÓqÓÓ^AÔIÔÔÙÔ ÕhÕÕöÕ=ÖÖËÖ^R×Y××å×,ØrØØşØDÙÙÏÙ^TÚZÚÚäÚ)ÛnÛÛ÷Û<ÜÜÅÜ^IİMİİÕİ^YŞ\ŞŞãŞ'ßjßßğß3àvà¹àûà>á€áÃá^EâGâ‰âËâ^MãOããÒã^SäUä–ä×ä^XåYåšåÛå^\æ\ææİæ^]ç^ççŞç^^è^èèİè^]é\éœéÛé^ZêYê˜ê×ê^VëUë”ëÒë^QìOììÌì^JíHí†íÄí^Bî@î~î»îùî6ïtï±ïîï+ğhğ¥ğâğ^_ñ\ñ˜ñÕñ^QòNòŠòÆò^Có?ó{ó·óòó.ôjô¦ôáô^]õXõ“õÏõ^JöEö€ö»ööö1÷l÷¦÷á÷^[øVøøËø^Eù?ùyù³ùíù'úaú›úÔú^NûHûû»ûôû-üfü üÙü^RıKı„ı¼ıõı.şfşŸş×ş^PÿHÿÿ¹ÿ
+  [  8988]  (
+  [  898a]  <
+  [  898c]  P
+  [  898e]  c
+  [  8990]  w
+  [  89a0]   ^A9^AT^Ao^AŒ^A«^AÊ^Aë^A^N^B2^BW^B}^B¥^BÎ^Bù^B%^CS^C‚^C³^Cå^C^X^DM^D„^D¼^Dö^D2^Eo^E­^Eí^E/^Fs^F¸^Fş^FG^G‘^Gİ^G*^Hz^HÊ^H^]^Ir^IÈ^I ^Jy^JÕ^J2^K‘^Kò^KU^Lº^L ^Mˆ^Mò^M^^NÌ^N<^O®^O!^P—^P^N^Qˆ^Q^C^R€^R
+  [  8a2a]  %^V²^VA^WÓ^Wf^Xû^X“^Y,^ZÈ^Zf^[^F^\§^\L^]ò^]š^^D^_ñ^_  P!^D"¹"p#*$å$£%d&&'ë'±({)F*^T+ã+¶,Š-a.:/^U0ò0Ò1´2™3€4i5U6B738%9^Z:^R;^K<^G=^F>^G?^J@^PA^XB#C0D?EQFeG|H•I±JÏKğL^SN9OaPŒQ¹RéS^[UPV‡WÁXşY=[~\Â]^I_R`aíb>d‘eèf@hœiúj[l¾m$opøqfs×tJvÀw9y´z2|³}7^¿½€F‚Ñ_…ğ†„ˆ^[Š´‹Pï5’Ü†•2—âšIœ^A»Ÿy¡9£ü¤Â‹¨Vª%¬ö­Ê¡±{³Wµ7·^Y¹ÿºç¼ÒÀÀ±ÂÄÆÈÊÌÎĞÒÔÖÌØàÚ÷Ü^Qß.áNãqå—çÀéìë^[îMğ‚òºôõö3ùtû¸ıÿÿPotential overflow in png_zalloc()
+  [  8bac]  profile '
+  [  8bb8]  ': 
+  [  8bbc]  h: 
+  [  8bc0]  Too many bytes for PNG signature
+  [  8be4]  1.6.16
+  [  8bec]  Application built with libpng-
+  [  8c0c]   but running with 
+  [  8c20]  Unknown freer parameter in png_data_freer
+  [  8c4c]   +0000
+  [  8c54]  Ignoring invalid time value
+  [  8c71]  libpng version 1.6.16 - December 22, 2014^JCopyright (c) 1998-2014 Glenn Randers-Pehrson^JCopyright (c) 1996-1997 Andreas Dilger^JCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.^J
+  [  8d2c]   libpng version 1.6.16 - December 22, 2014^J^J
+  [  8d5c]  unexpected zlib return code
+  [  8d78]  unexpected end of LZ stream
+  [  8d94]  missing LZ dictionary
+  [  8dac]  zlib IO error
+  [  8dbc]  bad parameters to zlib
+  [  8dd4]  damaged LZ stream
+  [  8de8]  insufficient memory
+  [  8dfc]  truncated
+  [  8e08]  unsupported zlib version
+  [  8e24]  unexpected zlib return
+  [  8e3c]  too short
+  [  8e48]  length does not match profile
+  [  8e68]  invalid length
+  [  8e78]  tag count too large
+  [  8e8c]  invalid rendering intent
+  [  8ea8]  intent outside defined range
+  [  8ec8]  invalid signature
+  [  8edc]  PCS illuminant is not D50
+  [  8ef8]  RGB color space not permitted on grayscale PNG
+  [  8f28]  Gray color space not permitted on RGB PNG
+  [  8f54]  invalid ICC profile color space
+  [  8f74]  invalid embedded Abstract ICC profile
+  [  8f9c]  unexpected DeviceLink ICC profile class
+  [  8fc4]  unexpected NamedColor ICC profile class
+  [  8fec]  unrecognized ICC profile class
+  [  900c]  unexpected ICC PCS encoding
+  [  9028]  ICC profile tag start not a multiple of 4
+  [  9054]  ICC profile tag outside profile
+  [  9074]  Image width is zero in IHDR
+  [  9090]  Invalid image width in IHDR
+  [  90ac]  Image width is too large for this architecture
+  [  90dc]  Image width exceeds user limit in IHDR
+  [  9104]  Image height is zero in IHDR
+  [  9124]  Invalid image height in IHDR
+  [  9144]  Image height exceeds user limit in IHDR
+  [  916c]  Invalid bit depth in IHDR
+  [  9188]  Invalid color type in IHDR
+  [  91a4]  Invalid color type/bit depth combination in IHDR
+  [  91d8]  Unknown interlace method in IHDR
+  [  91fc]  Unknown compression method in IHDR
+  [  9220]  MNG features are not allowed in a PNG datastream
+  [  9254]  Unknown filter method in IHDR
+  [  9274]  Invalid filter method in IHDR
+  [  9294]  Invalid IHDR data
+  [  92a8]  ASCII conversion buffer too small
+  [  92cc]  internal error handling cHRM coefficients
+  [  92f8]  internal error handling cHRM->XYZ
+  [  931c]  fixed point overflow ignored
+  [  933c]  inconsistent chromaticities
+  [  9358]  invalid end points
+  [  936c]  internal error checking chromaticities
+  [  9394]  invalid chromaticities
+  [  93ac]  gamma value out of range
+  [  93c8]  duplicate
+  [  93d4]  gamma value does not match sRGB
+  [  93f4]  gamma value does not match libpng estimate
+  [  9420]  sRGB
+  [  9428]  invalid sRGB rendering intent
+  [  9448]  inconsistent rendering intents
+  [  9468]  duplicate sRGB information ignored
+  [  948c]  cHRM chunk does not match sRGB
+  [  94ac]  known incorrect sRGB profile
+  [  94cc]  out-of-date sRGB profile with no signature
+  [  94f8]  Not recognizing known sRGB profile that has been edited
+  [  9530]  gamma table being rebuilt
+  [  954c]  libpng warning: %s
+  [  9560]  undefined
+  [  956c]  libpng error: %s
+  [  9580]  fixed point overflow in 
+  [  959c]  Libpng jmp_buf still allocated
+  [  95bc]  Application jmp_buf size changed
+  [  95e0]  bad longjmp: 
+  [  95f0]  sCAL width
+  [  95fc]  sCAL height
+  [  9608]  internal error: array alloc
+  [  9624]  internal error: array realloc
+  [  9644]  Out of memory
+  [  9654]  Out of Memory
+  [  9664]  read beyond end of data
+  [  967c]  invalid memory read
+  [  9690]  color-map index out of range
+  [  96b0]  bad encoding (internal error)
+  [  96d0]  unexpected encoding (internal error)
+  [  96f8]  a background color must be supplied to remove alpha/transparency
+  [  973c]  gray[8] color-map: too few entries
+  [  9760]  gray[16] color-map: too few entries
+  [  9784]  gray+alpha color-map: too few entries
+  [  97ac]  gray-alpha color-map: too few entries
+  [  97d4]  ga-alpha color-map: too few entries
+  [  97f8]  rgb[ga] color-map: too few entries
+  [  981c]  rgb[gray] color-map: too few entries
+  [  9844]  rgb+alpha color-map: too few entries
+  [  986c]  rgb-alpha color-map: too few entries
+  [  9894]  rgb color-map: too few entries
+  [  98b4]  palette color-map: too few entries
+  [  98d8]  invalid PNG color type
+  [  98f0]  bad data option (internal error)
+  [  9914]  color map overflow (BAD internal error)
+  [  993c]  bad background index (internal error)
+  [  9964]  Missing IHDR before IDAT
+  [  9980]  Missing PLTE before IDAT
+  [  999c]  Too many IDATs found
+  [  99b4]  png_read_update_info/png_start_read_image: duplicate call
+  [  99f0]  png_start_read_image/png_read_update_info: duplicate call
+  [  9a2c]  Invalid attempt to read row data
+  [  9a50]  bad adaptive filter value
+  [  9a6c]  sequential row overflow
+  [  9a84]  internal sequential row size calculation error
+  [  9ab4]  png_read_image: unsupported transformation
+  [  9ae0]  png_image_read: alpha channel lost
+  [  9b04]  unexpected alpha swap transformation
+  [  9b2c]  png_read_image: invalid transformations
+  [  9b54]  lost rgb to gray
+  [  9b68]  unexpected compose
+  [  9b7c]  lost/gained channels
+  [  9b94]  unexpected 8-bit transformation
+  [  9bb4]  unknown interlace type
+  [  9bcc]  unexpected bit depth
+  [  9be4]  bad color-map processing (internal error)
+  [  9c10]  Interlace handling should be turned on when using png_read_image
+  [  9c54]  Read palette index exceeding num_palette
+  [  9c80]  png_image_read: out of memory
+  [  9ca0]  png_image_read: opaque pointer not NULL
+  [  9cc8]  Image is too high to process with png_read_png()
+  [  9cfc]  png_image_begin_read_from_stdio: invalid argument
+  [  9d30]  png_image_begin_read_from_stdio: incorrect PNG_IMAGE_VERSION
+  [  9d70]  rb
+  [  9d74]  png_image_begin_read_from_file: invalid argument
+  [  9da8]  png_image_begin_read_from_file: incorrect PNG_IMAGE_VERSION
+  [  9de4]  png_image_begin_read_from_memory: invalid argument
+  [  9e18]  png_image_begin_read_from_memory: incorrect PNG_IMAGE_VERSION
+  [  9e58]  png_image_finish_read[color-map]: no color-map
+  [  9e88]  png_image_finish_read: invalid argument
+  [  9eb0]  png_image_finish_read: damaged PNG_IMAGE_VERSION
+  [  9ee4]  Read Error
+  [  9ef0]  Call to NULL read function
+  [  9f0c]  Can't set both read_data_fn and write_data_fn in the same structure
+  [  9f50]  Can't discard critical data on CRC error
+  [  9f7c]  invalid after png_start_read_image or png_read_update_info
+  [  9fb8]  Application must supply a known background gamma
+  [  9fec]  png_set_background
+  [  a000]  output gamma out of expected range
+  [  a024]  invalid alpha mode
+  [  a038]  conflicting calls to set alpha mode and background
+  [  a06c]  gamma value
+  [  a078]  invalid file gamma in png_set_gamma
+  [  a09c]  invalid screen gamma in png_set_gamma
+  [  a0c4]  invalid before the PNG header has been read
+  [  a0f0]  invalid error action to rgb_to_gray
+  [  a114]  ignoring out of range rgb_to_gray coefficients
+  [  a144]  rgb to gray red coefficient
+  [  a160]  rgb to gray green coefficient
+  [  a180]  libpng does not support gamma+background+rgb_to_gray
+  [  a1b8]  invalid background gamma type
+  [  a1d8]  Palette is NULL in indexed image
+  [  a1fc]  NULL row buffer
+  [  a20c]  Uninitialized row
+  [  a220]  png_do_rgb_to_gray found nongray pixel
+  [  a248]  png_do_encode_alpha: unexpected call
+  [  a270]  png_do_quantize returned rowbytes=0
+  [  a294]   using zstream
+  [  a2a4]  1.2.8
+  [  a2ac]  zstream unclaimed
+  [  a2c0]  extra compressed data
+  [  a2d8]  PNG unsigned integer out of range
+  [  a2fc]  Not a PNG file
+  [  a30c]  PNG file corrupted by ASCII conversion
+  [  a334]  CRC error
+  [  a340]  out of place
+  [  a350]  invalid
+  [  a358]  missing IHDR
+  [  a368]  ignored in grayscale PNG
+  [  a384]  hIST must be after
+  [  a398]  bKGD must be after
+  [  a3ac]  tRNS must be after
+  [  a3c0]  invalid values
+  [  a3d0]  too many profiles
+  [  a3e4]  bad keyword
+  [  a3f0]  out of memory
+  [  a400]  bad compression method
+  [  a418]  No space in chunk cache for sPLT
+  [  a43c]  malformed sPLT chunk
+  [  a454]  sPLT chunk has bad length
+  [  a470]  sPLT chunk too long
+  [  a484]  sPLT chunk requires too much memory
+  [  a4a8]  invalid with alpha channel
+  [  a4c4]  invalid index
+  [  a4d4]  invalid parameter count
+  [  a4ec]  unrecognized equation type
+  [  a508]  invalid data
+  [  a518]  invalid unit
+  [  a528]  bad width format
+  [  a53c]  non-positive width
+  [  a550]  bad height format
+  [  a564]  non-positive height
+  [  a578]  no space in chunk cache
+  [  a590]  insufficient memory to read chunk
+  [  a5b4]  Insufficient memory to process text chunk
+  [  a5e0]  unknown compression type
+  [  a5fc]  bad compression info
+  [  a614]  unknown chunk exceeds memory limits
+  [  a638]  error in user chunk
+  [  a64c]  Saving unknown chunk:
+  [  a664]  forcing save of an unhandled chunk; please call png_set_keep_unknown_chunks
+  [  a6b0]  unhandled critical chunk
+  [  a6cc]  invalid chunk type
+  [  a6e0]  internal row logic error
+  [  a6fc]  internal row size calculation error
+  [  a720]  internal row width error
+  [  a73c]  invalid user transform pixel depth
+  [  a760]  Not enough image data
+  [  a778]  Extra compressed data
+  [  a790]  Too much image data
+  [  a7a4]  Row has too many bytes to allocate in memory
+  [  a7d4]  cHRM White X
+  [  a7e4]  cHRM White Y
+  [  a7f4]  cHRM Red X
+  [  a800]  cHRM Red Y
+  [  a80c]  cHRM Green X
+  [  a81c]  cHRM Green Y
+  [  a82c]  cHRM Blue X
+  [  a838]  cHRM Blue Y
+  [  a844]  cHRM Red Z
+  [  a850]  png_set_gAMA
+  [  a860]  Invalid palette size, hIST allocation skipped
+  [  a890]  Insufficient memory for hIST chunk data
+  [  a8b8]  Invalid pCAL equation type
+  [  a8d4]  Invalid format for pCAL parameter
+  [  a8f8]  Invalid pCAL parameter count
+  [  a918]  Insufficient memory for pCAL purpose
+  [  a940]  Insufficient memory for pCAL units
+  [  a964]  Insufficient memory for pCAL params
+  [  a988]  Insufficient memory for pCAL parameter
+  [  a9b0]  Invalid sCAL unit
+  [  a9c4]  Invalid sCAL width
+  [  a9d8]  Invalid sCAL height
+  [  a9ec]  Memory allocation failed while processing sCAL
+  [  aa1c]  Invalid sCAL width ignored
+  [  aa38]  Invalid sCAL height ignored
+  [  aa54]  Invalid palette length
+  [  aa6c]  Invalid palette
+  [  aa7c]  Invalid iCCP compression method
+  [  aa9c]  Insufficient memory to process iCCP chunk
+  [  aac8]  Insufficient memory to process iCCP profile
+  [  aaf4]  too many text chunks
+  [  ab0c]  text compression mode is out of range
+  [  ab34]  text chunk: out of memory
+  [  ab50]  Insufficient memory to store text
+  [  ab74]  tRNS chunk has out-of-range samples for bit_depth
+  [  aba8]  too many sPLT chunks
+  [  abc0]  png_set_sPLT: invalid sPLT
+  [  abdc]  sPLT out of memory
+  [  abf0]  too many unknown chunks
+  [  ac08]  png_set_unknown_chunks now expects a valid location
+  [  ac3c]  invalid location in png_set_unknown_chunks
+  [  ac68]  unknown chunk: out of memory
+  [  ac88]  invalid unknown chunk location
+  [  aca8]  png_set_keep_unknown_chunks: invalid keep
+  [  acd4]  png_set_keep_unknown_chunks: no chunk list
+  [  ad00]  png_set_keep_unknown_chunks: too many chunks
+  [  ad30]  invalid compression buffer size
+  [  ad50]  Compression buffer size cannot be changed because it is in use
+  [  ad90]  Compression buffer size cannot be reduced below 6
+  [  adc4]  png_set_filler is invalid for low bit depth gray output
+  [  adfc]  png_set_filler: inappropriate color type
+  [  ae28]  info change after png_start_read_image or png_read_update_info
+  [  ae68]  profile matches sRGB but writing iCCP instead
+  [  ae98]  Writing zero-length unknown chunk
+  [  aebc]  Valid palette required for paletted images
+  [  aee8]  No IDATs written into file
+  [  af04]  Wrote palette index exceeding num_palette
+  [  af30]  png_write_info was never called before png_write_row
+  [  af68]  internal write transform logic error
+  [  af90]  png_write_image: internal call error
+  [  afb8]  Unknown row filter for method 0
+  [  afd8]  Can't add Up filter after starting
+  [  affc]  Can't add Average filter after starting
+  [  b024]  Can't add Paeth filter after starting
+  [  b04c]  Unknown custom filter method
+  [  b06c]  Unknown filter heuristic method
+  [  b08c]  no color-map for color-mapped image
+  [  b0b0]  png_write_image: unsupported transformation
+  [  b0dc]  Only compression windows <= 32k supported by PNG
+  [  b110]  Only compression windows >= 256 supported by PNG
+  [  b144]  Only compression method 8 is supported by PNG
+  [  b174]  no rows for png_write_image to write
+  [  b19c]  PNG_TRANSFORM_STRIP_FILLER: BEFORE+AFTER not supported
+  [  b1d4]  png_image_write_: out of memory
+  [  b1f4]  png_image_write_to_stdio: invalid argument
+  [  b220]  png_image_write_to_stdio: incorrect PNG_IMAGE_VERSION
+  [  b258]  wb
+  [  b25c]  png_image_write_to_file: invalid argument
+  [  b288]  png_image_write_to_file: incorrect PNG_IMAGE_VERSION
+  [  b2c0]  in use by IDAT
+  [  b2d0]  deflateEnd failed (ignored)
+  [  b2ec]  keyword truncated
+  [  b300]  keyword "@1": bad character '0x@2'
+  [  b324]  compressed data too long
+  [  b340]  length exceeds PNG maximum
+  [  b35c]  Invalid bit depth for grayscale image
+  [  b384]  Invalid bit depth for RGB image
+  [  b3a4]  Invalid bit depth for paletted image
+  [  b3cc]  Invalid bit depth for grayscale+alpha image
+  [  b3f8]  Invalid bit depth for RGBA image
+  [  b41c]  Invalid image color type specified
+  [  b440]  Invalid compression type specified
+  [  b464]  Invalid filter type specified
+  [  b484]  Invalid interlace type specified
+  [  b4a8]  Invalid number of colors in palette
+  [  b4cc]  Ignoring request to write a PLTE chunk in grayscale PNG
+  [  b504]  Z_OK on Z_FINISH with output space
+  [  b528]  Invalid sRGB rendering intent specified
+  [  b550]  No profile for iCCP chunk
+  [  b56c]  ICC profile too short
+  [  b584]  ICC profile length invalid (not a multiple of 4)
+  [  b5b8]  iCCP: invalid keyword
+  [  b5d0]  error writing ancillary chunked compressed data
+  [  b600]  sPLT: invalid keyword
+  [  b618]  Invalid sBIT depth specified
+  [  b638]  Invalid number of transparent colors specified
+  [  b668]  Ignoring attempt to write tRNS chunk out-of-range for bit_depth
+  [  b6a8]  Ignoring attempt to write 16-bit tRNS chunk when bit_depth is 8
+  [  b6e8]  Can't write tRNS with an alpha channel
+  [  b710]  Invalid background palette index
+  [  b734]  Ignoring attempt to write 16-bit bKGD chunk when bit_depth is 8
+  [  b774]  Ignoring attempt to write bKGD chunk out-of-range for bit_depth
+  [  b7b4]  Invalid number of histogram entries specified
+  [  b7e4]  tEXt: invalid keyword
+  [  b7fc]  tEXt: text too long
+  [  b810]  zTXt: invalid compression type
+  [  b830]  zTXt: invalid keyword
+  [  b848]  iTXt: invalid keyword
+  [  b860]  iTXt: invalid compression
+  [  b87c]  iTXt: uncompressed text too long
+  [  b8a0]  Unrecognized unit type for oFFs chunk
+  [  b8c8]  Unrecognized equation type for pCAL chunk
+  [  b8f4]  pCAL: invalid keyword
+  [  b90c]  Can't write sCAL (buffer too small)
+  [  b930]  Unrecognized unit type for pHYs chunk
+  [  b958]  Invalid time specified for tIME chunk
+  [  b980]  Write Error
+  [  b98c]  Call to NULL write function
+  [  b9a8]  incorrect header check
+  [  b9c0]  unknown compression method
+  [  b9dc]  invalid window size
+  [  b9f0]  unknown header flags set
+  [  ba0c]  header crc mismatch
+  [  ba20]  invalid block type
+  [  ba34]  invalid stored block lengths
+  [  ba54]  too many length or distance symbols
+  [  ba78]  invalid code lengths set
+  [  ba94]  invalid bit length repeat
+  [  bab0]  invalid code -- missing end-of-block
+  [  bad8]  invalid literal/lengths set
+  [  baf4]  invalid distances set
+  [  bb0c]  invalid literal/length code
+  [  bb28]  invalid distance code
+  [  bb40]  invalid distance too far back
+  [  bb60]  incorrect data check
+  [  bb78]  incorrect length check
+  [  bb90]  need dictionary
+  [  bba0]  stream end
+  [  bbac]  file error
+  [  bbb8]  stream error
+  [  bbc8]  data error
+  [  bbd4]  buffer error
+  [  bbe4]  incompatible version
+  [  bbfc]  0123456789ABCDEF0123456789ABCDEF
+  [  bc20]  bKGD
+  [  bc25]  cHRM
+  [  bc2a]  gAMA
+  [  bc2f]  iCCP
+  [  bc34]  sBIT
+  [  bc39]  sRGB
+  [  bc68]  3333UUUU
+  [  bc78]  3333
+  [  bc94]  DDDDUUUUªªªª^C
+  [  bcac]  00003333ÌÌÌÌ^O
+  [  bcdc]  """"ªªªªUUUUÀ
+  [  bcfc]  3333ğ
+  [  bd64]  bKGD
+  [  bd69]  cHRM
+  [  bd6e]  gAMA
+  [  bd73]  hIST
+  [  bd78]  iCCP
+  [  bd7d]  iTXt
+  [  bd82]  oFFs
+  [  bd87]  pCAL
+  [  bd8c]  pHYs
+  [  bd91]  sBIT
+  [  bd96]  sCAL
+  [  bd9b]  sPLT
+  [  bda0]  sTER
+  [  bda5]  sRGB
+  [  bdaa]  tEXt
+  [  bdaf]  tIME
+  [  bdb4]  zTXt
+  [  bdbe]  @À  `à^PPĞ0°pğ^HˆHÈ(¨hè^X˜XØ8¸xø^D„DÄ$¤dä^T”TÔ4´tô^LŒLÌ,¬lì^\œ\Ü<¼|ü^B‚BÂ"¢bâ^R’RÒ2²rò^JŠJÊ*ªjê^ZšZÚ:ºzú^F†FÆ&¦fæ^V–VÖ6¶vö^NNÎ.®nî^^^Ş>¾~ş^AAÁ!¡aá^Q‘QÑ1±qñ^I‰IÉ)©ié^Y™YÙ9¹yù^E…EÅ%¥eå^U•UÕ5µuõ^MMÍ-­mí^]]İ=½}ı^CƒCÃ#£cã^S“SÓ3³só^K‹KË+«kë^[›[Û;»{û^G‡GÇ'§gç^W—W×7·w÷^OOÏ/¯oï^_Ÿ_ß?¿^¿ÿ
+  [  bebd]  @€À^PPĞ ` à0p°ğ^DD„Ä^TT”Ô$d¤ä4t´ô^HHˆÈ^XX˜Ø(h¨è8x¸ø^LLŒÌ^\\œÜ,l¬ì<|¼ü^AAÁ^QQ‘Ñ!a¡á1q±ñ^EE…Å^UU•Õ%e¥å5uµõ^II‰É^YY™Ù)i©é9y¹ù^MMÍ^]]İ-m­í=}½ı^BB‚Â^RR’Ò"b¢â2r²ò^FF†Æ^VV–Ö&f¦æ6v¶ö^JJŠÊ^ZZšÚ*jªê:zºú^NNÎ^^^Ş.n®î>~¾ş^CCƒÃ^SS“Ó#c£ã3s³ó^GG‡Ç^WW—×'g§ç7w·÷^KK‹Ë^[[›Û+k«ë;{»û^OOÏ^__Ÿß/o¯ï?^¿¿ÿ
+  [  bfbe]   0@P`p€ °ÀĞàğ^A^Q!1AQaq‘¡±ÁÑáñ^B^R"2BRbr‚’¢²ÂÒâò^C^S#3CScsƒ“£³ÃÓãó^D^T$4DTdt„”¤´ÄÔäô^E^U%5EUeu…•¥µÅÕåõ^F^V&6FVfv†–¦¶ÆÖæö^G^W'7GWgw‡—§·Ç×ç÷^H^X(8HXhxˆ˜¨¸ÈØèø^I^Y)9IYiy‰™©¹ÉÙéù^J^Z*:JZjzŠšªºÊÚêú^K^[+;K[k{‹›«»ËÛëû^L^\,<L\l|Œœ¬¼ÌÜìü^M^]-=M]m}­½Íİíı^N^^.>N^n~®¾ÎŞîş^O^_/?O_o^¿Ÿ¯¿Ïßïÿ‰PNG^M^J^Z^J^H^H^D^D^B^B^A
+  [  c0f9]  0^Gw,a^NîºQ^I™^YÄm^Gôjp5¥céd2ˆÛ^N¤¸Üy^^éÕàˆÙÒ+L¶^I½|±~^G-¸ç‘^]¿d^P·^]ò °jHq¹óŞA¾„}ÔÚ^ZëäİmQµÔôÇÓV˜l^SÀ¨kdzùbıìÉeŠO\^A^TÙl^Fcc=^Oúõ^M^HÈ n;^^PiLäA`Õrqg¢Ñä^C<GÔ^DKı…^MÒkµ^J¥ú¨µ5l˜²BÖÉÛ@ù¼¬ãlØ2u\ßEÏ^MÖÜY=Ñ¬0Ù&:
+  [  c1bb]  Q€Q×È^VaĞµô´!#ÄV™•ºÏ^O¥½¸¸^B(^Hˆ^E_²Ù^LÆ$é^K±‡|o/^QLhX«^]aÁ=-f¶AÜv^FqÛ^A¼ Ò*^PÕï±q^_µ¶^F¥ä3Ôè¢É^Gx4ù
+  [  c226]  j^¿-=m^H—ld‘^A\cæôQkkbal^\Ø0e…N
+  [  c242]  bòí•^Fl{¥^A^[Áô^H‚WÄ^OõÆÙePé·^Rê‹|ˆ¹üß^]İbI-Ú^Uó|ÓeLÔûXa²MÎQµ:t
+  [  c281]  0»ÔA¥ßJ×Ø=mÄÑûôÖÓjéiCüÙn4Fˆg­Ğ`Ús-^DDå^]^C3_L^JªÉ|^Mİ<q^EPªA^B'^P^P^K¾† ^LÉ%µhW³…o ^IÔf¹ŸäaÎ^NùŞ^˜ÉÙ)"˜Ğ´¨×Ç^W=³Y^M´.;\½·­lºÀ ƒ¸í¶³¿š^Lâ¶^CšÒt9GÕê¯wÒ^U&Û^Dƒ^VÜs^R^Kcã„;d”>jm^M¨Zjz^KÏ^Näÿ^I“'®
+  [  c333]  }D“^OğÒ^H‡hò^A^^şÂ^Fi]Wb÷Ëge€q6l^Yç^Fknv^[Ôşà+ÓZzÚ^PÌJİgoßùùïC¾·^WÕ°`è£ÖÖ~“ÑÄÂØ8RòßOñg»ÑgW¼¦İ^Fµ?K6²HÚ+^MØL^[^J¯öJ^C6`z^DAÃï`ßUßg¨ïn1y¾iFŒ³aË^Zƒf¼ Òo%6âhR•w^LÌ^CG^K»¹^V^B"/&^EU¾;ºÅ(^K½²’Z´+^Dj³\§ÿ×Â1ÏĞ‹Ù,^]®Ş[°Âd›&òcìju^J“m^B©^F^Iœ?6^Në…g^Gr^SW
+  [  c415]  J¿•^Tz¸â®+±{8^[¶^L›Ò^M¾Õå·ïÜ|!ßÛ^KÔÒÓBâÔñø³İhnƒÚ^_Í^V¾[&¹öáw°owG·^XæZ^Hˆpj^OÿÊ;^Ff\^K^A^Qÿei®bøÓÿkaEÏl^Vxâ^J îÒ^M×Tƒ^DNÂ^C9a&g§÷^V`ĞMGiIÛwn>JjÑÜZÖÙf^Kß@ğ;Ø7S®¼©Å»Ş^¿ÏGéÿµ0^\òÂÊ0“³S¦£´$^E6Ğ“^F×Í)WŞT¿gÙ#.zf³¸JaÄ^B^[h]”+o*7¾^K´¡^LÃ^[ß^EZï^B-
+  [  c4f8]  A1^[^Y‚b62ÃS-+^DÅldEôw}†§ZVÇAO^HŠÙÈI»ÂÑèïúËÙôã^LOµ¬M~®µ-ƒÏ^\˜‡Q^RÂJ^P#ÙSÓpôx’AïaU×.^Tæµ7×˜^\–„ƒ^EY˜^[‚^X©
+  [  c55e]  -°šË6©]]wæ^\llÿß?AÔ^NZÍ$„•ã^UŸŒ F²§aw©¾¦áèñçĞóè$ƒŞÃe²ÅÚ®]]ëŸFD(Ìkoiıpv®k19ïZ* ,^I^G^Km8^\^Ró6Fß^G]ÆqTpí0ekô÷ó*»¶Â1¢u‘^\‰4 ^Gû¼Ÿ^Wº„^NyŞ%8ï²<ÿyós¾Hèj}^[ÅA<*ŞX^EOyğD~bé‡-OÂÆ^\TÛ^AŠ^U”@»^Nƒè#¦ÂÙ8¿^MÅ8Lô»!§–^JÎ^S^I
+  [  c627]  \H1×E‹búnÊSáwT]»º^Ul £Ö?ˆ—^N–‘P˜×Ş^Q©ÌÇÒúáì“Ëúõ\×br^]æykŞT@Ÿ„OYX^R^N^V^Y#^U^OÚp8$›A#=§kıeæZæ|%^IËWd8ĞN£®‘^Aâ^X!Ì3`ı¼*¯á$­îĞ?´-ƒ^RŸl²^I†«$HÉê^USĞ)F~ûhweâöy?/·H$6t^[^I^]5*^R^Dò¼SK³HRpŞey1ï~`şóæç¿Âış|‘ĞÕ= ËÌú6Šƒ»^G‘šxT¼±9e§¨K˜ƒ;^J©˜"Éúµ^IˆË^PO]ï_^NlôFÍ?ÙmŒ^NÂtC^RZó^B#AêÁplÁ€AwØG×6—^Fæ-Å
+  [  c736]  Aq[»Zh˜èwCÙÙlZ^^O-^U_~6^Lœ-^['İ^\
+  [  c753]  >^R
+  [  c758]  S1ƒ b®‹ÑSµ’^VÅôİWôïÄ§ÂïÕÙöé¼^G®¨^\·kŞ1œ*ï*…íykÊHpÓo^[]ø.*Fáá6Şf ^GÅ^¿cTèT"eóMåó²^B¤Â^[g‘„0& Ÿ)¸®ÅäùŸŞı:ÌóÖ{ıèÏk©€ıZ²™>^IŸ²^¿8„«°$^\,ñ^U^G52F*^^sw1^G´ápHõĞkQ6ƒFzw²]cN×úË^OæáÒÌÌù„×àJ^R–¯^K#¶Èp ‰A»„F]#^C^Gl8^ZÄ?^U1…^N^N(B˜Og^C©T~ÀúyUËbL^_Å8^ô#˜§^N³Ü^Uª^[
+  [  c846]  TåZ1Oü™bb×ØSyÎ^WOáIV~úP•-×{Ô^\Ìb^SŠ-R»–4‘è»^_ĞÙ^Fìó~^­ÂeGn‘Hl/ Suè6^R:©^G^I#jT$^H+e?^Qäy§–¥H¼f^[‘¤'*Š½à¼Ëò¡ĞëbŞıÀ#ïæÙá¼^TüĞ^M?ƒŠ&~²‘?¹$Ğpø^UËi;FæBzwı[µkeÜôZ~Å7^ISîv8H÷±®^I¸ğŸ^R¡3Ì?Šrı$“
+  [  c8f8]  7jÂ^AnÔ^CY¾F^BÜ^I^GëÂË^F²|^D…^VO^E¸Q^S^N;Ñ^OÖ—^MáïU^Ldù^Z^IS“Ø^H^J-^J=G\^Kp£&^\GÉä^]^^w¢^_)^]`^^¬^K/^[›aí^ZÂß^Xõµi^YÈò5^Rÿ˜÷^S¦&±^Q‘Ls^P^TZ<^U#0ş^Tz¸^VMäz^WàFM8×,9’É;¹ø^K:<îD?^K„†>R:À<eP^B=X^W^6o}œ76ÃÚ5^A©^X4„¿W1³Õ0êkÓ2İ^A^Q3åk$§©%ş1ï'É[-&LMb#{' ""™æ ^Uó$!(´x*^_Ş+F`ü)q^J>(ô^\q-Ãv³,šÈõ.­¢7/Àšp÷çXq®Y^^s™3Ür^\%“w+OQvrñ^WtE›ÕuxÜ~O¶K^¿^V^H^M}!bÏ|¤t€y“^^BxÊ^DzıÊÆ{°.¼l‡D~mŞú8oéúnl†µk[ìwj^BR1h58ói^H^¿¯b?^Umcf«+aQÁé`Ô×eã½ddº^C"fiàg Ë×H^W¡^UIN^_SKyu‘JücŞOË^I^\N’·ZL¥İM˜šÄF¯ğ^FGöN@EÁ$‚DD2ÍAsX^O@*æIB^]Œ‹CPhñTg^B3U>¼uW^IÖVŒÀøS»ª:Râ^T|PÕ~¾Qè9âZßS [†ífY±‡¤X4‘ë]^Cû)\ZEo^m/­_€^[5á·q÷àîÏâÙsã\³<ækÙşç2g¸å^E^Mzä8J&ï^O äîV¢ìaô`íäâ/èÓíéŠ6«ë½\iêğ¸^SıÇÒÑül—ş©^FUÿ,^P^Zú^[zØûBÄùu®\øHé
+  [  cb5c]  &=„ğ^QWFñ”A^Iô£+Ëõú•÷ÍÿOö`]xÙW7ºØ^N‰üÚ9ã>ÛõqŞŸ³ßÒ!õİåK7ÜØ^Lk×ïf©ÖØïÔ²-Õ^D¤bĞ3ÎÑjpæÓ]^Z$Ò^Pş^Å'”œÄ~*ÚÆI@^XÇÌVWÂû<•Ã‚ÓÁ•è^QÀ¨¯MËÅÊÆ{ÉÈñ^Q^KÉt^GDÌCm†Í^ZÓÀÏ-¹^BÎ@–¯‘wüm.B+’^Y(é>¦–«Td—òê"•Åà”øÇŸÏ~–^S8œ¡yú$oµ˜^S^Ew™J»1›}Ñóš05‰^G_KŒ^á^Mi‹ÏìŠÛ÷B‹‚I^D‰µ#Æˆdšƒ¿^NX‚æ°^^€ÑÚÜTÌ„c¦Q…:^X^W‡^MrÕ Ğâº ¨Î^Dfªùn¤«|xë®K^R)¯^R¬o­%Æ¬^Xñ§/ë3¦vUu¤A?·¥Ä)ø óC:¡ªı|£—¾¢ĞsÄç^Y^F´¾§@¶‰Í·^LÛÍ;±^O³b^OI±Ue‹°h"×_H^Uº^FöS¸1œ‘¹´ŠŞƒà^\½Ú^Z¿í4˜¾
+  [  ccf8]  eg¼¸‹È^Iªî^RW—b2ğŞ7Ü_k%¹8×ï(´ÅO^H}dà½o^A‡^A×¿ÖJİØjò3wßàV^PcXŸW^YPú0¥è^TŸ^Púqø¬BÈÀ{ß§ÇgC^Hru&oÎÍp^¿­•^U^X^Q-û·¤?Ğ^X‡'èÏ^ZBs¢¬ ÆÉGz^H>¯2 [È^Xµg;^JĞ
+  [  cd84]  i8P/^L_ì—âğY…‡—å=Ñ†e´à:İZOÏ?(3w†^PäêãwXR^MØí@h¿Qø¡ø+ğÄ—H*0"ZOWâöoI^¿“^HõÇ}§@Õ^XÀümNĞ5+·#Å^X–Ÿ ^¿*'^YGıº| A^B’ô^P÷èH¨=X^T›X?¨#¶^]1Ó÷¡‰jÏv^T^O¨Êá^G^¿¾„`Ã^FÒp ^·^W^\æY¸©ô<ß^UL…çÂÑà€~i^N/Ë{kHwÃ^O^MËÇh±s)Ç^DaL ¸Ùõ˜oDÿÓü~Pfî^[7ÚVM'¹^N(@^E¶Æï£ˆ^L^\^Z°Û^¿×g9‘xÒ+ô^_n“^C÷&;fšƒˆ?/‘íX“)T`D´1^Gø^LßM^^ºÏñ¦ìßş‰¸.Fg^W›T^Bp'ì»HğqŞ/LÉ0€ùÛUçEcœ ?kùÇÓ^Wh6Ár^OŠyË7]ä®Pá\@ÿTN%˜èösˆ‹®^Vï7^Vø@‚^D'>¼$^_é!AxU™¯×à‹Ê\3;¶Yí^ÑåU°~PGÕ^Yìÿl!;b^IF‡Úçé2ÈpÔí(±ùQ_Vä‚:1X:ƒ^I§æn3^_^HÁ†^Mm¦:µ¤á@½Á†ü^E/)I^WJNõ¯óv"2–^QŠx¾+˜^]Ù KÉôx.®HÀÀ^AıÒfAj^\^–÷y9*O—–Ÿ]òñ#å^E^YkM`~×õÑbçë¶Ş_R^IÂ7éµzÙF
+  [  cf8f]  h¼!¼Ğê1ßVc0aùÖ"^Djš½¦½^GØÁ^A¿6n´­S^I^H^UšNr^]ÿ)Î^Q†{·táÇ^OÍÙ^P’¨¾¬*F^Q^Y8#v¥€ufÆØ^P^Az`ş®Ïr›ÉsÊ"ñ¤WG–^Xï©9­ıÌ^^QE^FîMvc‰ñÎ&DÜèAødQy/ù4^^“AÚ&S¿ÖëéÆù³Œ¡E^Kb^Nğ^Y^GiL¡¾Q›<Û6'„5™’–Pş..™¹T&üŞè^Rq]Œw^Vá4Î.6©«IŠ^QEæ?^C ƒ»v‘àã^Sö\[ıYéI˜>Uñ!^F‚lDa>ÔÎÆÏ7~8A^¿Ö]&Ãn³‰v|ÖîÊÄoÖ^]Y^J±¡áä^^^Tóy¨K×iË^S²^Nw«\¡Â9Æ~^A€ş©œå™^U$^K6 6nQ^\§^Vf†ÂqÚ>,Şo,I¹Óğ^D^I•æ{I^M£^^.±^[H>ÒC-YnûÃöÛégQ^_©°ÌzÎ^Lt”a¹fñ^F^EŞ
+  [  d0f8]  w^G0–î^Na,™^IQº^GmÄ^Ypjôéc¥5d•£^NÛ2yÜ¤àÕé^^—ÒÙ^I¶L+~±|½ç¸-^G¿^]‘^]·^Pdj° òó¹qH„¾AŞ^ZÚÔ}mİäëôÔQƒÓÇ^Sl˜Vdk¨ÀıbùzŠeÉì^T^A\Oc^FlÙú^O=c^H^Mõ;n ÈLi^P^Õ`Aä¢gqr<^CäÑK^DÔGÒ^M…ı¥^Jµk5µ¨úB²˜lÛÉÖ¼ù@2ØlãEß\uÜÖ^MÏÑ=Y&Ù0¬QŞ
+  [  d1bb]  :È×Q€¿Ğa^V!´ôµV³Ä#Ï•™¸½¥^O(^B¸_^Eˆ^HÆ^LÙ±^Ké$/o|‡XhL^QÁa^]«¶f-=vÜA^AÛq^F˜Ò ¼ïÕ^P*q±…‰^F¶µ^_Ÿ¿ä¥è¸Ô3x^GÉ^O
+  [  d21b]  4–^I¨á^N˜^X^¿j^M»^Hm=-‘dl—æc\^AkkQô^\lab…e0Øòb
+  [  d243]  Nl^F•í^[^A¥{‚^HôÁõ^OÄWe°ÙÆ^R·éP‹¾¸êü¹ˆ|bİ^]ß^UÚ-IŒÓ|óûÔLeM²aX:µQÎ¼
+  [  d27f]  tÔ0âJßA=Ø×ÑÄmÓÖôûCiéj4nÙü­gˆFÚ`¸ĞD^D-s3^C^]åª^JL_İ^M|ÉP^Eq<'^BAª¾^K^P^PÉ^L †Whµ% o…³¹fÔ^IÎaäŸ^Şù^N)ÙÉ°Ğ"Ç×´Y³=^W.´^M·½\;Àºl­í¸ƒ š¿³¶^C¶â^Lt±ÒêÕG9Òw¯^DÛ&^UsÜ^Vƒãc^K^R”d;„^Mmj>zjZ¨ä^NÏ^K“^Iÿ^J
+  [  d32f]  '}^G±ğ^O“D‡^H£Ò^^^Aòhi^FÂş÷bW]€egË^Yl6qnk^FçşÔ^[v‰Ó+à^PÚzZgİJÌù¹ßo¾ïù^W·¾C`°ÕÖÖè¡Ñ~8ØÂÄOßòRÑgñ¦¼Wg?µ^FİH²6KØ^M+Ú^J^[L6^CJöA^Dz`ß`ïÃgßU1nïFi¾yËa³Œ¼fƒ^Z%oÒRhâ6Ì^Lw•»^KG^C"^B^V¹U^E&/Å;¾²½^K(+´Z’\³j^DÂ×ÿ§µĞÏ1,Ù‹[Ş^]›dÂìcò&uj£œ^Bm“^Jœ^I^F©ë^N6?r^Gg…^E
+  [  d412]  W^S•¿J‚â¸z^T{±+®^L¶^[8’Ò›åÕ^M|Üï·^KÛß!†ÓÒÔñÔâBhİø^_Ún¾^VÍö¹&[o°wá^X·Gwˆ^HZæÿ^Ojpf^F;Ê^Q^A^K\eÿøb®iakÿÓ^VlÏE ^Jâx×^MÒîN^DƒT9^C³Âg&aĞ`^V÷IiGM>nwÛÑjJÙÖZÜ@ß^Kf7Ø;ğSŞÅG²Ï^¿0µÿéò^\ÊÂS³“0$´£¦ºĞ6^EÍ×^F“TŞW)#Ùg¿³fz.ÄaJ¸]h^[^B*o+”´^K¾7Ã^L¡Z^Eß^[-^Bï
+  [  d4fa]  1A26b‚+-SÃdlÅ^D}wôEVZ§†OA–ÇÈÙ^HÑÂIúïèŠãôÙËµO^Lµ®~Mƒ-‡˜^\ÏJÂ^RQSÙ#^PxôpÓaïA’.®×U7µæ^T^\˜µ×^Eƒ„–‚^[˜Y›
+  [  d55d]  -úÛ6Ëæw]]ÿll^\ÔA?ßÍZ^N•„$¢ŒŸ^UãF ¾©wañèá¦èóĞçÃŞ$ÚÅe]]®ªDFŸëokÌ(vpıi91k® *Zï^K^G^I,^R^\8mßF6óÆ]^G²ípTqôke0»*ó÷¢1Â‰^\‘u^G 4^WŸ¼û^N„º%©Şy<²ï8sóyÿjèH¾AÅ^[}XŞ*<ğyO^Eéb~DÂO-‡ÛT^\Æ^UŠ^A^N»@¦#è8ÙÂ8 Å^M!»ôL^J–§^S–Î\Ì
+  [  d628]  E×1Hnúb‹wáSÊ»]T£ l^Uˆ?Ö–^N—Ş×PÇÌ^QìáúÒõúËrb×\kyæ^]@TµŞYO„Ÿ^V^N^RX^O^U#^Y$8pÚ=#A›eık§|æZæWË^I%NĞ8d^A‘®£^XŠŸâ3§Ì!*¼ı`­$á?ĞîŸ^Rƒ-†^I²lÉH$«ĞS^Uêû~F)âewh/?yö6$H·^]^I^[t^D^R*5KS¼òRH³yeŞp`~ï1çæóşşıÂÕĞ|ÌË=ƒŠ6úš‘^G»±¼Tx¨§e9;ƒ˜K"˜©^J^IµúÉ^P®Ë_ï]OFôl^NmÙ?ÍtÂ^NŒóZ^RCêA#^BÁlpÁØwA€—6×G-æ^F¥
+  [  d734]  qAŠ^ZhZ»[Cwè˜ZlÙÙ^U-O^^^L6~_'^[-œ>
+  [  d75a]  1S‹®b’µSÑİôÅ^VÄïôWïÂ”öÙÕ^G¼é·^\¨œ1Şk…*ï*ÊkyíÓpH¬ø]^[oáF*.fŞ6á^¿Å^G TèTcMóe"^B²óå^[©Â0„‘g)Ÿ &äÅ¸ıŞùÖóÌ:Ïèı{€©k¼™²Zı²Ÿ^I>«„8^¿,^\$°5^G^Uñ^^*F2^G1wsHpá´QkĞõzFƒ6c]²wËú×NÒáæ^OùÌÌà×¯–^RJ¶#^K pÈ»A‰^C#]F^Z8l^G1^U?Ä(^N^N…gO˜B~T©^CUyúÀLbË8Å^_˜#ô^³^N§ª^U–ÜåT
+  [  d849]  O1Z×bb™ÎySØIáO^WPú~V{×-•bÌ^\Ô-Š^S4–»R^_»è‘^F ÙĞ^~óìGeÂlH‘nuS /:^R6è#^I^G©^H$Tj^Q?e+–§yäH¥¤‘^[f½Š*'òËàëĞ¡ÀıŞbÙæï#^T¼á½^M§Ğü&Šƒ??‘²~pĞ$¹iË^UøBæF;[ıwzÜekµÅ~ZôîS^I7÷H8v¸^I®±¡^RŸğŠ?Ì3“$ır
+  [  d8fa]  j7^C„Ôn^BF¾Y^G^I¨Ü^FËÂë^D|²^EO^V…^N^SQ¸^OÑ;^M—…Ö^LUïá^I^Zùd^HØS^J-^J^K\G=^\&£p^]äÉG^_¢w^^^^`^])^[/^K¬^Zía›^X«ßÂ^Yiµõ^R5òÈ^S÷˜ÿ^Q±&¦^PsL‘^U<Z^T^Tş0#^V¸z^WzäM8MFà9,×;É:^Kø¹?Dî<>†„^K<À:R=^BPe6^^WX7œ}o5ÚÃ64^X©^A1W¿„0•Õ2Ókê3^Q^Aİ$kå%©§'ï1ş&-[É#bML" '{ æ™"!$ó^U*x´(+ºŞ^_)ü`F(>^Jq-q^\ô,³vÃ.õÈ/7¢­pšÀqXç÷s^^Y®rÜ3™w“%^\vQO+t^WñruÕE~‰Üx^¿K¶O}^M^H^V|Ïb!y€t¤xB^^“z^D Ê{ÆÊıl¼.°m~D‡o8úŞnúékµ†ljwì[h1R^Bió85b¯^¿^Hcm^U?a+«f`éÁQe¦×Ôdd½ãf"^CºgàiH×Ë I^U¡^WKS^_NJ‘uyOŞcüN^\^IËLZ·’M˜İFÄ˜G^Fğ¯E@NöD‚$ÁAÍ2D@^OXsBIæ*C‹Œ^]TñhPU3^BgWu¼>V·Ö^ISøÀŒR:ª»P|^TâQ¾~ÕZâ9è[ SßYfí†X¤‡±]ë‘4\)û^C^oEZ_­/má5^[€à÷q·â±Ïîãs¥Ùæ<³\çşÙkå¸g2äz^M^Eï&J8îä ^OìVí`ôaè/âäéíˆÓë«6Šêi\½ı^S¸ğüÑÒÇş—lÿU^F©ú^Z^P,ûØz^[ùÄBø\®uó
+  [  db57]  HòÂ^¿ğ„=&ñFW^Qô^IA”õË+£÷•úöOÿÍÙx]`Ø7WÚü‰^NÛ>ã9Şqõ¼ßŸ‹İõ!ÒÜ7Kå×k^LØÖfïÔïØÕ-²Ğb¤^DÑÎ3ÓæpjÒ$^Z]Å^ş^PÄ”'ÆÚ*~Ç^X@IÂWVÌÃ<ûÁÓ¢À^Qè•ËM¯¨ÊÅÈÉ{ÆÉ^K^QñÌD^GtÍmCÏÀÓ^ZÎ^B¹-‘¯–@müw’+B.“é(^Y–¦>œ—dT«•"êò”à€Å¼Çø~­Ï8^S–úy¡˜µo$™w^E^S›1»JšóÑ}‰50ŒK_^G^Má^ÏiŠ€ì‹B÷Û^DI‚ˆÆ#µƒšdˆ‚X^N¿€^^°æÜÚÑ“ÌT…Q¦c‡^W^X:†Õr^M©âĞ¨ º—ªf^DÎ¤nù®ëx|¯)^RK­o¬^R¬­Æ%§ñ^X¦3ë/¤uUv¥·?A ø)Ä:Có£|ıª¢¾—µÄsĞ^F^Yç¶@§¾·‚Í²ÍÛ^L³^O±;±I^Ob°‹eU»×"hº^UH_¸Sö^F¹‘œ1¼Ş´½^\àƒ¿Z^Ú˜4í
+  [  dcfa]  geª^IÈ^Rµ¯îb—W7Şğ2%k_Ü×8¹Å(ï}^HOŠo½àd×^A‡^AJÖ¸òjØİàßw3Xc^PVP^YWŸè¥0úú^PŸ^TB¬øqß{ÀÈgÇ­ur^HCÍÎo&•­^¿p-^Q^X^U?¤·û‡^XĞ^ZÏè'¢sB°Æ ¬^HzGÉ2¯>^XÈ[^J;gµ²‡
+  [  dd84]  /P8i—ì_^L…Yğâ=åe†‡Ñİ:à´ÏOZw3(?êä^P†RXwã@íØ^MøQ¿hğ+ø¡H—ŸÄZ"0*âWO^¿IoöÇõ^H“Õ@§}müÀ^X5ŸĞN#·+Ÿ–^XÅ'*^¿ ºıG^Y^BA |^PôHè÷›^TX=#¨?X1^]¶‰¡÷Ó^TvÏj¬Ê^O¾^¿^Gá^FÃ`„^ pÒæ^\^W·ô©¸YL^Uß<ÑÂç…i~€à{Ë/^NÃwHkË^M^O¢s±hÇa^DÇ)Ù LDo˜õüÓÿîfP~VÚ7^[^N¹'M¶^E@(¤°ïÆ^\^Lˆ£Û^Z9g×^¿+Òx‘“n^_ô;&÷^Cƒšf‘/?ˆ)“Xí´D`T^Lø^G1^^M¨ßñÏş’ßìF.¸‰T›^Wgì'p^BqğH»ÉL/ŞÛù€0cEçUk? œÓÇùÁ6h^WyŠ^Orä]7Ë\áP®NTÿ@öè˜%®‹ˆs^V7ï^V^D‚@ø¼>'!é^_$™UxA‹à×3\°ÊíY¶;UåÑ^GP~°ÿì^YÕb;!lÚF^IÈ2éçp‚(íÔQù±‚äV_:X1:§^Iƒ^_3næ^M†Á^Hµ:¦m½@á¤^Eü†Á^WI)/¯õNJ2"vóŠ^Q–˜+¾x —Ù^]xôÉKÀH®.Òı^AÀjAf¥÷–^^\O*9y]Ÿ–—å#ñòMk^Y^Eõ×~`çbÑ_ŞëÂ^IRzµé7h
+  [  df8e]  FÙĞ!¼ˆß1ê0cV"Öùašj^D^G½¦½¿^AÁØ´n6^U^H^IS^]rNš¥Î)ÿ·{†^Q^OÇát’^PÙÍ*¬¾¨8^Y^QF€¥v#ØÆfu`z^A^PrÏşÊsÉW¤ñ"ï^X–Gı­9©E^Q^ÌvMî^FÎñ‰cÜD&døAèù/yQA“^^4S&±ÚëšÖ³ùÆé^KE¡Œ^Yğ^Nb¡Li^G<›Q¾„'6Û’™5..şP&T¹™èŞüŒ]q^R4á^Vw©6.Î^QŠI«^C?æE»ƒ ãà‘v[\ö^SIéYıñU>˜l‚^F!Ô>aDÆÎ~7©ÏÖ^¿A8nÃ&]|v‰³ÄÊîÖY^]Öoá^Jó^T^^äK¨y^SËi×w^N²¹Â\^A~Æ9œ©ş€$^U™å6 6^K^\Qn†f^V§>ÚqÂ,oŞ,”ÓI^I^Dğ±¸æ^MI{^[±.^^CÒ>HûnY-éÛöÃQg‘¦Ì©^_t^LÎzf¹a”Ş^E^Fñ`^G
+  [  e0fa]  P
+  [  e102]  s
+  [  e10a]  p
+  [  e10e]  0
+  [  e11a]  `
+  [  e11e]   
+  [  e12e]  @
+  [  e13a]  X
+  [  e146]  ;
+  [  e14a]  x
+  [  e14e]  8
+  [  e15a]  h
+  [  e15e]  (
+  [  e16e]  H
+  [  e17a]  T
+  [  e186]  +
+  [  e18a]  t
+  [  e18e]  4
+  [  e19a]  d
+  [  e19e]  $
+  [  e1ae]  D
+  [  e1ba]  \
+  [  e1c6]  S
+  [  e1ca]  |
+  [  e1ce]  <
+  [  e1da]  l
+  [  e1de]  ,
+  [  e1ee]  L
+  [  e1fa]  R
+  [  e206]  #
+  [  e20a]  r
+  [  e20e]  2
+  [  e21a]  b
+  [  e21e]  "
+  [  e22e]  B
+  [  e23a]  Z
+  [  e246]  C
+  [  e24a]  z
+  [  e24e]  :
+  [  e25a]  j
+  [  e25e]  *
+  [  e26e]  J
+  [  e27a]  V
+  [  e280]  @^H
+  [  e286]  3
+  [  e28a]  v
+  [  e28e]  6
+  [  e29a]  f
+  [  e29e]  &
+  [  e2ae]  F
+  [  e2ba]  ^
+  [  e2c6]  c
+  [  e2ca]  ~
+  [  e2ce]  >
+  [  e2da]  n
+  [  e2de]  .
+  [  e2ee]  N
+  [  e2f4]  `^G
+  [  e2fa]  Q
+  [  e30a]  q
+  [  e30e]  1
+  [  e31a]  a
+  [  e31e]  !
+  [  e32e]  A
+  [  e33a]  Y
+  [  e346]  ;
+  [  e34a]  y
+  [  e34e]  9
+  [  e35a]  i
+  [  e35e]  )
+  [  e36e]  I
+  [  e37a]  U
+  [  e386]  +
+  [  e38a]  u
+  [  e38e]  5
+  [  e39a]  e
+  [  e39e]  %
+  [  e3ae]  E
+  [  e3ba]  ]
+  [  e3c6]  S
+  [  e3ca]  }
+  [  e3ce]  =
+  [  e3da]  m
+  [  e3de]  -
+  [  e3ee]  M
+  [  e3fa]  S
+  [  e406]  #
+  [  e40a]  s
+  [  e40e]  3
+  [  e41a]  c
+  [  e41e]  #
+  [  e42e]  C
+  [  e43a]  [
+  [  e446]  C
+  [  e44a]  {
+  [  e44e]  ;
+  [  e45a]  k
+  [  e45e]  +
+  [  e46e]  K
+  [  e47a]  W
+  [  e480]  @^H
+  [  e486]  3
+  [  e48a]  w
+  [  e48e]  7
+  [  e49a]  g
+  [  e49e]  '
+  [  e4ae]  G
+  [  e4ba]  _
+  [  e4c6]  c
+  [  e4ce]  ?
+  [  e4da]  o
+  [  e4de]  /
+  [  e4ee]  O
+  [  e4f4]  `^G
+  [  e4fa]  P
+  [  e502]  s
+  [  e50a]  p
+  [  e50e]  0
+  [  e51a]  `
+  [  e51e]   
+  [  e52e]  @
+  [  e53a]  X
+  [  e546]  ;
+  [  e54a]  x
+  [  e54e]  8
+  [  e55a]  h
+  [  e55e]  (
+  [  e56e]  H
+  [  e57a]  T
+  [  e586]  +
+  [  e58a]  t
+  [  e58e]  4
+  [  e59a]  d
+  [  e59e]  $
+  [  e5ae]  D
+  [  e5ba]  \
+  [  e5c6]  S
+  [  e5ca]  |
+  [  e5ce]  <
+  [  e5da]  l
+  [  e5de]  ,
+  [  e5ee]  L
+  [  e5fa]  R
+  [  e606]  #
+  [  e60a]  r
+  [  e60e]  2
+  [  e61a]  b
+  [  e61e]  "
+  [  e62e]  B
+  [  e63a]  Z
+  [  e646]  C
+  [  e64a]  z
+  [  e64e]  :
+  [  e65a]  j
+  [  e65e]  *
+  [  e66e]  J
+  [  e67a]  V
+  [  e680]  @^H
+  [  e686]  3
+  [  e68a]  v
+  [  e68e]  6
+  [  e69a]  f
+  [  e69e]  &
+  [  e6ae]  F
+  [  e6ba]  ^
+  [  e6c6]  c
+  [  e6ca]  ~
+  [  e6ce]  >
+  [  e6da]  n
+  [  e6de]  .
+  [  e6ee]  N
+  [  e6f4]  `^G
+  [  e6fa]  Q
+  [  e70a]  q
+  [  e70e]  1
+  [  e71a]  a
+  [  e71e]  !
+  [  e72e]  A
+  [  e73a]  Y
+  [  e746]  ;
+  [  e74a]  y
+  [  e74e]  9
+  [  e75a]  i
+  [  e75e]  )
+  [  e76e]  I
+  [  e77a]  U
+  [  e786]  +
+  [  e78a]  u
+  [  e78e]  5
+  [  e79a]  e
+  [  e79e]  %
+  [  e7ae]  E
+  [  e7ba]  ]
+  [  e7c6]  S
+  [  e7ca]  }
+  [  e7ce]  =
+  [  e7da]  m
+  [  e7de]  -
+  [  e7ee]  M
+  [  e7fa]  S
+  [  e806]  #
+  [  e80a]  s
+  [  e80e]  3
+  [  e81a]  c
+  [  e81e]  #
+  [  e82e]  C
+  [  e83a]  [
+  [  e846]  C
+  [  e84a]  {
+  [  e84e]  ;
+  [  e85a]  k
+  [  e85e]  +
+  [  e86e]  K
+  [  e87a]  W
+  [  e880]  @^H
+  [  e886]  3
+  [  e88a]  w
+  [  e88e]  7
+  [  e89a]  g
+  [  e89e]  '
+  [  e8ae]  G
+  [  e8ba]  _
+  [  e8c6]  c
+  [  e8ce]  ?
+  [  e8da]  o
+  [  e8de]  /
+  [  e8ee]  O
+  [  e90e]  A
+  [  e913]  @^P^E^C
+  [  e91e]  !
+  [  e923]   ^R^E^I
+  [  e930]  @^E
+  [  e94e]  a
+  [  e953]  `^P^E^D
+  [  e95e]  1
+  [  e963]  0^R^E^M
+  [  e970]  @^E
+  [  e9d8]  @
+  [  e9da]  @
+  [  e9f0]  !
+  [  e9f2]  1
+  [  e9f4]  A
+  [  e9f6]  a
+  [  ea11]   ^A0^A@^A`
+  [  ea56]  H
+  [  ea58]  N
+  [  ea7c]  #
+  [  ea7e]  +
+  [  ea80]  3
+  [  ea82]  ;
+  [  ea84]  C
+  [  ea86]  S
+  [  ea88]  c
+  [  ea8a]  s
+  [  ea9c]   inflate 1.2.8 Copyright 1995-2013 Mark Adler 
+  [  ec80]   
+  [  ec84]  (
+  [  ec88]  0
+  [  ec8c]  8
+  [  ec90]  @
+  [  ec94]  P
+  [  ec98]  `
+  [  ec9c]  p
+  [  ef54]   
+  [  ef58]  0
+  [  ef5c]  @
+  [  ef60]  `
+  [  ef95]   
+  [  ef99]  0
+  [  ef9d]  @
+  [  efa1]  `
+  [  efac]  L
+  [  efb4]  ,
+  [  efbc]  l
+  [  efcc]  \
+  [  efd4]  <
+  [  efdc]  |
+  [  efec]  B
+  [  eff4]  "
+  [  effc]  b
+  [  f00c]  R
+  [  f014]  2
+  [  f01c]  r
+  [  f02c]  J
+  [  f034]  *
+  [  f03c]  j
+  [  f04c]  Z
+  [  f054]  :
+  [  f05c]  z
+  [  f06c]  F
+  [  f074]  &
+  [  f07c]  f
+  [  f08c]  V
+  [  f094]  6
+  [  f09c]  v
+  [  f0ac]  N
+  [  f0b4]  .
+  [  f0bc]  n
+  [  f0cc]  ^
+  [  f0d4]  >
+  [  f0dc]  ~
+  [  f0ec]  A
+  [  f0f4]  !
+  [  f0fc]  a
+  [  f10c]  Q
+  [  f114]  1
+  [  f11c]  q
+  [  f12c]  I
+  [  f134]  )
+  [  f13c]  i
+  [  f14c]  Y
+  [  f154]  9
+  [  f15c]  y
+  [  f16c]  E
+  [  f174]  %
+  [  f17c]  e
+  [  f18c]  U
+  [  f194]  5
+  [  f19c]  u
+  [  f1ac]  M
+  [  f1b4]  -
+  [  f1bc]  m
+  [  f1cc]  ]
+  [  f1d4]  =
+  [  f1dc]  }
+  [  f1f4]  S
+  [  f1f8]  S^A^I
+  [  f204]  3
+  [  f208]  3^A^I
+  [  f214]  s
+  [  f218]  s^A^I
+  [  f234]  K
+  [  f238]  K^A^I
+  [  f244]  +
+  [  f248]  +^A^I
+  [  f254]  k
+  [  f258]  k^A^I
+  [  f274]  [
+  [  f278]  [^A^I
+  [  f284]  ;
+  [  f288]  ;^A^I
+  [  f294]  {
+  [  f298]  {^A^I
+  [  f2b4]  G
+  [  f2b8]  G^A^I
+  [  f2c4]  '
+  [  f2c8]  '^A^I
+  [  f2d4]  g
+  [  f2d8]  g^A^I
+  [  f2f4]  W
+  [  f2f8]  W^A^I
+  [  f304]  7
+  [  f308]  7^A^I
+  [  f314]  w
+  [  f318]  w^A^I
+  [  f334]  O
+  [  f338]  O^A^I
+  [  f344]  /
+  [  f348]  /^A^I
+  [  f354]  o
+  [  f358]  o^A^I
+  [  f374]  _
+  [  f378]  _^A^I
+  [  f384]  ?
+  [  f388]  ?^A^I
+  [  f3a8]  @
+  [  f3ac]   
+  [  f3b0]  `
+  [  f3b8]  P
+  [  f3bc]  0
+  [  f3c0]  p
+  [  f3c8]  H
+  [  f3cc]  (
+  [  f3d0]  h
+  [  f3d8]  X
+  [  f3dc]  8
+  [  f3e0]  x
+  [  f3e8]  D
+  [  f3ec]  $
+  [  f3f0]  d
+  [  f3f8]  T
+  [  f3fc]  4
+  [  f400]  t
+  [  f40c]  C
+  [  f414]  #
+  [  f41c]  c
+  [  f500]  license
+  [  f508]  sid
+  [  f50c]  ts
+  [  f50f]  server_resp
+  [  f524]    
+  [  f528]   
+  [  f61c]  0123456789abcdefABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿^¿>^¿^¿^¿?456789:;<=^¿^¿^¿@^¿^¿^¿
+  [  f6d3]   !"#$%&'()*+,-./0123^¿^¿^¿^¿^¿€
+  [  f764]   
+  [  f768]  @
+  [  f785]   
+  [  f789]  @
+  [  f790]  J
+  [  f7bc]   
+  [  f7c0]  NSt6__ndk18ios_base7failureE
+  [  f7e0]  NSt6__ndk18ios_baseE
+  [  f800]  NSt6__ndk119__iostream_categoryE
+  [  f830]  0123456789abcdefABCDEFxX+-pPiInN
+  [  f851]  %
+  [  f857]  %p
+  [  f85d]  %H:%M:%S%m/%d/%y%Y-%m-%d%I:%M:%S %p%H:%M%H:%M:%S
+  [  f890]  %
+  [  f894]  H
+  [  f898]  :
+  [  f89c]  %
+  [  f8a0]  M
+  [  f8a4]  :
+  [  f8a8]  %
+  [  f8ac]  S
+  [  f8b0]  %
+  [  f8b4]  m
+  [  f8b8]  /
+  [  f8bc]  %
+  [  f8c0]  d
+  [  f8c4]  /
+  [  f8c8]  %
+  [  f8cc]  y
+  [  f8d0]  %
+  [  f8d4]  Y
+  [  f8d8]  -
+  [  f8dc]  %
+  [  f8e0]  m
+  [  f8e4]  -
+  [  f8e8]  %
+  [  f8ec]  d
+  [  f8f0]  %
+  [  f8f4]  I
+  [  f8f8]  :
+  [  f8fc]  %
+  [  f900]  M
+  [  f904]  :
+  [  f908]  %
+  [  f90c]  S
+  [  f910]   
+  [  f914]  %
+  [  f918]  p
+  [  f91c]  %
+  [  f920]  H
+  [  f924]  :
+  [  f928]  %
+  [  f92c]  M
+  [  f930]  %
+  [  f934]  H
+  [  f938]  :
+  [  f93c]  %
+  [  f940]  M
+  [  f944]  :
+  [  f948]  %
+  [  f94c]  S
+  [  f950]  0123456789
+  [  f95b]  0123456789
+  [  f980]   
+  [  f984]  ?
+  [  f99c]   
+  [  f9a0]  @
+  [  f9b0]  `
+  [  fa78]  B^A
+  [  fa7c]  B^A
+  [  fa80]  B^A
+  [  fa84]  B^A
+  [  fa88]  B^A
+  [  fa8c]  B^A
+  [  fa90]  B^A
+  [  fa94]  B^A
+  [  fa98]  B^A
+  [  fa9c]  B^A
+  [  fabc]  *^A
+  [  fac0]  *^A
+  [  fac4]  *^A
+  [  fac8]  *^A
+  [  facc]  *^A
+  [  fad0]  *^A
+  [  fad4]  *
+  [  fad8]  *
+  [  fadc]  *
+  [  fae0]  *
+  [  fae4]  *
+  [  fae8]  *
+  [  faec]  *
+  [  faf0]  *
+  [  faf4]  *
+  [  faf8]  *
+  [  fafc]  *
+  [  fb00]  *
+  [  fb04]  *
+  [  fb08]  *
+  [  fb0c]  *
+  [  fb10]  *
+  [  fb14]  *
+  [  fb18]  *
+  [  fb1c]  *
+  [  fb20]  *
+  [  fb3c]  2^A
+  [  fb40]  2^A
+  [  fb44]  2^A
+  [  fb48]  2^A
+  [  fb4c]  2^A
+  [  fb50]  2^A
+  [  fb54]  2
+  [  fb58]  2
+  [  fb5c]  2
+  [  fb60]  2
+  [  fb64]  2
+  [  fb68]  2
+  [  fb6c]  2
+  [  fb70]  2
+  [  fb74]  2
+  [  fb78]  2
+  [  fb7c]  2
+  [  fb80]  2
+  [  fb84]  2
+  [  fb88]  2
+  [  fb8c]  2
+  [  fb90]  2
+  [  fb94]  2
+  [  fb98]  2
+  [  fb9c]  2
+  [  fba0]  2
+  [  fdc0]  NSt6__ndk16locale5facetE
+  [  fde0]  NSt6__ndk15ctypeIwEE
+  [  fe00]  NSt6__ndk17codecvtIcc9mbstate_tEE
+  [  fe30]  NSt6__ndk17codecvtIDsc9mbstate_tEE
+  [  fe60]  NSt6__ndk17codecvtIDic9mbstate_tEE
+  [  fe90]  NSt6__ndk116__narrow_to_utf8ILj16EEE
+  [  fec0]  NSt6__ndk116__narrow_to_utf8ILj32EEE
+  [  fef0]  NSt6__ndk117__widen_from_utf8ILj16EEE
+  [  ff20]  NSt6__ndk117__widen_from_utf8ILj32EEE
+  [  ff50]  NSt6__ndk114__codecvt_utf8IwEE
+  [  ff70]  NSt6__ndk17codecvtIwc9mbstate_tEE
+  [  ffa0]  NSt6__ndk114__codecvt_utf8IDsEE
+  [  ffc0]  NSt6__ndk114__codecvt_utf8IDiEE
+  [  ffe0]  NSt6__ndk115__codecvt_utf16IwLb0EEE
+  [ 10010]  NSt6__ndk115__codecvt_utf16IwLb1EEE
+  [ 10040]  NSt6__ndk115__codecvt_utf16IDsLb0EEE
+  [ 10070]  NSt6__ndk115__codecvt_utf16IDsLb1EEE
+  [ 100a0]  NSt6__ndk115__codecvt_utf16IDiLb0EEE
+  [ 100d0]  NSt6__ndk115__codecvt_utf16IDiLb1EEE
+  [ 10100]  NSt6__ndk120__codecvt_utf8_utf16IwEE
+  [ 10130]  NSt6__ndk120__codecvt_utf8_utf16IDiEE
+  [ 10160]  NSt6__ndk120__codecvt_utf8_utf16IDsEE
+  [ 10190]  NSt6__ndk16locale5__impE
+  [ 101b0]  NSt6__ndk114collate_bynameIcEE
+  [ 101d0]  NSt6__ndk114collate_bynameIwEE
+  [ 101f0]  NSt6__ndk15ctypeIcEE
+  [ 10210]  NSt6__ndk112ctype_bynameIcEE
+  [ 10230]  NSt6__ndk112ctype_bynameIwEE
+  [ 10250]  NSt6__ndk18numpunctIcEE
+  [ 10270]  NSt6__ndk18numpunctIwEE
+  [ 10290]  NSt6__ndk115numpunct_bynameIcEE
+  [ 102b0]  NSt6__ndk115numpunct_bynameIwEE
+  [ 102d0]  t
+  [ 102d4]  r
+  [ 102d8]  u
+  [ 102dc]  e
+  [ 102e4]  f
+  [ 102e8]  a
+  [ 102ec]  l
+  [ 102f0]  s
+  [ 102f4]  e
+  [ 102fc]  %
+  [ 10300]  m
+  [ 10304]  /
+  [ 10308]  %
+  [ 1030c]  d
+  [ 10310]  /
+  [ 10314]  %
+  [ 10318]  y
+  [ 10320]  %
+  [ 10324]  H
+  [ 10328]  :
+  [ 1032c]  %
+  [ 10330]  M
+  [ 10334]  :
+  [ 10338]  %
+  [ 1033c]  S
+  [ 10344]  %
+  [ 10348]  a
+  [ 1034c]   
+  [ 10350]  %
+  [ 10354]  b
+  [ 10358]   
+  [ 1035c]  %
+  [ 10360]  d
+  [ 10364]   
+  [ 10368]  %
+  [ 1036c]  H
+  [ 10370]  :
+  [ 10374]  %
+  [ 10378]  M
+  [ 1037c]  :
+  [ 10380]  %
+  [ 10384]  S
+  [ 10388]   
+  [ 1038c]  %
+  [ 10390]  Y
+  [ 10398]  %
+  [ 1039c]  I
+  [ 103a0]  :
+  [ 103a4]  %
+  [ 103a8]  M
+  [ 103ac]  :
+  [ 103b0]  %
+  [ 103b4]  S
+  [ 103b8]   
+  [ 103bc]  %
+  [ 103c0]  p
+  [ 103c8]  (
+  [ 103cc]  )
+  [ 103d4]  S
+  [ 103d8]  u
+  [ 103dc]  n
+  [ 103e0]  d
+  [ 103e4]  a
+  [ 103e8]  y
+  [ 103f0]  M
+  [ 103f4]  o
+  [ 103f8]  n
+  [ 103fc]  d
+  [ 10400]  a
+  [ 10404]  y
+  [ 1040c]  T
+  [ 10410]  u
+  [ 10414]  e
+  [ 10418]  s
+  [ 1041c]  d
+  [ 10420]  a
+  [ 10424]  y
+  [ 1042c]  W
+  [ 10430]  e
+  [ 10434]  d
+  [ 10438]  n
+  [ 1043c]  e
+  [ 10440]  s
+  [ 10444]  d
+  [ 10448]  a
+  [ 1044c]  y
+  [ 10454]  T
+  [ 10458]  h
+  [ 1045c]  u
+  [ 10460]  r
+  [ 10464]  s
+  [ 10468]  d
+  [ 1046c]  a
+  [ 10470]  y
+  [ 10478]  F
+  [ 1047c]  r
+  [ 10480]  i
+  [ 10484]  d
+  [ 10488]  a
+  [ 1048c]  y
+  [ 10494]  S
+  [ 10498]  a
+  [ 1049c]  t
+  [ 104a0]  u
+  [ 104a4]  r
+  [ 104a8]  d
+  [ 104ac]  a
+  [ 104b0]  y
+  [ 104b8]  S
+  [ 104bc]  u
+  [ 104c0]  n
+  [ 104c8]  M
+  [ 104cc]  o
+  [ 104d0]  n
+  [ 104d8]  T
+  [ 104dc]  u
+  [ 104e0]  e
+  [ 104e8]  W
+  [ 104ec]  e
+  [ 104f0]  d
+  [ 104f8]  T
+  [ 104fc]  h
+  [ 10500]  u
+  [ 10508]  F
+  [ 1050c]  r
+  [ 10510]  i
+  [ 10518]  S
+  [ 1051c]  a
+  [ 10520]  t
+  [ 10528]  J
+  [ 1052c]  a
+  [ 10530]  n
+  [ 10534]  u
+  [ 10538]  a
+  [ 1053c]  r
+  [ 10540]  y
+  [ 10548]  F
+  [ 1054c]  e
+  [ 10550]  b
+  [ 10554]  r
+  [ 10558]  u
+  [ 1055c]  a
+  [ 10560]  r
+  [ 10564]  y
+  [ 1056c]  M
+  [ 10570]  a
+  [ 10574]  r
+  [ 10578]  c
+  [ 1057c]  h
+  [ 10584]  A
+  [ 10588]  p
+  [ 1058c]  r
+  [ 10590]  i
+  [ 10594]  l
+  [ 1059c]  M
+  [ 105a0]  a
+  [ 105a4]  y
+  [ 105ac]  J
+  [ 105b0]  u
+  [ 105b4]  n
+  [ 105b8]  e
+  [ 105c0]  J
+  [ 105c4]  u
+  [ 105c8]  l
+  [ 105cc]  y
+  [ 105d4]  A
+  [ 105d8]  u
+  [ 105dc]  g
+  [ 105e0]  u
+  [ 105e4]  s
+  [ 105e8]  t
+  [ 105f0]  S
+  [ 105f4]  e
+  [ 105f8]  p
+  [ 105fc]  t
+  [ 10600]  e
+  [ 10604]  m
+  [ 10608]  b
+  [ 1060c]  e
+  [ 10610]  r
+  [ 10618]  O
+  [ 1061c]  c
+  [ 10620]  t
+  [ 10624]  o
+  [ 10628]  b
+  [ 1062c]  e
+  [ 10630]  r
+  [ 10638]  N
+  [ 1063c]  o
+  [ 10640]  v
+  [ 10644]  e
+  [ 10648]  m
+  [ 1064c]  b
+  [ 10650]  e
+  [ 10654]  r
+  [ 1065c]  D
+  [ 10660]  e
+  [ 10664]  c
+  [ 10668]  e
+  [ 1066c]  m
+  [ 10670]  b
+  [ 10674]  e
+  [ 10678]  r
+  [ 10680]  J
+  [ 10684]  a
+  [ 10688]  n
+  [ 10690]  F
+  [ 10694]  e
+  [ 10698]  b
+  [ 106a0]  M
+  [ 106a4]  a
+  [ 106a8]  r
+  [ 106b0]  A
+  [ 106b4]  p
+  [ 106b8]  r
+  [ 106c0]  J
+  [ 106c4]  u
+  [ 106c8]  n
+  [ 106d0]  J
+  [ 106d4]  u
+  [ 106d8]  l
+  [ 106e0]  A
+  [ 106e4]  u
+  [ 106e8]  g
+  [ 106f0]  S
+  [ 106f4]  e
+  [ 106f8]  p
+  [ 10700]  O
+  [ 10704]  c
+  [ 10708]  t
+  [ 10710]  N
+  [ 10714]  o
+  [ 10718]  v
+  [ 10720]  D
+  [ 10724]  e
+  [ 10728]  c
+  [ 10730]  A
+  [ 10734]  M
+  [ 1073c]  P
+  [ 10740]  M
+  [ 10750]  NSt6__ndk110ctype_baseE
+  [ 10770]  NSt6__ndk112codecvt_baseE
+  [ 10790]  NSt6__ndk17collateIcEE
+  [ 107b0]  NSt6__ndk17collateIwEE
+  [ 107d0]  NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+  [ 10820]  NSt6__ndk19__num_getIcEE
+  [ 10840]  NSt6__ndk114__num_get_baseE
+  [ 10860]  NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+  [ 108b0]  NSt6__ndk19__num_getIwEE
+  [ 108d0]  NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+  [ 10920]  NSt6__ndk19__num_putIcEE
+  [ 10940]  NSt6__ndk114__num_put_baseE
+  [ 10960]  NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+  [ 109b0]  NSt6__ndk19__num_putIwEE
+  [ 109d0]  NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+  [ 10a20]  NSt6__ndk19time_baseE
+  [ 10a40]  NSt6__ndk120__time_get_c_storageIcEE
+  [ 10a70]  NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+  [ 10ac0]  NSt6__ndk120__time_get_c_storageIwEE
+  [ 10af0]  NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+  [ 10b40]  NSt6__ndk110__time_putE
+  [ 10b60]  NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+  [ 10bb0]  NSt6__ndk110moneypunctIcLb0EEE
+  [ 10bd0]  NSt6__ndk110money_baseE
+  [ 10bf0]  NSt6__ndk110moneypunctIcLb1EEE
+  [ 10c10]  NSt6__ndk110moneypunctIwLb0EEE
+  [ 10c30]  NSt6__ndk110moneypunctIwLb1EEE
+  [ 10c50]  NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+  [ 10ca0]  NSt6__ndk111__money_getIcEE
+  [ 10cc0]  NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+  [ 10d10]  NSt6__ndk111__money_getIwEE
+  [ 10d30]  NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+  [ 10d80]  NSt6__ndk111__money_putIcEE
+  [ 10da0]  NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+  [ 10df0]  NSt6__ndk111__money_putIwEE
+  [ 10e10]  NSt6__ndk18messagesIcEE
+  [ 10e30]  NSt6__ndk113messages_baseE
+  [ 10e50]  NSt6__ndk18messagesIwEE
+  [ 10e80]  NSt6__ndk112bad_weak_ptrE
+  [ 10ea0]  NSt6__ndk114__shared_countE
+  [ 10ec0]  NSt6__ndk119__shared_weak_countE
+  [ 10ef0]  NSt6__ndk112system_errorE
+  [ 10f10]  NSt6__ndk114error_categoryE
+  [ 10f30]  NSt6__ndk112__do_messageE
+  [ 10f50]  NSt6__ndk124__generic_error_categoryE
+  [ 10f80]  NSt6__ndk123__system_error_categoryE
+  [ 10fb0]  N10__cxxabiv116__shim_type_infoE
+  [ 10fe0]  N10__cxxabiv117__class_type_infoE
+  [ 11010]  N10__cxxabiv117__pbase_type_infoE
+  [ 11040]  N10__cxxabiv119__pointer_type_infoE
+  [ 11070]  N10__cxxabiv120__function_type_infoE
+  [ 110a0]  N10__cxxabiv129__pointer_to_member_type_infoE
+  [ 110e0]  N10__cxxabiv123__fundamental_type_infoE
+  [ 11108]  v
+  [ 1110a]  Pv
+  [ 1110d]  PKv
+  [ 11111]  Dn
+  [ 11114]  PDn
+  [ 11118]  PKDn
+  [ 1111d]  b
+  [ 1111f]  Pb
+  [ 11122]  PKb
+  [ 11126]  w
+  [ 11128]  Pw
+  [ 1112b]  PKw
+  [ 1112f]  c
+  [ 11131]  Pc
+  [ 11134]  PKc
+  [ 11138]  h
+  [ 1113a]  Ph
+  [ 1113d]  PKh
+  [ 11141]  a
+  [ 11143]  Pa
+  [ 11146]  PKa
+  [ 1114a]  s
+  [ 1114c]  Ps
+  [ 1114f]  PKs
+  [ 11153]  t
+  [ 11155]  Pt
+  [ 11158]  PKt
+  [ 1115c]  i
+  [ 1115e]  Pi
+  [ 11161]  PKi
+  [ 11165]  j
+  [ 11167]  Pj
+  [ 1116a]  PKj
+  [ 1116e]  l
+  [ 11170]  Pl
+  [ 11173]  PKl
+  [ 11177]  m
+  [ 11179]  Pm
+  [ 1117c]  PKm
+  [ 11180]  x
+  [ 11182]  Px
+  [ 11185]  PKx
+  [ 11189]  y
+  [ 1118b]  Py
+  [ 1118e]  PKy
+  [ 11192]  n
+  [ 11194]  Pn
+  [ 11197]  PKn
+  [ 1119b]  o
+  [ 1119d]  Po
+  [ 111a0]  PKo
+  [ 111a4]  Dh
+  [ 111a7]  PDh
+  [ 111ab]  PKDh
+  [ 111b0]  f
+  [ 111b2]  Pf
+  [ 111b5]  PKf
+  [ 111b9]  d
+  [ 111bb]  Pd
+  [ 111be]  PKd
+  [ 111c2]  e
+  [ 111c4]  Pe
+  [ 111c7]  PKe
+  [ 111cb]  g
+  [ 111cd]  Pg
+  [ 111d0]  PKg
+  [ 111d4]  Ds
+  [ 111d7]  PDs
+  [ 111db]  PKDs
+  [ 111e0]  Di
+  [ 111e3]  PDi
+  [ 111e7]  PKDi
+  [ 111f0]  N10__cxxabiv117__array_type_infoE
+  [ 11220]  N10__cxxabiv116__enum_type_infoE
+  [ 11250]  N10__cxxabiv120__si_class_type_infoE
+  [ 11280]  N10__cxxabiv121__vmi_class_type_infoE
+  [ 112b0]  St9exception
+  [ 112c0]  St13bad_exception
+  [ 112e0]  St16bad_array_length
+  [ 112f5]  St9bad_alloc
+  [ 11310]  St20bad_array_new_length
+  [ 11330]  St12domain_error
+  [ 11341]  St11logic_error
+  [ 11360]  St16invalid_argument
+  [ 11380]  St12length_error
+  [ 113a0]  St12out_of_range
+  [ 113b1]  St11range_error
+  [ 113d0]  St13runtime_error
+  [ 113f0]  St14overflow_error
+  [ 11410]  St15underflow_error
+  [ 11424]  St9type_info
+  [ 11431]  St8bad_cast
+  [ 1143d]  St10bad_typeid
+

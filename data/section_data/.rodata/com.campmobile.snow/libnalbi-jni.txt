@@ -1,0 +1,28 @@
+
+String dump of section '.rodata':
+  [     0]  NALBI
+  [     6]  Fail to ConvertToI420 : %d
+  [    21]  Fail to I420Scale : %d
+  [    38]  Fail to I420Mirror : %d
+  [    50]  Fail to I420ToABGR : %d
+  [    68]  unexpected_handler unexpectedly returned
+  [    91]  terminate_handler unexpectedly returned
+  [    b9]  terminate_handler unexpectedly threw an exception
+  [    eb]  /Volumes/Android/buildbot/src/android/ndk-r14-release/external/libcxx/../../external/libcxxabi/src/abort_message.cpp
+  [   160]  void abort_message(const char *, ...)
+  [   186]  terminating with %s exception of type %s: %s
+  [   1b3]  terminating with %s exception of type %s
+  [   1dc]  terminating with %s foreign exception
+  [   202]  terminating
+  [   20e]  uncaught
+  [   217]  unexpected
+  [   222]  -+   0X0x
+  [   22c]  (null)
+  [   233]  -0X+0X 0X-0x+0x 0x
+  [   246]  inf
+  [   24a]  INF
+  [   24e]  nan
+  [   252]  NAN
+  [   256]  .
+  [   428]  0123456789ABCDEF^B
+

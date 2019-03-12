@@ -1,0 +1,141 @@
+
+String dump of section '.rodata':
+  [     0]  rb
+  [     3]  GIF
+  [     7]  NETSCAPE2.0
+  [    13]  vector
+  [    1a]  out of memory^J
+  [    29]  android/graphics/Bitmap$Config
+  [    48]  valueOf
+  [    50]  (Ljava/lang/String;)Landroid/graphics/Bitmap$Config;
+  [    85]  ARGB_8888
+  [    8f]  android/graphics/Bitmap
+  [    a7]  createBitmap
+  [    b4]  (IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+  [    f2]  wb
+  [    f5]  GIF89a
+  [    fc]  Pure virtual function called!
+  [   11a]  Deleted virtual function called!
+  [   13b]  Not enough memory to allocate exception!
+  [   164]  Exception destructor has thrown!
+  [   185]  Attempting to rethrow an exception that doesn't exist!
+  [   1bc]  Can't handle non-C++ exception!
+  [   1dc]  Internal error during exception handling!
+  [   206]  Can't allocate C++ runtime pthread_key_t
+  [   22f]  Can't allocate thread-specific C++ runtime info block.
+  [   266]  /Volumes/Android/buildbot/src/android/ndk-r13-release/out/build/tmp/build-73878/build-stlport/ndk/sources/cxx-stl/gabi++/src/dynamic_cast.cc
+  [   2f3]  const void *(anonymous namespace)::walk_object(const void *, const abi::__class_type_info *, const void *, const abi::__class_type_info *)
+  [   37e]  0
+  [   380]  void (anonymous namespace)::base_to_derived_cast(const void *, const abi::__class_type_info *, (anonymous namespace)::cast_context *)
+  [   406]  PANIC:GAbi++:%s^J
+  [   417]  liblog.so
+  [   421]  __android_log_print
+  [   435]  GAbi++
+  [   43c]  std::bad_alloc
+  [   44b]  bad_array_new_length
+  [   460]  std::bad_cast
+  [   46e]  std::bad_typeid
+  [   47e]  /Volumes/Android/buildbot/src/android/ndk-r13-release/out/build/tmp/build-73878/build-stlport/ndk/sources/cxx-stl/gabi++/src/vmi_class_type_info.cc
+  [   512]  virtual bool __cxxabiv1::__vmi_class_type_info::walk_to(const __cxxabiv1::__class_type_info *, void *&, __cxxabiv1::__UpcastInfo &) const
+  [   59c]  info.base_type != NULL && cur_base_info.base_type != NULL
+  [   5d6]  *info.base_type == *cur_base_info.base_type
+  [   602]  info.adjustedPtr && cur_base_info.adjustedPtr
+  [   630]  basic_string
+  [   63d]  std::exception
+  [   64c]  std::bad_exception
+  [   65f]  !ÿ^KNETSCAPE2.0^C^A
+  [   672]  13GCTGifEncoder
+  [   690]  14BaseGifEncoder
+  [   6b0]  !ÿ^KNETSCAPE2.0^C^A
+  [   6c3]  13LCTGifEncoder
+  [   710]  !ÿ^KNETSCAPE2.0^C^A
+  [   730]  19SimpleGCTGifEncoder
+  [   760]  N10__cxxabiv117__class_type_infoE
+  [   790]  N10__cxxabiv116__shim_type_infoE
+  [   7c1]  St9bad_alloc
+  [   7d0]  St20bad_array_new_length
+  [   7f0]  N10__cxxabiv119__pointer_type_infoE
+  [   820]  N10__cxxabiv120__si_class_type_infoE
+  [   850]  St9type_info
+  [   85d]  St8bad_cast
+  [   869]  St10bad_typeid
+  [   880]  N10__cxxabiv121__vmi_class_type_infoE
+  [   8b0]  St11logic_error
+  [   8c0]  St17__Named_exception
+  [   8e0]  St13runtime_error
+  [   900]  St12domain_error
+  [   920]  St16invalid_argument
+  [   940]  St12length_error
+  [   960]  St12out_of_range
+  [   980]  St11range_error
+  [   990]  St14overflow_error
+  [   9b0]  St15underflow_error
+  [   9d0]  St9exception
+  [   9e0]  St13bad_exception
+  [   a00]  N10__cxxabiv120__function_type_infoE
+  [   a30]  N10__cxxabiv123__fundamental_type_infoE
+  [   a60]  v
+  [   a62]  Pv
+  [   a65]  PKv
+  [   a69]  Dn
+  [   a6c]  PDn
+  [   a70]  PKDn
+  [   a75]  b
+  [   a77]  Pb
+  [   a7a]  PKb
+  [   a7e]  w
+  [   a80]  Pw
+  [   a83]  PKw
+  [   a87]  c
+  [   a89]  Pc
+  [   a8c]  PKc
+  [   a90]  h
+  [   a92]  Ph
+  [   a95]  PKh
+  [   a99]  a
+  [   a9b]  Pa
+  [   a9e]  PKa
+  [   aa2]  s
+  [   aa4]  Ps
+  [   aa7]  PKs
+  [   aab]  t
+  [   aad]  Pt
+  [   ab0]  PKt
+  [   ab4]  i
+  [   ab6]  Pi
+  [   ab9]  PKi
+  [   abd]  j
+  [   abf]  Pj
+  [   ac2]  PKj
+  [   ac6]  l
+  [   ac8]  Pl
+  [   acb]  PKl
+  [   acf]  m
+  [   ad1]  Pm
+  [   ad4]  PKm
+  [   ad8]  x
+  [   ada]  Px
+  [   add]  PKx
+  [   ae1]  y
+  [   ae3]  Py
+  [   ae6]  PKy
+  [   aea]  Dh
+  [   aed]  PDh
+  [   af1]  PKDh
+  [   af6]  f
+  [   af8]  Pf
+  [   afb]  PKf
+  [   aff]  d
+  [   b01]  Pd
+  [   b04]  PKd
+  [   b08]  e
+  [   b0a]  Pe
+  [   b0d]  PKe
+  [   b11]  Ds
+  [   b14]  PDs
+  [   b18]  PKDs
+  [   b1d]  Di
+  [   b20]  PDi
+  [   b24]  PKDi
+  [   b30]  N10__cxxabiv117__pbase_type_infoE
+

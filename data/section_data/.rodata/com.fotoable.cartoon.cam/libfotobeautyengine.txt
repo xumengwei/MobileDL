@@ -1,0 +1,2439 @@
+
+String dump of section '.rodata':
+  [     0]  NoRealTimeFilter::applyfilter begin 
+  [    28]  vector::_M_range_check: __n (which is %zu) >= this->size() (which is %zu)
+  [    74]  /Users/yuntuweidong/Desktop/д-де/
+  [    9c]  102-2.jpg
+  [    a8]  102-1.jpg
+  [    b4]  Failed to allocate memory
+  [    d0]  vector::_M_emplace_back_aux
+  [    ec]  MultiRetinex Run time: 
+  [   104]  S
+  [   10c]  BeautyClearEyeOperation intial Run time: 
+  [   138]  Enlarge Eye Run time: 
+  [   150]  doEnlargeOperation Run time: 
+  [   170]  vector::_M_range_insert
+  [   188]  BeautyEnlargeEyeOperation intial Run time: 
+  [   1b4]  EyeBagPrepare Run time: 
+  [   1d0]  doEyeBagRemove Run time: 
+  [   1ec]  BeautyNoseEnhanceOperation intial Run time: 
+  [   21c]  BeautyNoseEnhanceOperation Run time: 
+  [   244]  vector::_M_default_append
+  [   260]  Slim intial Run time: 
+  [   278]  Slim Run time: 
+  [   288]  doSlimOperationNew Run time: 
+  [   2a8]  Pos out of range. Reset to border.
+  [   2cc]  [
+  [   2d0]  , 
+  [   2d4]  ]
+  [   2d8]  Error!!!
+  [   2e4]  FotoFaceBeautySlimFaceStateNew end
+  [   308]  FotoFaceBeautySlimFaceStateNew begin
+  [   330]  FotoFaceBeautyDizzyState end
+  [   350]  FotoFaceBeautyDizzyState begin
+  [   370]  FotoFaceBeautyEngine::FotoFaceBeautyEngine
+  [   39c]  FotoFaceBeautyEngine::enterState:
+  [   3c0]  FotoFaceBeautyEngine::exitState
+  [   3e0]  FotoFaceBeautyEngine::~~~FotoFaceBeautyEngine
+  [   410]  FotoFaceBeautyEngine::setSrcMat
+  [   430]  selectFaces:
+  [   440]   mCurStateType:
+  [   450]    orimat.data:
+  [   460]  mCurStateType == Makeup:
+  [   47c]  FotoFaceRegWrapper::faceAlignAdv  failed
+  [   4a8]  FotoFaceBeautyEngine::reDetectFace п 
+  [   4d0]  FotoFaceRegWrapper::faceAlignAdvWithoutModel  failed
+  [   508]  FotoFaceBeautyEngineWrapper::updateImageп 
+  [   539]  attribute highp vec4 a_position;^Jattribute highp vec4 inputTextureCoordinate;^Jvarying highp vec2 textureCoordinate;^Jvoid main()^J{^Jgl_Position = a_position;^JtextureCoordinate = inputTextureCoordinate.xy;^J}
+  [   609]  varying highp vec2 textureCoordinate;^Juniform sampler2D inputImageTexture;^Jvoid main()^J{^Jgl_FragColor = texture2D(inputImageTexture, textureCoordinate);^J}
+  [   6a4]  FotoFaceBeautyEnhanceNoseStateNew begin
+  [   6cc]  FotoFaceBeautyEnlargeEyeStateNew end
+  [   6f4]  FotoFaceBeautyEnlargeEyeStateNew begin
+  [   71c]  FotoFaceBeautyMakeupManualState end
+  [   740]  FotoFaceBeautyMakeupManualState begin
+  [   768]  not found:  
+  [   778]  not found 
+  [   784]  tex:
+  [   78c]   st:
+  [   794]    pt.x:
+  [   79c]   pt.y:
+  [   7a4]   sst:
+  [   7ac]  lip  r:
+  [   7b4]    g:
+  [   7bc]   b:
+  [   7c0]   a:
+  [   7c4]  lip  r1:
+  [   7d0]    g1:
+  [   7d8]   b1:
+  [   7e0]   extratype:
+  [   7ec]  base  r:
+  [   7f8]  sucai is bad!  
+  [   808]  before:
+  [   810]  : 
+  [   814]  ,
+  [   818]   sx:
+  [   820]  sy:
+  [   824]  ex:
+  [   828]  ey:
+  [   82c]  /n
+  [   830]  end:
+  [   838]  manual Run time: 
+  [   84c]  S  
+  [   850]    
+  [   854]  FotoFaceBeautyMakeupStateNew end
+  [   878]  quban Run time: 
+  [   88c]  eyeBagLevel: 
+  [   89c]  clearEyeLevel: 
+  [   8ac]  enhanceNoseLevel: 
+  [   8c0]  whiteTeethLevel: 
+  [   8d4]  bigEyeLevel: 
+  [   8e4]  slimfaceLevel: 
+  [   8f4]  soften Run time: 
+  [   908]  total Run time: 
+  [   91c]  FotoFaceBeautyMakeupStateNew begin
+  [   940]  makeBeauty Run time: 
+  [   958]    alpha:
+  [   964]  FotoFaceBeautyMakeupStateNew::makeup hasbottom: 
+  [   998]  FotoFaceBeautyMakeupStateNew::makeup hasBianxing: 
+  [   9cc]  makeup  no beauty
+  [   9e0]  makeup  redetectface
+  [   9f8]  makeup  beauty without bianxing
+  [   a18]  makeup Run time: 
+  [   a2c]  dooperation begin
+  [   a40]  FotoFaceBeautyOneKeyBeautyState end
+  [   a64]  FotoFaceBeautyOneKeyBeautyState begin
+  [   a8c]  removeeyebag Run time: 
+  [   aa4]  cleareye Run time: 
+  [   ab8]  slimnose Run time: 
+  [   acc]  bigeye Run time: 
+  [   ae0]  slimface Run time: 
+  [   af4]  enhancenose Run time: 
+  [   b0c]  makeface Run time: 
+  [   b20]  FotoFaceBeautyRemoveEyebagState end
+  [   b44]  FotoFaceBeautySlimNoseStateNew end
+  [   b68]  FotoFaceBeautySlimNoseStateNew begin
+  [   b90]  FotoFaceBeautySoftenState end
+  [   bb0]  amskinOptimize  sigmas: 
+  [   bcc]     sigmar:
+  [   bd8]    facesize:
+  [   be4]  SmoothLevel
+  [   bf0]  FotoFaceBeautySoftenState begin
+  [   c10]  1.Quban time: 
+  [   c20]  2.detectSkinSmoothLevel time: 
+  [   c40]  3.UnsharpMasking time: 
+  [   c58]  4.USM time: 
+  [   c68]  5.Create FaceMask time: 
+  [   c84]  Fast Device!!
+  [   c94]  Slow Device!!
+  [   ca4]  6.Mopi time: 
+  [   cb4]  7.UnsharpMasking time: 
+  [   ccc]  total time: 
+  [   cdc]  FotoFaceBeautyWhitenTeethState end
+  [   d00]   
+  [   d04]  :
+  [   d08]  FotoFaceRegWrapper::mutilFacesRecognizeAdv Run time: 
+  [   d40]  FotoFaceRegWrapper::mutilFacesRecognizeAdvFast Run time: 
+  [   d7c]  24pts.bin
+  [   d88]  72pts.bin
+  [   d94]  76pts.bin
+  [   da0]  sdm model type error!
+  [   db8]  FotoFaceRegWrapper::faceAlign Run time: 
+  [   de4]   with score:
+  [   df4]  FotoFaceRegWrapper::faceRecognizeAdv Run time: 
+  [   e24]  FotoFaceRegWrapper::faceAlignAdvFast Run time: 
+  [   e54]  SI:
+  [   e58]  Error: out bitmap's size is wrong!
+  [   e7c]  Null center or radius pointers
+  [   e9c]  jni/native_source_code/fotocvutil/BeautyUtility.cpp
+  [   ed0]  The passed sequence is not a valid contour
+  [   efc]  points.checkVector(2) >= 0 && (points.depth() == CV_32F || points.depth() == CV_32S)
+  [   f54]  qx_allocu() fail, Memory is too huge, fail.
+  [   f80]  I.data
+  [   f88]  detect msv value: 
+  [   f9c]  color:
+  [   fa4]  cn == 3
+  [   fac]  maskcn == 1
+  [   fb8]  skinDectectYCRCB Run time: 
+  [   fd4]  FotoBeautyEngineWrapper
+  [   fec]  %f %f %f %f 
+  [   ffc]  %f %d %d %f
+  [  1008]  %f 
+  [  100c]  Execution time: %f seconds^J
+  [  1028]  X memory is not continuous.
+  [  1044]  pixel_dist_to_manifold_squared memory is not continuous.
+  [  1080]  gaussian_distance_weights memory is not continuous.
+  [  10b4]  Psi_splat memory is not continuous.
+  [  10d8]  Psi_splat_resized memory is not continuous.
+  [  1104]  Psi_splat_0 memory is not continuous.
+  [  112c]  w_ki_Psi_blur_0 memory is not continuous.
+  [  1158]  w_ki_Psi_blur memory is not continuous.
+  [  1180]  src_f_ memory is not continuous.
+  [  11a4]  sum_w_ki_Psi_blur_ memory is not continuous.
+  [  11d4]  sum_w_ki_Psi_blur_0_ memory is not continuous.
+  [  1204]  min_pixel_dist_to_manifold_squared_ memory is not continuous.
+  [  1244]  eta_1 memory is not continuous.
+  [  1264]  cluster_1 memory is not continuous.
+  [  1288]  tilde_dst memory is not continuous.
+  [  12ac]  diff memory is not continuous.
+  [  12cc]  dst memory is not continuous.
+  [  12ec]  ms--highpass_bilateralfilter
+  [  130c]  kernel:
+  [  1314]  vector::reserve
+  [  1324]  GEMM: col Major gemm not implented yet!
+  [  134c]  model has not been initialized.^J
+  [  1370]  data must not be NULL.^J
+  [  1388]  dataDim must be identify with the model.^J
+  [  13b4]  dataNum must be less than 512 and greater than 0.^J
+  [  13e8]  probs must not be NULL.^J
+  [  1404]  model has been initialized.^J
+  [  1424]  fc
+  [  1428]  deconv
+  [  1430]  conv
+  [  1438]  local
+  [  1440]  pool
+  [  1448]  rnorm
+  [  1450]  cmrnorm
+  [  1458]  cnorm
+  [  1460]  softmax
+  [  1468]  neuron
+  [  1470]  data
+  [  1478]  Unknown layer type 
+  [  148c]  type
+  [  1494]  inputs
+  [  149c]  Error creating ConvNet: 
+  [  14b8]  name
+  [  14c0]  weights
+  [  14c8]  biases
+  [  14d0]  modulesX
+  [  14dc]  filters
+  [  14e4]  channels
+  [  14f0]  imgSize
+  [  14f8]  filterChannels
+  [  1508]  filterSize
+  [  1514]  padding
+  [  151c]  stride
+  [  1524]  groups
+  [  152c]  sharedBiases
+  [  153c]  outputs
+  [  1544]  dataDim
+  [  154c]  sizeX
+  [  1554]  start
+  [  155c]  outputsX
+  [  1568]  max
+  [  156c]  avg
+  [  1570]  Unknown pooling layer type 
+  [  158c]  size
+  [  1594]  scale
+  [  159c]  pow
+  [  15a0]  relu
+  [  15a8]  softrelu
+  [  15b4]  brelu
+  [  15bc]  a
+  [  15c0]  logistic
+  [  15cc]  tanh
+  [  15d4]  b
+  [  15d8]  square
+  [  15e0]  sqrt
+  [  15e8]  linear
+  [  15f0]  ident
+  [  15f8]  Unknown neuron type: 
+  [  1610]  numInputs
+  [  161c]  sparseFlag
+  [  1628]  unregistered layer %s.^J
+  [  1640]  rb
+  [  1644]  model read error.^J
+  [  1658]  vector::_M_fill_insert
+  [  1670]  model file is not found!
+  [  168c]  FaceDetectWrapperAdv::intializeModel alread intialized
+  [  16c4]  FaceDetectWrapperAdv::intializeModel cdnnInitModel failed
+  [  1700]  FaceDetectWrapperAdv::intializeModel  Run time: 
+  [  1734]  FaceDetectWrapperAdv::unintializeModelSDM 
+  [  1760]  FaceDetectWrapperAdv::alignFaceFastSDM not intialized
+  [  1798]  FaceDetectWrapperAdv::unintializeModel
+  [  17c0]  FaceDetectWrapperAdv::alignFace not intialized
+  [  17f0]  models\eyeModel.bin
+  [  1804]  models\mouthModel.bin
+  [  181c]  models\eyeBrowModel.bin
+  [  1834]  FaceDetectWrapperAdv::alignFace  Run time: 
+  [  1860]  FaceDetectWrapperAdv::detectAlignFaceAdvance imgRgbSrc is empty 
+  [  18a4]  FaceDetectWrapperAdv::detectAlignFaceAdvance no face found
+  [  18e0]  face score 
+  [  18ec]  FaceDetectWrapperAdv::alignFaceWithPinnedPts:
+  [  191c]  no enough pinned pts
+  [  1934]  get input data for dcnn error with return value [%d]^J
+  [  196c]  the landmark detect model is NULL, please run init model first!
+  [  19ac]  error in function:get_dcnn_score_ipl()
+  [  19d4]  Loading model...
+  [  19e8]  %s: __pos (which is %zu) > this->size() (which is %zu)
+  [  1a20]  basic_string::substr
+  [  1a38]  txt
+  [  1a3c]  the number of feature not match the model!
+  [  1a68]  error in calling function: PredictLandmarks()
+  [  1a98]  Bad input to routine splint
+  [  1ab4]  locate size error
+  [  1ac8]  hunt size error
+  [  1ad8]  minxd >= 0 && minyd >= 0 && maxxd <= dest.rows && maxyd <= dest.cols
+  [  1b20]  jni/native_source_code/makeup/MyPoisson.cpp
+  [  1b4c]  alignFaceCommon: 
+  [  1b60]  SDM1 Detect: 
+  [  1b70]  SDM Detect: 
+  [  1b80]  getFastFaceKeyPointsSDM isValid:
+  [  1ba4]  if (!isAlignValid) //!isValid ||
+  [  1bc8]  FastFaceDetect
+  [  1bd8]  updateImage, data is null
+  [  1bf4]  mFastDetectFace: 
+  [  1c08]  updateImageSDM Detect: 
+  [  1c20]  inputImageTexture
+  [  1c34]  a_position
+  [  1c40]  inputTextureCoordinate
+  [  1c59]  attribute vec4 a_position;^Jattribute vec2 inputTextureCoordinate;^Jvarying mediump vec2 v_texCoord1;^Jvarying mediump vec2 v_texCoord2;^Jvoid main()^J{^J    gl_Position =  a_position;^J    v_texCoord1 = vec2(inputTextureCoordinate.x, inputTextureCoordinate.y);^J    v_texCoord2 = vec2(inputTextureCoordinate.x, 0.5 + inputTextureCoordinate.y);^J}
+  [  1dad]  attribute vec4 a_position;^Jattribute vec2 inputTextureCoordinate;^Jvarying mediump vec2 v_texCoord1;^Jvarying mediump vec2 v_texCoord2;^Jvoid main()^J{^Jgl_Position =  a_position;^Jv_texCoord1 = vec2(inputTextureCoordinate.x, inputTextureCoordinate.y);^Jv_texCoord2 = vec2(inputTextureCoordinate.x, 0.5 + inputTextureCoordinate.y);^J}
+  [  1ef5]  precision lowp float;^Juniform sampler2D inputImageTexture;^Jvarying vec2 v_texCoord1;^Jvarying vec2 v_texCoord2;^Jvoid main()^J{^Jlowp vec4 c1 = texture2D(inputImageTexture, v_texCoord1);^Jlowp vec4 c2 = texture2D(inputImageTexture, v_texCoord2);^Jgl_FragColor =  vec4(c1.rgb, c2.r);^J}
+  [  200d]  #extension GL_OES_EGL_image_external : require ^Jprecision lowp float;^Juniform samplerExternalOES inputImageTexture;^Jvarying vec2 v_texCoord1;^Jvarying vec2 v_texCoord2;^Jvoid main()^J{^Jlowp vec4 c1 = texture2D(inputImageTexture, v_texCoord1);^Jlowp vec4 c2 = texture2D(inputImageTexture, v_texCoord2);^Jgl_FragColor =  vec4(c1.rgb, c2.r);^J}
+  [  2161]   attribute highp vec4 a_position;^J attribute highp vec4 inputTextureCoordinate;^J varying highp vec2 textureCoordinate;^J void main()^J {^J     gl_Position = a_position;^J     textureCoordinate = inputTextureCoordinate.xy;^J }
+  [  2241]   varying highp vec2 textureCoordinate;^J uniform sampler2D inputImageTexture;^J void main()^J {^J     gl_FragColor = texture2D(inputImageTexture, textureCoordinate);^J }
+  [  22e8]  BlurMask time: 
+  [  22f8]  vertex
+  [  2300]  fragment
+  [  230c]  Compile failure in %s shader:^J%s^J
+  [  2330]  Linker failure: %s^J
+  [  2344]  ]^I
+  [  2348]  FATAL
+  [  2350]  Not Implemented Yet
+  [  2364]  (
+  [  2368]  )
+  [  236c]  ERROR
+  [  2374]  (axis_index) >= (-num_axes())
+  [  2394]  axis 
+  [  239c]   out of range for 
+  [  23b0]  -D Blob with shape 
+  [  23c4]  (axis_index) < (num_axes())
+  [  23e0]  (start_axis) <= (end_axis)
+  [  23fc]  (start_axis) >= (0)
+  [  2410]  (end_axis) >= (0)
+  [  2424]  (start_axis) <= (num_axes())
+  [  2444]  (end_axis) <= (num_axes())
+  [  2460]  (num_axes()) <= (4)
+  [  2474]  Cannot use legacy accessors on Blobs with > 4 axes.
+  [  24a8]  (index) < (4)
+  [  24b8]  (index) >= (-4)
+  [  24c8]  (n) >= (0)
+  [  24d4]  (n) <= (num())
+  [  24e4]  (channels()) >= (0)
+  [  24f8]  (c) <= (channels())
+  [  250c]  (height()) >= (0)
+  [  2520]  (h) <= (height())
+  [  2534]  (width()) >= (0)
+  [  2548]  (w) <= (width())
+  [  255c]  (indices.size()) <= (num_axes())
+  [  2580]  (indices[i]) >= (0)
+  [  2594]  (indices[i]) < (shape(i))
+  [  25b0]  data_
+  [  25b8]  diff_
+  [  25c0]  shape_data_
+  [  25cc]  Cannot use GPU in CPU-only Caffe: check mode.
+  [  25fc]  Syncedmem not initialized.
+  [  2618]  Unknown SyncedMemory head state: 
+  [  263c]  (count_) == (other.count())
+  [  2658]  (shape.size()) <= (kMaxBlobAxes)
+  [  267c]  (shape[i]) >= (0)
+  [  2690]  (shape[i]) <= (0x7fffffff / count_)
+  [  26b4]  blob size exceeds INT_MAX
+  [  26d0]  Trying to copy blobs of different sizes.
+  [  26fc]  Unknown caffe mode.
+  [  2710]  ShapeEquals(proto)
+  [  2724]  shape mismatch (reshape not set)
+  [  2748]  (count_) == (proto.double_data_.size())
+  [  2770]  (count_) == (proto.data_.size())
+  [  2794]  (count_) == (proto.double_diff_.size())
+  [  27bc]  (count_) == (proto.diff_.size())
+  [  27e0]  (ExactNumBottomBlobs()) == (bottom.size())
+  [  280c]   Layer takes 
+  [  281c]   bottom blob(s) as input.
+  [  2838]  (MinBottomBlobs()) <= (bottom.size())
+  [  2860]   Layer takes at least 
+  [  2878]  (MaxBottomBlobs()) >= (bottom.size())
+  [  28a0]   Layer takes at most 
+  [  28b8]  (ExactNumTopBlobs()) == (top.size())
+  [  28e0]   Layer produces 
+  [  28f4]   top blob(s) as output.
+  [  290c]  (MinTopBlobs()) <= (top.size())
+  [  292c]   Layer produces at least 
+  [  2948]  (MaxTopBlobs()) >= (top.size())
+  [  2968]   Layer produces at most 
+  [  2984]  (bottom.size()) == (top.size())
+  [  29a4]   Layer produces one top blob as output for each 
+  [  29d8]  bottom blob input.
+  [  29ec]  ShareInParallel() || !is_shared
+  [  2a0c]  Layer does not support sharing.
+  [  2a2c]  (top.size()) == (num_loss_weights)
+  [  2a50]  loss_weight must be unspecified or specified once per top blob.
+  [  2a90]  vector<bool>::_M_fill_insert
+  [  2ab0]  TanH
+  [  2ab8]  Softmax
+  [  2ac0]  Sigmoid
+  [  2ac8]  ReLU
+  [  2ad0]  LRN
+  [  2ad4]  Pooling
+  [  2adc]  Convolution
+  [  2ae8]  (registry.count(type)) == (0)
+  [  2b08]  Layer type 
+  [  2b14]   already registered.
+  [  2b2c]  (i) >= (0)
+  [  2b38]  Invalid layer id
+  [  2b4c]  (i) < (top_id_vecs_.size())
+  [  2b68]  (i) < (bottom_id_vecs_.size())
+  [  2b88]  INFO
+  [  2b90]  The NetState phase (
+  [  2ba8]  ) differed from the phase (
+  [  2bc4]  ) specified by a rule in layer 
+  [  2be4]  The NetState level (
+  [  2bfc]  ) is above the min_level (
+  [  2c18]  ) is above the max_level (
+  [  2c34]  The NetState did not contain stage '
+  [  2c5c]  ' specified by a rule in layer 
+  [  2c7c]  The NetState contained a not_stage '
+  [  2ca4]      [Forward] 
+  [  2cb4]  Layer 
+  [  2cbc]  , top blob 
+  [  2cc8]   data: 
+  [  2cd0]  , param blob 
+  [  2ce0]  (start) >= (0)
+  [  2cf0]  (end) < (layers_.size())
+  [  2d0c]      [Backward] 
+  [  2d1c]  , bottom blob 
+  [  2d2c]   diff: 
+  [  2d34]  (end) >= (0)
+  [  2d44]  (start) < (layers_.size())
+  [  2d60]      [Backward] All net params (data, diff): 
+  [  2d90]  L1 norm = (
+  [  2d9c]  ); 
+  [  2da0]  L2 norm = (
+  [  2dac]      [Update] Layer 
+  [  2dc0]  , param 
+  [  2dcc]  ; diff: 
+  [  2dd8]   (owned by layer 
+  [  2dec]  param 
+  [  2df4]  Ignoring source layer 
+  [  2e0c]  Copying source layer 
+  [  2e24]  (target_blobs.size()) == (source_layer->blobs().size())
+  [  2e5c]  Incompatible number of blobs for layer 
+  [  2e84]  target_blobs[j]->shape() == source_blob->shape()
+  [  2eb8]  Cannot share param 
+  [  2ecc]   weights from layer '
+  [  2ee4]  '; shape mismatch.  Source param shape is 
+  [  2f10]  ; target param shape is 
+  [  2f2c]  basic_string::_S_construct null not valid
+  [  2f58]  (target_blobs.size()) == (source_layer.blobs_.size())
+  [  2f90]  Cannot copy param 
+  [  2fa4]  . 
+  [  2fa8]  To learn this layer's parameters from scratch rather than 
+  [  2fe4]  copying from a saved net, rename the layer.
+  [  3010]  vector<bool>::_M_insert_aux
+  [  302c]  WARNING
+  [  3034]  Unknown blob name 
+  [  3048]  Unknown layer name 
+  [  305c]  (automatic)
+  [  3068]   -> 
+  [  3070]   (in-place)
+  [  307c]  Top blob '
+  [  3088]  ' produced by multiple sources.
+  [  30a8]  Unknown bottom blob '
+  [  30c0]  ' (layer '
+  [  30cc]  ', bottom index 
+  [  30e0]   <- 
+  [  30e8]  Sharing parameters '
+  [  3100]  ' owned by 
+  [  310c]  layer '
+  [  3114]  ', param 
+  [  3120]  index 
+  [  3128]  (this_blob->count()) == (owner_blob->count())
+  [  3158]  Cannot share param '
+  [  3170]  ' owned by layer '
+  [  3184]  ' with layer '
+  [  3194]  '; count mismatch.  Owner layer param 
+  [  31bc]  shape is 
+  [  31c8]  ; sharing layer 
+  [  31dc]  this_blob->shape() == owner_blob->shape()
+  [  3208]  '; shape mismatch.  Owner layer param 
+  [  3230]  expects shape 
+  [  3240]  (param_spec.lr_mult()) == (params_lr_[learnable_param_id])
+  [  327c]  Shared param '
+  [  328c]  ' has mismatched lr_mult.
+  [  32a8]  (param_spec.decay_mult()) == (params_weight_decay_[learnable_param_id])
+  [  32f0]  ' has mismatched decay_mult.
+  [  3310]  layer_param.include_.size() == 0 || layer_param.exclude_.size() == 0
+  [  3358]  Specify either include rules or exclude rules; not both.
+  [  3394]  Creating layer 
+  [  33a4]  (registry.count(type)) == (1)
+  [  33c4]  Unknown layer type: 
+  [  33dc]   (known types: 
+  [  33ec]  Caffe::root_solver() || root_net_
+  [  3410]  root_net_ needs to be set for all non-root solvers
+  [  3444]  Initializing net from parameters: 
+  [  3468]  Sharing layer 
+  [  3478]   from root net
+  [  3488]  Creating Layer 
+  [  3498]  Input
+  [  34a0]  Created top blob 
+  [  34b4]   (shape: 
+  [  34c0]  ) for shared layer 
+  [  34d4]  Setting up 
+  [  34e0]  Top shape: 
+  [  34ec]      with loss weight 
+  [  3504]  Memory required for data: 
+  [  3520]  (param_size) <= (num_param_blobs)
+  [  3544]  Too many params specified for layer 
+  [  356c]   needs backward computation.
+  [  358c]   does not need backward computation.
+  [  35b4]  This network produces output 
+  [  35d4]  Network initialization done.
+  [  35f4]  *ptr
+  [  35fc]  host allocation of size 
+  [  3618]   failed
+  [  3620]  count
+  [  3628]  (this->filler_param_.sparse()) == (-1)
+  [  3650]  Sparsity not supported by this Filler.
+  [  3678]  blob->count()
+  [  3688]  dim
+  [  368c]  (blob->num_axes()) == (4)
+  [  36a8]  Blob must be 4 dim.
+  [  36bc]  (blob->width()) == (blob->height())
+  [  36e0]  Filter must be square
+  [  36f8]  constant
+  [  3704]  gaussian
+  [  3710]  positive_unitball
+  [  3724]  uniform
+  [  372c]  xavier
+  [  3734]  msra
+  [  373c]  bilinear
+  [  3748]  false
+  [  3750]  Unknown filler name: 
+  [  3768]  (sparse) >= (-1)
+  [  377c]  (blob->num_axes()) >= (1)
+  [  3798]  (num_spatial_axes_) >= (0)
+  [  37b4]  (num_spatial_axes_) == (2)
+  [  37d0]  kernel_h & kernel_w can only be used for 2D convolution.
+  [  380c]  (0) == (conv_param.kernel_size_size())
+  [  3834]  Either kernel_size or kernel_h/w should be specified; not both.
+  [  3874]  num_kernel_dims == 1 || num_kernel_dims == num_spatial_axes_
+  [  38b4]  kernel_size must be specified once, or once per spatial dimension 
+  [  38f8]  (kernel_size specified 
+  [  3910]   times; 
+  [  391c]   spatial dims).
+  [  392c]  (kernel_shape_data[i]) > (0)
+  [  394c]  Filter dimensions must be nonzero.
+  [  3970]  stride_h & stride_w can only be used for 2D convolution.
+  [  39ac]  (0) == (conv_param.stride_size())
+  [  39d0]  Either stride or stride_h/w should be specified; not both.
+  [  3a0c]  num_stride_dims == 0 || num_stride_dims == 1 || num_stride_dims == num_spatial_axes_
+  [  3a64]  stride must be specified once, or once per spatial dimension 
+  [  3aa4]  (stride specified 
+  [  3ab8]  (stride_data[i]) > (0)
+  [  3ad0]  Stride dimensions must be nonzero.
+  [  3af4]  pad_h & pad_w can only be used for 2D convolution.
+  [  3b28]  (0) == (conv_param.pad_size())
+  [  3b48]  Either pad or pad_h/w should be specified; not both.
+  [  3b80]  num_pad_dims == 0 || num_pad_dims == 1 || num_pad_dims == num_spatial_axes_
+  [  3bcc]  pad must be specified once, or once per spatial dimension 
+  [  3c08]  (pad specified 
+  [  3c18]  num_dilation_dims == 0 || num_dilation_dims == 1 || num_dilation_dims == num_spatial_axes_
+  [  3c74]  dilation must be specified once, or once per spatial dimension 
+  [  3cb4]  (dilation specified 
+  [  3ccc]  (num_output_) > (0)
+  [  3ce0]  (channels_ % group_) == (0)
+  [  3cfc]  (num_output_ % group_) == (0)
+  [  3d1c]  Number of output should be multiples of group.
+  [  3d4c]  (1 + bias_term_) == (this->blobs_.size())
+  [  3d78]  Incorrect number of weight blobs.
+  [  3d9c]  Incorrect weight shape: expected shape 
+  [  3dc4]  ; instead, shape was 
+  [  3ddc]  Incorrect bias shape: expected shape 
+  [  3e04]  Skipping parameter initialization
+  [  3e28]  (bottom[0]->num_axes()) == (first_spatial_axis + num_spatial_axes_)
+  [  3e6c]  bottom num_axes may not change.
+  [  3e8c]  (bottom[0]->shape(channel_axis_)) == (channels_)
+  [  3ec0]  Input size incompatible with convolution kernel.
+  [  3ef4]  bottom[0]->shape() == bottom[bottom_id]->shape()
+  [  3f28]  All inputs must have the same shape.
+  [  3f50]  Concat
+  [  3f58]  !(concat_param.has_axis() && concat_param.has_concat_dim())
+  [  3f94]  Either axis or concat_dim should be specified; not both.
+  [  3fd0]  (concat_axis_) < (num_axes)
+  [  3fec]  concat_dim out of range.
+  [  4008]  (num_axes) == (bottom[i]->num_axes())
+  [  4030]  All inputs must have the same #axes.
+  [  4058]  (top_shape[j]) == (bottom[i]->shape(j))
+  [  4080]  All inputs must have the same shape, except at concat_axis.
+  [  40bc]  (bottom_count_sum) == (top[0]->count())
+  [  40e4]  Deconvolution
+  [  40f4]  Eltwise
+  [  40fc]  Unknown elementwise operation.
+  [  411c]  bottom[i]->shape() == bottom[0]->shape()
+  [  4148]  this->layer_param().eltwise_param().coeff_size() == 0 || this->layer_param().eltwise_param().coeff_size() == bottom.size()
+  [  41c4]  Eltwise Layer takes one coefficient per bottom blob.
+  [  41fc]  !(this->layer_param().eltwise_param().operation() == EltwiseParameter_EltwiseOp_PROD && this->layer_param().eltwise_param().coeff_size())
+  [  4288]  Eltwise layer only takes coefficients for summation.
+  [  42c0]  Filter
+  [  42c8]  (top.size()) == (bottom.size() - 1)
+  [  42ec]  (bottom[selector_index]->shape(i)) == (1)
+  [  4318]  Selector blob dimensions must be singletons (1), except the first
+  [  435c]  (bottom[selector_index]->shape(0)) == (bottom[i]->shape(0))
+  [  4398]  Each bottom should have the same 0th dimension as the selector blob
+  [  43dc]  Layer cannot backpropagate to filter index inputs
+  [  4410]  Flatten
+  [  4418]  (top[0]) != (bottom[0])
+  [  4430]   Layer does not allow in-place computation.
+  [  445c]  (top[0]->count()) == (bottom[0]->count())
+  [  4488]  Im2col
+  [  4490]  (num_spatial_axes_) >= (1)
+  [  44ac]   spatial dims);
+  [  44bc]  (bottom[0]->shape().size() - channel_axis_) == (num_spatial_axes_ + 1)
+  [  4504]  (top[0]->shape().size() - channel_axis_) == (num_spatial_axes_ + 1)
+  [  4548]  (kernel_shape_.count()) == (num_spatial_axes_)
+  [  4578]  (pad_.count()) == (num_spatial_axes_)
+  [  45a0]  (stride_.count()) == (num_spatial_axes_)
+  [  45cc]  (dilation_.count()) == (num_spatial_axes_)
+  [  45f8]  InnerProduct
+  [  4608]  (K_) == (new_K)
+  [  4618]  Input size incompatible with inner product parameters.
+  [  4650]  num_shape == 0 || num_shape == 1 || num_shape == num_top
+  [  468c]  Must specify 'shape' once, once per top blob, or not at all: 
+  [  46cc]   tops vs. 
+  [  46d8]   shapes.
+  [  46e4]  Power
+  [  46ec]  Split
+  [  46f4]  Unknown normalization region.
+  [  4714]  (4) == (bottom[0]->num_axes())
+  [  4734]  Input must have 4 axes, 
+  [  4750]  corresponding to (num, channels, height, width)
+  [  4780]  (size_ % 2) == (1)
+  [  4794]  LRN only supports odd values for local_size
+  [  47c0]  !(pool_param.has_kernel_size() || pool_param.has_kernel_h() || pool_param.has_kernel_w())
+  [  481c]  With Global_pooling: true Filter size cannot specified
+  [  4854]  !pool_param.has_kernel_size() != !(pool_param.has_kernel_h() && pool_param.has_kernel_w())
+  [  48b0]  Filter size is kernel_size OR kernel_h and kernel_w; not both
+  [  48f0]  pool_param.has_kernel_size() || (pool_param.has_kernel_h() && pool_param.has_kernel_w())
+  [  494c]  For non-square filters both kernel_h and kernel_w are required.
+  [  498c]  (!pool_param.has_pad() && pool_param.has_pad_h() && pool_param.has_pad_w()) || (!pool_param.has_pad_h() && !pool_param.has_pad_w())
+  [  4a10]  pad is pad OR pad_h and pad_w are required.
+  [  4a3c]  (!pool_param.has_stride() && pool_param.has_stride_h() && pool_param.has_stride_w()) || (!pool_param.has_stride_h() && !pool_param.has_stride_w())
+  [  4ad0]  Stride is stride OR stride_h and stride_w are required.
+  [  4b08]  (kernel_h_) > (0)
+  [  4b1c]  Filter dimensions cannot be zero.
+  [  4b40]  (kernel_w_) > (0)
+  [  4b54]  pad_h_ == 0 && pad_w_ == 0 && stride_h_ == 1 && stride_w_ == 1
+  [  4b94]  With Global_pooling: true; only pad = 0 and stride = 1
+  [  4bcc]  this->layer_param_.pooling_param().pool() == PoolingParameter_PoolMethod_AVE || this->layer_param_.pooling_param().pool() == PoolingParameter_PoolMethod_MAX
+  [  4c6c]  Padding implemented only for average and max pooling.
+  [  4ca4]  (pad_h_) < (kernel_h_)
+  [  4cbc]  (pad_w_) < (kernel_w_)
+  [  4cd4]  ((pooled_height_ - 1) * stride_h_) < (height_ + pad_h_)
+  [  4d0c]  ((pooled_width_ - 1) * stride_w_) < (width_ + pad_w_)
+  [  4d44]  Unknown pooling method.
+  [  4d5c]  Reshape
+  [  4d64]  (inferred_axis_) == (-1)
+  [  4d80]  new shape contains multiple 
+  [  4da0]  -1 dims; at most a single (1) value of -1 may be specified
+  [  4ddc]   out of range
+  [  4dec]  (start_axis) <= (bottom[0]->num_axes())
+  [  4e14]  -D input blob
+  [  4e24]  (num_axes) >= (-1)
+  [  4e38]  num_axes must be >= 0, or -1 for all
+  [  4e60]  (end_axis) <= (bottom[0]->num_axes())
+  [  4e88]  end_axis = axis + num_axes is out of range
+  [  4eb4]  (top_shape_index) == (top_shape.size())
+  [  4edc]  (bottom[0]->num_axes()) > (start_axis + copy_axis_index)
+  [  4f18]  new shape contains a 0, but there was no corresponding bottom axis 
+  [  4f5c]  to copy
+  [  4f64]  (0) == (bottom[0]->count() % explicit_count)
+  [  4f94]  bottom count (
+  [  4fa4]  ) must be divisible by the product of 
+  [  4fcc]  the specified dimensions (
+  [  4fe8]  output count must match input count
+  [  500c]  Silence
+  [  5014]  Slice
+  [  501c]  !(slice_param.has_axis() && slice_param.has_slice_dim())
+  [  5058]  Either axis or slice_dim should be specified; not both.
+  [  5090]  (slice_axis_) < (num_axes)
+  [  50ac]  slice_dim out of range.
+  [  50c4]  (slice_point_.size()) == (top.size() - 1)
+  [  50f0]  (top.size()) <= (bottom_slice_axis)
+  [  5114]  (slice_point_[i]) > (prev)
+  [  5130]  (bottom_slice_axis % top.size()) == (0)
+  [  5158]  Number of top blobs (
+  [  5170]  ) should evenly 
+  [  5184]  divide input slice axis (
+  [  51a0]  (count) == (bottom[0]->count())
+  [  51c0]  (top[i]) != (bottom[0])
+  [  51d8]  (count_) == (top[i]->count())
+  [  51f8]  Threshold
+  [  5204]  (d_iter[d_i]) < (d_max)
+  [  521c]  ArgMax
+  [  5224]  Embed
+  [  522c]  Exp
+  [  5230]  Log
+  [  5234]  MVN
+  [  5238]  Reduction
+  [  5244]  Tile
+  [  524c]  PReLU
+  [  5254]  Dropout
+  [  525c]  (n) > (0)
+  [  5268]  y
+  [  526c]  r
+  [  5270]  (a) <= (b)
+  [  527c]  (sigma) > (0)
+  [  528c]  (p) >= (0)
+  [  5298]  (p) <= (1)
+  [  52a4]  vecRand.size() == Size(cnNum, 1) && vecDst.size() == Size(cnNum, 1)
+  [  52e8]  jni/native_source_code/EdgeAwareFilters/adaptive_manifold_filter_n.cpp
+  [  5330]  mask.rows == height && mask.cols == width
+  [  535c]  sigma_s_ >= 1 && (sigma_r_ > 0 && sigma_r_ <= 1)
+  [  5390]  jointSize == srcSize && (jointDepth == CV_8U || jointDepth == CV_16U || jointDepth == CV_32F)
+  [  53f0]  adh.type() == CV_32FC1 && adv.type() == CV_32FC1 && adh.rows == adv.rows + 1 && adh.cols == adv.cols - 1
+  [  545c]  jni/native_source_code/EdgeAwareFilters/dtfilter_cpu.cpp
+  [  5498]  guide.type() == cv::DataType<GuideVec>::type
+  [  54c8]  jni/native_source_code/EdgeAwareFilters/dtfilter_cpu.inl.hpp
+  [  5508]  Incorrect DT filter mode
+  [  5524]  cn <= 4
+  [  552c]  (depth == CV_8U || depth == CV_32F) && !guide.empty()
+  [  5564]  src.type() == SrcVec::type
+  [  5580]  Size of filtering image must be equal to size of guide image
+  [  55c0]  numFilterCalls == 0
+  [  55d4]  cn <= 4 && (depth == CV_8U || depth == CV_32F)
+  [  5604]  !src.empty()
+  [  5614]  jni/native_source_code/EdgeAwareFilters/edgeaware_filters_common.cpp
+  [  565c]  (String)fn["name"] == name_
+  [  5678]  jni/native_source_code/EdgeAwareFilters/graphsegmentation.cpp
+  [  56b8]  sigma
+  [  56c0]  k
+  [  56c4]  min_size
+  [  56d0]  No element name has been given
+  [  56f0]  jni/sdk/native/jni/include/opencv2/core/persistence.hpp
+  [  5728]  GraphSegmentation
+  [  573c]  !guide.empty() && radius_ >= 0 && eps_ >= 0
+  [  5768]  jni/native_source_code/EdgeAwareFilters/guided_filter.cpp
+  [  57a4]  (guide.depth() == CV_32F || guide.depth() == CV_8U || guide.depth() == CV_16U) && (guide.channels() <= 3)
+  [  5810]  !src.empty() && (src.depth() == CV_32F || src.depth() == CV_8U)
+  [  5850]  srcElemStep == jElemStep
+  [  586c]  jni/native_source_code/EdgeAwareFilters/joint_bilateral_filter.cpp
+  [  58b0]  !src_.empty()
+  [  58c0]  src.size() == joint.size()
+  [  58dc]  src.depth() == joint.depth() && (src.depth() == CV_8U || src.depth() == CV_32F)
+  [  592c]  Unsupported number of channels
+  [  594c]  !S.empty()
+  [  5958]  jni/native_source_code/EdgeAwareFilters/l0_smooth.cpp
+  [  5990]  S.depth() == CV_8U || S.depth() == CV_16U || S.depth() == CV_32F || S.depth() == CV_64F
+  [  59e8]  std::vector< FotoUserTappedPt >::value_type const & reference is null
+  [  5a30]  vector index out of range
+  [  5a4c]  std::vector< BeautyFaceMannualSlimData >::value_type const & reference is null
+  [  5a9c]  std::vector< BeautyFaceMannualEyeBiggerData >::value_type const & reference is null
+  [  5af0]  std::vector< FotoBeautyPoint >::value_type const & reference is null
+  [  5b38]  std::vector< std::vector< FotoBeautyPoint > >::value_type const & reference is null
+  [  5b8c]  std::vector< FotoRotatedRect >::value_type const & reference is null
+  [  5bd4]  std::vector< FotoBeautyRect >::value_type const & reference is null
+  [  5c18]  std::vector< FotoBeautyScalar >::value_type const & reference is null
+  [  5c60]  std::vector< FotoRemoveEyebagContour >::value_type const & reference is null
+  [  5cb0]  null string
+  [  5cbc]  std::vector< FaceDynamicPoints >::value_type const & reference is null
+  [  5d04]  std::vector< FaceSwapStateParam >::value_type const & reference is null
+  [  5d4c]  beautyenginewrapper
+  [  5d60]  assetmanager is null^J
+  [  5d78]  pts.model
+  [  5d84]  pts.param
+  [  5d90]  hair_model.model
+  [  5da4]  _ASSET_NOT_FOUND_
+  [  5db8]  bitmap is null^J
+  [  5dc8]  fail to lock bitmap: %d^J
+  [  5de4]  bitmap format: %d^J
+  [  5df8]  level1^J
+  [  5e00]  level2^J
+  [  5e08]  level3^J
+  [  5e10]  invalid bitmap^J
+  [  5e20]  Attempt to dereference null FotoBeautyPoint
+  [  5e4c]  std::vector< FotoBeautyRect > & reference is null
+  [  5e80]  StateParamBase & reference is null
+  [  5ea4]  FotoBeautyPoint & reference is null
+  [  5ec8]  FaceKeyPoints & reference is null
+  [  5eec]  VideoStickerElement const & reference is null
+  [  5f1c]  FaceDynamicPoints const & reference is null
+  [  5f48]  FotoBeautySize const & reference is null
+  [  5f74]  wrapper-- initWithImage start
+  [  5f94]  FaceDynamicPoints & reference is null
+  [  5fbc]  std::vector< FotoBeautyPoint > & reference is null
+  [  5ff0]  FaceKeyPoints const & reference is null
+  [  6018]  WaterMarkInfo const & reference is null
+  [  6040]  std::vector< FotoBeautyPoint > const & reference is null
+  [  607c]  std::vector< int > const & reference is null
+  [  60ac]  std::vector< FaceSwapStateParam > & reference is null
+  [  60e4]  std::vector< StateMakeupElementParam >::value_type const & reference is null
+  [  6134]  java/lang/OutOfMemoryError
+  [  6150]  java/io/IOException
+  [  6164]  java/lang/RuntimeException
+  [  6180]  java/lang/IndexOutOfBoundsException
+  [  61a4]  java/lang/ArithmeticException
+  [  61c4]  java/lang/IllegalArgumentException
+  [  61e8]  java/lang/NullPointerException
+  [  6208]  java/lang/UnknownError
+  [  6220]  beautyuitilitywrapper
+  [  6238]  info.format:%d^J
+  [  6248]  FilterSkinWrapper
+  [  625c]  std::vector< FotoBeautyScalar > & reference is null
+  [  6290]  /proc/cpuinfo
+  [  62a0]  /sys/devices/system/cpu/present
+  [  62c0]  /sys/devices/system/cpu/possible
+  [  62e4]  CPU architecture
+  [  62f8]  (v6l)
+  [  6300]  libc.so
+  [  6308]  getauxval
+  [  6314]  vfp
+  [  6318]  vfpv3
+  [  6320]  vfpv3d16
+  [  632c]  vfpv4
+  [  6334]  neon
+  [  633c]  idiva
+  [  6344]  idivt
+  [  634c]  idiv
+  [  6354]  iwmmxt
+  [  635c]  Hardware
+  [  6368]  Goldfish
+  [  6374]  Processor
+  [  6380]  Features
+  [  638c]  /proc/self/auxv
+  [  639c]  CPU implementer
+  [  63ac]  CPU variant
+  [  63b8]  CPU part
+  [  63c4]  CPU revision
+  [  63d4]  std::bad_alloc
+  [  63e4]  __gnu_cxx::__concurrence_lock_error
+  [  6408]  __gnu_cxx::__concurrence_unlock_error
+  [  6430]  std::exception
+  [  6440]  std::bad_exception
+  [  6454]  pure virtual method called^J
+  [  6470]  deleted virtual method called^J
+  [  6490]  w
+  [  6494]  a+b
+  [  6498]  r+
+  [  649c]  w+
+  [  64a0]  a+
+  [  64a4]  wb
+  [  64a8]  ab
+  [  64ac]  r+b
+  [  64b0]  w+b
+  [  64b4]  C
+  [  64b8]  POSIX
+  [  64c0]  space
+  [  64c8]  print
+  [  64d0]  cntrl
+  [  64d8]  upper
+  [  64e0]  lower
+  [  64e8]  alpha
+  [  64f0]  digit
+  [  64f8]  punct
+  [  6500]  xdigit
+  [  6508]  alnum
+  [  6510]  graph
+  [  6518]  basic_ios::clear
+  [  652c]  basic_string::erase
+  [  6540]  %.*Lf
+  [  6548]  %m/%d/%y
+  [  6554]  %H:%M
+  [  655c]  %H:%M:%S
+  [  6568]  -+xX0123456789abcdef0123456789ABCDEF
+  [  6590]  -+xX0123456789abcdefABCDEF
+  [  65ac]  -0123456789
+  [  65b8]  GMT
+  [  65bc]  HST
+  [  65c0]  AKST
+  [  65c8]  PST
+  [  65cc]  MST
+  [  65d0]  CST
+  [  65d4]  EST
+  [  65d8]  AST
+  [  65dc]  NST
+  [  65e0]  CET
+  [  65e4]  IST
+  [  65e8]  EET
+  [  65ec]  JST
+  [  65f0]  true
+  [  65f8]  AM
+  [  65fc]  PM
+  [  6600]  Sunday
+  [  6608]  Monday
+  [  6610]  Tuesday
+  [  6618]  Wednesday
+  [  6624]  Thursday
+  [  6630]  Friday
+  [  6638]  Saturday
+  [  6644]  Sun
+  [  6648]  Mon
+  [  664c]  Tue
+  [  6650]  Wed
+  [  6654]  Thu
+  [  6658]  Fri
+  [  665c]  Sat
+  [  6660]  January
+  [  6668]  February
+  [  6674]  March
+  [  667c]  April
+  [  6684]  May
+  [  6688]  June
+  [  6690]  July
+  [  6698]  August
+  [  66a0]  September
+  [  66ac]  October
+  [  66b4]  November
+  [  66c0]  December
+  [  66cc]  Jan
+  [  66d0]  Feb
+  [  66d4]  Mar
+  [  66d8]  Apr
+  [  66dc]  Jun
+  [  66e0]  Jul
+  [  66e4]  Aug
+  [  66e8]  Sep
+  [  66ec]  Oct
+  [  66f0]  Nov
+  [  66f4]  Dec
+  [  66f8]  basic_filebuf::underflow codecvt::max_length() is not valid
+  [  6734]  basic_filebuf::underflow incomplete character in file
+  [  676c]  basic_filebuf::underflow invalid byte sequence in file
+  [  67a4]  basic_filebuf::underflow error reading the file
+  [  67d4]  basic_filebuf::xsgetn error reading the file
+  [  6804]  basic_filebuf::_M_convert_to_external conversion error
+  [  683c]  not enough space for format expansion (Please submit full bug report at http://gcc.gnu.org/bugs.html):^J    
+  [  68a8]  basic_string::_S_create
+  [  68c0]  basic_string::append
+  [  68d8]  basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+  [  691c]  basic_string::copy
+  [  6930]  basic_string::compare
+  [  6948]  basic_string::_M_replace_aux
+  [  6968]  basic_string::assign
+  [  6980]  basic_string::insert
+  [  6998]  basic_string::resize
+  [  69b0]  basic_string::replace
+  [  69c8]  basic_string::basic_string
+  [  69e4]  generic
+  [  69ec]  system
+  [  69f4]  std::bad_cast
+  [  6a04]  std::bad_typeid
+  [  6a14]  terminate called recursively^J
+  [  6a34]  terminate called after throwing an instance of '
+  [  6a68]  '^J
+  [  6a6c]  terminate called without an active exception^J
+  [  6a9c]    what():  
+  [  6aa8]  %Lf
+  [  6aac]  locale::facet::_S_create_c_locale name not valid
+  [  6ae0]  LC_CTYPE
+  [  6aec]  LC_NUMERIC
+  [  6af8]  LC_TIME
+  [  6b00]  LC_COLLATE
+  [  6b0c]  LC_MONETARY
+  [  6b18]  LC_MESSAGES
+  [  6b24]  std::bad_array_length
+  [  6b3c]  std::bad_array_new_length
+  [  6b58]  _GLOBAL_
+  [  6b64]  (anonymous namespace)
+  [  6b7c]  st
+  [  6b80]  cl
+  [  6b84]  dt
+  [  6b88]  pt
+  [  6b8c]  qu
+  [  6b90]  auto
+  [  6b98]  li
+  [  6b9c]  string literal
+  [  6bac]  std
+  [  6bb0]  {default arg#
+  [  6bc0]  %ld
+  [  6bc4]  }::
+  [  6bc8]  JArray
+  [  6bd0]  []
+  [  6bd4]  vtable for 
+  [  6be0]  VTT for 
+  [  6bec]  construction vtable for 
+  [  6c08]  typeinfo for 
+  [  6c18]  typeinfo name for 
+  [  6c2c]  typeinfo fn for 
+  [  6c40]  non-virtual thunk to 
+  [  6c58]  virtual thunk to 
+  [  6c6c]  covariant return thunk to 
+  [  6c88]  java Class for 
+  [  6c98]  guard variable for 
+  [  6cac]  TLS init function for 
+  [  6cc4]  TLS wrapper function for 
+  [  6ce0]  reference temporary #
+  [  6cf8]   for 
+  [  6d00]  hidden alias for 
+  [  6d14]  transaction clone for 
+  [  6d2c]  non-transaction clone for 
+  [  6d48]  operator
+  [  6d54]  operator 
+  [  6d60]  ad
+  [  6d64]  gs
+  [  6d68]  ix
+  [  6d6c]   : 
+  [  6d70]  new 
+  [  6d78]  ul
+  [  6d7c]  ll
+  [  6d80]  ull
+  [  6d84]  java resource 
+  [  6d94]  decltype (
+  [  6da0]  ...
+  [  6da4]  global constructors keyed to 
+  [  6dc4]  global destructors keyed to 
+  [  6de4]  {lambda(
+  [  6df0]  {unnamed type#
+  [  6e00]   [clone 
+  [  6e0c]  >(
+  [  6e10]   restrict
+  [  6e1c]   volatile
+  [  6e28]  complex 
+  [  6e34]  imaginary 
+  [  6e40]   __vector(
+  [  6e4c]  std::allocator
+  [  6e5c]  allocator
+  [  6e68]  std::basic_string
+  [  6e7c]  basic_string
+  [  6e8c]  std::string
+  [  6e98]  std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+  [  6ee0]  std::istream
+  [  6ef0]  std::basic_istream<char, std::char_traits<char> >
+  [  6f24]  basic_istream
+  [  6f34]  std::ostream
+  [  6f44]  std::basic_ostream<char, std::char_traits<char> >
+  [  6f78]  basic_ostream
+  [  6f88]  std::iostream
+  [  6f98]  std::basic_iostream<char, std::char_traits<char> >
+  [  6fcc]  basic_iostream
+  [  6fdc]  aN
+  [  6fe0]  &=
+  [  6fe4]  aS
+  [  6fe8]  =
+  [  6fec]  aa
+  [  6ff0]  &&
+  [  6ff4]  &
+  [  6ff8]  an
+  [  6ffc]  at
+  [  7000]  alignof 
+  [  700c]  az
+  [  7010]  cc
+  [  7014]  const_cast
+  [  7020]  ()
+  [  7024]  cm
+  [  7028]  co
+  [  702c]  ~
+  [  7030]  dV
+  [  7034]  /=
+  [  7038]  da
+  [  703c]  delete[] 
+  [  7048]  dc
+  [  704c]  dynamic_cast
+  [  705c]  de
+  [  7060]  *
+  [  7064]  dl
+  [  7068]  delete 
+  [  7070]  ds
+  [  7074]  .*
+  [  7078]  .
+  [  707c]  dv
+  [  7080]  /
+  [  7084]  eO
+  [  7088]  ^=
+  [  708c]  eo
+  [  7090]  ^
+  [  7094]  eq
+  [  7098]  ==
+  [  709c]  ge
+  [  70a0]  >=
+  [  70a4]  ::
+  [  70a8]  gt
+  [  70ac]  >
+  [  70b0]  lS
+  [  70b4]  <<=
+  [  70b8]  le
+  [  70bc]  <=
+  [  70c0]  operator"" 
+  [  70cc]  ls
+  [  70d0]  <<
+  [  70d4]  lt
+  [  70d8]  <
+  [  70dc]  mI
+  [  70e0]  -=
+  [  70e4]  mL
+  [  70e8]  *=
+  [  70ec]  mi
+  [  70f0]  -
+  [  70f4]  ml
+  [  70f8]  mm
+  [  70fc]  --
+  [  7100]  na
+  [  7104]  new[]
+  [  710c]  ne
+  [  7110]  !=
+  [  7114]  ng
+  [  7118]  nt
+  [  711c]  !
+  [  7120]  nw
+  [  7124]  new
+  [  7128]  oR
+  [  712c]  |=
+  [  7130]  oo
+  [  7134]  ||
+  [  7138]  or
+  [  713c]  |
+  [  7140]  pL
+  [  7144]  +=
+  [  7148]  pl
+  [  714c]  +
+  [  7150]  pm
+  [  7154]  ->*
+  [  7158]  pp
+  [  715c]  ++
+  [  7160]  ps
+  [  7164]  ->
+  [  7168]  ?
+  [  716c]  rM
+  [  7170]  %=
+  [  7174]  rS
+  [  7178]  >>=
+  [  717c]  rc
+  [  7180]  reinterpret_cast
+  [  7194]  rm
+  [  7198]  %
+  [  719c]  rs
+  [  71a0]  >>
+  [  71a4]  sc
+  [  71a8]  static_cast
+  [  71b4]  sizeof 
+  [  71bc]  sz
+  [  71c0]  tr
+  [  71c4]  throw
+  [  71cc]  tw
+  [  71d0]  throw 
+  [  71d8]  signed char
+  [  71e4]  bool
+  [  71ec]  boolean
+  [  71f4]  char
+  [  71fc]  byte
+  [  7204]  double
+  [  720c]  long double
+  [  7218]  float
+  [  7220]  __float128
+  [  722c]  unsigned char
+  [  723c]  int
+  [  7240]  unsigned int
+  [  7250]  unsigned
+  [  725c]  long
+  [  7264]  unsigned long
+  [  7274]  __int128
+  [  7280]  unsigned __int128
+  [  7294]  short
+  [  729c]  unsigned short
+  [  72ac]  void
+  [  72b4]  wchar_t
+  [  72bc]  long long
+  [  72c8]  unsigned long long
+  [  72dc]  decimal32
+  [  72e8]  decimal64
+  [  72f4]  decimal128
+  [  7300]  half
+  [  7308]  char16_t
+  [  7314]  char32_t
+  [  7320]  decltype(nullptr)
+  [  7368]  25BeautyEnlargeEyeOperation
+  [  73a8]  23BeautySlimFaceOperation
+  [  73c8]  23BeautySlimNoseOperation
+  [  73e8]  9CFaceWarp
+  [  73f8]  10CAutoSmile
+  [  7410]  '
+  [  7414]  .
+  [  7418]  8
+  [  741c]  7
+  [  7420]  6
+  [  7424]  5
+  [  7428]  4
+  [  742c]  3
+  [  7430]  2
+  [  7434]  1
+  [  7438]  0
+  [  743c]  /
+  [  7470]  12CEnhanceFace
+  [  7480]  11CEnlargeEye
+  [  7491]  7†5Ѕ7†512CLightenBase
+  [  74a8]  11CLightenEye
+  [  74b8]  14CLightenEyeBag
+  [  74d0]  13CLightenTooth
+  [  74e7]  ?
+  [  74ef]  ?11CSkinManual
+  [  7500]  17CSkinManualSoften
+  [  7518]  16CSkinManualColor
+  [  7536]  #=ЏВu=)\Џ=НМL=
+  [  754a]  L=)\Џ=ЏВu=^JЧ#=
+  [  7560]  9CSlimFace
+  [  7570]  1
+  [  7574]  6
+  [  7578]  2
+  [  757c]  5
+  [  7580]  ;
+  [  7584]  =
+  [  7588]  9CSlimNose
+  [  7598]  23BeautyClearEyeOperation
+  [  75b8]  23FotoFaceBeautyStateBase
+  [  75d8]  30FotoFaceBeautyClearEyeStateNew
+  [  7600]  24FotoFaceBeautyDizzyState
+  [  7620]  14StateParamBase
+  [  7638]  20StateMakeupInitParam
+  [  7650]  28AbstractFotoFaceBeautyEngine
+  [  7670]  20FotoFaceBeautyEngine
+  [  7688]  33FotoFaceBeautyEnhanceNoseStateNew
+  [  76b0]  32FotoFaceBeautyEnlargeEyeStateNew
+  [  76d8]  31FotoFaceBeautyMakeupManualState
+  [  7700]  16StateSoftenParam
+  [  7718]  16StateMakeupParam
+  [  7730]  25FotoFaceBeautyMakeupState
+  [  7750]  22StateMakeupManualParam
+  [  7770]  28FotoFaceBeautyMakeupStateNew
+  [  7790]  31FotoFaceBeautyOneKeyBeautyState
+  [  77b8]  24FotoFaceBeautyQubanState
+  [  77d8]  34FotoFaceBeautyRemoveEyebagStateNew
+  [  7800]  30FotoFaceBeautySlimFaceStateNew
+  [  7828]  30FotoFaceBeautySlimNoseStateNew
+  [  7850]  27FotoFaceBeautySmileStateNew
+  [  7870]  25FotoFaceBeautySoftenState
+  [  7890]  33FotoFaceBeautyWhitenTeethStateNew
+  [  78b8]  12FotoFaceData
+  [  78cc]  /
+  [  78d0]  0
+  [  78d4]  1
+  [  78d8]  2
+  [  78dc]  '
+  [  78e0]  8
+  [  78e4]  7
+  [  78e8]  6
+  [  78ec]  5
+  [  7938]   
+  [  793c]  !
+  [  7940]  "
+  [  7944]  #
+  [  7948]  $
+  [  794c]  %
+  [  7950]  '
+  [  7954]  (
+  [  7958]  )
+  [  795c]  *
+  [  7960]  +
+  [  7964]  ,
+  [  7968]  -
+  [  796c]  .
+  [  7970]  :
+  [  7974]  ;
+  [  7978]  <
+  [  797c]  =
+  [  7980]  >
+  [  7984]  D
+  [  7988]  C
+  [  798c]  B
+  [  7990]  >
+  [  7994]  ?
+  [  7998]  @
+  [  799c]  @
+  [  79a0]  :
+  [  79a4]  G
+  [  79a8]  F
+  [  79ac]  E
+  [  79b0]  2
+  [  79b4]  ;
+  [  79b8]  9
+  [  79bc]  5
+  [  79c0]  <
+  [  79c4]  9
+  [  79c8]  /
+  [  79cc]  0
+  [  79d0]  1
+  [  79d4]  2
+  [  79d8]  3
+  [  79dc]  4
+  [  79e0]  5
+  [  79e4]  6
+  [  79e8]  7
+  [  79ec]  8
+  [  79f0]  :
+  [  79f4]  ;
+  [  79f8]  <
+  [  79fc]  =
+  [  7a00]  >
+  [  7a04]  ?
+  [  7a08]  @
+  [  7a0c]  A
+  [  7a10]  5
+  [  7a14]  6
+  [  7a18]  7
+  [  7a1c]  8
+  [  7a20]  /
+  [  7a24]  0
+  [  7a28]  1
+  [  7a2c]  2
+  [  7a30]  :
+  [  7a34]  B
+  [  7a38]  C
+  [  7a3c]  D
+  [  7a40]  >
+  [  7a44]  E
+  [  7a48]  F
+  [  7a4c]  G
+  [  7a50]  24FotoSkinColorManualState
+  [  7a70]  23FotoSkinSoftManualState
+  [  7a90]  PSt9exception
+  [  7aa3]  ?^P<~?Дy|?^J№z?^Eъx?’<w?Гu?—Жs?^O^Nr?^YWp?Чn?^Xоl?^L<k?‚‹i?­Ьg?j/f?єѓd?®Щb?31a?LЉ_?^Hе]?WA\?8џZ?ЅюX?Д_W?nВU?«&T?iЊR?ЛуP?А\O?GЗM?a3L?э J?=^PI?юЂG?RуE?8gD? ЬB?¬SA?)М??JF>?мБ<?!?;?Ч9?^P>8?Ы6?9C5?^YИ3?{N2?oЦ0?е_/?Эк-?Ww,?d^E+?т”)?^C&(?•ё&?©L%??в#?hy"?^B^R!?^]¬^_?»G^^?лд^\?Њѓ^[?Ї#^Z?CЕ^X?jh^W?^B^M^V?^\і^T?ёZ^S?Е^C^R?d®^P?uZ^O?ц^G^N?ъ¶^L?^їg^K?v^Y^J?ЮМ^H?Ш^G?28^F?^Oр^D?m©^C?=d^B?} ^A?^їјя>з:э>0јъ>}@ш>ЉЗх>њQу>±Юр>‡nо>`^Aм>^\—й>є/з>:Лд>њiв>б^Jа>)ЇЭ>2VЫ>^]
+  [  7c37]  >^L­Ц>ј\Ф>M^OТ>гДП>9}Н>q8Л>ЊцИ>‰·Ж>g{Д>^GBВ>Є^KА>^NШ>T§»>}y№>‡N·>R&µ>!^Aі>±Ю>#ї®>Uў¬>j€Є>aqЁ>:]¦>УK¤>O=ў>­1 >М(ћ>Н"њ>°^_љ>T^_>Щ!–>B'”>j/’>u:ђ>bHЋ>^PYЊ> lЉ>^Rѓ€>Eњ†>Zё„>0Ч>ишЂ>^D;~>№‰z>3Юv>q8s>1o>µэk>эhh>^JЪd>Pa>кМ]>ѕNZ>VЦV>хcS>УцO>ёЏL>b.I>ЌТE>||B>0,?>Ёб;>ењ8>ў]5>h$2>ср.>@Г+>^O›(>жx%>Ѓ\">бE^_>H5^\>0*^Y> %^V>Х%^S>‘,^P>^Q9^M>UK^J>ўc^G>хЃ^D>^M¦^A>Z э="
+  [  7d83]  =^їlт=eдм=Zhз=]шб=ч”Ь=^Y=Ч=РсС=€ІМ=Ў^їЗ=^KYВ=г>Ѕ='1ё=ж/і=:;®=0S©=Йw¤=.©џ=]зљ=q2–=yЉ‘=ќпЊ=Оa€=Cбѓ=.Ь~=“^Pv=^E`m= Кd=ОP\=¬тS=€°K=™ЉC=^UЃ;=‚”3=^UЕ+=^E^S$=ј~^\=Б^H^U=I±^M=Аx^F=Ћїю<“Нр</^\г<^P­Х<CЃИ<^Jљ»<¦ш®<Жў<LЋ–<±И<^Y ~<ЗMh<^IџR<ї™=<ЖC)<ў¤^U<‹Д^B<cZб;^QФ;№^Qћ;^їj~;„УD;mР^O;7^AА:W_Y:]Ѓ¤9
+  [  7eb8]  15AbstarcFaceData
+  [  7f38]  static void FotoBeautyUtility::BlendLayerWithColor(FotoBeautyUtility::ColorBlendType, cv::InputArray, const Scalar&, cv::OutputArray, float, cv::InputArray, float)
+  [  7fe0]  void FotocvMinEnclosingCircle(const void*, CvPoint2D32f*, float*)
+  [  8028]  static void FotoBeautyUtility::FotominEnclosingCircle(cv::InputArray, cv::Point2f&, float&)
+  [  8088]  static void FotoBeautyUtility::GammaCorrection(cv::Mat&, float)
+  [  80c8]  11ImgWarp_MLS
+  [  80d8]  17ImgWarp_MLS_Rigid
+  [  80f0]  Ss
+  [  80f8]  7ConvNet
+  [  8108]  11WeightLayer
+  [  8118]  9PoolLayer
+  [  8128]  7FCLayer
+  [  8138]  9ConvLayer
+  [  8148]  17ResponseNormLayer
+  [  8160]  25CrossMapResponseNormLayer
+  [  8180]  12MaxPoolLayer
+  [  8190]  10LocalLayer
+  [  81a0]  11NeuronLayer
+  [  81b0]  5Layer
+  [  81b8]  12AvgPoolLayer
+  [  81c8]  17ContrastNormLayer
+  [  81e0]  9DataLayer
+  [  81f0]  12SoftmaxLayer
+  [  8200]  11DeConvLayer
+  [  8210]  6Neuron
+  [  8218]  14LogisticNeuron
+  [  8230]  10ReluNeuron
+  [  8240]  17BoundedReluNeuron
+  [  8258]  10TanhNeuron
+  [  8268]  14SoftReluNeuron
+  [  8280]  12SquareNeuron
+  [  8290]  10SqrtNeuron
+  [  82a0]  12LinearNeuron
+  [  82e4]  "
+  [  82e8]  !
+  [  82ec]   
+  [  82f8]  %
+  [  82fc]  $
+  [  8300]  #
+  [  8304]  &
+  [  8308]  +
+  [  830c]  *
+  [  8310]  )
+  [  8314]  (
+  [  8318]  '
+  [  831c]  .
+  [  8320]  -
+  [  8324]  ,
+  [  836c]  8
+  [  8370]  7
+  [  8374]  6
+  [  8378]  5
+  [  837c]  4
+  [  8380]  3
+  [  8384]  2
+  [  8388]  1
+  [  838c]  0
+  [  8390]  /
+  [  8394]  9
+  [  8398]  >
+  [  839c]  =
+  [  83a0]  <
+  [  83a4]  ;
+  [  83a8]  :
+  [  83ac]  A
+  [  83b0]  @
+  [  83b4]  ?
+  [  83b8]  D
+  [  83bc]  C
+  [  83c0]  B
+  [  83c4]  G
+  [  83c8]  F
+  [  83cc]  E
+  [  8410]  +
+  [  8414]  *
+  [  8418]  )
+  [  841c]  (
+  [  8420]  '
+  [  8424]  .
+  [  8428]  -
+  [  842c]  ,
+  [  8430]  &
+  [  8438]  "
+  [  843c]  !
+  [  8440]   
+  [  844c]  %
+  [  8450]  $
+  [  8454]  #
+  [  8458]  /
+  [  845c]  0
+  [  8460]  1
+  [  8464]  2
+  [  8468]  8
+  [  846c]  7
+  [  8470]  6
+  [  8474]  5
+  [  847b]  ?
+  [  847f]  ?
+  [  8483]  ?
+  [  8487]  ?љ™™>љ™™>љ™™>љ™™>љ™™>љ™™>љ™™>
+  [  84cb]  ?
+  [  84cf]  ?
+  [  84d3]  ?
+  [  84d7]  ?љ™™>љ™™>љ™™>љ™™>љ™™>НМL>НМL>
+  [  8518]  :
+  [  851c]  ;
+  [  8520]  <
+  [  8524]  =
+  [  8528]  >
+  [  852c]  ?
+  [  8530]  @
+  [  8534]  A
+  [  8540]  11Base_interp
+  [  8550]  13Spline_interp
+  [  8580]  :
+  [  8584]  B
+  [  8588]  C
+  [  858c]  D
+  [  8590]  >
+  [  8594]  E
+  [  8598]  F
+  [  859c]  G
+  [  85a0]  :
+  [  85a4]  G
+  [  85a8]  F
+  [  85ac]  E
+  [  85b0]  >
+  [  85b4]  ?
+  [  85b8]  @
+  [  85bc]  A
+  [  85c0]  :
+  [  85c4]  @
+  [  85c8]  >
+  [  8614]  "
+  [  8618]  !
+  [  861c]   
+  [  8628]  %
+  [  862c]  $
+  [  8630]  #
+  [  8634]  &
+  [  8638]  +
+  [  863c]  *
+  [  8640]  )
+  [  8644]  (
+  [  8648]  '
+  [  864c]  .
+  [  8650]  -
+  [  8654]  ,
+  [  869c]  8
+  [  86a0]  7
+  [  86a4]  6
+  [  86a8]  5
+  [  86ac]  4
+  [  86b0]  3
+  [  86b4]  2
+  [  86b8]  1
+  [  86bc]  0
+  [  86c0]  /
+  [  86c4]  9
+  [  86c8]  >
+  [  86cc]  =
+  [  86d0]  <
+  [  86d4]  ;
+  [  86d8]  :
+  [  86dc]  A
+  [  86e0]  @
+  [  86e4]  ?
+  [  86e8]  D
+  [  86ec]  C
+  [  86f0]  B
+  [  86f4]  G
+  [  86f8]  F
+  [  86fc]  E
+  [  8700]  L
+  [  8704]  K
+  [  8708]  J
+  [  870c]  I
+  [  8710]  H
+  [  8718]  1
+  [  871c]  6
+  [  8720]  5
+  [  8724]  2
+  [  8744]   
+  [  8748]  "
+  [  874c]  $
+  [  8768]  :
+  [  876c]  2
+  [  8770]  0
+  [  8800]   
+  [  8804]  "
+  [  8808]  $
+  [  880c]  /
+  [  8810]  0
+  [  8814]  1
+  [  8818]  2
+  [  881c]  5
+  [  8820]  6
+  [  8824]  7
+  [  8828]  8
+  [  882c]  :
+  [  8830]  ;
+  [  8834]  <
+  [  8838]  =
+  [  883c]  >
+  [  8840]  ?
+  [  8844]  @
+  [  8848]  A
+  [  885c]  '
+  [  8860]  )
+  [  8864]  +
+  [  8868]  "
+  [  8880]  '
+  [  8884]  )
+  [  8888]   
+  [  8898]  2
+  [  889c]  9
+  [  88a0]  5
+  [  88a4]  >
+  [  88a8]  =
+  [  88ac]  <
+  [  88b0]  ;
+  [  88b4]  :
+  [  88b8]  :
+  [  88bc]  ;
+  [  88c0]  <
+  [  88c4]  =
+  [  88c8]  >
+  [  88cc]  ?
+  [  88d0]  @
+  [  88d4]  A
+  [  88e8]  0
+  [  88ec]  2
+  [  88f0]  :
+  [  8918]  0
+  [  891c]  2
+  [  892c]  H
+  [  8930]  0
+  [  8934]  2
+  [  8980]  2
+  [  8984]  5
+  [  89ac]  :
+  [  89b0]  ;
+  [  89b4]  <
+  [  89b8]  =
+  [  89bc]  >
+  [  89c0]  ?
+  [  89c4]  @
+  [  89c8]  A
+  [  8a00]  2
+  [  8a14]  H
+  [  8a2c]  2
+  [  8a78]  1
+  [  8a84]  2
+  [  8a88]  ;
+  [  8a8c]  :
+  [  8a90]  A
+  [  8ab0]  :
+  [  8ab4]  2
+  [  8ab8]  0
+  [  8b00]  '
+  [  8b04]  (
+  [  8b08]  )
+  [  8b0c]  *
+  [  8b10]  +
+  [  8b14]  ,
+  [  8b18]  -
+  [  8b1c]  .
+  [  8b20]  '
+  [  8b24]  .
+  [  8b28]  -
+  [  8b2c]  ,
+  [  8b30]  +
+  [  8b34]  *
+  [  8b38]  )
+  [  8b3c]  (
+  [  8b46]  L>љ™™ѕљ™^Y?љ™™ѕНММ>љ™™ѕНММ>љ™™ѕљ™^Y?љ™™ѕНМL>9CSlimBrow
+  [  8b80]  void MYPOISSON::seamlessClone(cv::InputArray, cv::InputArray, cv::InputArray, cv::Point, cv::OutputArray, int)
+  [  8c10]  01:
+  [  8c15]  ::^D^F:::^H:^J^L2::^N:::^P^R::^T^V^X^Z^\^G:::::::::::::::^S::^^::::34 "$:::^C:::::::::::::::::::::::::::::::^I:::::::::::::::^W^Y::::::%:::5::::^A:6:::&:::(::*,:^O:7:::::^_:.:::::::):::::::::::::^U:/::::!#:8:::::^E:':::9:::::::::^Q::::::::::::::^K^M+-::::::::::::^[^]::::::::::::::0
+  [  8d12]  1^B^A:^C2^D:::^F:^H^J^L:::::::^N:::^P:^R^T3:::::::::::::::^V:::::::^X:::^Z:^\^^^M:::::::::::::::::::::::::::::::^W:::::::::::::::4::::::: :::":$&^E^G:^I:::^K:::::::5:::::::::::::::(:::::::::::::::::::::::::::::::*^O^Q:^S:::^U:::::::):::::::::::::::6^Y^[:^]:::^_:::::::+!#:%:::'7,:.-8/9 N
+  [  8e14]  >7
+  [  8e18]  71
+  [  8e1c]  t.
+  [  8e21]  ,
+  [  8e25]  +
+  [  8e28]  !+
+  [  8e2d]  *
+  [  8e30]  1*
+  [  8e35]  )
+  [  8e39]  )
+  [  8e5b]  ?
+  [  8e6b]  ?
+  [  8e6f]  ?
+  [  8e77]  ?
+  [  8ebc]  G
+  [  8ec0]  F
+  [  8ec4]  E
+  [  8ec8]  D
+  [  8ecc]  C
+  [  8ed0]  B
+  [  8ed4]  H
+  [  8f48]  1
+  [  8f4c]  <
+  [  8f50]  <
+  [  8f54]  =
+  [  8f58]  >
+  [  8f5c]  >
+  [  8f60]  5
+  [  8f64]  ?
+  [  8f68]  ?
+  [  8f6c]  @
+  [  8f70]  A
+  [  8f74]  A
+  [  8f78]  ;
+  [  8f7c]  1
+  [  8f80]  2
+  [  8f84]  3
+  [  8f88]  4
+  [  8f8c]  5
+  [  8f90]  7
+  [  8f94]  7
+  [  8f98]  8
+  [  8f9c]  9
+  [  8fa0]  :
+  [  8fa4]  ;
+  [  8fab]  ?љ™™>љ™™>љ™™>љ™™>љ™™>
+  [  8fc3]  ?љ™™>љ™™>љ™™>љ™™>љ™™>
+  [  900c]  +
+  [  9010]  *
+  [  9014]  )
+  [  9018]  (
+  [  901c]  '
+  [  9068]  +
+  [  906c]  *
+  [  9070]  )
+  [  9074]  (
+  [  90b0]   
+  [  90b4]  !
+  [  90b8]  "
+  [  90bc]  #
+  [  90c0]  $
+  [  90c4]  %
+  [  90c8]  /
+  [  90cc]  0
+  [  90d0]  1
+  [  90d4]  2
+  [  90d8]  9
+  [  90dc]  5
+  [  90e0]  6
+  [  90e4]  7
+  [  90e8]  8
+  [  90ec]  :
+  [  90f0]  ;
+  [  90f4]  <
+  [  90f8]  =
+  [  90fc]  >
+  [  9100]  ?
+  [  9104]  @
+  [  9108]  A
+  [  9134]   
+  [  9138]  !
+  [  913c]  "
+  [  9140]  #
+  [  9144]  $
+  [  9148]  %
+  [  9150]  St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+  [  9180]  St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+  [  91b8]  St15_Sp_counted_ptrIPN5caffe12SyncedMemoryELN9__gnu_cxx12_Lock_policyE2EE
+  [  9208]  N5caffe10nullstreamE
+  [  9220]  St15_Sp_counted_ptrIPN5caffe5CaffeELN9__gnu_cxx12_Lock_policyE2EE
+  [  9268]  St15_Sp_counted_ptrIPSt23mersenne_twister_engineIjLj32ELj624ELj397ELj31ELj2567483615ELj11ELj4294967295ELj7ELj2636928640ELj15ELj4022730752ELj18ELj1812433253EELN9__gnu_cxx12_Lock_policyE2EE
+  [  9328]  St15_Sp_counted_ptrIPN5caffe4BlobIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9370]  St15_Sp_counted_ptrIPN5caffe4BlobIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  93b8]  N5caffe5LayerIdEE
+  [  93d0]  N5caffe5LayerIfEE
+  [  93e8]  St15_Sp_counted_ptrIPN5caffe16ConvolutionLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9440]  St15_Sp_counted_ptrIPN5caffe16ConvolutionLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9498]  St15_Sp_counted_ptrIPN5caffe12PoolingLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  94e8]  St15_Sp_counted_ptrIPN5caffe12PoolingLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9538]  St15_Sp_counted_ptrIPN5caffe8LRNLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9580]  St15_Sp_counted_ptrIPN5caffe8LRNLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  95c8]  St15_Sp_counted_ptrIPN5caffe9ReLULayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9618]  St15_Sp_counted_ptrIPN5caffe9ReLULayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9668]  St15_Sp_counted_ptrIPN5caffe12SigmoidLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  96b8]  St15_Sp_counted_ptrIPN5caffe12SigmoidLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9708]  St15_Sp_counted_ptrIPN5caffe12SoftmaxLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9758]  St15_Sp_counted_ptrIPN5caffe12SoftmaxLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  97a8]  St15_Sp_counted_ptrIPN5caffe9TanHLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  97f8]  St15_Sp_counted_ptrIPN5caffe9TanHLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9848]  N5caffe6FillerIfEE
+  [  9860]  N5caffe6FillerIdEE
+  [  9878]  N5caffe14ConstantFillerIfEE
+  [  9898]  N5caffe14GaussianFillerIfEE
+  [  98b8]  N5caffe22PositiveUnitballFillerIfEE
+  [  98e0]  N5caffe13UniformFillerIfEE
+  [  9900]  N5caffe12XavierFillerIfEE
+  [  9920]  N5caffe10MSRAFillerIfEE
+  [  9938]  N5caffe14BilinearFillerIfEE
+  [  9958]  N5caffe14ConstantFillerIdEE
+  [  9978]  N5caffe14GaussianFillerIdEE
+  [  9998]  N5caffe22PositiveUnitballFillerIdEE
+  [  99c0]  N5caffe13UniformFillerIdEE
+  [  99e0]  N5caffe12XavierFillerIdEE
+  [  9a00]  N5caffe10MSRAFillerIdEE
+  [  9a18]  N5caffe14BilinearFillerIdEE
+  [  9a38]  St15_Sp_counted_ptrIPN5caffe6FillerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9a80]  St15_Sp_counted_ptrIPN5caffe6FillerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9ac8]  N5caffe20BaseConvolutionLayerIfEE
+  [  9af0]  N5caffe20BaseConvolutionLayerIdEE
+  [  9b18]  St15_Sp_counted_ptrIPN5caffe11ConcatLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9b68]  St15_Sp_counted_ptrIPN5caffe11ConcatLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9bb8]  N5caffe11ConcatLayerIfEE
+  [  9bd8]  N5caffe11ConcatLayerIdEE
+  [  9bf8]  N5caffe16ConvolutionLayerIfEE
+  [  9c18]  N5caffe16ConvolutionLayerIdEE
+  [  9c38]  St15_Sp_counted_ptrIPN5caffe18DeconvolutionLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9c90]  St15_Sp_counted_ptrIPN5caffe18DeconvolutionLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9ce8]  N5caffe18DeconvolutionLayerIdEE
+  [  9d08]  N5caffe18DeconvolutionLayerIfEE
+  [  9d28]  St15_Sp_counted_ptrIPN5caffe12EltwiseLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9d78]  St15_Sp_counted_ptrIPN5caffe12EltwiseLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9dc8]  N5caffe12EltwiseLayerIfEE
+  [  9de8]  N5caffe12EltwiseLayerIdEE
+  [  9e08]  St15_Sp_counted_ptrIPN5caffe11FilterLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9e58]  St15_Sp_counted_ptrIPN5caffe11FilterLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9ea8]  N5caffe11FilterLayerIdEE
+  [  9ec8]  N5caffe11FilterLayerIfEE
+  [  9ee8]  St15_Sp_counted_ptrIPN5caffe12FlattenLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9f38]  St15_Sp_counted_ptrIPN5caffe12FlattenLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  9f88]  N5caffe12FlattenLayerIfEE
+  [  9fa8]  N5caffe12FlattenLayerIdEE
+  [  9fc8]  St15_Sp_counted_ptrIPN5caffe11Im2colLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a018]  St15_Sp_counted_ptrIPN5caffe11Im2colLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a068]  N5caffe11Im2colLayerIdEE
+  [  a088]  N5caffe11Im2colLayerIfEE
+  [  a0a8]  St15_Sp_counted_ptrIPN5caffe17InnerProductLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a100]  St15_Sp_counted_ptrIPN5caffe17InnerProductLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a158]  N5caffe17InnerProductLayerIfEE
+  [  a178]  N5caffe17InnerProductLayerIdEE
+  [  a198]  St15_Sp_counted_ptrIPN5caffe10InputLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a1e8]  St15_Sp_counted_ptrIPN5caffe10InputLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a238]  N5caffe10InputLayerIdEE
+  [  a250]  N5caffe10InputLayerIfEE
+  [  a268]  St15_Sp_counted_ptrIPN5caffe10SplitLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a2b8]  St15_Sp_counted_ptrIPN5caffe10PowerLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a308]  St15_Sp_counted_ptrIPN5caffe10SplitLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a358]  St15_Sp_counted_ptrIPN5caffe10PowerLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a3a8]  N5caffe8LRNLayerIfEE
+  [  a3c0]  N5caffe8LRNLayerIdEE
+  [  a3d8]  N5caffe11NeuronLayerIfEE
+  [  a3f8]  N5caffe11NeuronLayerIdEE
+  [  a418]  N5caffe12PoolingLayerIdEE
+  [  a438]  N5caffe12PoolingLayerIfEE
+  [  a458]  N5caffe10PowerLayerIfEE
+  [  a470]  N5caffe10PowerLayerIdEE
+  [  a488]  N5caffe9ReLULayerIdEE
+  [  a4a0]  N5caffe9ReLULayerIfEE
+  [  a4b8]  St15_Sp_counted_ptrIPN5caffe12ReshapeLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a508]  St15_Sp_counted_ptrIPN5caffe12ReshapeLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a558]  N5caffe12ReshapeLayerIdEE
+  [  a578]  N5caffe12ReshapeLayerIfEE
+  [  a598]  N5caffe12SigmoidLayerIdEE
+  [  a5b8]  N5caffe12SigmoidLayerIfEE
+  [  a5d8]  St15_Sp_counted_ptrIPN5caffe12SilenceLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a628]  St15_Sp_counted_ptrIPN5caffe12SilenceLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a678]  N5caffe12SilenceLayerIdEE
+  [  a698]  N5caffe12SilenceLayerIfEE
+  [  a6b8]  St15_Sp_counted_ptrIPN5caffe10SliceLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a708]  St15_Sp_counted_ptrIPN5caffe10SliceLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a758]  N5caffe10SliceLayerIdEE
+  [  a770]  N5caffe10SliceLayerIfEE
+  [  a788]  N5caffe12SoftmaxLayerIfEE
+  [  a7a8]  N5caffe12SoftmaxLayerIdEE
+  [  a7c8]  N5caffe10SplitLayerIfEE
+  [  a7e0]  N5caffe10SplitLayerIdEE
+  [  a7f8]  N5caffe9TanHLayerIfEE
+  [  a810]  N5caffe9TanHLayerIdEE
+  [  a828]  St15_Sp_counted_ptrIPN5caffe14ThresholdLayerIfEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a878]  St15_Sp_counted_ptrIPN5caffe14ThresholdLayerIdEELN9__gnu_cxx12_Lock_policyE2EE
+  [  a8c8]  N5caffe14ThresholdLayerIfEE
+  [  a8e8]  N5caffe14ThresholdLayerIdEE
+  [  a908]  N2cv6detail8PtrOwnerE
+  [  a920]  N2cv8ximgproc22AdaptiveManifoldFilterE
+  [  a948]  *N12_GLOBAL__N_123AdaptiveManifoldFilterNE
+  [  a978]  static void {anonymous}::AdaptiveManifoldFilterN::computeEigenVector(const std::vector<cv::Mat>&, const Mat1b&, cv::Mat1f&, int, const Mat1f&)
+  [  aa08]  *N12_GLOBAL__N_123AdaptiveManifoldFilterN18MapPrallelLoopBodyE
+  [  aa48]  void {anonymous}::AdaptiveManifoldFilterN::initSrcAndJoint(cv::InputArray, cv::InputArray)
+  [  aaa8]  virtual void {anonymous}::AdaptiveManifoldFilterN::filter(cv::InputArray, cv::OutputArray, cv::InputArray)
+  [  ab18]  *N2cv6detail12PtrOwnerImplIN12_GLOBAL__N_123AdaptiveManifoldFilterNENS_14DefaultDeleterIS3_EEEE
+  [  ab78]  N2cv8ximgproc8DTFilterE
+  [  ab90]  N2cv6detail12PtrOwnerImplINS_8ximgproc11DTFilterCPUENS_14DefaultDeleterIS3_EEEE
+  [  abe0]  N2cv8ximgproc11DTFilterCPU21ComputeIDTHor_ParBodyINS_3VecIhLi1EEEEE
+  [  ac28]  N2cv8ximgproc11DTFilterCPU26ComputeDTandIDTHor_ParBodyINS_3VecIhLi1EEEEE
+  [  ac78]  N2cv8ximgproc11DTFilterCPU22ComputeA0DTHor_ParBodyINS_3VecIhLi1EEEEE
+  [  acc0]  N2cv8ximgproc11DTFilterCPU23ComputeA0DTVert_ParBodyINS_3VecIhLi1EEEEE
+  [  ad08]  N2cv8ximgproc11DTFilterCPU21ComputeIDTHor_ParBodyINS_3VecIfLi1EEEEE
+  [  ad50]  N2cv8ximgproc11DTFilterCPU26ComputeDTandIDTHor_ParBodyINS_3VecIfLi1EEEEE
+  [  ada0]  N2cv8ximgproc11DTFilterCPU22ComputeA0DTHor_ParBodyINS_3VecIfLi1EEEEE
+  [  ade8]  N2cv8ximgproc11DTFilterCPU23ComputeA0DTVert_ParBodyINS_3VecIfLi1EEEEE
+  [  ae30]  N2cv8ximgproc11DTFilterCPU21ComputeIDTHor_ParBodyINS_3VecIhLi2EEEEE
+  [  ae78]  N2cv8ximgproc11DTFilterCPU26ComputeDTandIDTHor_ParBodyINS_3VecIhLi2EEEEE
+  [  aec8]  N2cv8ximgproc11DTFilterCPU22ComputeA0DTHor_ParBodyINS_3VecIhLi2EEEEE
+  [  af10]  N2cv8ximgproc11DTFilterCPU23ComputeA0DTVert_ParBodyINS_3VecIhLi2EEEEE
+  [  af58]  N2cv8ximgproc11DTFilterCPU21ComputeIDTHor_ParBodyINS_3VecIfLi2EEEEE
+  [  afa0]  N2cv8ximgproc11DTFilterCPU26ComputeDTandIDTHor_ParBodyINS_3VecIfLi2EEEEE
+  [  aff0]  N2cv8ximgproc11DTFilterCPU22ComputeA0DTHor_ParBodyINS_3VecIfLi2EEEEE
+  [  b038]  N2cv8ximgproc11DTFilterCPU23ComputeA0DTVert_ParBodyINS_3VecIfLi2EEEEE
+  [  b080]  N2cv8ximgproc11DTFilterCPU21ComputeIDTHor_ParBodyINS_3VecIhLi3EEEEE
+  [  b0c8]  N2cv8ximgproc11DTFilterCPU26ComputeDTandIDTHor_ParBodyINS_3VecIhLi3EEEEE
+  [  b118]  N2cv8ximgproc11DTFilterCPU22ComputeA0DTHor_ParBodyINS_3VecIhLi3EEEEE
+  [  b160]  N2cv8ximgproc11DTFilterCPU23ComputeA0DTVert_ParBodyINS_3VecIhLi3EEEEE
+  [  b1a8]  N2cv8ximgproc11DTFilterCPU21ComputeIDTHor_ParBodyINS_3VecIfLi3EEEEE
+  [  b1f0]  N2cv8ximgproc11DTFilterCPU26ComputeDTandIDTHor_ParBodyINS_3VecIfLi3EEEEE
+  [  b240]  N2cv8ximgproc11DTFilterCPU22ComputeA0DTHor_ParBodyINS_3VecIfLi3EEEEE
+  [  b288]  N2cv8ximgproc11DTFilterCPU23ComputeA0DTVert_ParBodyINS_3VecIfLi3EEEEE
+  [  b2d0]  N2cv8ximgproc11DTFilterCPU21ComputeIDTHor_ParBodyINS_3VecIhLi4EEEEE
+  [  b318]  N2cv8ximgproc11DTFilterCPU26ComputeDTandIDTHor_ParBodyINS_3VecIhLi4EEEEE
+  [  b368]  N2cv8ximgproc11DTFilterCPU22ComputeA0DTHor_ParBodyINS_3VecIhLi4EEEEE
+  [  b3b0]  N2cv8ximgproc11DTFilterCPU23ComputeA0DTVert_ParBodyINS_3VecIhLi4EEEEE
+  [  b3f8]  N2cv8ximgproc11DTFilterCPU21ComputeIDTHor_ParBodyINS_3VecIfLi4EEEEE
+  [  b440]  N2cv8ximgproc11DTFilterCPU26ComputeDTandIDTHor_ParBodyINS_3VecIfLi4EEEEE
+  [  b490]  N2cv8ximgproc11DTFilterCPU22ComputeA0DTHor_ParBodyINS_3VecIfLi4EEEEE
+  [  b4d8]  N2cv8ximgproc11DTFilterCPU23ComputeA0DTVert_ParBodyINS_3VecIfLi4EEEEE
+  [  b520]  N2cv8ximgproc11DTFilterCPU16FilterNC_horPassINS_3VecIfLi1EEEEE
+  [  b560]  N2cv8ximgproc11DTFilterCPU16FilterIC_horPassINS_3VecIfLi1EEEEE
+  [  b5a0]  N2cv8ximgproc11DTFilterCPU16FilterRF_horPassINS_3VecIfLi1EEEEE
+  [  b5e0]  N2cv8ximgproc11DTFilterCPU17FilterRF_vertPassINS_3VecIfLi1EEEEE
+  [  b620]  N2cv8ximgproc11DTFilterCPU16FilterNC_horPassINS_3VecIfLi2EEEEE
+  [  b660]  N2cv8ximgproc11DTFilterCPU16FilterIC_horPassINS_3VecIfLi2EEEEE
+  [  b6a0]  N2cv8ximgproc11DTFilterCPU16FilterRF_horPassINS_3VecIfLi2EEEEE
+  [  b6e0]  N2cv8ximgproc11DTFilterCPU17FilterRF_vertPassINS_3VecIfLi2EEEEE
+  [  b720]  N2cv8ximgproc11DTFilterCPU16FilterNC_horPassINS_3VecIfLi3EEEEE
+  [  b760]  N2cv8ximgproc11DTFilterCPU16FilterIC_horPassINS_3VecIfLi3EEEEE
+  [  b7a0]  N2cv8ximgproc11DTFilterCPU16FilterRF_horPassINS_3VecIfLi3EEEEE
+  [  b7e0]  N2cv8ximgproc11DTFilterCPU17FilterRF_vertPassINS_3VecIfLi3EEEEE
+  [  b820]  N2cv8ximgproc11DTFilterCPU16FilterNC_horPassINS_3VecIfLi4EEEEE
+  [  b860]  N2cv8ximgproc11DTFilterCPU16FilterIC_horPassINS_3VecIfLi4EEEEE
+  [  b8a0]  N2cv8ximgproc11DTFilterCPU16FilterRF_horPassINS_3VecIfLi4EEEEE
+  [  b8e0]  N2cv8ximgproc11DTFilterCPU17FilterRF_vertPassINS_3VecIfLi4EEEEE
+  [  b920]  void cv::ximgproc::DTFilterCPU::filter_(const cv::Mat&, cv::Mat&, int) [with SrcVec = cv::Vec<unsigned char, 3>]
+  [  b998]  void cv::ximgproc::DTFilterCPU::filter_(const cv::Mat&, cv::Mat&, int) [with SrcVec = cv::Vec<float, 1>]
+  [  ba08]  void cv::ximgproc::DTFilterCPU::filter_(const cv::Mat&, cv::Mat&, int) [with SrcVec = cv::Vec<unsigned char, 4>]
+  [  ba80]  void cv::ximgproc::DTFilterCPU::init_(cv::Mat&, double, double, int, int) [with GuideVec = cv::Vec<unsigned char, 3>]
+  [  baf8]  static cv::Ptr<cv::ximgproc::DTFilterCPU> cv::ximgproc::DTFilterCPU::createRF(cv::InputArray, cv::InputArray, double, double, int)
+  [  bb80]  virtual void cv::ximgproc::DTFilterCPU::filter(cv::InputArray, cv::OutputArray, int)
+  [  bbd8]  void cv::ximgproc::DTFilterCPU::init(cv::InputArray, double, double, int, int)
+  [  bc28]  void cv::ximgproc::DTFilterCPU::filter_(const cv::Mat&, cv::Mat&, int) [with SrcVec = cv::Vec<unsigned char, 1>]
+  [  bca0]  void cv::ximgproc::DTFilterCPU::init_(cv::Mat&, double, double, int, int) [with GuideVec = cv::Vec<unsigned char, 2>]
+  [  bd18]  void cv::ximgproc::DTFilterCPU::filter_(const cv::Mat&, cv::Mat&, int) [with SrcVec = cv::Vec<float, 3>]
+  [  bd88]  void cv::ximgproc::DTFilterCPU::filter_(const cv::Mat&, cv::Mat&, int) [with SrcVec = cv::Vec<unsigned char, 2>]
+  [  be00]  void cv::ximgproc::DTFilterCPU::init_(cv::Mat&, double, double, int, int) [with GuideVec = cv::Vec<float, 3>]
+  [  be70]  N2cv8ximgproc11DTFilterCPUE
+  [  be90]  void cv::ximgproc::DTFilterCPU::init_(cv::Mat&, double, double, int, int) [with GuideVec = cv::Vec<float, 4>]
+  [  bf00]  void cv::ximgproc::DTFilterCPU::filter_(const cv::Mat&, cv::Mat&, int) [with SrcVec = cv::Vec<float, 2>]
+  [  bf70]  void cv::ximgproc::DTFilterCPU::init_(cv::Mat&, double, double, int, int) [with GuideVec = cv::Vec<unsigned char, 4>]
+  [  bfe8]  void cv::ximgproc::DTFilterCPU::init_(cv::Mat&, double, double, int, int) [with GuideVec = cv::Vec<unsigned char, 1>]
+  [  c060]  void cv::ximgproc::DTFilterCPU::filter_(const cv::Mat&, cv::Mat&, int) [with SrcVec = cv::Vec<float, 4>]
+  [  c0d0]  void cv::ximgproc::DTFilterCPU::init_(cv::Mat&, double, double, int, int) [with GuideVec = cv::Vec<float, 2>]
+  [  c140]  void cv::ximgproc::DTFilterCPU::init_(cv::Mat&, double, double, int, int) [with GuideVec = cv::Vec<float, 1>]
+  [  c1b0]  void cv::ximgproc::checkSameSizeAndDepth(cv::InputArrayOfArrays, cv::Size&, int&)
+  [  c208]  N2cv8ximgproc12segmentation17GraphSegmentationE
+  [  c238]  N2cv6detail12PtrOwnerImplINS_8ximgproc12segmentation21GraphSegmentationImplENS_14DefaultDeleterIS4_EEEE
+  [  c2a0]  N2cv8ximgproc12segmentation21GraphSegmentationImplE
+  [  c2d8]  cv::FileStorage& cv::operator<<(cv::FileStorage&, const _Tp&) [with _Tp = double]
+  [  c330]  cv::FileStorage& cv::operator<<(cv::FileStorage&, const _Tp&) [with _Tp = float]
+  [  c388]  virtual void cv::ximgproc::segmentation::GraphSegmentationImpl::read(const cv::FileNode&)
+  [  c3e8]  cv::FileStorage& cv::operator<<(cv::FileStorage&, const _Tp&) [with _Tp = int]
+  [  c438]  N2cv8ximgproc12GuidedFilterE
+  [  c458]  N2cv6detail12PtrOwnerImplINS_8ximgproc16GuidedFilterImplENS_14DefaultDeleterIS3_EEEE
+  [  c4b0]  N2cv8ximgproc16GuidedFilterImpl22ApplyTransform_ParBodyE
+  [  c4f0]  N2cv8ximgproc16GuidedFilterImplE
+  [  c5a8]  void cv::ximgproc::GuidedFilterImpl::init(cv::InputArray, int, double)
+  [  c5f0]  N2cv8ximgproc16GuidedFilterImpl36ComputeCovFromSrcChannelsMul_ParBodyE
+  [  c638]  N2cv8ximgproc16GuidedFilterImpl19ComputeBeta_ParBodyE
+  [  c670]  N2cv8ximgproc16GuidedFilterImpl38ComputeCovGuideFromChannelsMul_ParBodyE
+  [  c6c0]  N2cv8ximgproc16GuidedFilterImpl19GFTransform_ParBodyE
+  [  c6f8]  N2cv8ximgproc16GuidedFilterImpl24MulChannelsGuide_ParBodyE
+  [  c738]  N2cv8ximgproc16GuidedFilterImpl30MulChannelsGuideAndSrc_ParBodyE
+  [  c780]  N2cv8ximgproc16GuidedFilterImpl26ComputeCovGuideInv_ParBodyE
+  [  c7c0]  virtual void cv::ximgproc::GuidedFilterImpl::filter(cv::InputArray, cv::OutputArray, int)
+  [  c820]  N2cv8ximgproc16GuidedFilterImpl20ComputeAlpha_ParBodyE
+  [  c858]  N2cv8ximgproc24JointBilateralFilter_32fINS_3VecIfLi1EEES3_EE
+  [  c898]  N2cv8ximgproc24JointBilateralFilter_32fINS_3VecIfLi1EEENS2_IfLi3EEEEE
+  [  c8e0]  N2cv8ximgproc24JointBilateralFilter_32fINS_3VecIfLi3EEENS2_IfLi1EEEEE
+  [  c928]  N2cv8ximgproc24JointBilateralFilter_32fINS_3VecIfLi3EEES3_EE
+  [  c968]  N2cv8ximgproc23JointBilateralFilter_8uINS_3VecIhLi1EEES3_EE
+  [  c9a8]  N2cv8ximgproc23JointBilateralFilter_8uINS_3VecIhLi1EEENS2_IhLi3EEEEE
+  [  c9f0]  N2cv8ximgproc23JointBilateralFilter_8uINS_3VecIhLi3EEENS2_IhLi1EEEEE
+  [  ca38]  N2cv8ximgproc23JointBilateralFilter_8uINS_3VecIhLi3EEES3_EE
+  [  ca78]  void cv::ximgproc::jointBilateralFilter_8u(cv::Mat&, cv::Mat&, cv::Mat&, int, double, double, int)
+  [  cae0]  void cv::ximgproc::jointBilateralFilter_32f(cv::Mat&, cv::Mat&, cv::Mat&, int, double, double, int)
+  [  cb48]  void cv::ximgproc::jointBilateralFilter(cv::InputArray, cv::InputArray, cv::OutputArray, int, double, double, int)
+  [  cbc7]  ?
+  [  cbcb]  ?
+  [  cbd0]  *N12_GLOBAL__N_111ParallelDftE
+  [  cbf0]  *N12_GLOBAL__N_124ParallelDivComplexByRealE
+  [  cc20]  *N12_GLOBAL__N_112ParallelIdftE
+  [  cc40]  void cv::ximgproc::l0Smooth(cv::InputArray, cv::OutputArray, double, double)
+  [  cc90]  22StateOneKeyBeautyParam
+  [  ccb0]  26StateOneKeyBeautyInitParam
+  [  ccd0]  22StateQubanSuggestParam
+  [  ccf0]  15StateQubanParam
+  [  cd08]  18StateClearEyeParam
+  [  cd20]  23StateSoftenSuggestParam
+  [  cd40]  22StateRemoveEyebagParam
+  [  cd60]  25StateSlimFaceSuggestParam
+  [  cd80]  18StateSlimFaceParam
+  [  cd98]  25StateSlimNoseSuggestParam
+  [  cdb8]  18StateSlimNoseParam
+  [  cdd0]  18StateFaceOperParam
+  [  cde8]  27StateEnlargeEyeSuggestParam
+  [  ce08]  20StateEnlargeEyeParam
+  [  ce20]  21StateEnhanceNoseParam
+  [  ce38]  23StateMakeupElementParam
+  [  ce58]  21StateWhitenTeethParam
+  [  ce70]  15StateLaughParam
+  [  ce88]  15StateDizzyParam
+  [  cea0]  St9bad_alloc
+  [  ceb0]  N10__cxxabiv117__class_type_infoE
+  [  ced4]  N9__gnu_cxx24__concurrence_lock_errorE
+  [  cefc]  N9__gnu_cxx26__concurrence_unlock_errorE
+  [  cf28]  N10__cxxabiv115__forced_unwindE
+  [  cf48]  N10__cxxabiv119__foreign_exceptionE
+  [  cf6c]  St9exception
+  [  cf7c]  St13bad_exception
+  [  cf90]  v
+  [  cf94]  Pv
+  [  cf98]  PKv
+  [  cf9c]  b
+  [  cfa0]  Pb
+  [  cfa4]  PKb
+  [  cfa8]  w
+  [  cfac]  Pw
+  [  cfb0]  PKw
+  [  cfb4]  Ds
+  [  cfb8]  PDs
+  [  cfbc]  PKDs
+  [  cfc4]  Di
+  [  cfc8]  PDi
+  [  cfcc]  PKDi
+  [  cfd4]  c
+  [  cfd8]  Pc
+  [  cfdc]  PKc
+  [  cfe0]  a
+  [  cfe4]  Pa
+  [  cfe8]  PKa
+  [  cfec]  h
+  [  cff0]  Ph
+  [  cff4]  PKh
+  [  cff8]  s
+  [  cffc]  Ps
+  [  d000]  PKs
+  [  d004]  t
+  [  d008]  Pt
+  [  d00c]  PKt
+  [  d010]  i
+  [  d014]  Pi
+  [  d018]  PKi
+  [  d01c]  j
+  [  d020]  Pj
+  [  d024]  PKj
+  [  d028]  l
+  [  d02c]  Pl
+  [  d030]  PKl
+  [  d034]  m
+  [  d038]  Pm
+  [  d03c]  PKm
+  [  d040]  x
+  [  d044]  Px
+  [  d048]  PKx
+  [  d04c]  y
+  [  d050]  Py
+  [  d054]  PKy
+  [  d058]  f
+  [  d05c]  Pf
+  [  d060]  PKf
+  [  d064]  d
+  [  d068]  Pd
+  [  d06c]  PKd
+  [  d070]  e
+  [  d074]  Pe
+  [  d078]  PKe
+  [  d07c]  Df
+  [  d080]  PDf
+  [  d084]  PKDf
+  [  d08c]  Dd
+  [  d090]  PDd
+  [  d094]  PKDd
+  [  d09c]  De
+  [  d0a0]  PDe
+  [  d0a4]  PKDe
+  [  d0ac]  Dn
+  [  d0b0]  PDn
+  [  d0b4]  PKDn
+  [  d0bc]  N10__cxxabiv123__fundamental_type_infoE
+  [  d0e4]  N9__gnu_cxx20recursive_init_errorE
+  [  d108]  N10__cxxabiv119__pointer_type_infoE
+  [  d12c]  N10__cxxabiv120__si_class_type_infoE
+  [  d154]  St9type_info
+  [  d164]  St10ctype_base
+  [  d174]  St5ctypeIcE
+  [  d180]  St5ctypeIwE
+  [  d18c]  St9basic_iosIwSt11char_traitsIwEE
+  [  d1b0]  St9basic_iosIcSt11char_traitsIcEE
+  [  d1d4]  St8ios_base
+  [  d1e0]  Sd
+  [  d1e4]  St13basic_istreamIwSt11char_traitsIwEE
+  [  d20c]  Si
+  [  d210]  St9time_base
+  [  d220]  St10money_base
+  [  d230]  St13messages_base
+  [  d244]  St12codecvt_base
+  [  d258]  St7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  d294]  St9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  d2d0]  St16__numpunct_cacheIcE
+  [  d2e8]  St11__timepunctIcE
+  [  d2fc]  St9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  d338]  St18__moneypunct_cacheIcLb1EE
+  [  d358]  St7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  d394]  St8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+  [  d3d0]  St8messagesIcE
+  [  d3e0]  St8numpunctIcE
+  [  d3f0]  St10moneypunctIcLb0EE
+  [  d408]  St8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+  [  d444]  St7collateIcE
+  [  d454]  St10moneypunctIcLb1EE
+  [  d46c]  St18__moneypunct_cacheIcLb0EE
+  [  d48c]  St17__timepunct_cacheIcE
+  [  d4a8]  St23__codecvt_abstract_baseIcc9mbstate_tE
+  [  d4d4]  NSt6locale5facetE
+  [  d4e8]  C
+  [  d4f0]  G
+  [  d4f4]  M
+  [  d4f8]  T
+  [  d500]  H
+  [  d504]  S
+  [  d508]  T
+  [  d510]  A
+  [  d514]  K
+  [  d518]  S
+  [  d51c]  T
+  [  d524]  P
+  [  d528]  S
+  [  d52c]  T
+  [  d534]  M
+  [  d538]  S
+  [  d53c]  T
+  [  d544]  C
+  [  d548]  S
+  [  d54c]  T
+  [  d554]  E
+  [  d558]  S
+  [  d55c]  T
+  [  d564]  A
+  [  d568]  S
+  [  d56c]  T
+  [  d574]  N
+  [  d578]  S
+  [  d57c]  T
+  [  d584]  C
+  [  d588]  E
+  [  d58c]  T
+  [  d594]  I
+  [  d598]  S
+  [  d59c]  T
+  [  d5a4]  E
+  [  d5a8]  E
+  [  d5ac]  T
+  [  d5b4]  J
+  [  d5b8]  S
+  [  d5bc]  T
+  [  d5c8]  t
+  [  d5cc]  r
+  [  d5d0]  u
+  [  d5d4]  e
+  [  d5dc]  f
+  [  d5e0]  a
+  [  d5e4]  l
+  [  d5e8]  s
+  [  d5ec]  e
+  [  d5f4]  %
+  [  d5f8]  m
+  [  d5fc]  /
+  [  d600]  %
+  [  d604]  d
+  [  d608]  /
+  [  d60c]  %
+  [  d610]  y
+  [  d618]  %
+  [  d61c]  H
+  [  d620]  :
+  [  d624]  %
+  [  d628]  M
+  [  d62c]  :
+  [  d630]  %
+  [  d634]  S
+  [  d63c]  A
+  [  d640]  M
+  [  d648]  P
+  [  d64c]  M
+  [  d654]  S
+  [  d658]  u
+  [  d65c]  n
+  [  d660]  d
+  [  d664]  a
+  [  d668]  y
+  [  d670]  M
+  [  d674]  o
+  [  d678]  n
+  [  d67c]  d
+  [  d680]  a
+  [  d684]  y
+  [  d68c]  T
+  [  d690]  u
+  [  d694]  e
+  [  d698]  s
+  [  d69c]  d
+  [  d6a0]  a
+  [  d6a4]  y
+  [  d6ac]  W
+  [  d6b0]  e
+  [  d6b4]  d
+  [  d6b8]  n
+  [  d6bc]  e
+  [  d6c0]  s
+  [  d6c4]  d
+  [  d6c8]  a
+  [  d6cc]  y
+  [  d6d4]  T
+  [  d6d8]  h
+  [  d6dc]  u
+  [  d6e0]  r
+  [  d6e4]  s
+  [  d6e8]  d
+  [  d6ec]  a
+  [  d6f0]  y
+  [  d6f8]  F
+  [  d6fc]  r
+  [  d700]  i
+  [  d704]  d
+  [  d708]  a
+  [  d70c]  y
+  [  d714]  S
+  [  d718]  a
+  [  d71c]  t
+  [  d720]  u
+  [  d724]  r
+  [  d728]  d
+  [  d72c]  a
+  [  d730]  y
+  [  d738]  S
+  [  d73c]  u
+  [  d740]  n
+  [  d748]  M
+  [  d74c]  o
+  [  d750]  n
+  [  d758]  T
+  [  d75c]  u
+  [  d760]  e
+  [  d768]  W
+  [  d76c]  e
+  [  d770]  d
+  [  d778]  T
+  [  d77c]  h
+  [  d780]  u
+  [  d788]  F
+  [  d78c]  r
+  [  d790]  i
+  [  d798]  S
+  [  d79c]  a
+  [  d7a0]  t
+  [  d7a8]  J
+  [  d7ac]  a
+  [  d7b0]  n
+  [  d7b4]  u
+  [  d7b8]  a
+  [  d7bc]  r
+  [  d7c0]  y
+  [  d7c8]  F
+  [  d7cc]  e
+  [  d7d0]  b
+  [  d7d4]  r
+  [  d7d8]  u
+  [  d7dc]  a
+  [  d7e0]  r
+  [  d7e4]  y
+  [  d7ec]  M
+  [  d7f0]  a
+  [  d7f4]  r
+  [  d7f8]  c
+  [  d7fc]  h
+  [  d804]  A
+  [  d808]  p
+  [  d80c]  r
+  [  d810]  i
+  [  d814]  l
+  [  d81c]  M
+  [  d820]  a
+  [  d824]  y
+  [  d82c]  J
+  [  d830]  u
+  [  d834]  n
+  [  d838]  e
+  [  d840]  J
+  [  d844]  u
+  [  d848]  l
+  [  d84c]  y
+  [  d854]  A
+  [  d858]  u
+  [  d85c]  g
+  [  d860]  u
+  [  d864]  s
+  [  d868]  t
+  [  d870]  S
+  [  d874]  e
+  [  d878]  p
+  [  d87c]  t
+  [  d880]  e
+  [  d884]  m
+  [  d888]  b
+  [  d88c]  e
+  [  d890]  r
+  [  d898]  O
+  [  d89c]  c
+  [  d8a0]  t
+  [  d8a4]  o
+  [  d8a8]  b
+  [  d8ac]  e
+  [  d8b0]  r
+  [  d8b8]  N
+  [  d8bc]  o
+  [  d8c0]  v
+  [  d8c4]  e
+  [  d8c8]  m
+  [  d8cc]  b
+  [  d8d0]  e
+  [  d8d4]  r
+  [  d8dc]  D
+  [  d8e0]  e
+  [  d8e4]  c
+  [  d8e8]  e
+  [  d8ec]  m
+  [  d8f0]  b
+  [  d8f4]  e
+  [  d8f8]  r
+  [  d900]  J
+  [  d904]  a
+  [  d908]  n
+  [  d910]  F
+  [  d914]  e
+  [  d918]  b
+  [  d920]  M
+  [  d924]  a
+  [  d928]  r
+  [  d930]  A
+  [  d934]  p
+  [  d938]  r
+  [  d940]  J
+  [  d944]  u
+  [  d948]  n
+  [  d950]  J
+  [  d954]  u
+  [  d958]  l
+  [  d960]  A
+  [  d964]  u
+  [  d968]  g
+  [  d970]  S
+  [  d974]  e
+  [  d978]  p
+  [  d980]  O
+  [  d984]  c
+  [  d988]  t
+  [  d990]  N
+  [  d994]  o
+  [  d998]  v
+  [  d9a0]  D
+  [  d9a4]  e
+  [  d9a8]  c
+  [  d9b0]  N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
+  [  d9e8]  N9__gnu_cxx18stdio_sync_filebufIcSt11char_traitsIcEEE
+  [  da20]  So
+  [  da24]  St13basic_ostreamIwSt11char_traitsIwEE
+  [  da4c]  St19basic_ostringstreamIcSt11char_traitsIcESaIcEE
+  [  da80]  St15basic_stringbufIcSt11char_traitsIcESaIcEE
+  [  dab0]  St13runtime_error
+  [  dac4]  St12out_of_range
+  [  dad8]  St11logic_error
+  [  dae8]  St12length_error
+  [  dafc]  St15basic_streambufIwSt11char_traitsIwEE
+  [  db28]  St15basic_streambufIcSt11char_traitsIcEE
+  [  db54]  St10moneypunctIwLb0EE
+  [  db6c]  St10moneypunctIwLb1EE
+  [  db84]  St18__moneypunct_cacheIwLb0EE
+  [  dba4]  St9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  dbe0]  St7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  dc1c]  St7collateIwE
+  [  dc2c]  St17__timepunct_cacheIwE
+  [  dc48]  St7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  dc84]  St18__moneypunct_cacheIwLb1EE
+  [  dca4]  St23__codecvt_abstract_baseIwc9mbstate_tE
+  [  dcd0]  St8messagesIwE
+  [  dce0]  St16__numpunct_cacheIwE
+  [  dcf8]  St21__ctype_abstract_baseIwE
+  [  dd18]  St11__timepunctIwE
+  [  dd2c]  St8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+  [  dd68]  St9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  dda4]  St8numpunctIwE
+  [  ddb4]  St8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+  [  ddf0]  St13basic_fstreamIcSt11char_traitsIcEE
+  [  de18]  St13basic_filebufIcSt11char_traitsIcEE
+  [  de40]  *N12_GLOBAL__N_121system_error_categoryE
+  [  de6c]  St14error_category
+  [  de80]  *N12_GLOBAL__N_122generic_error_categoryE
+  [  deac]  St8bad_cast
+  [  deb8]  St10bad_typeid
+  [  decc]  N10__cxxabiv117__pbase_type_infoE
+  [  def0]  N10__cxxabiv121__vmi_class_type_infoE
+  [  df18]  St7codecvtIwc9mbstate_tE
+  [  df34]  St7codecvtIcc9mbstate_tE
+  [  df50]  NSt8ios_base7failureE
+  [  df68]  St16bad_array_length
+  [  df80]  St20bad_array_new_length
+  [  df9c]  T|ьяL|ьяL|ьяL|ьяL|ьяT|ьяT|ьяT|ьяT|ья^^|ья^^|ьяL|ья^^|ья^^|ья^^|ья^^|ья^^|ья^^|ья^^|ья^^|ья^^|ья^^|ья^^|ья^^|ьяT|ья"|ья"|ья"|ья"|ья"|ья"|ья"|ья"|ьяL|ья^^|ья^^|ья^^|ья^^|ья^^|ьяT|ья^^|ья"|ьяP|ьяL|ьяT|ьяL|ья"|ья"|ьяP|ьяT|ьяT|ья^^|ья^^|ья^^|ьяL|ьяL|ьяL|ьяL|ьяL|ья^^|ьяL|ьяL|ья^^|ьяL|ьяT|ьяT|ья^^|ья^^|ья^^|ьяT|ьяT|ьяT|ья^^|ья^^|ья^^|ьяL|ьяL|ья*~ья>~ья>~ья>~ьяL~ья*~ья*~ья$~ья$~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья*~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья0~ья0~ья>~ья>~ья*~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья*~ья$~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья>~ья*~ья*~ья>~ья,~ья,~ья,~ья,~ья*~ья>~ья>~ья>~ья>~ья>~ья<~ья*~ья*~ья*~ья*~ья@~ья<~ья6~ья6~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья<~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья<~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья<~ья6~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья*~ья<~ья*~ья*~ья*~ья*~ья<~ья*~ья<~ья*~ья*~ья<~ья<~ья
+  [  e35c]  b”ьяb”ьяb”ьяb”ьяb”ьяb”ьяb”ья^L•ьяb”ьяT•ья•ьяb”ьяp•ья|•ьяb”ьяb”ьяb”ьяb”ьяb”ьяВья
+  [  e3b8]  b”ья"–ья>–ьяЉ–ьяМьяb”ьяb”ьяb”ьяb”ья
+  [  e3e0]  b”ьяb”ьяb”ьяb”ьяb”ьяb”ьяр–ьяр–ьяр–ьяр–ьяр–ьяр–ьяр–ьяр–ьяр–ьяр–ьяb”ьяр–ьяр–ьяр–ьяр–ьяb”ьяb”ьяb”ьяр–ьяр–ьяМьяр–ьяр–ьяр–ьяр–ьяр–ья0—ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ьяr’ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья6“ья —ья6“ья6“ьяф–ьяє–ьяЂ–ья6“ьяF–ья^L–ья6“ья6“ья6“ья6“ьяр—ья6“ьяШья6“ья6“ья°—ьяr’ья6“ья¤—ья|¤ьяx¤ьяt¤ьявўьяp¤ья>¤ья€¤ьяЖьяВьяѕ¤ьяє¤ьяљЄья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ьяVЄья^N©ья°Єья^N©ьяBЄья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ья^N©ьяё©ья^RЄьяFЁьяFЁьядЄьяFЁьяРьяјЄьяЁЄьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁья”Єья|ЄьяFЁьяdЄьяPЄьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁья@«ьяFЁьяFЁьяFЁьяFЁья^\«ьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяFЁьяшЄья^\ШьяєЧьяєЧьяаЦья4ЦьяЉЭья^\ЭьяєЭья~ХьяёЬья¬Хья4ЬьяґСья СьяЊСьяxСьяdСья,Фья^VФья
+  [  e74c]  FХьяFХьяFХья0Хья0Хья0Хья0Хья0Хья0Хья0ХьяґФьяґФья0Хья0ХьяBФья<Хья
+  [  e798]  pЪьяФПьяьЩьяьЩьяXЫья*Щья–ЩьяґаьяДШьяєШьяђШья
+  [  e7e0]  tЯьяRСья0СьяЊЮья*Юья^NЯья^ZТьяjПьяґаьяоОьяДЭья†ОьяфНьяBНьяТМьяюрьяфрьяирьяЬрья^HсьяЉьья^N
+  [  e890]  PэьяњььяцььяPэьяЪэья^RюьяtюьяћюьяЖюьяОюьяЦюья8яья^N
+  [  e8d8]  ,ььяX
+  [  e8de]  true
+  [  e8e3]  false
+  [  e8e9]  Invalid value for environment variable %s
+  [  e913]  TRUE
+  [  e918]  FALSE
+  [  e91e]  }
+  [  e920]  },
+  [  e923]  ACTIVE
+  [  e92a]  PASSIVE
+  [  e932]  OMP_SCHEDULE
+  [  e93f]  static
+  [  e946]  dynamic
+  [  e94e]  guided
+  [  e955]  auto
+  [  e95a]  Unknown value for environment variable OMP_SCHEDULE
+  [  e98e]  Invalid value for chunk size in environment variable OMP_SCHEDULE
+  [  e9d0]  OMP_DYNAMIC
+  [  e9dc]  OMP_NESTED
+  [  e9e7]  OMP_CANCELLATION
+  [  e9f8]  OMP_DEFAULT_DEVICE
+  [  ea0b]  OMP_MAX_ACTIVE_LEVELS
+  [  ea21]  OMP_THREAD_LIMIT
+  [  ea32]  OMP_NUM_THREADS
+  [  ea42]  Out of memory while trying to parse environment variable %s
+  [  ea7e]  OMP_PROC_BIND
+  [  ea8c]  OMP_PLACES
+  [  ea97]  threads
+  [  ea9f]  cores
+  [  eaa5]  sockets
+  [  eaad]  Trying to remove a non-existing place from list of places
+  [  eae7]  All places have been removed
+  [  eb04]  GOMP_CPU_AFFINITY
+  [  eb16]  Invalid value for enviroment variable GOMP_CPU_AFFINITY
+  [  eb4e]  OMP_WAIT_POLICY
+  [  eb5e]  active
+  [  eb65]  passive
+  [  eb6d]  Invalid value for environment variable OMP_WAIT_POLICY
+  [  eba4]  GOMP_SPINCOUNT
+  [  ebb3]  infinite
+  [  ebbc]  infinity
+  [  ebc5]  OMP_STACKSIZE
+  [  ebd3]  GOMP_STACKSIZE
+  [  ebe2]  Stack size less than minimum of %luk
+  [  ec07]  Stack size larger than system limit
+  [  ec2b]  Stack size change failed: %s
+  [  ec48]  OMP_DISPLAY_ENV
+  [  ec58]  verbose
+  [  ec60]  Invalid value for environment variable OMP_DISPLAY_ENV
+  [  ec98]  OPENMP DISPLAY ENVIRONMENT BEGIN^J
+  [  ecba]    _OPENMP = '201307'^J
+  [  ecd0]    OMP_DYNAMIC = '%s'^J
+  [  ece6]    OMP_NESTED = '%s'^J
+  [  ecfb]    OMP_NUM_THREADS = '%lu
+  [  ed14]  ,%lu
+  [  ed19]  '^J
+  [  ed1c]    OMP_SCHEDULE = '
+  [  ed2f]  RUNTIME
+  [  ed37]  STATIC
+  [  ed3e]  DYNAMIC
+  [  ed46]  GUIDED
+  [  ed4d]  AUTO
+  [  ed52]    OMP_PROC_BIND = '
+  [  ed66]  MASTER
+  [  ed6d]  CLOSE
+  [  ed73]  SPREAD
+  [  ed7a]  ,MASTER
+  [  ed82]  ,CLOSE
+  [  ed89]  ,SPREAD
+  [  ed91]    OMP_PLACES = '
+  [  eda2]    OMP_STACKSIZE = '%lu'^J
+  [  edbb]    OMP_WAIT_POLICY = '%s'^J
+  [  edd5]    OMP_THREAD_LIMIT = '%u'^J
+  [  edf0]    OMP_MAX_ACTIVE_LEVELS = '%lu'^J
+  [  ee11]    OMP_CANCELLATION = '%s'^J
+  [  ee2c]    OMP_DEFAULT_DEVICE = '%d'^J
+  [  ee49]    GOMP_CPU_AFFINITY = ''^J
+  [  ee63]    GOMP_STACKSIZE = '%lu'^J
+  [  ee7d]    GOMP_SPINCOUNT = '%llu'^J
+  [  ee98]  OPENMP DISPLAY ENVIRONMENT END^J
+  [  eeb9]  libgomp: 
+  [  eec3]  Thread creation failed: %s
+  [  eede]  could not create thread pool destructor.
+  [  ef07]  Could not find %s: %s^J
+  [  ef1e]  Could not read %s: %s^J
+  [  ef35]  Affinity not supported on this configuration
+  [  ef62]  Out of memory allocating %lu bytes
+  [  ef85]  /sys/devices/system/cpu/present
+  [  efcc]  %I’$›™™™^B
+  [  efdc]  <±^S;G^W]t^C
+  [  efee]  B^H^R–{^Z^D
+  [  eff8]  =
+  [  f010]  0Э$^F^F
+  [  f01c]  ~^ї^Y^EҐ`2^G^G
+  [  f02c]  fC‚^AИO†^B^H
+  [  f03c]  mђА
+  [  f042]  A^A^I
+  [  f04c]  oE!^Aћжa^A^J
+  [  f05e]  0
+  [  f062]  P
+  [  f06c]  A
+  [  f070]  A^B^X
+  [  f079]  ?
+  [  f08e]  &
+  [  f092]  *
+  [  f0a0]  "^A^Q
+  [  f0bd]  @^A
+  [  f0cd]   
+  [  f0d1]  `
+  [  f0dd]  0
+  [  f0e1]  P
+  [  f0ed]  H
+  [  f0f1]  X
+  [  f0fa]  ?
+  [  f111]  "
+  [  f13c]  A^A
+  [  f150]  !^E
+  [  f170]  )
+  [  f17b]  ?Ќ
+

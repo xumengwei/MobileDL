@@ -1,0 +1,408 @@
+
+String dump of section '.rodata':
+  [     0]  "
+  [     2]  true
+  [     7]  false
+  [     d]  libcrashlytics
+  [    1c]  Failed to get the JVM environment; EDETACHED
+  [    49]  Failed to get the JVM environment; EVERSION
+  [    75]  successful
+  [    80]  failed
+  [    87]  Initializing native crash handling %s.
+  [    ae]  com/crashlytics/android/ndk/JniNativeApi
+  [    d7]  nativeInit
+  [    e2]  (Ljava/lang/String;Ljava/lang/Object;)Z
+  [   10a]  com/crashlytics/android/core/CrashlyticsCore
+  [   137]  log
+  [   13b]  (Ljava/lang/String;)V
+  [   151]  setString
+  [   15b]  (Ljava/lang/String;Ljava/lang/String;)V
+  [   183]  setUserIdentifier
+  [   195]  setUserName
+  [   1a1]  setUserEmail
+  [   1ae]  getInstance
+  [   1ba]  ()Lcom/crashlytics/android/core/CrashlyticsCore;
+  [   1eb]  /sys/class/power_supply/battery/capacity
+  [   214]  version
+  [   21c]  1.1.1
+  [   222]  unwind_impl
+  [   22e]  time
+  [   234]  pc
+  [   237]  symbol
+  [   23e]  /data
+  [   244]  orientation
+  [   250]  total_physical_memory
+  [   266]  total_internal_storage
+  [   27d]  available_physical_memory
+  [   297]  available_internal_storage
+  [   2b2]  battery
+  [   2ba]  proximity_enabled
+  [   2cc]  architecture
+  [   2d9]  cpu-features
+  [   2e6]  MIPS
+  [   2eb]  X86_64
+  [   2f2]  MIPS64
+  [   2f9]  VFPv2
+  [   2ff]  ARMv7
+  [   305]  VFPv3
+  [   30b]  VFP_D32
+  [   313]  NEON
+  [   318]  VFP_FP16
+  [   321]  VFP_FMA
+  [   329]  NEON_FMA
+  [   332]  IDIV_ARM
+  [   33b]  IDIV_THUMB2
+  [   347]  iWMMXt
+  [   34e]  AES
+  [   352]  CRC32
+  [   358]  SHA2
+  [   35d]  SHA1
+  [   362]  PMULL
+  [   368]  LDREX_STREX
+  [   374]  ARM
+  [   378]  FP
+  [   37b]  ASIMD
+  [   381]  ARM64
+  [   387]  SSSE3
+  [   38d]  POPCNT
+  [   394]  MOVBE
+  [   39a]  X86
+  [   39e]  SIGILL
+  [   3a5]  ILL_ILLOPN
+  [   3b0]  ILL_ILLOPC
+  [   3bb]  SIGSEGV
+  [   3c3]  SEGV_ACCERR
+  [   3cf]  SEGV_MAPERR
+  [   3db]  SIGFPE
+  [   3e2]  FPE_FLTSUB
+  [   3ed]  FPE_FLTINV
+  [   3f8]  FPE_FLTRES
+  [   403]  FPE_FLTUND
+  [   40e]  FPE_FLTDIV
+  [   419]  FPE_INTOVF
+  [   424]  FPE_INTDIV
+  [   42f]  SIGBUS
+  [   436]  BUS_OBJERR
+  [   441]  BUS_ADRERR
+  [   44c]  BUS_ADRALN
+  [   457]  SIGABRT
+  [   45f]  ILL_BADSTK
+  [   46a]  ILL_COPROC
+  [   475]  ILL_PRVREG
+  [   480]  ILL_PRVOPC
+  [   48b]  ILL_ILLTRP
+  [   496]  ILL_ILLADR
+  [   4a1]  si_addr
+  [   4a9]  sig_name
+  [   4b2]  sig_code
+  [   4bb]  /proc/
+  [   4c2]  /maps
+  [   4c8]  maps
+  [   4cd]  /task/
+  [   4d4]  /stat
+  [   4da]  /comm
+  [   4e0]  crashed
+  [   4e8]  frames
+  [   4ef]  name
+  [   4f4]  /task
+  [   4fa]  threads
+  [   502]  Failed to install signal handler for signal %d
+  [   531]  Attempting to register signal handler...
+  [   55a]  Signal handler registered.
+  [   575]  Initializing libcrashlytics version %s
+  [   59c]  Attempting to load unwinder...
+  [   5bb]  Done; using %s
+  [   5ca]  Failed!
+  [   5d2]  libcorkscrew
+  [   5df]  libunwind
+  [   5e9]  simple
+  [   5f0]  libcrashlytics-envelope.so
+  [   60b]  unwind
+  [   612]  context
+  [   61a]  unwind_ptrace
+  [   628]  libcorkscrew.so
+  [   638]  unwind_backtrace_signal_arch
+  [   655]  acquire_my_map_info_list
+  [   66e]  release_my_map_info_list
+  [   687]  load_ptrace_context
+  [   69b]  unwind_backtrace_ptrace_arch
+  [   6b8]  Found libcorkscrew, but failed to find the necessary symbols
+  [   6f5]  Failed to find any usable unwinding libraries on the device, falling back to simple unwinding
+  [   753]  libc.so
+  [   75b]  getauxval
+  [   765]  /proc/cpuinfo
+  [   773]  /sys/devices/system/cpu/present
+  [   793]  /sys/devices/system/cpu/possible
+  [   7b4]  CPU architecture
+  [   7c5]  (v6l)
+  [   7cb]  Features
+  [   7d4]  vfp
+  [   7d8]  vfpv3
+  [   7de]  vfpv3d16
+  [   7e7]  vfpv4
+  [   7ed]  neon
+  [   7f2]  idiva
+  [   7f8]  idivt
+  [   7fe]  idiv
+  [   803]  iwmmxt
+  [   80a]  Hardware
+  [   813]  Goldfish
+  [   81c]  Processor
+  [   826]  /proc/self/auxv
+  [   836]  CPU implementer
+  [   846]  CPU variant
+  [   852]  CPU part
+  [   85b]  CPU revision
+  [   868]  UND
+  [   86c]  OVR
+  [   870]  -  
+  [   874]  N11crashlytics8unwinder13unwinder_baseILj48EEE
+  [   8a3]  N11crashlytics8unwinder4impl12libcorkscrewE
+  [   8cf]  N11crashlytics8unwinder4impl9libunwindE
+  [   8f7]  N11crashlytics8unwinder4impl6simpleE
+  [   91c]  N10__cxxabiv120__si_class_type_infoE
+  [   944]  N10__cxxabiv117__class_type_infoE
+  [   96c]  pure virtual method called^J
+  [   988]  deleted virtual method called^J
+  [   9a8]  std::exception
+  [   9b8]  std::bad_exception
+  [   9cc]  __gnu_cxx::__concurrence_lock_error
+  [   9f0]  __gnu_cxx::__concurrence_unlock_error
+  [   a18]  std::bad_alloc
+  [   a28]  terminate called recursively^J
+  [   a48]  terminate called after throwing an instance of '
+  [   a7c]  '^J
+  [   a80]  terminate called without an active exception^J
+  [   ab0]    what():  
+  [   abc]  _GLOBAL_
+  [   ac8]  (anonymous namespace)
+  [   ae0]  string literal
+  [   af0]  std
+  [   af4]  auto
+  [   afc]  li
+  [   b00]  st
+  [   b04]  cl
+  [   b08]  dt
+  [   b0c]  pt
+  [   b10]  qu
+  [   b14]  [abi:
+  [   b1c]  ::
+  [   b20]  {default arg#
+  [   b30]  %ld
+  [   b34]  }::
+  [   b38]  JArray
+  [   b40]  []
+  [   b44]  vtable for 
+  [   b50]  VTT for 
+  [   b5c]  construction vtable for 
+  [   b78]  -in-
+  [   b80]  typeinfo for 
+  [   b90]  typeinfo name for 
+  [   ba4]  typeinfo fn for 
+  [   bb8]  non-virtual thunk to 
+  [   bd0]  virtual thunk to 
+  [   be4]  covariant return thunk to 
+  [   c00]  java Class for 
+  [   c10]  guard variable for 
+  [   c24]  TLS init function for 
+  [   c3c]  TLS wrapper function for 
+  [   c58]  reference temporary #
+  [   c70]   for 
+  [   c78]  hidden alias for 
+  [   c8c]  transaction clone for 
+  [   ca4]  non-transaction clone for 
+  [   cc0]  _Sat 
+  [   cc8]  _Accum
+  [   cd0]  _Fract
+  [   cd8]  , 
+  [   cdc]  operator
+  [   ce8]  operator 
+  [   cf4]  ad
+  [   cf8]  gs
+  [   cfc]  ix
+  [   d00]   : 
+  [   d04]  new 
+  [   d0c]  ul
+  [   d10]  ll
+  [   d14]  ull
+  [   d18]  false
+  [   d20]  true
+  [   d28]  java resource 
+  [   d38]  decltype (
+  [   d44]  ...
+  [   d48]  this
+  [   d50]  {parm#
+  [   d58]  global constructors keyed to 
+  [   d78]  global destructors keyed to 
+  [   d98]  {lambda(
+  [   da4]  )#
+  [   da8]  {unnamed type#
+  [   db8]   [clone 
+  [   dc4]  >(
+  [   dc8]   restrict
+  [   dd4]   volatile
+  [   de0]   const
+  [   de8]  &&
+  [   dec]  complex 
+  [   df8]  imaginary 
+  [   e04]  ::*
+  [   e08]   __vector(
+  [   e14]   (
+  [   e18]  std::allocator
+  [   e28]  allocator
+  [   e34]  std::basic_string
+  [   e48]  basic_string
+  [   e58]  std::string
+  [   e64]  std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+  [   eac]  std::istream
+  [   ebc]  std::basic_istream<char, std::char_traits<char> >
+  [   ef0]  basic_istream
+  [   f00]  std::ostream
+  [   f10]  std::basic_ostream<char, std::char_traits<char> >
+  [   f44]  basic_ostream
+  [   f54]  std::iostream
+  [   f64]  std::basic_iostream<char, std::char_traits<char> >
+  [   f98]  basic_iostream
+  [   fa8]  aN
+  [   fac]  &=
+  [   fb0]  aS
+  [   fb4]  =
+  [   fb8]  aa
+  [   fbc]  &
+  [   fc0]  an
+  [   fc4]  at
+  [   fc8]  alignof 
+  [   fd4]  az
+  [   fd8]  cc
+  [   fdc]  const_cast
+  [   fe8]  ()
+  [   fec]  cm
+  [   ff0]  ,
+  [   ff4]  co
+  [   ff8]  ~
+  [   ffc]  dV
+  [  1000]  /=
+  [  1004]  da
+  [  1008]  delete[] 
+  [  1014]  dc
+  [  1018]  dynamic_cast
+  [  1028]  de
+  [  102c]  *
+  [  1030]  dl
+  [  1034]  delete 
+  [  103c]  ds
+  [  1040]  .*
+  [  1044]  .
+  [  1048]  dv
+  [  104c]  /
+  [  1050]  eO
+  [  1054]  ^=
+  [  1058]  eo
+  [  105c]  ^
+  [  1060]  eq
+  [  1064]  ==
+  [  1068]  ge
+  [  106c]  >=
+  [  1070]  gt
+  [  1074]  >
+  [  1078]  lS
+  [  107c]  <<=
+  [  1080]  le
+  [  1084]  <=
+  [  1088]  operator"" 
+  [  1094]  ls
+  [  1098]  <<
+  [  109c]  lt
+  [  10a0]  <
+  [  10a4]  mI
+  [  10a8]  -=
+  [  10ac]  mL
+  [  10b0]  *=
+  [  10b4]  mi
+  [  10b8]  -
+  [  10bc]  ml
+  [  10c0]  mm
+  [  10c4]  --
+  [  10c8]  na
+  [  10cc]  new[]
+  [  10d4]  ne
+  [  10d8]  !=
+  [  10dc]  ng
+  [  10e0]  nt
+  [  10e4]  !
+  [  10e8]  nw
+  [  10ec]  new
+  [  10f0]  oR
+  [  10f4]  |=
+  [  10f8]  oo
+  [  10fc]  ||
+  [  1100]  or
+  [  1104]  |
+  [  1108]  pL
+  [  110c]  +=
+  [  1110]  pl
+  [  1114]  +
+  [  1118]  pm
+  [  111c]  ->*
+  [  1120]  pp
+  [  1124]  ++
+  [  1128]  ps
+  [  112c]  ->
+  [  1130]  ?
+  [  1134]  rM
+  [  1138]  %=
+  [  113c]  rS
+  [  1140]  >>=
+  [  1144]  rc
+  [  1148]  reinterpret_cast
+  [  115c]  rm
+  [  1160]  %
+  [  1164]  rs
+  [  1168]  >>
+  [  116c]  sc
+  [  1170]  static_cast
+  [  117c]  sizeof 
+  [  1184]  sz
+  [  1188]  tr
+  [  118c]  throw
+  [  1194]  tw
+  [  1198]  throw 
+  [  11a0]  signed char
+  [  11ac]  bool
+  [  11b4]  boolean
+  [  11bc]  char
+  [  11c4]  byte
+  [  11cc]  double
+  [  11d4]  long double
+  [  11e0]  float
+  [  11e8]  __float128
+  [  11f4]  unsigned char
+  [  1204]  int
+  [  1208]  unsigned int
+  [  1218]  unsigned
+  [  1224]  long
+  [  122c]  unsigned long
+  [  123c]  __int128
+  [  1248]  unsigned __int128
+  [  125c]  short
+  [  1264]  unsigned short
+  [  1274]  void
+  [  127c]  wchar_t
+  [  1284]  long long
+  [  1290]  unsigned long long
+  [  12a4]  decimal32
+  [  12b0]  decimal64
+  [  12bc]  decimal128
+  [  12c8]  half
+  [  12d0]  char16_t
+  [  12dc]  char32_t
+  [  12e8]  decltype(nullptr)
+  [  12fc]  St9type_info
+  [  130c]  N10__cxxabiv115__forced_unwindE
+  [  132c]  N10__cxxabiv119__foreign_exceptionE
+  [  1350]  St9exception
+  [  1360]  St13bad_exception
+  [  1374]  N9__gnu_cxx24__concurrence_lock_errorE
+  [  139c]  N9__gnu_cxx26__concurrence_unlock_errorE
+  [  13c8]  St9bad_alloc
+

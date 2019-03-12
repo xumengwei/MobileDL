@@ -1,0 +1,70 @@
+
+String dump of section '.rodata':
+  [     0]  java/lang/String
+  [    14]  java/lang/OutOfMemoryError
+  [    30]  java/lang/IllegalArgumentException
+  [    54]  net/quikkly/core/QuikklyException
+  [    78]  net/quikkly/core/Pipeline
+  [    94]  <init>
+  [    9c]  ()V
+  [    a0]  nativePointer
+  [    b0]  J
+  [    b4]  net/quikkly/core/ScanResult
+  [    d0]  ([Lnet/quikkly/core/Tag;I)V
+  [    ec]  net/quikkly/core/Tag
+  [   104]  (JLjava/lang/String;[Lnet/quikkly/core/Point;D)V
+  [   138]  net/quikkly/core/Point
+  [   150]  (FF)V
+  [   158]  net/quikkly/core/Skin
+  [   170]  borderColor
+  [   17c]  Ljava/lang/String;
+  [   190]  backgroundColor
+  [   1a0]  maskColor
+  [   1ac]  overlayColor
+  [   1bc]  dataColors
+  [   1c8]  [Ljava/lang/String;
+  [   1dc]  imageUrl
+  [   1e8]  imageFit
+  [   1f4]  I
+  [   1f8]  logoUrl
+  [   200]  logoFit
+  [   208]  join
+  [   210]  QuikklyCore error: out of memory
+  [   234]  QuikklyCore error %d: %s.
+  [   250]  QuikklyCore error %d.
+  [   268]  blueprint must not be null
+  [   284]  Native pipeline has been released.
+  [   2a8]  frameData must not be null
+  [   2c4]  Quikkly: Error - byte[] access tried to copy, but out of memory?
+  [   308]  No memory to copy input
+  [   320]  processFrame error.
+  [   334]  templateIdentifier must not be null
+  [   358]  Template not found.
+  [   36c]  Skin must not be null
+  [   384]  Data value too large to fit into chosen template.
+  [   3b8]  %s: __pos (which is %zu) > this->size() (which is %zu)
+  [   3f0]  basic_string::_S_create
+  [   408]  basic_string::append
+  [   420]  basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+  [   464]  basic_string::copy
+  [   478]  basic_string::compare
+  [   490]  basic_string::erase
+  [   4a4]  basic_string::_M_replace_aux
+  [   4c4]  basic_string::assign
+  [   4dc]  basic_string::insert
+  [   4f4]  basic_string::resize
+  [   50c]  basic_string::replace
+  [   524]  basic_string::_S_construct null not valid
+  [   550]  basic_string::basic_string
+  [   56c]  basic_string::substr
+  [   584]  generic
+  [   58c]  system
+  [   594]  pure virtual method called^J
+  [   5b0]  deleted virtual method called^J
+  [   5d4]  *N12_GLOBAL__N_121system_error_categoryE
+  [   600]  St14error_category
+  [   614]  *N12_GLOBAL__N_122generic_error_categoryE
+  [   640]  N9__gnu_cxx20recursive_init_errorE
+  [   664]  St11logic_error
+  [   674]  St12length_error
+

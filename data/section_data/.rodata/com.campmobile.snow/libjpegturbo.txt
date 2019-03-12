@@ -1,0 +1,354 @@
+
+String dump of section '.rodata':
+  [     0]  wb
+  [     4]  java/lang/Exception
+  [    18]  Source buffer is not large enough
+  [    3c]  Destination buffer is not large enough
+  [    64]  Memory allocation failure
+  [    80]  fail to saveToFile in jpegturbo
+  [    a0]  AndroidBitmap_getInfo() failed!
+  [    c0]  AndroidBitmap_lockPixels() failed!
+  [    e4]  Bitmap format is ANDROID_BITMAP_FORMAT_RGBA_4444
+  [   118]  Bitmap format is ANDROID_BITMAP_FORMAT_A_8
+  [   144]  Bitmap format is ANDROID_BITMAP_FORMAT_NONE
+  [   170]  Native-Memory allocation failure
+  [   194]  rb
+  [   198]  android/graphics/Rect
+  [   1b0]  right
+  [   1b8]  I
+  [   1bc]  bottom
+  [   1c4]  com/linecorp/android/common/jpegturbo/JpegTurbo
+  [   1f4]  createBitmap
+  [   204]  (II)Landroid/graphics/Bitmap;
+  [   224]  isLoaded
+  [   230]  Z
+  [   234]  jp/naver/common/jpegtran/JpegTran$CropResult
+  [   264]  <init>
+  [   26c]  ()V
+  [   270]  cropTime
+  [   27c]  J
+  [   280]  writeTime
+  [   28c]  totalTime
+  [   298]  %dx%d+%d+%d
+  [   2fc]  Bogus message code %d
+  [   312]  Sorry, arithmetic coding is not implemented
+  [   33e]  ALIGN_TYPE is wrong, please fix
+  [   35e]  MAX_ALLOC_CHUNK is wrong, please fix
+  [   383]  Bogus buffer control mode
+  [   39d]  Invalid component ID %d in SOS
+  [   3bc]  DCT coefficient out of range
+  [   3d9]  IDCT output block size %d not supported
+  [   401]  Bogus Huffman table definition
+  [   420]  Bogus input colorspace
+  [   437]  Bogus JPEG colorspace
+  [   44d]  Bogus marker length
+  [   461]  Wrong JPEG library version: library is %d, caller expects %d
+  [   49e]  Sampling factors too large for interleaved scan
+  [   4ce]  Invalid memory pool code %d
+  [   4ea]  Unsupported JPEG data precision %d
+  [   50d]  Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+  [   544]  Invalid progressive parameters at scan script entry %d
+  [   57b]  Bogus sampling factors
+  [   592]  Invalid scan script at entry %d
+  [   5b2]  Improper call to JPEG library in state %d
+  [   5dc]  JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+  [   629]  Bogus virtual array access
+  [   644]  Buffer passed to JPEG library is too small
+  [   66f]  Suspension not allowed here
+  [   68b]  CCIR601 sampling not implemented yet
+  [   6b0]  Too many color components: %d, max %d
+  [   6d6]  Unsupported color conversion request
+  [   6fb]  Bogus DAC index %d
+  [   70e]  Bogus DAC value 0x%x
+  [   723]  Bogus DHT index %d
+  [   736]  Bogus DQT index %d
+  [   749]  Empty JPEG image (DNL not supported)
+  [   76e]  Read from EMS failed
+  [   783]  Write to EMS failed
+  [   797]  Didn't expect more than one scan
+  [   7b8]  Input file read error
+  [   7ce]  Output file write error --- out of disk space?
+  [   7fd]  Fractional sampling not implemented yet
+  [   825]  Huffman code size table overflow
+  [   846]  Missing Huffman code table entry
+  [   867]  Maximum supported image dimension is %u pixels
+  [   896]  Empty input file
+  [   8a7]  Premature end of input file
+  [   8c3]  Cannot transcode due to multiple use of quantization table %d
+  [   901]  Scan script does not transmit all data
+  [   928]  Invalid color quantization mode change
+  [   94f]  Not implemented yet
+  [   963]  Requested feature was omitted at compile time
+  [   991]  Backing store not supported
+  [   9ad]  Huffman table 0x%02x was not defined
+  [   9d2]  JPEG datastream contains no image
+  [   9f4]  Quantization table 0x%02x was not defined
+  [   a1e]  Not a JPEG file: starts with 0x%02x 0x%02x
+  [   a49]  Insufficient memory (case %d)
+  [   a67]  Cannot quantize more than %d color components
+  [   a95]  Cannot quantize to fewer than %d colors
+  [   abd]  Cannot quantize to more than %d colors
+  [   ae4]  Invalid JPEG file structure: two SOF markers
+  [   b11]  Invalid JPEG file structure: missing SOS marker
+  [   b41]  Unsupported JPEG process: SOF type 0x%02x
+  [   b6b]  Invalid JPEG file structure: two SOI markers
+  [   b98]  Invalid JPEG file structure: SOS before SOF
+  [   bc4]  Failed to create temporary file %s
+  [   be7]  Read failed on temporary file
+  [   c05]  Seek failed on temporary file
+  [   c23]  Write failed on temporary file --- out of disk space?
+  [   c59]  Application transferred too few scanlines
+  [   c83]  Unsupported marker type 0x%02x
+  [   ca2]  Virtual array controller messed up
+  [   cc5]  Image too wide for this implementation
+  [   cec]  Read from XMS failed
+  [   d01]  Write to XMS failed
+  [   d15]  Copyright (C) 1991-2016 The libjpeg-turbo Project and many others
+  [   d57]  6b  27-Mar-1998
+  [   d67]  Caution: quantization tables are too coarse for baseline JPEG
+  [   da5]  Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+  [   de7]  Unknown APP0 marker (not JFIF), length %u
+  [   e11]  Unknown APP14 marker (not Adobe), length %u
+  [   e3d]  Define Arithmetic Table 0x%02x: 0x%02x
+  [   e64]  Define Huffman Table 0x%02x
+  [   e80]  Define Quantization Table %d  precision %d
+  [   eab]  Define Restart Interval %u
+  [   ec6]  Freed EMS handle %u
+  [   eda]  Obtained EMS handle %u
+  [   ef1]  End Of Image
+  [   efe]          %3d %3d %3d %3d %3d %3d %3d %3d
+  [   f26]  JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+  [   f5b]  Warning: thumbnail image size does not match data length %u
+  [   f97]  JFIF extension marker: type 0x%02x, length %u
+  [   fc5]      with %d x %d thumbnail image
+  [   fe6]  Miscellaneous marker 0x%02x, length %u
+  [  100d]  Unexpected marker 0x%02x
+  [  1026]          %4u %4u %4u %4u %4u %4u %4u %4u
+  [  104e]  Quantizing to %d = %d*%d*%d colors
+  [  1071]  Quantizing to %d colors
+  [  1089]  Selected %d colors for quantization
+  [  10ad]  At marker 0x%02x, recovery action %d
+  [  10d2]  RST%d
+  [  10d8]  Smoothing not supported with nonstandard sampling ratios
+  [  1111]  Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+  [  114b]      Component %d: %dhx%dv q=%d
+  [  116a]  Start of Image
+  [  1179]  Start Of Scan: %d components
+  [  1196]      Component %d: dc=%d ac=%d
+  [  11b4]    Ss=%d, Se=%d, Ah=%d, Al=%d
+  [  11d1]  Closed temporary file %s
+  [  11ea]  Opened temporary file %s
+  [  1203]  JFIF extension marker: JPEG-compressed thumbnail image, length %u
+  [  1245]  JFIF extension marker: palette thumbnail image, length %u
+  [  127f]  JFIF extension marker: RGB thumbnail image, length %u
+  [  12b5]  Unrecognized component IDs %d %d %d, assuming YCbCr
+  [  12e9]  Freed XMS handle %u
+  [  12fd]  Obtained XMS handle %u
+  [  1314]  Unknown Adobe color transform code %d
+  [  133a]  Inconsistent progression sequence for component %d coefficient %d
+  [  137c]  Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+  [  13b8]  Corrupt JPEG data: premature end of data segment
+  [  13e9]  Corrupt JPEG data: bad Huffman code
+  [  140d]  Warning: unknown JFIF revision number %d.%02d
+  [  143b]  Premature end of JPEG file
+  [  1456]  Corrupt JPEG data: found marker 0x%02x instead of RST%d
+  [  148e]  Invalid SOS parameters for sequential JPEG
+  [  14b9]  Application transferred too many scanlines
+  [  14e4]  Invalid crop request
+  [  14f9]  Invalid handle
+  [  1508]  tjBufSize(): Invalid argument
+  [  1526]  tjPlaneWidth(): Invalid argument
+  [  1547]  tjPlaneHeight(): Invalid argument
+  [  1569]  tjCompress2(): Instance has not been initialized for compression
+  [  15aa]  JSIMD_FORCEMMX=1
+  [  15bb]  JSIMD_FORCESSE=1
+  [  15cc]  JSIMD_FORCESSE2=1
+  [  15de]  tjEncodeYUVPlanes(): Instance has not been initialized for compression
+  [  1625]  tjEncodeYUVPlanes(): Cannot generate YUV images from CMYK pixels
+  [  1666]  tjEncodeYUVPlanes(): Memory allocation failure
+  [  1695]  tjCompressFromYUVPlanes(): Instance has not been initialized for compression
+  [  16e2]  tjDecompressHeader3(): Instance has not been initialized for decompression
+  [  172d]  tjDecompressHeader3(): Could not determine subsampling type for JPEG image
+  [  1778]  tjDecompressHeader3(): Could not determine colorspace of JPEG image
+  [  17bc]  tjDecompress2(): Instance has not been initialized for decompression
+  [  1801]  tjDecompress2(): Could not scale down to desired image dimensions
+  [  1843]  tjDecodeYUVPlanes(): Instance has not been initialized for decompression
+  [  188c]  tjDecodeYUVPlanes(): Cannot decode YUV images into CMYK pixels.
+  [  18cc]  tjDecompressToYUVPlanes(): Instance has not been initialized for decompression
+  [  191b]  tjDecompressToYUVPlanes(): Could not determine subsampling type for JPEG image
+  [  196a]  tjDecompressToYUVPlanes(): Could not scale down to desired image dimensions
+  [  19b6]  tjDecompressToYUVPlanes(): JPEG image must have 3 or fewer components
+  [  19fc]  tjDecompressToYUV2(): Could not determine subsampling type for JPEG image
+  [  1a46]  tjDecompressToYUV2(): Could not scale down to desired image dimensions
+  [  1a8d]  tjTransform(): Instance has not been initialized for transformation
+  [  1ad1]  tjTransform(): Invalid argument
+  [  1af1]  tjTransform(): Memory allocation failure
+  [  1b1a]  tjTransform(): Could not determine subsampling type for JPEG image
+  [  1b5d]  To crop this JPEG image, x must be a multiple of %d^Jand y must be a multiple of %d.^J
+  [  1bb2]  Unsupported pixel format
+  [  1bce]  0ğ^LÌ<ü^CÃ3ó^OÏ?ÿ€@°pŒL¼|ƒC³sO¿^¿ à^PĞ,ì^\Ü#ã^SÓ/ï^_ß`P¬lœ\£c“S¯oŸ_^HÈ8ø^DÄ4ô^KË;û^GÇ7÷ˆH¸x„D´t‹K»{‡G·w(è^XØ$ä^TÔ+ë^[Û'ç^W×h˜X¤d”T«k›[§g—W^BÂ2ò^NÎ>ş^AÁ1ñ^MÍ=ı‚B²rN¾~A±qM½}"â^RÒ.î^^Ş!á^QÑ-í^]İb’R®n^¡a‘Q­m]^JÊ:ú^FÆ6ö^IÉ9ù^EÅ5õŠJºz†F¶v‰I¹y…Eµu*ê^ZÚ&æ^VÖ)é^YÙ%å^UÕjšZ¦f–V©i™Y¥e•Uÿÿÿÿÿÿÿÿ^A
+  [  1e98]   
+  [  1ebc]  !
+  [  1ec0]  (
+  [  1ec4]  0
+  [  1ec8]  )
+  [  1ecc]  "
+  [  1ef0]  #
+  [  1ef4]  *
+  [  1ef8]  1
+  [  1efc]  8
+  [  1f00]  9
+  [  1f04]  2
+  [  1f08]  +
+  [  1f0c]  $
+  [  1f24]  %
+  [  1f28]  ,
+  [  1f2c]  3
+  [  1f30]  :
+  [  1f34]  ;
+  [  1f38]  4
+  [  1f3c]  -
+  [  1f40]  &
+  [  1f48]  '
+  [  1f4c]  .
+  [  1f50]  5
+  [  1f54]  <
+  [  1f58]  =
+  [  1f5c]  6
+  [  1f60]  /
+  [  1f64]  7
+  [  1f68]  >
+  [  1f6c]  ?
+  [  1f70]  ?
+  [  1f74]  ?
+  [  1f78]  ?
+  [  1f7c]  ?
+  [  1f80]  ?
+  [  1f84]  ?
+  [  1f88]  ?
+  [  1f8c]  ?
+  [  1f90]  ?
+  [  1f94]  ?
+  [  1f98]  ?
+  [  1f9c]  ?
+  [  1fa0]  ?
+  [  1fa4]  ?
+  [  1fa8]  ?
+  [  1fac]  ?
+  [  1fc4]   
+  [  211c]  (
+  [  2120]  3
+  [  2124]  =
+  [  213c]  :
+  [  2140]  <
+  [  2144]  7
+  [  2158]  (
+  [  215c]  9
+  [  2160]  E
+  [  2164]  8
+  [  2178]  3
+  [  217c]  W
+  [  2180]  P
+  [  2184]  >
+  [  2190]  %
+  [  2194]  8
+  [  2198]  D
+  [  219c]  m
+  [  21a0]  g
+  [  21a4]  M
+  [  21ac]  #
+  [  21b0]  7
+  [  21b4]  @
+  [  21b8]  Q
+  [  21bc]  h
+  [  21c0]  q
+  [  21c4]  \
+  [  21c8]  1
+  [  21cc]  @
+  [  21d0]  N
+  [  21d4]  W
+  [  21d8]  g
+  [  21dc]  y
+  [  21e0]  x
+  [  21e4]  e
+  [  21e8]  H
+  [  21ec]  \
+  [  21f0]  _
+  [  21f4]  b
+  [  21f8]  p
+  [  21fc]  d
+  [  2200]  g
+  [  2204]  c
+  [  2214]  /
+  [  2218]  c
+  [  221c]  c
+  [  2220]  c
+  [  2224]  c
+  [  2234]  B
+  [  2238]  c
+  [  223c]  c
+  [  2240]  c
+  [  2244]  c
+  [  2250]  8
+  [  2254]  c
+  [  2258]  c
+  [  225c]  c
+  [  2260]  c
+  [  2264]  c
+  [  2268]  /
+  [  226c]  B
+  [  2270]  c
+  [  2274]  c
+  [  2278]  c
+  [  227c]  c
+  [  2280]  c
+  [  2284]  c
+  [  2288]  c
+  [  228c]  c
+  [  2290]  c
+  [  2294]  c
+  [  2298]  c
+  [  229c]  c
+  [  22a0]  c
+  [  22a4]  c
+  [  22a8]  c
+  [  22ac]  c
+  [  22b0]  c
+  [  22b4]  c
+  [  22b8]  c
+  [  22bc]  c
+  [  22c0]  c
+  [  22c4]  c
+  [  22c8]  c
+  [  22cc]  c
+  [  22d0]  c
+  [  22d4]  c
+  [  22d8]  c
+  [  22dc]  c
+  [  22e0]  c
+  [  22e4]  c
+  [  22e8]  c
+  [  22ec]  c
+  [  22f0]  c
+  [  22f4]  c
+  [  22f8]  c
+  [  22fc]  c
+  [  2300]  c
+  [  2304]  c
+  [  2352]  }^A^B^C
+  [  235b]  !1A^F^SQa^G"q^T2‘¡^H#B±Á^URÑğ$3br‚^I^J^V^W^X^Y^Z%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú
+  [  2405]  w
+  [  240d]  !1^F^RAQ^Gaq^S"2^H^TB‘¡±Á^I#3Rğ^UbrÑ^J^V$4á%ñ^W^X^Y^Z&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÿÿÿÿÿÿÿ^C
+  [  24f7]  ?ïaH±P1ö?ÊoM‘®çô?ª^QlïbĞò?
+  [  2517]  ?;¿§Ài$é?» Ç{zQá?]«rŞU¨Ñ?
+  [  257a]  }^A^B^C
+  [  2583]  !1A^F^SQa^G"q^T2‘¡^H#B±Á^URÑğ$3br‚^I^J^V^W^X^Y^Z%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú
+  [  262d]  w
+  [  2635]  !1^F^RAQ^Gaq^S"2^H^TB‘¡±Á^I#3Rğ^UbrÑ^J^V$4á%ñ^W^X^Y^Z&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùú
+  [  26d1]  @ÅXŸSBK
+  [  26d9]  @I2£"¨^QÅX!{üsbhÅX¿E^K0~^XŸSüsAmTbŸS³AA-^R^WBKbhTb~XBK!;º(Ã^T
+  [  2711]  @ÅXŸSBK
+  [  2719]  @I2£"¨^QI2¿E³A!;I2‚'7^[à^M£"^K0A-º(£"7^[¿^R^I¨^Q~^X^R^WÃ^T¨^Qà^M^Iß^D
+  [  2757]  ?ïaH±P1ö?ÊoM‘®çô?ª^QlïbĞò?
+  [  2777]  ?;¿§Ài$é?» Ç{zQá?]«rŞU¨Ñ?
+

@@ -1,0 +1,8 @@
+
+String dump of section '.rodata':
+  [     0]  LibDeviceNative
+  [    10]  -log output log^J                                 -pkg package full name^J                                 -pid guard proc pid[need set -svr]^J                                 -url Uninstall launch browser url^J                                 -svr guard service class full name
+  [   123]  guard--_fd return %d
+  [   138]  --user
+  [   140]  /data/data/
+
