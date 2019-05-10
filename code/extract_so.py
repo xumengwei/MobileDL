@@ -27,7 +27,7 @@ def get_so_libs(decomposed_apk_path, only_search_lib_dir=False):
 	return ret
 
 def extract_section_from_lib(lib_path, out_path, sec):
-	cmd = 'greadelf -p %s %s > %s' % (sec, lib_path, out_path)
+	cmd = 'readelf -p %s %s > %s' % (sec, lib_path, out_path)
 	# for mac users, use *greadelf* instead
 	# readelf -p .rodata libxxx.so
 	run_cmd(cmd)
