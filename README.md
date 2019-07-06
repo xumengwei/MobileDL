@@ -1,6 +1,6 @@
 This repo contains the code and data for our paper "A First Look at Deep Learning Apps on Smartphones" (WWW'19, [arxiv](https://arxiv.org/abs/1812.05448)).
 
-### Dataset (coming soon...)
+### Dataset (please contact Mengwei Xu for the dataset)
 Snapshots of the app market (apk files) in early Jun. 2018 (deleted), early Sep. 2018 (apks_sep_2018.tar) and mid February 2019 (apks_feb_2019.tar) (each contains 16,500 the most popular apps covering 33 different categories listed on Google Play)
 2. meta information crawled from Google Play Web page in early Sep. 2018 (htmls_sep_2018.tar) and mid February 2019 (htmls_feb_2019.tar)
 
