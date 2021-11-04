@@ -11,6 +11,7 @@ def run_cmd(cmd):
 	ret = subprocess.call(cmd, shell=True)
 	if ret != 0:
 		print ('Exec cmd error: ' + cmd)
+	return ret
 
 def run_cmd_with_output(cmd):
 	return subprocess.check_output(cmd)
@@ -30,6 +31,11 @@ def get_pkg_list(path):
 	pkgs = []
 	c_list = os.listdir(path)
 	for c in c_list:
+		if not os.path.isdir(os.path.join(path, c)):
+			# print(cat_path)
+			if c.endswith('apk'):
+				pkgs.append(c)
+			continue
 		p_list = os.listdir(os.path.join(path, c))
 		pkgs += [p[:-4] for p in p_list if p.endswith('apk')]
 	return pkgs

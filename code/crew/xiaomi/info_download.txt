@@ -1,0 +1,2 @@
+/data/mwx/apks_before/apks_lists/BEAUTY.json
+[has not] com.lomographic.vintage.camera.filters 2021_5_9
