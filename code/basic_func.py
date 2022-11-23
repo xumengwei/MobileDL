@@ -1,6 +1,7 @@
 import os
 import sys
 import subprocess
+from functools import reduce
 
 #RAW_APK_PATH='../data/raw_apks/'
 #DECOMPOSED_APK_PATH='../data/decomposed_apks/' 
@@ -10,7 +11,7 @@ import subprocess
 def run_cmd(cmd):
 	ret = subprocess.call(cmd, shell=True)
 	if ret != 0:
-		print ('Exec cmd error: ' + cmd)
+		print(('Exec cmd error: ' + cmd))
 	return ret
 
 def run_cmd_with_output(cmd):
@@ -28,6 +29,7 @@ def load_dict(in_path):
 		return pickle.load(fp)
 
 def get_pkg_list(path):
+	
 	pkgs = []
 	c_list = os.listdir(path)
 	for c in c_list:
@@ -67,5 +69,5 @@ def read_app_list(path):
 	with open(path) as f:
 		data = f.read()
 		c_res = json.loads(data)
-		res = reduce(lambda x, y: x + y, c_res.values())
+		res = reduce(lambda x, y: x + y, list(c_res.values()))
 		return c_res, res

@@ -6,19 +6,19 @@ from basic_func import run_cmd, get_pkg_list
 
 if __name__ == "__main__":
 	if len(sys.argv) < 2:
-		print "python extract_so.py input_apk_path decomposed_apk_path output_dir"
-		print "example : python extract_so.py ../data/raw_apks/ ../data/decomposed_apks/ ../data/section_data/"
+		print("python extract_so.py input_apk_path decomposed_apk_path output_dir")
+		print("example : python extract_so.py ../data/decomposed_apks/ ../data/section_data/")
 		exit(0)
 
 # RAW_APK_PATH=""
-DECOMPOSED_APK_PATH=""  
-SECTION_DATA_PATH=""  # .rodata files
+#DECOMPOSED_APK_PATH=""  
+#SECTION_DATA_PATH=""  # .rodata files
 
 def get_so_libs(decomposed_apk_path, only_search_lib_dir=False):
 	ret = []
 	rootdir = decomposed_apk_path
 	if only_search_lib_dir:
-		rootdir = os.path.join(decomposed_apk_path, 'lib')
+		rootdir = decomposed_apk_path
 	for subdir, dirs, files in os.walk(rootdir):
 		for file in files:
 			filepath = os.path.join(subdir, file)
@@ -49,9 +49,7 @@ def extract_section_from_lib_of_all_type():
 	SECTION_DATA_PATH=sys.argv[2]  # .rodata files
 	cats = os.listdir(DECOMPOSED_APK_PATH)
 	for cat in cats:
-		# print (cat)
 		cat_path = os.path.join(DECOMPOSED_APK_PATH, cat)
-		# print cat_path
 		# Where we really execute the code
 		pkgs = os.listdir(cat_path)
 
@@ -74,9 +72,7 @@ def extract_section_from_lib_of_all_type():
 			if not os.path.exists(decomposed_data_path):
 				continue
 			out_pkg_dir = os.path.join(out_root_dir, p)
-			# print(out_pkg_dir)
 			if not os.path.exists(out_pkg_dir):
-				# print(out_pkg_dir)
 				os.mkdir(out_pkg_dir)
 			
 			libs = get_so_libs(decomposed_data_path)
@@ -102,7 +98,7 @@ def main():
 		sec_path = sys.argv[2]
 		extract_one(decom_path,sec_path,sec)
 	else:
-		print "python extract_so.py input_apk_path decomposed_apk_path output_dir"
-		print "example : python2.7 extract_so.py ../data/raw_apks/ ../data/decomposed_apks/ ../data/section_data/"
-		print "example : python2.7 extract_so.py test sec_test "
+		print("python extract_so.py input_apk_path decomposed_apk_path output_dir")
+		print("example : python2.7 extract_so.py ../data/raw_apks/ ../data/decomposed_apks/ ../data/section_data/")
+		print("example : python2.7 extract_so.py test sec_test ")
 main()

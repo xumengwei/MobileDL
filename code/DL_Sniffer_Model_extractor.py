@@ -5,12 +5,12 @@ import os
 import sys
 import array
 # import tensorflow as tf
-
+import csv
 # from tensorflow.python.platform import gfile
 from extract_zip import extract_file, get_zips
 from basic_func import iterate_dir, get_pkg_list,run_cmd
 import json
-
+import yaml
 import config
 
 import atexit
@@ -26,28 +26,31 @@ import atexit
 
 DL_PKGS = {}
 DL_MODELS = {}
-True = 1
-False = 0
+
+#true = 1
+#false = 0
 FalseTrue = 2
-ROOT_PATH = "/data/mwx/yingyongbao/"
-RES_PATH = "./result/yingyongbao/"
+ROOT_PATH = "/home/edodor/mbdir/MobileDL/data/"
+#RES_PATH = "/home/edodor/mbdir/MobileDL/code/result/yingyongbao/"
+#NEW_PATH="/home/edodor/mbdir/MobileDL/code/result/"
 def iterate_rodata(pkg_list, detector, dl_lib, suffix_list,sec_path,magicStr):
     ret = {}
-    # sec_path = config.SECTION_DATA_PATH
     for pkg in pkg_list:
-        pkg_path = os.path.join(sec_path, pkg)
-        # print(pkg_path)
-        
-        if not os.path.exists(pkg_path): continue
+        pkg_path = sec_path
+        if not os.path.exists(pkg_path):
+            continue
         for lib in os.listdir(pkg_path):
             if detector(os.path.join(pkg_path, lib),magicStr):
-                ret[pkg] = lib
+                print("this is lit",lib,"#", pkg)
+                ret[pkg] = lib+"                 "+ pkg_path
                 break
     DL_PKGS[dl_lib] = ret
+    
 
 # use suffix to detect DL models: this approach may have false negative
 def find_model_via_suffix(pkg_list, suffix_list, dl_lib):
     def filter(path):
+        print(path,  "    ht  " ,suffix_list)
         for su in suffix_list:
             if path.endswith(su):
                 pathSplited = path.split('.')
@@ -64,55 +67,54 @@ def find_model_via_suffix(pkg_list, suffix_list, dl_lib):
         decomposed_pkg_path = os.path.join(config.DECOMPOSED_APK_PATH, pkg)
         models = iterate_dir(decomposed_pkg_path, filter)
         ret[pkg] = models
-    DL_MODELS[dl_lib] = ret
-
+    
+    DL_MODELS[dl_lib] = ret 
+    
 def straight_detector_rodata(lib_path,magic_str):
-    with open(lib_path) as f:
-        for line in f:
-            for stra in magic_str:
-                if line.find(stra)!=-1:
-                    return True
+    with open(lib_path,encoding="utf8",errors='ignore') as f:
+        
+        lines= f.read()
+        for stra in magic_str:
+            if stra in lines:
+                print("success yay", magic_str)
+                return True
     return False
 
 def extract_model(DLname):
-    # print("******************************")
+    #print("******************************")
     # if not os.path.exists(config.RAW_APK_PATH):
     #     return 0
-    global_pkgs = os.listdir(config.DECOMPOSED_APK_PATH)
+    global_pkgs = os.listdir(config.SECTION_DATA_PATH)
     iterate_rodata(global_pkgs, straight_detector_rodata, DLname,config.suffix_list_all[DLname],config.SECTION_DATA_PATH,config.magic_str_all[DLname])
-    find_model_via_suffix(DL_PKGS[DLname].keys(), config.suffix_list_all[DLname], DLname)
+    find_model_via_suffix(list(DL_PKGS[DLname].keys()), config.suffix_list_all[DLname], DLname)
 
 def extract_models(cat):
-    if os.path.exists(RES_PATH+"DL_MODELS"+ cat + ".json"):
-        return
-    for k in config.magic_str_all.keys():
-        print("==================="+k+"====================")
+    for k in list(config.magic_str_all.keys()):
+        print(("==================="+k+"===================="))
         
         extract_model(k)
-        print (json.dumps(DL_PKGS[k],indent=4,ensure_ascii=False))
-        print (json.dumps(DL_MODELS[k],indent=4,ensure_ascii=False))
-    with open(RES_PATH+"DL_PKGS"+cat+".json", "w") as dump_f:
-        json.dump(DL_PKGS, dump_f)
-    with open(RES_PATH+"DL_MODELS"+ cat + ".json", "w") as dump_f:
-        json.dump(DL_MODELS, dump_f)
+        print((json.dumps(DL_PKGS[k],indent=4,ensure_ascii=False)))
+        print((json.dumps(DL_MODELS[k],indent=4,ensure_ascii=False)))
+    for key, val in DL_MODELS.items():
+        if val != {}:
+            with open('/home/edodor/mbdir/MobileDL/code/configuration/modl.txt', "a") as myfile:
+                myfile.write('%s:%s\n' % (key, val))
+    for key, val in DL_PKGS.items():
+        if val != {}:
+            with open('/home/edodor/mbdir/MobileDL/code/configuration/pckgs.txt', "a") as myfile: 
+                myfile.write('%s:%s\n' % (key, val))
+    
 
 def extract_models_all_type():
-    config.SECTION_DATA_PATH=ROOT_PATH+"section_apks/"
-    config.DECOMPOSED_APK_PATH = ROOT_PATH+"decomposed_apks/"
+    config.SECTION_DATA_PATH=ROOT_PATH+"section_data/apks_4/"
+    config.DECOMPOSED_APK_PATH = ROOT_PATH+"decomposed_apks/apks_4/"
     catorys = os.listdir(config.DECOMPOSED_APK_PATH)
     for cat in catorys:
-        # config.RAW_APK_PATH = "/data/mobileDL/raw_apks/"+cat
+        config.DECOMPOSED_APK_PATH=ROOT_PATH+"decomposed_apks/apks_4/"+cat+"/"
+        config.SECTION_DATA_PATH=ROOT_PATH+"section_data/apks_4/" +cat
 
-        config.DECOMPOSED_APK_PATH=ROOT_PATH+"decomposed_apks/"+cat
-        config.SECTION_DATA_PATH=ROOT_PATH+"section_apks/" +cat
-        # print(config.RAW_APK_PATH)
         if not os.path.exists(config.SECTION_DATA_PATH):
             continue
         extract_models(cat)
 
 extract_models_all_type()
-
-# with open("./DL_PKGS_half.json", "w") as dump_f:
-#     json.dump(DL_PKGS, dump_f)
-# with open("./DL_MODELS_half", "w") as dump_f:
-#     json.dump(DL_MODELS, dump_f)

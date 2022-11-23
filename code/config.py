@@ -1,12 +1,13 @@
-RAW_APK_PATH="/data/mobileDL/raw_apks/ANDROID_WEAR"
-DECOMPOSED_APK_PATH="/data/mobileDL/decompose_apps/ANDROID_WEAR"
+RAW_APK_PATH="/data/mobileDL/raw_apks/"
+DECOMPOSED_APK_PATH="/data/decomposed_apks/"
 SECTION_DATA_PATH="/data/mobileDL/section_data/ANDROID_WEAR"  # .rodata files
 JAR_DATA_PATH = "/data/mwx/apks_jars"
 
 magic_str_all = {}
 suffix_list_all = {}
+magic_str = {}
 
-magic_str = ['tensorflow/contrib/lite/kernels/', 'N5EigenForTFLite', 'kTfLiteNullBufferHandle',  '/google/android/libraries/vision/facenet/','/tensorflow/lite/']
+magic_str = ['google/android/gms/tflite','depot/branches/tflite','tensorflow/contrib/lite/kernels/', 'N5EigenForTFLite', 'kTfLiteNullBufferHandle',  '/google/android/libraries/vision/facenet/','/tensorflow/lite/']
 magic_str_all["tflite"] = magic_str
 suffix_list_all["tflite"] = ['.tflite', '.lite','.tfl']
 
@@ -14,7 +15,7 @@ magic_str = ['org/nd4j/nativeblas/Nd4jCpu', 'N4nd4j6random10IGeneratorE', 'N4nd4
 magic_str_all["dl4j"] = magic_str
 suffix_list_all["dl4j"] = ['.zip']
 
-magic_str = ['overwrite existing custom layer index', 'layer load_param failed', '14ncnnClassifier', 'N4ncnn5LayerE', 'sqz set ncnn load param']
+magic_str = ['loss3/classifier','overwrite existing custom layer index', 'layer load_param failed', '14ncnnClassifier', 'N4ncnn5LayerE', 'sqz set ncnn load param']
 magic_str_all["ncnn"] = magic_str
 suffix_list_all["ncnn"] = ['.param', '.bin']
 
@@ -46,7 +47,7 @@ magic_str = ['caffe-android-lib/', 'pIN5caffe5Caffe3RNG9G', 'caffe.BlobProto', '
 magic_str_all['caffe'] = magic_str
 suffix_list_all['caffe'] = ['.caffemodel', '.prototxt','.model']
 
-magic_str = ['Caffe2 alloc', 'N6caffe28OpSchema', 'N6caffe26NetDefE', 'caffe2/caffe2/core/', '/gen/caffe2/caffe2Android']
+magic_str = ['build_android','Caffe2 alloc', 'N6caffe28OpSchema', 'N6caffe26NetDefE', 'caffe2/caffe2/core/', '/gen/caffe2/caffe2Android']
 magic_str_all['caffe2'] = magic_str
 suffix_list_all['caffe2'] = ['.pb']
 
@@ -85,4 +86,3 @@ suffix_list_all['computelibrary'] = ['.csv']
 magic_str = ['/Tengine/','/tengine/',"Batchtospaceend","unregister_absval_op","unregister_batchnorm_op","unregister_conv_op"]
 magic_str_all['tengine'] = magic_str
 suffix_list_all['tengine'] = [".timfile"]
-

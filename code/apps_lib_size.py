@@ -1,13 +1,14 @@
 # DL-libs size
 import os
 import numpy as np
+import sys
 
 from basic_func import iterate_dir, getFileSize
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print "python apps_lib_size.py decomposed_apk_path new_apk_path"
-        print "example : python apps_lib_size.py ../data/decomposed_apks/ ../data/raw_apks_new/"
+        print ("python apps_lib_size.py decomposed_apk_path new_apk_path")
+        print ("example : python apps_lib_size.py ../data/decomposed_apks/ ../data/raw_apks_new/")
         exit(0)
 
 DECOMPOSED_APK_PATH=sys.argv[1]
@@ -40,8 +41,8 @@ for app in xsl_data.keys():
     all_dl += dl_lib_size
 
 for dl in dl_size:
-    print dl, np.mean(dl_size[dl])
-print np.mean(all_dl), np.mean(all_size)
+    print (dl, np.mean(dl_size[dl]))
+print (np.mean(all_dl), np.mean(all_size))
 
 size = []
 dl_size = []
