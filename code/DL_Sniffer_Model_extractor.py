@@ -10,7 +10,6 @@ import csv
 from extract_zip import extract_file, get_zips
 from basic_func import iterate_dir, get_pkg_list,run_cmd
 import json
-import yaml
 import config
 
 import atexit
@@ -30,9 +29,8 @@ DL_MODELS = {}
 #true = 1
 #false = 0
 FalseTrue = 2
-ROOT_PATH = "/home/edodor/mbdir/MobileDL/data/"
-#RES_PATH = "/home/edodor/mbdir/MobileDL/code/result/yingyongbao/"
-#NEW_PATH="/home/edodor/mbdir/MobileDL/code/result/"
+ROOT_PATH = "/MobileDL/data/"
+
 def iterate_rodata(pkg_list, detector, dl_lib, suffix_list,sec_path,magicStr):
     ret = {}
     for pkg in pkg_list:
@@ -41,7 +39,6 @@ def iterate_rodata(pkg_list, detector, dl_lib, suffix_list,sec_path,magicStr):
             continue
         for lib in os.listdir(pkg_path):
             if detector(os.path.join(pkg_path, lib),magicStr):
-                print("this is lit",lib,"#", pkg)
                 ret[pkg] = lib+"                 "+ pkg_path
                 break
     DL_PKGS[dl_lib] = ret
@@ -50,7 +47,6 @@ def iterate_rodata(pkg_list, detector, dl_lib, suffix_list,sec_path,magicStr):
 # use suffix to detect DL models: this approach may have false negative
 def find_model_via_suffix(pkg_list, suffix_list, dl_lib):
     def filter(path):
-        print(path,  "    ht  " ,suffix_list)
         for su in suffix_list:
             if path.endswith(su):
                 pathSplited = path.split('.')
@@ -76,7 +72,6 @@ def straight_detector_rodata(lib_path,magic_str):
         lines= f.read()
         for stra in magic_str:
             if stra in lines:
-                print("success yay", magic_str)
                 return True
     return False
 
@@ -97,11 +92,11 @@ def extract_models(cat):
         print((json.dumps(DL_MODELS[k],indent=4,ensure_ascii=False)))
     for key, val in DL_MODELS.items():
         if val != {}:
-            with open('/home/edodor/mbdir/MobileDL/code/configuration/modl.txt', "a") as myfile:
+            with open('/MobileDL/code/configuration/mod.txt', "a") as myfile:
                 myfile.write('%s:%s\n' % (key, val))
     for key, val in DL_PKGS.items():
         if val != {}:
-            with open('/home/edodor/mbdir/MobileDL/code/configuration/pckgs.txt', "a") as myfile: 
+            with open('/MobileDL/code/configuration/pckgs.txt', "a") as myfile: 
                 myfile.write('%s:%s\n' % (key, val))
     
 

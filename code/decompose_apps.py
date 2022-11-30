@@ -9,10 +9,10 @@ from basic_func import run_cmd
 
 if __name__ == "__main__":
 	if len(sys.argv) ==3:
-		print("1python decompose_apps.py input_apk_path output_dir")
+		print("python decompose_apps.py input_apk_path output_dir")
 		print("example : python decompose_apps.py ../data/raw_apks/ ../data/decomposed_apks/")
 	else:
-		print("2python decompose_apps.py input_apk_path output_dir")
+		print("python decompose_apps.py input_apk_path output_dir")
 		print("example : python decompose_apps.py ../data/raw_apks/ ../data/decomposed_apks/")
 		exit(0)
 # input path
