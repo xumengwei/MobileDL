@@ -17,8 +17,8 @@ from google.protobuf.json_format import MessageToJson
 
 if __name__ == "__main__":
 	if len(sys.argv) != 2:
-		print "python model_analyzer.py decomposed_apk_path"
-		print "example : python model_analyzer.py ../data/decomposed_apks/"
+		print ("python model_analyzer.py decomposed_apk_path")
+		print ("example : python model_analyzer.py ../data/decomposed_apks/")
 		exit(0)
 
 DECOMPOSED_APK_PATH=sys.argv[1]
@@ -26,19 +26,23 @@ DECOMPOSED_APK_PATH=sys.argv[1]
 # information of all founded models
 # apk name \t model path \t framework \t suffix \t usable \n 
 # can load from configuration/model_xsl.txt
-model_xsl = '''com.campmobile.snow\tassets/vision_face_x_1.0.0.model\tcaffe\tmodel\t1'''
+model_xsl = '''kr.co.daou.isa\tmbdir/MobileDL/data/section_data/apks_4/kr.co.daou.isa/libAppSuit.txt\tdllib\tmodel\t1'''
+#model_xsl= '''apk_name \t model_path \t framework \t suffix \t usable \n'''
+#model_xsl = '''com.iconparking\tassets/cardrecognizer/model/DateLocalization/DateLocalizationL0.caffemodel\tcaffe\tbin\t1\ncom.iconparking\tassets/cardrecognizer/model/DateLocalization/DateLocalizationL0.prototxt\tcaffe\tproto\t1\ncom.iconparking\tassets/cardrecognizer/model/DateLocalization/DateLocalizationL1.caffemodel\tcaffe\tbin\t1\ncom.iconparking\tassets/cardrecognizer/model/DateLocalization/DateLocalizationL1.prototxt\tcaffe\tproto\t1\ncom.iconparking\tassets/cardrecognizer/model/DateRecognition/DateRecognition.caffemodel\tcaffe\tbin\t1\ncom.iconparking\tassets/cardrecognizer/model/DateRecognition/DateRecognition.prototxt\tcaffe\tproto\t1\ncom.iconparking\tassets/cardrecognizer/model/NameLocalization/NameLocalizationX.caffemodel\tcaffe\tbin\t1\ncom.iconparking\tassets/cardrecognizer/model/NameLocalization/NameLocalizationX.prototxt\tcaffe\tproto\t1\ncom.iconparking\tassets/cardrecognizer/model/NameRecognition/NameSpaceCharRecognition.caffemodel\tcaffe\tbin\t1\ncom.iconparking\tassets/cardrecognizer/model/NameRecognition/NameSpaceCharRecognition.prototxt\tcaffe\tproto\t1\ncom.iconparking\tassets/cardrecognizer/model/NumberLocalization/loc_x.caffemodel\tcaffe\tbin\t1\ncom.iconparking\tassets/cardrecognizer/model/NumberLocalization/loc_x.prototxt\tcaffe\tproto\t1\ncom.iconparking\tassets/cardrecognizer/model/NumberLocalization/loc_y.caffemodel\tcaffe\tbin\t1\ncom.iconparking\tassets/cardrecognizer/model/NumberLocalization/loc_y.prototxt\tcaffe\tproto\t1\ncom.iconparking\tassets/cardrecognizer/model/NumberRecognition/NumberRecognition.caffemodel\tcaffe\tbin\t1\ncom.iconparking\tassets/cardrecognizer/model/NumberRecognition/NumberRecognition.prototxt\tcaffe\tproto\t1\ncom.incode.mobile\tres/raw/det1.caffemodel\tcaffe\tbin\t1\ncom.incode.mobile\tres/raw/det1_deploy.prototxt\tcaffe\tproto\t1\ncom.incode.mobile\tres/raw/det2.caffemodel\tcaffe\tbin\t1\ncom.incode.mobile\tres/raw/det2_deploy.prototxt\tcaffe\tproto\t1\ncom.incode.mobile\tres/raw/det3.caffemodel\tcaffe\tbin\t1\ncom.incode.mobile\tres/raw/det3_deploy.prototxt\tcaffe\tproto\t1\n'''
+
+		
 
 lines = model_xsl.split('\n')
 res = {}
 for l in lines:
-	items = l.split('\t')
-	print items
-	if items[3] == 'proto': continue
-	mn = items[1].split('/')[-1]
-	mn = mn.replace('.pb', '').replace('.tflite', '').replace('.RF', '').replace('.bin', '').replace('.caffemodel', '')
-	if mn not in res: res[mn] = []
-	res[mn].append(items[0])
-print {r: res[r] for r in res if len(res[r]) > 5}
+        items = l.split('\t')
+        #print (items)
+        if items[3] == 'proto': continue
+        mn = items[1].split('/')[-1]
+        mn = mn.replace('.pb', '').replace('.tflite', '').replace('.RF', '').replace('.bin', '').replace('.caffemodel', '')
+        if mn not in res: res[mn] = []
+        res[mn].append(items[0])
+print ({r: res[r] for r in res if len(res[r]) > 5})
 
 def cal_flops_conv(in_shape, out_num, kw, kh, sw, sh, pw, ph):
 	in_shape = [int(t) for t in in_shape]
@@ -46,34 +50,35 @@ def cal_flops_conv(in_shape, out_num, kw, kh, sw, sh, pw, ph):
 	out_h = (in_shape[-2] - kh + 2 * ph) / sh + 1
 	flops = out_w * out_h * out_num * (in_shape[0] * kw * kh + 1)
 	out_shape = [out_num, out_h, out_w]
+	print("ko")
 	return flops, out_shape
 
 # 5.1 TensorFlow
 def tf_parse_model(model_path):
 	ret_layers = []
-	graph_def = tf.GraphDef()
+	graph_def = tf.compat.v1.GraphDef()
 	with gfile.FastGFile(model_path, 'rb') as f:
 		try:
 			graph_def.ParseFromString(f.read())
 		except Exception as e:
-			print 'Fail to parse model: ' + model_path + ', error: ' + str(e)
+			print ('Fail to parse model: ' + model_path + ', error: ' + str(e))
 	for node in graph_def.node:
 		ret_layers.append(node.op)
 	with tf.Graph().as_default():
 		tf.import_graph_def(graph_def, name="")
-		run_meta = tf.RunMetadata()
-		opts = tf.profiler.ProfileOptionBuilder.float_operation()
-		flops = tf.profiler.profile(tf.get_default_graph(), run_meta=run_meta, cmd='op', options=opts)
+		run_meta = tf.compat.v1.RunMetadata()
+		opts = tf.compat.v1.profiler.ProfileOptionBuilder.float_operation()
+		flops = tf.compat.v1.profiler.profile(tf.compat.v1.get_default_graph(), run_meta=run_meta, cmd='op', options=opts)
 		return {'layers': ret_layers, 'flops': flops.total_float_ops}
 
 def tf_parse_model2(model):
-	graph = tf.get_default_graph()
+	graph = tf.compat.v1.get_default_graph()
 	graph_def = graph.as_graph_def()
 	try:
-		graph_def.ParseFromString(tf.gfile.FastGFile(model,'rb').read())
+		graph_def.ParseFromString(tf.compat.v1.gfile.FastGFile(model,'rb').read())
 		tf.import_graph_def(graph_def,name='graph')
-		sess = tf.Session()
-		init = tf.global_variables_initializer()
+		sess = tf.compat.v1.Session()
+		init = tf.compat.v1.global_variables_initializer()
 		sess.run(init)
 		op = sess.graph.get_operations()
 		for i in op:
@@ -129,7 +134,7 @@ def ncnn_parse_param_bin(param_file):
 	a.fromfile(f, 2)
 	layer_cnt, blob_cnt = a.tolist()
 	if layer_cnt == 7767517:
-		print 'YYYYYYY'
+		print ("YYYYYYY")
 	if not 0 < layer_cnt < 1000: return None
 	for i in range(layer_cnt):
 		a.fromfile(f, 3)
@@ -181,17 +186,19 @@ def ncnn_parse_param(param_file):
 	if ret == None:
 		ret = ncnn_parse_param_raw(param_file)
 	return ret
-
+'''
 # 5.3 tflite
-test_model = '' #fill in your path of test model of tflite
+test_model = '/assets/vision_face_x_1.0.0.model' #fill in your path of test model of tflite
 # example: ../data/models/.../xxx.tflite
-interpreter = tf.contrib.lite.Interpreter(model_path=test_model)
+#print(model_path)
+
+interpreter = tf.lite.Interpreter(model_path=test_model)
 interpreter.allocate_tensors()
 
 # Get input and output tensors
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
-print input_details, output_details
+print (input_details, output_details,"ho")
 
 # Test model on random input data
 input_shape = input_details[0]['shape']
@@ -201,7 +208,9 @@ input_data = np.array(np.random.random_sample(input_shape), dtype=np.float32)
 interpreter.set_tensor(input_details[0]['index'], input_data)
 interpreter.invoke()
 output_data = interpreter.get_tensor(output_details[0]['index'])
-print(output_data)
+print(output_data,"hi")
+'''
+
 
 # 5.4 caffe
 def caffe_parse_model(model_path):
@@ -225,7 +234,8 @@ for mm in model_meta:
 		good_apps.append(mm[0])
 	if mm[3] in ['bin', 'both']:
 		model_num += 1
-print model_num, analyzable_model_num, len(list(set([mm[0] for mm in model_meta]))), len(list(set(good_apps)))
+print("lo")
+print (model_num, analyzable_model_num, len(list(set([mm[0] for mm in model_meta]))), len(list(set(good_apps))))
 
 # count layers
 layer_cnt = {}
@@ -278,8 +288,9 @@ for mm in model_meta:
 	model_perf[app + '_' + model] = [model_size, flops]
 
 layer_cnt = sorted(layer_cnt.items(), key = lambda x: len(x[1]), reverse=True)
-print 'total cnt: ', layer_cnt_total\
+print ('total cnt: ', layer_cnt_total)
 
 for layer in layer_cnt:
-	print layer[0], 1.0 * len(layer[1]) / layer_cnt_total, np.median(layer[1]), np.mean(layer[1])
+	print("layer")
+	print (layer[0], 1.0 * len(layer[1]) / layer_cnt_total, np.median(layer[1]), np.mean(layer[1]))
 

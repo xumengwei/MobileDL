@@ -9,11 +9,11 @@ from basic_func import run_cmd
 
 if __name__ == "__main__":
 	if len(sys.argv) ==3:
-		print "python decompose_apps.py input_apk_path output_dir"
-		print "example : python decompose_apps.py ../data/raw_apks/ ../data/decomposed_apks/"
+		print("python decompose_apps.py input_apk_path output_dir")
+		print("example : python decompose_apps.py ../data/raw_apks/ ../data/decomposed_apks/")
 	else:
-		print "python decompose_apps.py input_apk_path output_dir"
-		print "example : python decompose_apps.py ../data/raw_apks/ ../data/decomposed_apks/"
+		print("python decompose_apps.py input_apk_path output_dir")
+		print("example : python decompose_apps.py ../data/raw_apks/ ../data/decomposed_apks/")
 		exit(0)
 # input path
 RAW_APK_PATH=sys.argv[1]
@@ -59,7 +59,7 @@ def decompose_apks(in_dir, out_dir,cat, with_res=True, with_src=False):
 		out_f = os.path.join(out_dir, cat+'/'+apk[:-4])
 		decompose_single_apk(in_f, out_f,apk, with_res=with_res, with_src=with_src)
 		cnt += 1
-	print (str(cnt) + ' apks successfully decomposed')
+	print((str(cnt) + ' apks successfully decomposed'))
 
 def decompose_apks_category(in_dir, out_dir, with_res=True, with_src=False):
 
@@ -67,7 +67,7 @@ def decompose_apks_category(in_dir, out_dir, with_res=True, with_src=False):
 	for cat in cats:
 		cat_path = os.path.join(in_dir, cat)
 		if not os.path.isdir(cat_path):
-			print("no a path : ",cat_path)
+			print(("no a path : ",cat_path))
 			continue
 
 		decompose_apks(cat_path, out_dir, cat,with_res=with_res, with_src=with_src)

@@ -45,12 +45,12 @@ You will need the following installed:
 `python decompose_apps.py input_apk_path output_dir`
 example: `python decompose_apps.py ../data/raw_apks/ ../data/decomposed_apks/`
 2. Run extract_so.py to extract section data using **readelf**
-`python extract_so.py input_apk_path decomposed_apk_path output_dir`
-example: `python extract_so.py ../data/raw_apks/ ../data/decomposed_apks/ ../data/section_data/`
+`python extract_so.py decomposed_apk_path output_dir`
+example: `python extract_so.py  ../data/decomposed_apks/ ../data/section_data/`
 #### find DL-apps and their models
 1. Run DL_Sniffer_Model_extractor.py to get DL-apps stored in *DL_PKGS* and their models stored in *DL_MODELS* as output,  in *MODEL_BLKLIST* we put known models that are not analyzable, you can change the *magic_str* and *find_model_via_suffix* part in each sub section according to your findings. 
-`python DL_Sniffer_Model_extractor.py input_apk_path decomposed_apk_path section_data_path`
-example: `python DL_Sniffer_Model_extractor.py ../data/raw_apks/ ../data/decomposed_apks/ ../data/section_data/`
+`python DL_Sniffer_Model_extractor.py`
+example: `python DL_Sniffer_Model_extractor.py`
 #### analyze DL models
 1. In model_analyzer.py, change *model_xsl* to store the models extracted from DL_Sniffer_Model_extractor.py in the following format:
 `apk_name \t model_path \t framework \t suffix \t usable \n`, (the models extracted in this project are stored in code/configuration/model_xsl.txt)run this code to analyze models. (supporting Tensorflow, Tensorflow lite, Caffe, ncnn)

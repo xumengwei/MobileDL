@@ -1,10 +1,10 @@
-# Extract zip files
+# Extract zip filesl
 import os
 import sys
 
 from basic_func import run_cmd,iterate_dir
 
-DECOMPOSED_APK_PATH='/storage2/echo/decomposed_apks/'
+DECOMPOSED_APK_PATH='/data/mobileDL/decompose_apps/'
 
 def extract_file(in_file, out_dir):
 	if in_file.endswith('.gz'):
